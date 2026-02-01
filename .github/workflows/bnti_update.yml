@@ -1,0 +1,116 @@
+name: BNTI Intelligence Update
+
+on:
+  schedule:
+    # Run every hour at minute 0
+    - cron: '0 * * * *'
+  # Allow manual trigger
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: bnti-intelligence-update
+  cancel-in-progress: false
+
+jobs:
+  update-intelligence:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Cache AI Model
+      uses: actions/cache@v4
+      id: cache-model
+      with:
+        path: ~/.cache/huggingface
+        key: huggingface-xlm-roberta-large-xnli-v2
+
+    - name: Cache Feed Data
+      uses: actions/cache@v4
+      id: cache-feed
+      with:
+        path: ~/.cache/bnti
+        key: bnti-feed-cache-${{ runner.os }}-${{ github.ref }}
+        restore-keys: |
+          bnti-feed-cache-${{ runner.os }}-
+
+    - name: Install Dependencies
+      run: |
+        pip install --upgrade pip
+        pip install -r requirements.txt
+      continue-on-error: true
+
+    - name: Run BNTI Analyzer
+      run: |
+        # Run analyzer but NEVER fail the workflow
+        python borderneighboursthreatindex.py || echo "Analyzer encountered issues but continuing..."
+        exit 0
+      env:
+        TOKENIZERS_PARALLELISM: false
+      continue-on-error: true
+
+    - name: Commit Updated Data
+      run: |
+        git config --global user.name 'BNTI Intelligence Bot'
+        git config --global user.email 'bot@monarchcastle.tech'
+        
+        # Add all data files (ignore errors if files don't exist)
+        git add bnti_data.js bnti_history.csv bnti_data.json 2>/dev/null || true
+        
+        # Commit with timestamp (ignore if nothing to commit)
+        TIMESTAMP=$(date +'%Y-%m-%d %H:%M UTC')
+        git diff --cached --quiet || git commit -m "INTEL UPDATE: ${TIMESTAMP}" || true
+        
+        # Push changes with retry logic for concurrent runs
+        for i in 1 2 3 4 5; do
+          git pull --rebase origin main 2>/dev/null || true
+          git push && break || sleep 10
+        done
+        
+        # Always exit success
+        exit 0
+      continue-on-error: true
+
+  deploy-pages:
+    needs: update-intelligence
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      
+      - name: Pull Latest
+        run: git pull origin main
+        
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+        
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+          
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+        id: deployment
