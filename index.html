@@ -467,6 +467,17 @@
       font-size: 11px;
       line-height: 1.3;
       font-weight: 500;
+      position: relative;
+    }
+
+    .stream-title[title] {
+      cursor: help;
+    }
+
+    .stream-title[title]::after {
+      content: ' 🌐';
+      font-size: 9px;
+      opacity: 0.6;
     }
 
     .badge {
@@ -860,7 +871,7 @@
     </main>
 
     <footer class="footer">
-      <div>Border Neighbor Threat Index v1.0</div>
+      <div>Border Neighbor Threat Index v1.1.0</div>
       <div><a href="#" id="methodology-link" style="color: var(--accent); text-decoration: none; cursor: pointer;">View
           Methodology →</a></div>
     </footer>
