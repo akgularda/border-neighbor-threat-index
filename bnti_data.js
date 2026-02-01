@@ -1,10 +1,10 @@
 window.BNTI_DATA = {
   "meta": {
-    "generated_at": "2026-02-01T18:57:57.913793",
-    "main_index": 7.55,
+    "generated_at": "2026-02-01T19:45:12.784365",
+    "main_index": 7.56,
     "status": "CRITICAL",
     "active_scan": true,
-    "next_update": "2026-02-01T19:00:00",
+    "next_update": "2026-02-01T20:00:00",
     "version": "2.0.0"
   },
   "countries": {
@@ -225,8 +225,8 @@ window.BNTI_DATA = {
       ]
     },
     "Georgia": {
-      "index": 3.2,
-      "raw_score": 7.18,
+      "index": 3.51,
+      "raw_score": 9.05,
       "events": [
         {
           "title": "Analysis | Checking Georgia’s Anti-EU Drift",
@@ -244,15 +244,15 @@ window.BNTI_DATA = {
           "translation_engine": "Google Neural MT"
         },
         {
-          "title": "Europe Should Exploit Georgia’s Regime Ructions - Center for European Policy Analysis (CEPA)",
+          "title": "სტუ-ს პროფესორები და სტუდენტები პეტიციას ავრცელებენ, ადრესატი “ოცნების” მთავრობაა",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1LZkV4TDhmV1RzaWJmbjh3TmRXVFR1d1IycEJrNXRnVmZFbmE2MS1IX0JHNENuMm9YTzJ1M3FCbE5NNGN3VHNqbjR2WnpvSF94blNORHpTT0h4QjdJUG9nR1hrb0FJQ3ZzVjRBQXRkU0M3cnVVUFJWUGw5SXI?oc=5",
-          "date": "Fri, 30 Jan 2026 19:10:47 GMT",
+          "link": "https://netgazeti.ge/news/797254/",
+          "date": "Sat, 31 Jan 2026 14:54:16 +0000",
           "category": "political crisis",
-          "confidence": 0.45485177636146545,
-          "weight": 2.7291106581687927,
+          "confidence": 0.7651951909065247,
+          "weight": 4.591171145439148,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "45.5%",
+          "ai_confidence_score": "76.5%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Georgia"
@@ -314,6 +314,20 @@ window.BNTI_DATA = {
           "country": "Georgia"
         },
         {
+          "title": "Wellstar West Georgia Medical Center Earns Multiple National Awards from Healthgrades - LaGrange Daily News",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVmNocHN3S0tKWFp3alluakpET0xoQ3ZxMDEwOTRXUTlFQTFGZTk2N2h1WlJtbWpMMTF1dDVMNVJRM1kzTWxlOHNISGd1NHBLR2NVM19Nb1VyRlBiQWxXMncyZVpPX2lnRTAzbUZxVVJFbk1qQkh2aU5xOFVkQjN2SHVxXy1yME5RREIyX3Rid3B3aWZXdjk5b1ptdGEtR2xSQ2R2NGFVNWxESWI2LUlsaHlKYjM2UmoxNTF0QTdxcTB5Skx6VlQw?oc=5",
+          "date": "Sat, 31 Jan 2026 13:23:13 GMT",
+          "category": "violent protest",
+          "confidence": 0.19853471219539642,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "19.9%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
           "title": "In Abkhazia, police and civilians nearly killed each other due to a mix-up",
           "translated_title": null,
           "link": "https://jam-news.net/ishooting-in-abkhazia-police-and-civilians-nearly-killed-each-other/",
@@ -328,30 +342,16 @@ window.BNTI_DATA = {
           "country": "Georgia"
         },
         {
-          "title": "Opinion: oligarch Samvel Karapetyan’s party ‘Strong Armenia’ will represent Russian interests",
+          "title": "Why and how Georgia is merging its two oldest universities – commentary from the education minister",
           "translated_title": null,
-          "link": "https://jam-news.net/opinion-oligarch-samvel-karapetyans-party-strong-armenia-will-represent-russian-interests/",
-          "date": "Fri, 30 Jan 2026 19:02:44 +0000",
-          "category": "political crisis",
-          "confidence": 0.23399721086025238,
+          "link": "https://jam-news.net/why-and-how-georgia-georgia-merges-two-universities-commentary-from-the-education-minister/",
+          "date": "Sun, 01 Feb 2026 13:00:00 +0000",
+          "category": "peaceful diplomacy",
+          "confidence": 0.1736832857131958,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "23.4%",
+          "ai_confidence_score": "17.4%",
           "detected_lang": "local",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
-          "title": "Wellstar West Georgia Medical Center Earns Multiple National Awards from Healthgrades - LaGrange Daily News",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVmNocHN3S0tKWFp3alluakpET0xoQ3ZxMDEwOTRXUTlFQTFGZTk2N2h1WlJtbWpMMTF1dDVMNVJRM1kzTWxlOHNISGd1NHBLR2NVM19Nb1VyRlBiQWxXMncyZVpPX2lnRTAzbUZxVVJFbk1qQkh2aU5xOFVkQjN2SHVxXy1yME5RREIyX3Rid3B3aWZXdjk5b1ptdGEtR2xSQ2R2NGFVNWxESWI2LUlsaHlKYjM2UmoxNTF0QTdxcTB5Skx6VlQw?oc=5",
-          "date": "Sat, 31 Jan 2026 13:23:13 GMT",
-          "category": "violent protest",
-          "confidence": 0.19853471219539642,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "19.9%",
-          "detected_lang": "en",
           "is_translated": false,
           "country": "Georgia"
         },
@@ -442,12 +442,12 @@ window.BNTI_DATA = {
       ]
     },
     "Greece": {
-      "index": 3.27,
-      "raw_score": 7.58,
+      "index": 3.24,
+      "raw_score": 7.41,
       "events": [
         {
           "title": "Τουλάχιστον 12 νεκροί σε επίθεση ρωσικού drone σε λεωφορείο που μετέφερε εργάτες ορυχείου στην Ουκρανία",
-          "translated_title": null,
+          "translated_title": "At least 12 dead in a Russian drone attack on a bus carrying mine workers in Ukraine",
           "link": "https://www.protothema.gr/world/article/1766785/toulahiston-12-nekroi-se-epithesi-rosikou-drone-se-leoforeio-pou-metefere-ergates-oruheiou-stin-oukrania/?utm_source=rss",
           "date": "Sun, 01 Feb 2026 20:07:38 +0200",
           "category": "terrorist act",
@@ -456,8 +456,9 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "55.2%",
           "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
+          "is_translated": true,
+          "country": "Greece",
+          "translation_engine": "Google Neural MT"
         },
         {
           "title": "Η βελόνα στο ΠΑΣΟΚ γράφει εσωκομματικούς προσεισμούς ενόψει της μάχης του Συνεδρίου",
@@ -488,15 +489,43 @@ window.BNTI_DATA = {
           "country": "Greece"
         },
         {
-          "title": "Εγκλωβισμένοι παραμένουν δεκάδες επισκέπτες στο χιονοδρομικό κέντρο Φαλακρού, ανάμεσά τους και οικογένειες με παιδιά",
+          "title": "Εγκλωβισμένοι παραμένουν δεκάδες επισκέπτες στο χιονοδρομικό κέντρο Φαλακρού, ανάμεσά τους οικογένειες με παιδιά",
           "translated_title": null,
           "link": "https://www.protothema.gr/greece/article/1766790/drama-eglovismenoi-paramenoun-dekades-anthropoi-sto-hionodromiko-kedro-falakrou/?utm_source=rss",
           "date": "Sun, 01 Feb 2026 20:34:00 +0200",
           "category": "humanitarian crisis",
-          "confidence": 0.5095446705818176,
-          "weight": 1.5286340117454529,
+          "confidence": 0.41074568033218384,
+          "weight": 1.2322370409965515,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "51.0%",
+          "ai_confidence_score": "41.1%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "ΗΠΑ: Ο μικρός Λίαμ, το 5χρονο αγόρι που είχε συλλάβει η ICE, επέστρεψε σπίτι του στη Μινεάπολη",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/world/article/1766794/ipa-o-mikros-liam-to-5hrono-agori-pou-eihe-sullavei-i-ice-epestrepse-spiti-tou-sti-mineapoli/?utm_source=rss",
+          "date": "Sun, 01 Feb 2026 21:36:28 +0200",
+          "category": "neutral news",
+          "confidence": 0.1893024444580078,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "18.9%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Νέα δωρεάν προγράμματα πρόληψης, για την αντιμετώπιση της παχυσαρκίας και τη νεφρική δυσλεiτουργία",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/greece/article/1766793/nea-dorean-programmata-prolipsis-gia-tin-adimetopisi-tis-pahusarkias-kai-ti-nefriki-dusleitourgia/?utm_source=rss",
+          "date": "Sun, 01 Feb 2026 21:19:00 +0200",
+          "category": "violent protest",
+          "confidence": 0.3149542510509491,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "31.5%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -626,40 +655,12 @@ window.BNTI_DATA = {
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
-        },
-        {
-          "title": "Basket League: Η βαθμολογία μετά τη νίκη του Άρη επί του Παναθηναϊκού, αγκαλιάζει το πλεονέκτημα ο Ολυμπιακός",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/sports/article/1766775/basket-league-i-vathmologia-meta-ti-niki-tou-ari-epi-tou-panathinaikou-agaliazei-to-pleonektima-o-olubiakos/?utm_source=rss",
-          "date": "Sun, 01 Feb 2026 19:04:55 +0200",
-          "category": "violent protest",
-          "confidence": 0.29342225193977356,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "29.3%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "'Εξαλλος ο Γιαννακόπουλος μετά την ήττα από τον Άρη: «Παίκτες, προπονητές ντροπή σας! Να παραιτηθείτε όλοι»",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/sports/article/1766774/exallos-o-giannakopoulos-meta-tin-itta-apo-ton-ari-paiktes-proponites-dropi-sas-na-paraititheite-oloi/?utm_source=rss",
-          "date": "Sun, 01 Feb 2026 18:57:00 +0200",
-          "category": "violent protest",
-          "confidence": 0.43919631838798523,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "43.9%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
         }
       ]
     },
     "Iran": {
-      "index": 5.3,
-      "raw_score": 31.72,
+      "index": 5.13,
+      "raw_score": 28.22,
       "events": [
         {
           "title": "These are the Palestinians that Israel killed during Gaza’s ‘ceasefire’",
@@ -706,20 +707,6 @@ window.BNTI_DATA = {
           "country": "Iran"
         },
         {
-          "title": "Polls open in Costa Rica as centre-right populists aim to extend mandate",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/news/2026/2/1/polls-open-in-costa-rica-as-centre-right-populists-aim-to-extend-mandate?traffic_source=rss",
-          "date": "Sun, 01 Feb 2026 12:39:02 +0000",
-          "category": "political crisis",
-          "confidence": 0.582678496837616,
-          "weight": 3.496070981025696,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "58.3%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
           "title": "Khartoum airport receives first scheduled flight since start of Sudan war",
           "translated_title": null,
           "link": "https://www.aljazeera.com/news/2026/2/1/khartoum-airport-receives-first-scheduled-flight-since-start-of-sudan-war?traffic_source=rss",
@@ -743,6 +730,20 @@ window.BNTI_DATA = {
           "weight": 3.3204965591430664,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "47.4%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Death toll from Swiss New Year Alpine bar fire increases to 41",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/news/2026/2/1/death-toll-from-swiss-new-year-alpine-bar-fire-increases-to-41?traffic_source=rss",
+          "date": "Sun, 01 Feb 2026 18:58:35 +0000",
+          "category": "military conflict",
+          "confidence": 0.39286503195762634,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "39.3%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iran"
@@ -992,6 +993,20 @@ window.BNTI_DATA = {
           "country": "Iraq"
         },
         {
+          "title": "Syria Kurds impose curfew in northeast cities",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/syria-kurds-impose-curfew-northeast-cities",
+          "date": "Sun, 01 Feb 2026 19:17:39 +0000",
+          "category": "political crisis",
+          "confidence": 0.4014529585838318,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "40.1%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
           "title": "Oscar-nominated screenwriter of Iranian drama arrested in Tehran",
           "translated_title": null,
           "link": "https://www.newarab.com/news/oscar-nominated-screenwriter-iranian-drama-arrested-tehran",
@@ -1074,26 +1089,12 @@ window.BNTI_DATA = {
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
-        },
-        {
-          "title": "Tehran warns of regional conflict if US attacks Iran",
-          "translated_title": null,
-          "link": "https://www.newarab.com/news/tehran-warns-regional-conflict-if-us-attacks-iran",
-          "date": "Sun, 01 Feb 2026 11:08:03 +0000",
-          "category": "political crisis",
-          "confidence": 0.4012063443660736,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "40.1%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
         }
       ]
     },
     "Syria": {
-      "index": 4.5,
-      "raw_score": 18.28,
+      "index": 5.07,
+      "raw_score": 27.14,
       "events": [
         {
           "title": "Battle lines frozen in north-east Syria after latest US-brokered deal - thenationalnews.com",
@@ -1138,29 +1139,29 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
-          "title": "Supplies running out at Syria’s al-Hol camp as instability blocks aid deliveries - The Hill",
+          "title": "Between Lebanon and Syria, the search for a fresh start since Assad's fall and Hezbollah's collapse - Le Monde.fr",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVld2bkJxYU5fOHlJamY4RWo4WlU3djREUk9lV2NITkdWUl9UMFhqaTlZalJkc2dQOEFsNHVid1VkN2NwMlFNd1Q5QTlNOWE0WmFqaGhac3h3NERWSGhTd1N0ZjlpYlA2VG5LVF9aSmRkalhCcmRBVks2ZnhOQnBfcGxyQXlSOGxvQ2dJa0UtTEx3bDNPS25LOWJLSG1YSWpkYmlRYkNFTmNBbVRuUVNyc3ZDVWJYUlJkMVotaGo5OWVRYm1LS3NLWWVJVnLSAdIBQVVfeXFMT0FWOFNoY0tUM1hzallQc09RYkJkQ3ltR1Z4MmRyMm1zaHEwSEgwUTFwT0FTZ1A0SHhDTnpGd3o3QmpSZnYybmRLbWh6c0N6cXptdHFOaVNNYTkzdFF0b2xzMTlUWlA0ZXVWYTBXbUQtSTd2X2FYM1JFQTgyaHJhT1cxc3pZY1hRNkh1MTFXTkdqTjJQVzJtdXdtMjIyY0tpczdTQXVXaER4ZWN5RWVaYmhQWmlpWVZRcURQWU1EZm9CMnNPei1EazFQYnBGalJsd2h3?oc=5",
-          "date": "Sun, 01 Feb 2026 13:25:00 GMT",
-          "category": "economic crisis",
-          "confidence": 0.32706978917121887,
-          "weight": 0.0,
+          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQSmVKVzFPY29mbzR5REZZUTU0VlZLR09zaFVERWxZN0gwcl9YN2VHWTh0bHNDaHBSTk9WbVlrYnY1M0ZNSVhMR0hiZHpFUWFLdzByaExhOVlQYWtUV25qeTZGS1NRUG1MTEd3UHRySmFGajBxM0xQS3BSeEQyb1RtM193czN2MEtMVFlVb3JLb3ZETkpOcFFfTXNTSWJrZUxtMnIzVkhhVndHZW1rVnoyX2c0dmF4clJQaVVWNlFqYnpCM1hrZUl3YmZKaHlhSGU3QWEzaHhCM3VXS0pCRXBsUE8tdjJXZENKSzFZOGw4Mi1TenlPOXpfTEhydkg0VW9kbkE?oc=5",
+          "date": "Sun, 01 Feb 2026 19:00:12 GMT",
+          "category": "political crisis",
+          "confidence": 0.7051296234130859,
+          "weight": 4.230777740478516,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "32.7%",
-          "detected_lang": "local",
+          "ai_confidence_score": "70.5%",
+          "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
         },
         {
-          "title": "Opinion | Syria Must Protect Its Minorities - The New York Times",
+          "title": "Is Trump Being Bamboozled?: Islamic State Terrorists Threaten Comeback Thanks to His Support for Syria's Islamist Leader - gatestoneinstitute.org",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5rRi01ZkpxQXlEaDFKTW0zUnk3bEF0cVdYVGd0bnViV3UtczdXR01jTWN0TzA2V1ExeENjb2hVV0VQZzctSjR5ZWFveHNVYzMybVlTRkNXS3RSTk9nQTRQenYzaFpMek5CR004aTR4Tk1MWjlaU2JZVF9n?oc=5",
-          "date": "Sat, 31 Jan 2026 12:00:05 GMT",
-          "category": "neutral news",
-          "confidence": 0.2336111217737198,
-          "weight": 0.0,
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5uNTgxZmRvSkh2MU1RQWxLMEhCWEtnYVMtTWJIcWEtY1l3UGlwU3JLdEZuazBLaERXUmdQRHNkWlFyeGNDQm0zdFprMG9sbW1yQVRyUC1yaUJYZFNlRzFOdlhPaGpxeFB2RGg4RG5CcDh5bU5lQTdRcnJIYk1Sdw?oc=5",
+          "date": "Sun, 01 Feb 2026 10:00:00 GMT",
+          "category": "political crisis",
+          "confidence": 0.6009820103645325,
+          "weight": 3.605892062187195,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "23.4%",
+          "ai_confidence_score": "60.1%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
@@ -1180,57 +1181,15 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
-          "title": "Syria's government reaches agreement with Kurds of Rojava - Le Monde.fr",
+          "title": "Supplies running out at Syria’s al-Hol camp as instability blocks aid deliveries - The Hill",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNFBiRkVuejltd0prMVNMYkdXNmJzemtFVDJhZzZJN2doYVY1eHl0TXlzYWlLQXpyQWZTNV9oWl9XcktTaU5fTk5neVFzdEh3TU04UnJVcVlZdGhMVlNkSjM0TnpnUUt4MnVKTHNqSkNKTUt1cGFja2VwdUdnZm43YzI4OVQ5LUktTkNiUDg2ZHpQd05pQUtvd2hsa0Y5aHdyTGkzMVpuUjdfSHVlTm5tdXcyUktOQ0c1U0FhRGNFV3FSRWJWVHFZd0VGYw?oc=5",
-          "date": "Sat, 31 Jan 2026 11:17:07 GMT",
-          "category": "political crisis",
-          "confidence": 0.26402825117111206,
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVld2bkJxYU5fOHlJamY4RWo4WlU3djREUk9lV2NITkdWUl9UMFhqaTlZalJkc2dQOEFsNHVid1VkN2NwMlFNd1Q5QTlNOWE0WmFqaGhac3h3NERWSGhTd1N0ZjlpYlA2VG5LVF9aSmRkalhCcmRBVks2ZnhOQnBfcGxyQXlSOGxvQ2dJa0UtTEx3bDNPS25LOWJLSG1YSWpkYmlRYkNFTmNBbVRuUVNyc3ZDVWJYUlJkMVotaGo5OWVRYm1LS3NLWWVJVnLSAdIBQVVfeXFMT0FWOFNoY0tUM1hzallQc09RYkJkQ3ltR1Z4MmRyMm1zaHEwSEgwUTFwT0FTZ1A0SHhDTnpGd3o3QmpSZnYybmRLbWh6c0N6cXptdHFOaVNNYTkzdFF0b2xzMTlUWlA0ZXVWYTBXbUQtSTd2X2FYM1JFQTgyaHJhT1cxc3pZY1hRNkh1MTFXTkdqTjJQVzJtdXdtMjIyY0tpczdTQXVXaER4ZWN5RWVaYmhQWmlpWVZRcURQWU1EZm9CMnNPei1EazFQYnBGalJsd2h3?oc=5",
+          "date": "Sun, 01 Feb 2026 13:25:00 GMT",
+          "category": "economic crisis",
+          "confidence": 0.32706978917121887,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "26.4%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Syria’s Kurdish pullback hands Damascus a win — and new ISIS risks - AL-Monitor",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZ18yN3hJUmI3Tmx1WW1UNVVSUnFIajRMcng4QTNOZUJRcUQzYi1hQlhxaXZnaGxQZ1FqZWRLem4xVGtoTjRPUm1ZZkxmUFp2NHJLNHdRcW0wRmRrcnV4dUp5cjd1cXBWMXRhZV9YX1V1OExFVVVfY1lxdGhYeU43X004U2lySEtORzEycXUyd0xibjdZbktJcG5QSTRVaUhKZTJ4a2dQNVFjQQ?oc=5",
-          "date": "Sun, 01 Feb 2026 08:11:05 GMT",
-          "category": "military conflict",
-          "confidence": 0.5354852676391602,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "53.5%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Syria says busted Hezbollah-linked cell behind Damascus attacks - Naharnet",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZVYyeVZjeFRWNzZZejJ0UTFQd1kwXzRZTjRDcm5oeWZ3dzFBQThHQnB4OXRLSW9CZjJKV2Y0VXVzUzlLX2JaSHdMT25MMWJXOHpWcFZ3aUV3bHFtbVM0MFhaWW9VNkxlalhsM2wza3QyXzhVV0JxVVRnVmZya1AzVGo1QTNGRGxpNFQtM2U5aGlLLTVLYXV3YmtlaGVaZHdsVWI0eQ?oc=5",
-          "date": "Sun, 01 Feb 2026 12:35:00 GMT",
-          "category": "military conflict",
-          "confidence": 0.4056599736213684,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "40.6%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Residents of Syria’s al-Hol camp hail imminent return home | Daily Sabah - Daily Sabah",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPc3VHZHpoN2dFRXpUaGJ1YVlsakYzZGF2WjlYZzlMTGw5ZWszLS1xbmJ4VUlUMU9tYkRscmlPZWUydUVTNEhUSlZLSHZNd1JodVhfUGNsQXlKYlM4VUpVTk0xd0o0c0NTdklnV3FBRlg5dnNfQkFfZ1VCcjJraUdxSG9oOF9zV3JxWU1lMnFvd2FjNl9ieGRLMFMzdktvaFnSAaQBQVVfeXFMUHk0a3llcVlFa0Z5b0ZHVVJjSXpMUmxxZkNOX2VyNGZPa1h5c1FPZkxDTTItTUcxVWk2S0t6ZVFRLWhZTDlMME9pb2V5ZkVjLVRjeno3T0Mxb0JDQjNGd0ROTzkwN1NMZXpKMzFRbHYwcnJVMHFQeTRjbVdVekZ4LXlYZzRZWjlhWGNXci1jQVZWWjkxR2cwaXlxSXRDZDdfNm9PbE4?oc=5",
-          "date": "Sun, 01 Feb 2026 10:40:00 GMT",
-          "category": "neutral news",
-          "confidence": 0.21077954769134521,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "21.1%",
+          "ai_confidence_score": "32.7%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Syria"
@@ -1250,6 +1209,76 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
+          "title": "Opinion | Syria Must Protect Its Minorities - The New York Times",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5rRi01ZkpxQXlEaDFKTW0zUnk3bEF0cVdYVGd0bnViV3UtczdXR01jTWN0TzA2V1ExeENjb2hVV0VQZzctSjR5ZWFveHNVYzMybVlTRkNXS3RSTk9nQTRQenYzaFpMek5CR004aTR4Tk1MWjlaU2JZVF9n?oc=5",
+          "date": "Sat, 31 Jan 2026 12:00:05 GMT",
+          "category": "neutral news",
+          "confidence": 0.2336111217737198,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "23.4%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Syria’s Kurdish pullback hands Damascus a win — and new ISIS risks - AL-Monitor",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZ18yN3hJUmI3Tmx1WW1UNVVSUnFIajRMcng4QTNOZUJRcUQzYi1hQlhxaXZnaGxQZ1FqZWRLem4xVGtoTjRPUm1ZZkxmUFp2NHJLNHdRcW0wRmRrcnV4dUp5cjd1cXBWMXRhZV9YX1V1OExFVVVfY1lxdGhYeU43X004U2lySEtORzEycXUyd0xibjdZbktJcG5QSTRVaUhKZTJ4a2dQNVFjQQ?oc=5",
+          "date": "Sun, 01 Feb 2026 08:11:05 GMT",
+          "category": "military conflict",
+          "confidence": 0.5354852676391602,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "53.5%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Syria says it detained group that used Hezbollah arms for attacks on airport - The Times of Israel",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbnFEMkEwNWxJVngzM3lLQjZKUXpOeV9TVUZDNkdwWER5bUI2NHNqaVh4dkk3OFVGbUl5TkpYUFMtVWtFNVhUWGd3WFNjNHpDWlQ5RThndUhfYWRNdzgtdi1wUzI2Mkh0VXZ6eWtZTWxfVkpEQnBFTWVYT2xiaUZ3aXAya0JUeW5LSFIxX0phUzZLR2FuSDdaY1dsT0otYURKOVpkZmtJY0pRajVVSWVqT1BRRlNWRG9TZWtFbWFOUQ?oc=5",
+          "date": "Sun, 01 Feb 2026 19:06:34 GMT",
+          "category": "terrorist act",
+          "confidence": 0.3843780755996704,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "38.4%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Syria says busted Hezbollah-linked cell behind Damascus attacks - Naharnet",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZVYyeVZjeFRWNzZZejJ0UTFQd1kwXzRZTjRDcm5oeWZ3dzFBQThHQnB4OXRLSW9CZjJKV2Y0VXVzUzlLX2JaSHdMT25MMWJXOHpWcFZ3aUV3bHFtbVM0MFhaWW9VNkxlalhsM2wza3QyXzhVV0JxVVRnVmZya1AzVGo1QTNGRGxpNFQtM2U5aGlLLTVLYXV3YmtlaGVaZHdsVWI0eQ?oc=5",
+          "date": "Sun, 01 Feb 2026 12:35:00 GMT",
+          "category": "military conflict",
+          "confidence": 0.4056599736213684,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "40.6%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Syria's government reaches agreement with Kurds of Rojava - Le Monde.fr",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNFBiRkVuejltd0prMVNMYkdXNmJzemtFVDJhZzZJN2doYVY1eHl0TXlzYWlLQXpyQWZTNV9oWl9XcktTaU5fTk5neVFzdEh3TU04UnJVcVlZdGhMVlNkSjM0TnpnUUt4MnVKTHNqSkNKTUt1cGFja2VwdUdnZm43YzI4OVQ5LUktTkNiUDg2ZHpQd05pQUtvd2hsa0Y5aHdyTGkzMVpuUjdfSHVlTm5tdXcyUktOQ0c1U0FhRGNFV3FSRWJWVHFZd0VGYw?oc=5",
+          "date": "Sat, 31 Jan 2026 11:17:07 GMT",
+          "category": "political crisis",
+          "confidence": 0.26402825117111206,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "26.4%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
           "title": "Russia joins US in betraying Syrian Kurds - CounterVortex",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4zQmFhemdYdUloRTN0Z0FCc3duYWtJS2Y5WTdOaENyU0RGT09QNXRIdW1wV2RwSDUtd3JIS3MxZ0ptWGhoS3ZNMENheldEc1VxUEZ2TGhuc2lGeVJwWE5SaTM5UFhac2JZd1VaMGVPVUcwVzZEbThyRExacFlEUQ?oc=5",
@@ -1259,34 +1288,6 @@ window.BNTI_DATA = {
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "31.8%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Syria says it dismantled a Hezbollah-linked cell after attacks in Damascus - Ynetnews",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBUdlFWSk1xMm9WeXlOVDZoNG1valdtSEFWcThNV19YS3gwX3hwdERDcGpnN3BBN2N1eVA5elFtY09FNmwwOEZreWFDLWkzZHVDaGRsWXhMcw?oc=5",
-          "date": "Sun, 01 Feb 2026 11:00:20 GMT",
-          "category": "terrorist act",
-          "confidence": 0.2651077210903168,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "26.5%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Syrian government and Kurdish forces reach deal on permanent truce - The Guardian",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbERYdFBVMERjOXlmVW4xWHhXdXJsTHh0dFR2Z1FNbmo1Z2duT3JqU0gwMk01Qi1Obm5TTXJWYnJnNTNYQ3ZrbHh4dzBub05uMlNoSXNpZGpOUGNVMTJ4WU0wWXRqLVdSN0ZXQ2dLbDlmUThQRjBYc0MyalUyVEJRcmtHMVFsNU5va0UyNnJnX0xmMGp3dXptZg?oc=5",
-          "date": "Fri, 30 Jan 2026 18:59:00 GMT",
-          "category": "peaceful diplomacy",
-          "confidence": 0.5135475397109985,
-          "weight": -1.027095079421997,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "51.4%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
@@ -1308,8 +1309,8 @@ window.BNTI_DATA = {
       ]
     },
     "Bulgaria": {
-      "index": 5.03,
-      "raw_score": 26.27,
+      "index": 4.66,
+      "raw_score": 20.5,
       "events": [
         {
           "title": "В НДК е получен сигнал за бомба",
@@ -1321,21 +1322,6 @@ window.BNTI_DATA = {
           "weight": 7.255666136741638,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "80.6%",
-          "detected_lang": "local",
-          "is_translated": true,
-          "country": "Bulgaria",
-          "translation_engine": "Google Neural MT"
-        },
-        {
-          "title": "Над 100 полицаи са ранени на протест срещу затваряне на културен център в Торино",
-          "translated_title": "Over 100 police officers were injured in a protest against the closure of a cultural center in Turin",
-          "link": "https://www.dnevnik.bg/sviat/2026/02/01/4878485_nad_100_policai_sa_raneni_na_protest_sreshtu/?ref=rss",
-          "date": "Sun, 01 Feb 2026 15:43:00 +0200",
-          "category": "violent protest",
-          "confidence": 0.8248597383499146,
-          "weight": 5.774018168449402,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "82.5%",
           "detected_lang": "local",
           "is_translated": true,
           "country": "Bulgaria",
@@ -1380,6 +1366,48 @@ window.BNTI_DATA = {
           "weight": 2.815229058265686,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "46.9%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "България не е готова да сваля дронове в \"зонална отбрана\", обяви Запрянов",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/bulgaria/2026/02/01/4878554_bulgariia_ne_e_gotova_da_svalia_dronove_v_zonalna/?ref=rss",
+          "date": "Sun, 01 Feb 2026 21:36:00 +0200",
+          "category": "military conflict",
+          "confidence": 0.30461475253105164,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "30.5%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Руска атака с дрон уби 15 миньори в Източна Украйна",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/sviat/2026/02/01/4878543_ruska_ataka_s_dron_bi_15_minyori_v_iztochna_ukraina/?ref=rss",
+          "date": "Sun, 01 Feb 2026 20:59:00 +0200",
+          "category": "terrorist act",
+          "confidence": 0.5499390363693237,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "55.0%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Бензинът и дизелът са поевтинели в първия месец от членството в еврозоната",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/biznes/2026/02/01/4878549_benzinut_i_dizelut_sa_poevtineli_v_purviia_mesec_ot/?ref=rss",
+          "date": "Sun, 01 Feb 2026 20:58:00 +0200",
+          "category": "peaceful diplomacy",
+          "confidence": 0.24251660704612732,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "24.3%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
@@ -1495,45 +1523,11 @@ window.BNTI_DATA = {
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
-        },
-        {
-          "title": "Цитат на деня: Ако службите не знаят кои са купувачите на гласове, трябва да се занимават с нещо друго",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/citat_na_deniia/2026/02/01/4878475_citat_na_denia_ako_slujbite_ne_znaiat_koi_sa/?ref=rss",
-          "date": "Sun, 01 Feb 2026 15:19:00 +0200",
-          "category": "neutral news",
-          "confidence": 0.23348598182201385,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "23.3%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "Преговорите на САЩ, Русия и Украйна остават за другата седмица",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/sviat/voinata_v_ukraina/2026/02/01/4878477_pregovorite_na_sasht_rusiia_i_ukraina_ostavat_za/?ref=rss",
-          "date": "Sun, 01 Feb 2026 14:44:00 +0200",
-          "category": "violent protest",
-          "confidence": 0.2660609781742096,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "26.6%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
         }
       ]
     }
   },
   "history": [
-    {
-      "timestamp": "2026-01-30T19:45:12.935904",
-      "main_index": 7.85,
-      "index": 7.85,
-      "type": "historical"
-    },
     {
       "timestamp": "2026-01-30T20:40:23.037604",
       "main_index": 8.02,
@@ -1755,48 +1749,54 @@ window.BNTI_DATA = {
       "main_index": 7.55,
       "index": 7.55,
       "type": "historical"
+    },
+    {
+      "timestamp": "2026-02-01T19:45:17.970289",
+      "main_index": 7.56,
+      "index": 7.56,
+      "type": "historical"
     }
   ],
   "forecast": [
     {
-      "timestamp": "2026-02-01T19:58:04.084372",
-      "index": 7.16,
-      "main_index": 7.16,
-      "confidence": 0.4,
+      "timestamp": "2026-02-01T20:45:17.970289",
+      "index": 7.2,
+      "main_index": 7.2,
+      "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-01T20:58:04.084372",
-      "index": 7.14,
-      "main_index": 7.14,
-      "confidence": 0.36,
+      "timestamp": "2026-02-01T21:45:17.970289",
+      "index": 7.18,
+      "main_index": 7.18,
+      "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-01T21:58:04.084372",
+      "timestamp": "2026-02-01T22:45:17.970289",
+      "index": 7.15,
+      "main_index": 7.15,
+      "confidence": 0.3,
+      "type": "forecast"
+    },
+    {
+      "timestamp": "2026-02-01T23:45:17.970289",
+      "index": 7.13,
+      "main_index": 7.13,
+      "confidence": 0.3,
+      "type": "forecast"
+    },
+    {
+      "timestamp": "2026-02-02T00:45:17.970289",
       "index": 7.11,
       "main_index": 7.11,
-      "confidence": 0.33,
+      "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-01T22:58:04.084372",
+      "timestamp": "2026-02-02T01:45:17.970289",
       "index": 7.09,
       "main_index": 7.09,
-      "confidence": 0.3,
-      "type": "forecast"
-    },
-    {
-      "timestamp": "2026-02-01T23:58:04.084372",
-      "index": 7.06,
-      "main_index": 7.06,
-      "confidence": 0.3,
-      "type": "forecast"
-    },
-    {
-      "timestamp": "2026-02-02T00:58:04.084372",
-      "index": 7.04,
-      "main_index": 7.04,
       "confidence": 0.3,
       "type": "forecast"
     }
