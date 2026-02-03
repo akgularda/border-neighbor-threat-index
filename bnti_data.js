@@ -1,17 +1,32 @@
 window.BNTI_DATA = {
   "meta": {
-    "generated_at": "2026-02-02T23:49:42.408625",
-    "main_index": 6.95,
+    "generated_at": "2026-02-03T02:54:05.291113",
+    "main_index": 6.84,
     "status": "ELEVATED",
     "active_scan": true,
-    "next_update": "2026-02-03T00:00:00",
+    "next_update": "2026-02-03T03:00:00",
     "version": "2.0.0"
   },
   "countries": {
     "Armenia": {
-      "index": 1.0,
-      "raw_score": -2.49,
+      "index": 1.77,
+      "raw_score": 2.21,
       "events": [
+        {
+          "title": "Land grabs, ‘love child’ and coup claims rock first Christian nation - The Times",
+          "translated_title": "Land grabs, ‘love child’ and coup claims rock first Christian nation - The Times",
+          "link": "https://news.google.com/rss/articles/CBMilANBVV95cUxQUWpCUlNFLVhvY09RWGd6NU9udzdpN3RYNXRSWnU4TDJ6bnJtZVNFZGVFdEY4ZHJQbU9hRTJPWTAyaFlfQkNvUU52aFN4bno1b3ROdkJlV3hPU20tdmhCQWw0ZjZmYmZxaERESG9pQ1J4Y1gzV0FmV0c0bVViWWQ5NXFmZnJCOXgtdTVLMXhKeEN5NkVwY29UZElvUU5obGpOaVRzOVJXbVI1Z1BNZVduTmZjWkktREJHQm1nVE1kSUtJalRXaUczVnZLeERScmJRT2hoeG9tTV9EalZMczdZaGt0OVIza1RtVUFyNl96S2RtSEdmX0U2T2FfZ1F2dUFSc2JqQ3F0OUhNRzRlaHBtaWV2Z041a2NDek5PV19aOHVzMjlldjlxdGtBMzJ0RXdLSGdPcHhzRmdLTmJra0hYYjIwemFuSkI2Q0stUDd6dUtqZk5oRUFYWXFwVzNJVHdlVEJUN0RiZURsdHl1N2p6MjV5c0J1MlVmM3pVSWRjaDFGY1NGLW91YWpiMFcyeHBFclNSbw?oc=5",
+          "date": "Mon, 02 Feb 2026 04:41:25 GMT",
+          "category": "violent protest",
+          "confidence": 0.6716460585594177,
+          "weight": 4.701522409915924,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "67.2%",
+          "detected_lang": "local",
+          "is_translated": true,
+          "country": "Armenia",
+          "translation_engine": "Google Neural MT"
+        },
         {
           "title": "New IJAGS special issue examines law, activism and global recognition of the Armenian Genocide",
           "translated_title": null,
@@ -167,30 +182,16 @@ window.BNTI_DATA = {
           "country": "Armenia"
         },
         {
-          "title": "Armenia aims to introduce AI modules in over 80% of schools – Minister",
+          "title": "HIV Awareness in Armenia Remains Low: 514 New Cases in 2025 - Hetq.am",
           "translated_title": null,
-          "link": "https://en.armradio.am/2026/02/02/armenia-aims-to-introduce-ai-modules-in-over-80-of-schools-minister/",
-          "date": "Mon, 02 Feb 2026 15:02:31 +0000",
-          "category": "terrorist act",
-          "confidence": 0.21306747198104858,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "21.3%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
-          "title": "Austrian GRAWE explores opportunities in Armenia’s insurance sector",
-          "translated_title": null,
-          "link": "https://en.armradio.am/2026/02/02/austrian-grawe-explores-opportunities-in-armenias-insurance-sector/",
-          "date": "Mon, 02 Feb 2026 14:41:05 +0000",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5fYUdKMHRwWUh6dTVDU0lyckFiYXlxSTZBSUN5dFY1QUJ4SnpmZzdQTU1JNm5tMzNvWUZxOXlqRHdXUW5DWmhFSg?oc=5",
+          "date": "Mon, 02 Feb 2026 09:41:00 GMT",
           "category": "violent protest",
-          "confidence": 0.19741614162921906,
+          "confidence": 0.24039997160434723,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "19.7%",
-          "detected_lang": "local",
+          "ai_confidence_score": "24.0%",
+          "detected_lang": "en",
           "is_translated": false,
           "country": "Armenia"
         },
@@ -443,19 +444,19 @@ window.BNTI_DATA = {
       ]
     },
     "Greece": {
-      "index": 4.12,
-      "raw_score": 14.01,
+      "index": 4.48,
+      "raw_score": 18.02,
       "events": [
         {
-          "title": "Βάργκα: «Η ΑΕΚ μπορεί τον τίτλο, έβραζε το γήπεδο και αυτό το πρώτο γκολ το περίμενα»",
-          "translated_title": "Varga: \"AEK can win the title, the stadium was boiling and I expected this first goal\"",
-          "link": "https://www.protothema.gr/sports/article/1767502/varga-i-aek-borei-ton-titlo-evraze-to-gipedo-kai-auto-to-proto-gol-to-perimena/?utm_source=rss",
-          "date": "Mon, 02 Feb 2026 23:25:54 +0200",
-          "category": "violent protest",
-          "confidence": 0.8566150665283203,
-          "weight": 5.996305465698242,
+          "title": "Ρωσική επίθεση με πυραύλους και drones στο Κίεβο: Ζημιές σε πολυκατοικίες, συναγερμός και σε Χάρκοβο, Ζαπορίζια",
+          "translated_title": "Russian attack with missiles and drones in Kiev: Damage to apartment buildings, alarm in Kharkiv, Zaporizhia",
+          "link": "https://www.protothema.gr/world/article/1767535/rosiki-epithesi-me-puraulous-kai-drones-sto-kievo-zimies-se-polukatoikies-sunagermos-kai-se-harkovo-zaporizia/?utm_source=rss",
+          "date": "Tue, 03 Feb 2026 03:03:57 +0200",
+          "category": "military conflict",
+          "confidence": 0.8340033888816833,
+          "weight": 8.340033888816833,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "85.7%",
+          "ai_confidence_score": "83.4%",
           "detected_lang": "local",
           "is_translated": true,
           "country": "Greece",
@@ -477,6 +478,21 @@ window.BNTI_DATA = {
           "translation_engine": "Google Neural MT"
         },
         {
+          "title": "Πρώτη συνάντηση ΗΠΑ–Ροδρίγκες για «μετάβαση» έναν μήνα μετά την αιχμαλώτιση Μαδούρο",
+          "translated_title": "First US-Rodriguez meeting on \"transition\" a month after Maduro's capture",
+          "link": "https://www.protothema.gr/world/article/1767537/proti-sunadisi-iparodriges-gia-metavasi-enan-mina-meta-tin-aihmalotisi-madouro/?utm_source=rss",
+          "date": "Tue, 03 Feb 2026 03:42:19 +0200",
+          "category": "political crisis",
+          "confidence": 0.6237906813621521,
+          "weight": 3.7427440881729126,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "62.4%",
+          "detected_lang": "local",
+          "is_translated": true,
+          "country": "Greece",
+          "translation_engine": "Google Neural MT"
+        },
+        {
           "title": "Ο Τραμπ σφίγγει τη θηλιά στην Κούβα: «Σταματούν οι παραδόσεις πετρελαίου»",
           "translated_title": "Trump tightens the noose in Cuba: \"Oil deliveries stop\"",
           "link": "https://www.protothema.gr/world/article/1767523/o-trab-sfiggei-ti-thilia-stin-kouva-stamatoun-oi-paradoseis-petrelaiou/?utm_source=rss",
@@ -490,20 +506,6 @@ window.BNTI_DATA = {
           "is_translated": true,
           "country": "Greece",
           "translation_engine": "Google Neural MT"
-        },
-        {
-          "title": "Βόμβα από Πορτογαλία: Ανοικτό να αποχωρήσει από την Αλ Νασρ ο Ρονάλντο, στο τραπέζι MLS και Ευρώπη",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/sports/article/1767495/vomva-apo-portogalia-anoikto-na-apohorisei-apo-tin-al-nasr-o-ronaldo-sto-trapezi-mls-kai-europi/?utm_source=rss",
-          "date": "Mon, 02 Feb 2026 23:08:00 +0200",
-          "category": "violent protest",
-          "confidence": 0.48101621866226196,
-          "weight": 3.3671135306358337,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "48.1%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
         },
         {
           "title": "Ο πρίγκιπας του Βελγίου λέει ότι είχε δυο ιδιωτικές συναντήσεις με τον Τζέφρι Έπσταϊν",
@@ -520,6 +522,20 @@ window.BNTI_DATA = {
           "country": "Greece"
         },
         {
+          "title": "Δεν «έπεσε» η κυβέρνηση Μακρόν: Καταψηφίστηκαν οι προτάσεις μομφής στη Γαλλία",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/world/article/1767529/den-epese-i-kuvernisi-makron-katapsifistikan-oi-protaseis-momfis-sti-gallia/?utm_source=rss",
+          "date": "Tue, 03 Feb 2026 02:22:05 +0200",
+          "category": "political crisis",
+          "confidence": 0.5267294645309448,
+          "weight": 3.160376787185669,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "52.7%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
           "title": "Κλητεύσεις κατά δύο Γαλλοϊσραηλινών ακτιβιστριών για «συνενοχή σε γενοκτονία»: Παρεμπόδιζαν τη βοήθεια προς τη Γάζα",
           "translated_title": null,
           "link": "https://www.protothema.gr/world/article/1767512/kliteuseis-kata-duo-galloisrailinon-aktivistrion-gia-sunenohi-se-genoktonia-parebodizan-ti-voitheia-pros-ti-gaza/?utm_source=rss",
@@ -529,6 +545,20 @@ window.BNTI_DATA = {
           "weight": 2.0107703804969788,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "67.0%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Οι Κλίντον «λυγίζουν» στην έρευνα Έπσταϊν: Δέχονται να καταθέσουν για να αποφύγουν ψήφο περιφρόνησης",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/world/article/1767539/oi-klidon-lugizoun-stin-ereuna-epstain-dehodai-na-katathesoun-gia-na-apofugoun-psifo-perifronisis/?utm_source=rss",
+          "date": "Tue, 03 Feb 2026 04:12:44 +0200",
+          "category": "political crisis",
+          "confidence": 0.42296740412712097,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "42.3%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -557,6 +587,20 @@ window.BNTI_DATA = {
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "21.8%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "La Liga, Μαγιόρκα-Σεβιλλη 4-1: Ναυάγησε στις Βαλεαρίδες Νήσους η ομάδα του Ματίας Αλμέιδα, δείτε τα γκολ",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/sports/article/1767521/la-liga-magiorka-sevilli-4-1-nauagise-stis-valearides-nisous-i-omada-tou-matias-almeida-deite-ta-gol/?utm_source=rss",
+          "date": "Tue, 03 Feb 2026 02:03:22 +0200",
+          "category": "violent protest",
+          "confidence": 0.29320648312568665,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "29.3%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -616,87 +660,16 @@ window.BNTI_DATA = {
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
-        },
-        {
-          "title": "Η ίδια η ΑΕΚ πρέπει να ορίσει την μοίρα της με αυτοπεποίθηση και μάχη…",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/blogs/sports-blog/kostas-ketsetzoglou/article/1767496/i-idia-i-aek-prepei-na-orisei-tin-moira-tis-me-autopepoithisi-kai-mahi/?utm_source=rss",
-          "date": "Mon, 02 Feb 2026 22:56:31 +0200",
-          "category": "neutral news",
-          "confidence": 0.26480546593666077,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "26.5%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Ανέβηκε επικίνδυνα η στάθμη του Αλφειού έπειτα από τη νεροποντή: Σε αυξημένη ετοιμότητα τρεις δήμοι στην Ηλεία",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/greece/article/1767494/anevike-epikinduna-i-stathmi-tou-alfeiou-epeita-apo-ti-neropodi-se-auximeni-etoimotita-treis-dimoi/?utm_source=rss",
-          "date": "Mon, 02 Feb 2026 22:51:00 +0200",
-          "category": "violent protest",
-          "confidence": 0.39546099305152893,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "39.5%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Wall Street: Δυναμική εκκίνηση για τον Φεβρουάριο με μίνι ράλι στον Dow Jones",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/economy/article/1767498/wall-street-dunamiki-ekkinisi-gia-ton-fevrouario-me-mini-rali-ston-dow-jones/?utm_source=rss",
-          "date": "Mon, 02 Feb 2026 23:13:41 +0200",
-          "category": "peaceful diplomacy",
-          "confidence": 0.40213632583618164,
-          "weight": -0.8042726516723633,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "40.2%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
         }
       ]
     },
     "Iran": {
-      "index": 4.02,
-      "raw_score": 13.04,
+      "index": 1.62,
+      "raw_score": 1.9,
       "events": [
         {
-          "title": "Trump and Petro clash over how best to uproot Colombia’s cocaine crops",
-          "translated_title": "Trump and Petro clash over how best to uproot Colombia’s cocaine crops",
-          "link": "https://www.aljazeera.com/news/longform/2026/2/2/trump-and-petro-clash-over-how-best-to-uproot-colombias-cocaine-crops?traffic_source=rss",
-          "date": "Mon, 02 Feb 2026 16:39:21 +0000",
-          "category": "political crisis",
-          "confidence": 0.9503989219665527,
-          "weight": 5.702393531799316,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "95.0%",
-          "detected_lang": "local",
-          "is_translated": true,
-          "country": "Iran",
-          "translation_engine": "Google Neural MT"
-        },
-        {
-          "title": "Modi to Kevin Rudd: How Epstein files set off a storm far beyond the US",
-          "translated_title": "Modi to Kevin Rudd: How Epstein files set off a storm far beyond the US",
-          "link": "https://www.aljazeera.com/news/2026/2/2/modi-to-kevin-rudd-how-epstein-files-set-off-a-storm-far-beyond-the-us?traffic_source=rss",
-          "date": "Mon, 02 Feb 2026 16:23:20 +0000",
-          "category": "political crisis",
-          "confidence": 0.9056535363197327,
-          "weight": 5.433921217918396,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "90.6%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
           "title": "France adopts 2026 budget after two no-confidence votes fail",
-          "translated_title": null,
+          "translated_title": "France adopts 2026 budget after two no-confidence votes fail",
           "link": "https://www.aljazeera.com/news/2026/2/2/france-adopts-2026-budget-after-two-no-confidence-votes-fail?traffic_source=rss",
           "date": "Mon, 02 Feb 2026 21:08:19 +0000",
           "category": "political crisis",
@@ -704,6 +677,48 @@ window.BNTI_DATA = {
           "weight": 3.6204460859298706,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "60.3%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Ex-US President Bill Clinton, Hillary Clinton to testify in Epstein probe",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/news/2026/2/3/ex-us-president-bill-clinton-hillary-clinton-to-testify-in-epstein-probe?traffic_source=rss",
+          "date": "Tue, 03 Feb 2026 02:20:02 +0000",
+          "category": "political crisis",
+          "confidence": 0.40464332699775696,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "40.5%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Russia-Ukraine war: List of key events, day 1,440",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/news/2026/2/3/russia-ukraine-war-list-of-key-events-day-1440?traffic_source=rss",
+          "date": "Tue, 03 Feb 2026 01:14:02 +0000",
+          "category": "military conflict",
+          "confidence": 0.7239091992378235,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "72.4%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "What is the US strategic minerals stockpile?",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/economy/2026/2/2/what-is-the-us-strategic-minerals-stockpile?traffic_source=rss",
+          "date": "Mon, 02 Feb 2026 23:51:56 +0000",
+          "category": "violent protest",
+          "confidence": 0.2138713151216507,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "21.4%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iran"
@@ -844,20 +859,6 @@ window.BNTI_DATA = {
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "26.6%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
-          "title": "5-year-old Liam Ramos and father released from immigration detention",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/2/2/5-year-old-liam-ramos-and-father-released-from-immigration-detention?traffic_source=rss",
-          "date": "Mon, 02 Feb 2026 16:33:06 +0000",
-          "category": "neutral news",
-          "confidence": 0.27094608545303345,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "27.1%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iran"
@@ -1095,8 +1096,8 @@ window.BNTI_DATA = {
       ]
     },
     "Syria": {
-      "index": 4.94,
-      "raw_score": 24.82,
+      "index": 4.93,
+      "raw_score": 24.66,
       "events": [
         {
           "title": "Turkey’s Lingering Influence in Syria’s New Army - New Lines Magazine",
@@ -1114,43 +1115,115 @@ window.BNTI_DATA = {
           "translation_engine": "Google Neural MT"
         },
         {
-          "title": "Syrian Kurdish forces announce curfew in northeast cities ahead of deal with Damascus - France 24",
-          "translated_title": "Syrian Kurdish forces announce curfew in northeast cities ahead of deal with Damascus - France 24",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSWx5VkdlMUdFcTNNVUhhZ0tCZktmYlZhNEYtOGk5T2x1VHhRLUVHU1NBVmxkLVNNZDhJNmNQd2lKaExTOGRwMWo2OTdvWllEYTBzR0xOazBadWdvMF9SZm9DTllyUlNiTE1pNXh3NUdlaklSaGJlSThQT1F4R2pMTFZHU2tFcXc0N0M1MEcxejI5U2c1QVY5blVRNGlXOUN0bnJjVE5YLVpfUHdET0hvUzh1TFpTNzNG?oc=5",
-          "date": "Sun, 01 Feb 2026 22:40:52 GMT",
+          "title": "The Hama Massacre: The Day Assad’s Forces Destroyed an Entire City",
+          "translated_title": "The Hama Massacre: The Day Assad’s Forces Destroyed an Entire City",
+          "link": "https://syrianobserver.com/syrian-actors/the-hama-massacre-the-day-assads-forces-destroyed-an-entire-city.html",
+          "date": "Mon, 02 Feb 2026 21:00:31 +0000",
           "category": "military conflict",
-          "confidence": 0.7244355082511902,
-          "weight": 7.244355082511902,
+          "confidence": 0.8687347769737244,
+          "weight": 8.687347769737244,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "72.4%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
+          "ai_confidence_score": "86.9%",
+          "detected_lang": "local",
+          "is_translated": true,
+          "country": "Syria",
+          "translation_engine": "Google Neural MT"
         },
         {
-          "title": "Syria's interior ministry forces enter key city under deal with Kurdish-led SDF - ABC News",
-          "translated_title": "Syria's interior ministry forces enter key city under deal with Kurdish-led SDF - ABC News",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaFhjcEVCVHlhYXhTVFVlMlhneHd1OTFVWlFCeEtmV1VCSEFJWGdWaHNtSDJ1TUd0YUljTmNKV0VqVUZlZzV5ek9laFRscnl5bW1xZmRkUjA1XzhZTjY2QXdTYWtJMmFubHoyN25tcEw0VFc0eVZUeXo3RmNDMk5KYjZqNEJpLXJhbVlkOHR3eHlvZ0piTkNGVFNkaF94RjVYV0ZUUjNtTXNDTzNt0gGyAUFVX3lxTFBxbHctb3VtaXA2ZWw0Q0dlQ1NHUm1rY3pqWGc3ank3VVBDVzRhRk1zLTUwMHF5emxpRDJXdjkyblZQcEVkWnNuLWN4OE0zSTFybFo2bVVUMkhIVk80cmRMUXBMYXl0dmJEeUM4MG03elBGU2ZUeEREX0Y0QlJsRk9XLU5TRk50TUpvbWpFYjg1YzJLb1JVZS1XT2FhWTVRb3c3WVNvbU5aekRSVUpWa0FIMFE?oc=5",
-          "date": "Mon, 02 Feb 2026 22:34:21 GMT",
-          "category": "military conflict",
-          "confidence": 0.6861951947212219,
-          "weight": 6.861951947212219,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "68.6%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "US shifts from Kurds to Ahmed al-Sharaa in Syria - The Jerusalem Post",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5rcFBIWkJWSGEtZEJ0LTRmSjgwYjVjMnd1MWkwc0xvcVBXVDA2ZU0tNmpnV2lnRjNJNWJMNmUtdWlSZ2l1TUlXWFoyNUlVd2pMcU5ubjhXUQ?oc=5",
-          "date": "Mon, 02 Feb 2026 13:00:00 GMT",
+          "title": "How American Pressure and Regional Shifts Forced the SDF–Damascus Deal",
+          "translated_title": "How American Pressure and Regional Shifts Forced the SDF–Damascus Deal",
+          "link": "https://syrianobserver.com/uncategorized/how-american-pressure-and-regional-shifts-forced-the-sdf-damascus-deal.html",
+          "date": "Sun, 01 Feb 2026 21:01:02 +0000",
           "category": "political crisis",
-          "confidence": 0.46500346064567566,
-          "weight": 2.790020763874054,
+          "confidence": 0.8810501098632812,
+          "weight": 5.2863006591796875,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "46.5%",
+          "ai_confidence_score": "88.1%",
+          "detected_lang": "local",
+          "is_translated": true,
+          "country": "Syria",
+          "translation_engine": "Google Neural MT"
+        },
+        {
+          "title": "The American Approach in Syria and the Management of the Turkish–Israeli Balance",
+          "translated_title": null,
+          "link": "https://syrianobserver.com/syrian-actors/the-american-approach-in-syria-and-the-management-of-the-turkish-israeli-balance.html",
+          "date": "Sun, 01 Feb 2026 21:00:53 +0000",
+          "category": "political crisis",
+          "confidence": 0.4599010646343231,
+          "weight": 2.7594063878059387,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "46.0%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Syria Announces Dismantling of Cell That Attacked Mezzeh Airport, Accuses Hezbollah",
+          "translated_title": null,
+          "link": "https://syrianobserver.com/syrian-actors/syria-announces-dismantling-of-cell-that-attacked-mezzeh-airport-accuses-hezbollah.html",
+          "date": "Mon, 02 Feb 2026 21:00:54 +0000",
+          "category": "military conflict",
+          "confidence": 0.5287297368049622,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "52.9%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Appointments to Positions: Between Competence and Favoritism",
+          "translated_title": null,
+          "link": "https://syrianobserver.com/refugees/appointments-to-positions-between-competence-and-favoritism.html",
+          "date": "Mon, 02 Feb 2026 21:00:53 +0000",
+          "category": "political crisis",
+          "confidence": 0.3646891117095947,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "36.5%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Germany Sees Surge in Syrians Voluntarily Returning Home",
+          "translated_title": null,
+          "link": "https://syrianobserver.com/refugees/germany-sees-surge-in-syrians-voluntarily-returning-home.html",
+          "date": "Mon, 02 Feb 2026 21:00:13 +0000",
+          "category": "peaceful diplomacy",
+          "confidence": 0.20706678926944733,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "20.7%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "A New Building Collapse Forces Aleppo to Revisit Its Most Perilous Housing Crisis",
+          "translated_title": null,
+          "link": "https://syrianobserver.com/society/a-new-building-collapse-forces-aleppo-to-revisit-its-most-perilous-housing-crisis.html",
+          "date": "Sun, 01 Feb 2026 21:00:45 +0000",
+          "category": "humanitarian crisis",
+          "confidence": 0.25265753269195557,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "25.3%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Nechirvan Barzani, Architect of the Understanding",
+          "translated_title": null,
+          "link": "https://syrianobserver.com/syrian-actors/nechirvan-barzani-architect-of-the-understanding.html",
+          "date": "Sun, 01 Feb 2026 21:00:05 +0000",
+          "category": "peaceful diplomacy",
+          "confidence": 0.30886009335517883,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "30.9%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
@@ -1166,20 +1239,6 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "38.7%",
           "detected_lang": "local",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "France's role in Syria-SDF agreement: What to know - AL-Monitor",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUFVkLUhvTG9wa2xZekt4WGJmd25VNUwzV1VjUnFvMzhhenkxcDJxaWUzZ0lPU29QVmpoWXAwVC05SC1LbjhHMjlMQk1WdDhfUTZfNmZ4Z0lfdlhiS0hIcEN0Z2RiVGhEZThHLTVfNHZ6b1kxbjNUSWFrSWVSVEVnRnJ1bkRIa2lIOS04ei00M1g?oc=5",
-          "date": "Mon, 02 Feb 2026 21:53:26 GMT",
-          "category": "neutral news",
-          "confidence": 0.19956979155540466,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "20.0%",
-          "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
         },
@@ -1200,7 +1259,7 @@ window.BNTI_DATA = {
         {
           "title": "Opinion | Don’t Betray Syria’s Heroic Kurds - The Wall Street Journal",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxNRzNheGFnclRENVVIYWVRaUJxVEVLX05TbHBkSTdJcDVVZjk4UmYzMTBBdXowcjZNbTBFN2VXS3N1RmFDakdnVlN1OWpyYmZaTVl2eWtxMmNmWm9NTkRLQVY1bmljOEpiTkJKaTR1NF82VEJwWnFUY21PN2tiZFNXV2V4QTJKUFFCTXkxZmZsdTB1c251NkVTc1FWbW9NMXBJaGRWdmpEYWtoQkxPVV9MbmxHZEM3bVYyVXo0R0tuV3FhcFNjS3dOanJRZWJoWllrUGdKdmgtMmdVZzVlNm9NampDVThPeTBYalRuM1BXaTJmWjN5ZDIySkt6QS1JakhnaUVlVVUwbVFGc3kxNXFYOGdsVEM3QUhIVGpQZWJMUEhvMWFxUmJYelpxU3lNMlN1M05LV0NZaE0zQnkzM1pPSnJqQ25qX0NDSVBiNjJjeE1sOVJBTmZ6QnZERk5tQmRaOFdQckU5bXUySEhSd1BGU09iY3drMDFaTE01cQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxQcXd1NHdUZk5SSU9ZUGlzak5sYUp0OE1rN1ZOUDhRMHp2RTBFLWg0eE1pa3hBMFV2c3hINkh0bUpPUkctR1JVbVdLSmNaR0l4T0s1b1BhN3RwRDQxUWMxaWZOcEFjWDRNdGdJakZnR0ZHMWNZeldWMUhrQ0tyREFubW1UYjhmVC16cVN0NDlYeVNVOHVVSG41bUFNMWZqLVBkU0lldWZrNk9UNUJWek1TbVUtVGhoSGV1VkxEci13VGRvN3lUcjUzdjNTWC1fOFhJS2FrcEcxWE1kNVRjRnFYcUd1M1BOTnNEUVdldXJaOFMyd0VTMkFhZV9DLW1oR1lZQzY0b2staVBEZ240a1p3R0FNcm1wbGhCWGtDX280Z1B1djF2YXNmNzh6UUdHdFBiOEc5ejNHRkNUMlBudU5GMkZYVlFRaVNWMGFzeWYtdVpSQkVEQ0U0a1lqNEVvOVhDcGppV2NRcS1aN1pnd2dkVy00T0JYOXI1OHhqQQ?oc=5",
           "date": "Mon, 02 Feb 2026 22:30:00 GMT",
           "category": "political crisis",
           "confidence": 0.27136844396591187,
@@ -1208,20 +1267,6 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "27.1%",
           "detected_lang": "local",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Thousands of Kurds rally in Syria ahead of integration - Middle East Eye",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeWNfTEdlZkMxRnZYRGI2VFBDblBKcDJzbjljbHM1TFd3VnJQNFoxRVVELVMyN2RGSjl4a3U5ZnZIVlRRNElzTWpvSHhpcW9jaTc1NHlRWDlOZ1RUbFVGTE1JZ1FkZkFXeVY4M0kteDZJS1NWRUFQY2kwOXhwdEZ0enhqbldXbmc?oc=5",
-          "date": "Sun, 01 Feb 2026 15:41:00 GMT",
-          "category": "political crisis",
-          "confidence": 0.3401116132736206,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "34.0%",
-          "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
         },
@@ -1240,20 +1285,6 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
-          "title": "Syrian rapper Al Darwish returns home after 13 years to perform in post-Assad Damascus - AP News",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNXV0REdzRWtydFBJdkNIV04xeHU2X1llTEtiRVlXUXBpWmpyYWI1UTZLcDFCTWVOZjM5RmVTUWh3ZVpYODFXUmhCZFRlLTJnU2tZZ0FRd29wQ2NEVllwSXRDNWpxSG9IaVF2OHRTNkNsZEdvajFfZ293RHFkUVpmYmtsbEc0TWJaRzViM0R4UnJlY0JZWExMVGExdw?oc=5",
-          "date": "Mon, 02 Feb 2026 05:25:00 GMT",
-          "category": "political crisis",
-          "confidence": 0.3741268813610077,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "37.4%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
           "title": "French, Syrian presidents discuss regional situation in call - Anadolu Ajansı",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRk80YWw3R1ZveTRYdl9VM09IV21YUTVDU1NWMzhTcGZxODFqcFViaXQ2emx6QlZuZmJLUlU0SjB5SVpsZk51TGNtaGV5YTVIOGpnR1RnRnVnWXYtMUpYZTljb3hNZWR6aDFYa3RtVDFzQ191RGVUZC1hbTdiSUh3TldQYU9NUGtjOVBzOVBSVDROSktpQV9ON0VxSzVZeEU?oc=5",
@@ -1264,34 +1295,6 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "19.8%",
           "detected_lang": "local",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Syria arrests group behind Mezzeh airport attacks, weapons traced to Hezbollah - Reuters",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRGR4MnBFZVdrVW9YdUhaN0tEd1F4LWI2elJNNmVaNXdTUWNWUXZEZ2F6OVVlZjhqc3F6eW44T0w4b2M1bGpseWdkeGRvR0NPTnI1UzZEMEV2ZDY2bjlORUZhb1JUV1lsV0k4cUhLRW91RW9aLWVIekJIak5GYlB0QzVjbXgxR1lTclRXbDhXOXoxNDkzWHNoTDBxd1Q5THVOWjFDRk5JcWxJRjVZcFQ2RGl2S2Y2TDZGM2k4ZTN1SDVSbGdKZVdN?oc=5",
-          "date": "Sun, 01 Feb 2026 18:59:09 GMT",
-          "category": "military conflict",
-          "confidence": 0.5032311677932739,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "50.3%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Iraq begins investigations into ISIS prisoners transferred from Syria - thenationalnews.com",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQXVMcHU4Qi0taS1LTGp5TU1tczgzR3pLeXhwdk0zSHhFTHoyTjBlYjB4dllncTZJdW1iWFY5YkZIT1FGdmxOSi1vZFVxN1VvQVQxYnUxRzA5NHRQbjFsam5DMFVVSlZBVEV6SDB1elVaSnNNWGRyV1VKYnpUVFN3c2dZak9Odi05cVI3VjVhNlJCM1NfVVdsN3dhRGxCWjR2b2cycTlybkxpSHFMVTZycFp2aG1RMHZ3eVp6bmw1TVM?oc=5",
-          "date": "Mon, 02 Feb 2026 10:19:21 GMT",
-          "category": "military conflict",
-          "confidence": 0.36736762523651123,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "36.7%",
-          "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
         },
@@ -1312,23 +1315,9 @@ window.BNTI_DATA = {
       ]
     },
     "Bulgaria": {
-      "index": 2.19,
-      "raw_score": 3.23,
+      "index": 1.0,
+      "raw_score": -0.83,
       "events": [
-        {
-          "title": "Bulgaria Cracks Down on Pirate Websites: Three Charged, Money Laundering Trail Leads to US Prisoner - Novinite.com",
-          "translated_title": "Bulgaria Cracks Down on Pirate Websites: Three Charged, Money Laundering Trail Leads to US Prisoner - Novinite.com",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOcDZncGRpQk16SzJiU29YVWZKRVBjZjZwczZJc3RIQzVHeVk4RW80N0NlZS15MVJMcHBqZ3VCQjU0dGVxbjdlXzhaRnREQlctY1A4RDhvdC1SSWtrM20zSmplQ1JUeWdWdTdjb05DaXFFMzhVRG1RQ0QxNEFrVjNNbzYxY3cwZnlpcEtCUXlSMlZ0VWhmWEwzdHZ5WDZULUdBcTBoS3dPaEZIdjJfTDZmMjFpb2N4cjdBM0gtMzhtOXIxMkZvWDIzYjhIUXpBZ0U0QnFpRmVCWl9vcVh4?oc=5",
-          "date": "Mon, 02 Feb 2026 14:26:57 GMT",
-          "category": "violent protest",
-          "confidence": 0.5807673931121826,
-          "weight": 4.065371751785278,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "58.1%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
         {
           "title": "Moscow’s Embassy in Bulgaria Launches Fundraiser for Russian Troops",
           "translated_title": null,
@@ -1386,30 +1375,44 @@ window.BNTI_DATA = {
           "country": "Bulgaria"
         },
         {
-          "title": "Bulgaria: One-day vignette to go on sale on February 3 - The Sofia Globe",
+          "title": "Commemorations held in Bulgaria for victims of communism - The Sofia Globe",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUWQ1M1M0aUlOSm9lQTV4czBQUkZtOElQdDVxRVRCX2F5dHg2M1I5eUdTbmpZWFJmdjZzNkpnSkQ1aW5kdDRDbjRkSUdDaVByMjI3NUZGV1dWRGdIckhaZjBFdFUzV2t3eEltWXpUUmthUmZoZVozZXpnYmpsMmlUcXFZTWI3Nk9XYmRuTjJjcXZodw?oc=5",
-          "date": "Mon, 02 Feb 2026 09:25:05 GMT",
-          "category": "neutral news",
-          "confidence": 0.21517527103424072,
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQ3ZocWN3ZnNzU3lTWC04cTE5Z0xlMGo1VXA0c0h0aElsMzRBd05YclN4UlpxTTBZUUhWVzFpRXhfM2Q2aGZ2SlBSVVpGekM1NmhnRlROa3N3V2hTV3dGNHlXRTYxRWtlcG55RUFqam9VN25ETURrcHBCSjFyVkJuZzNqNExKUExsSlVnM2k0aENiWmZpd3c?oc=5",
+          "date": "Sun, 01 Feb 2026 12:50:02 GMT",
+          "category": "political crisis",
+          "confidence": 0.38989922404289246,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "21.5%",
+          "ai_confidence_score": "39.0%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Bulgaria"
         },
         {
-          "title": "Bulgaria ends 2025 with 3.1% consolidated Budget deficit - The Sofia Globe",
+          "title": "From Midnight Tonight, Bulgaria Rolls Out New One-Day Vignette - Novinite.com",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ2I0bThKeFFTdXhsVXN1VFNuN1liVVNTLVlhbkQ0WXBrTm5KV0R1VEhkYmZVNU5HUU9DNTBjazlPN08yZHRZVnMwQW5TLW9CVVd5dkYzNzdPbV9sWHB4cV9IWkpHcFlRSmpKS25BY1UyM1JLOHhCZ2ppaEZMS09ReVQ4czNNNmd5SVpGSEs4VDBuaUdY?oc=5",
-          "date": "Mon, 02 Feb 2026 10:29:08 GMT",
-          "category": "neutral news",
-          "confidence": 0.21554550528526306,
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYnllZGFPVnZYTEtVT2U1WGg1dzV4by1tOWF1dk9qUThBV1RtU290R0VMYm1UVFp4YkZYbWVLLVNvY1dESDVxZHN4ODlOc1BlcEM0Qm0wQXIwUlg3X0VvOTdteXl3WGs1Qy0zOVN5ZEdNQWpITDJVbl9vYmg3bkp2UGJCbTZrYmxORUljc2dTNkdWR0UtcDFxQldJTWp1ZHhHMjFORDZINkg?oc=5",
+          "date": "Mon, 02 Feb 2026 14:19:17 GMT",
+          "category": "violent protest",
+          "confidence": 0.2229650467634201,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "21.6%",
+          "ai_confidence_score": "22.3%",
           "detected_lang": "en",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Bulgaria Freezes: Temperatures Plunge to Minus 14°C Across the Country on Tuesday - Novinite.com",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORlhpRVJJbzBDSU1ndlRnNnFTQnA5bV9zMEQ3ZHpwOHdHUjljTTVoQ01GOXFWU2d4cTVDRDNReUp4SFpLZHhpclBXSDA5VGd1cWZOSk1OM0YtMXFlMGpGT3RrNGxZeFNIdUstNm5XQVNNR3NFbTdwVUtWS3VidWhJZjQ3R3ZLS0kxX21DY3RMZEdwTVBKTl9RZ28yMm5EZl9uamZCSktIOEhkRWMtRVhSNW1tOGNuTkNwWXJqZHVrbUstNTBpSDJiVg?oc=5",
+          "date": "Mon, 02 Feb 2026 15:22:30 GMT",
+          "category": "violent protest",
+          "confidence": 0.1906009465456009,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "19.1%",
+          "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
         },
@@ -1529,12 +1532,6 @@ window.BNTI_DATA = {
     }
   },
   "history": [
-    {
-      "timestamp": "2026-02-01T02:18:36.273016",
-      "main_index": 7.44,
-      "index": 7.44,
-      "type": "historical"
-    },
     {
       "timestamp": "2026-02-01T05:11:27.572589",
       "main_index": 7.35,
@@ -1708,48 +1705,54 @@ window.BNTI_DATA = {
       "main_index": 6.95,
       "index": 6.95,
       "type": "historical"
+    },
+    {
+      "timestamp": "2026-02-03T02:54:12.527510",
+      "main_index": 6.84,
+      "index": 6.84,
+      "type": "historical"
     }
   ],
   "forecast": [
     {
-      "timestamp": "2026-02-03T00:49:49.285276",
-      "index": 6.98,
-      "main_index": 6.98,
-      "confidence": 0.3,
-      "type": "forecast"
-    },
-    {
-      "timestamp": "2026-02-03T01:49:49.285276",
-      "index": 6.96,
-      "main_index": 6.96,
-      "confidence": 0.3,
-      "type": "forecast"
-    },
-    {
-      "timestamp": "2026-02-03T02:49:49.285276",
-      "index": 6.95,
-      "main_index": 6.95,
-      "confidence": 0.3,
-      "type": "forecast"
-    },
-    {
-      "timestamp": "2026-02-03T03:49:49.285276",
+      "timestamp": "2026-02-03T03:54:12.527510",
       "index": 6.93,
       "main_index": 6.93,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-03T04:49:49.285276",
+      "timestamp": "2026-02-03T04:54:12.527510",
       "index": 6.91,
       "main_index": 6.91,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-03T05:49:49.285276",
+      "timestamp": "2026-02-03T05:54:12.527510",
       "index": 6.89,
       "main_index": 6.89,
+      "confidence": 0.3,
+      "type": "forecast"
+    },
+    {
+      "timestamp": "2026-02-03T06:54:12.527510",
+      "index": 6.88,
+      "main_index": 6.88,
+      "confidence": 0.3,
+      "type": "forecast"
+    },
+    {
+      "timestamp": "2026-02-03T07:54:12.527510",
+      "index": 6.86,
+      "main_index": 6.86,
+      "confidence": 0.3,
+      "type": "forecast"
+    },
+    {
+      "timestamp": "2026-02-03T08:54:12.527510",
+      "index": 6.84,
+      "main_index": 6.84,
       "confidence": 0.3,
       "type": "forecast"
     }
