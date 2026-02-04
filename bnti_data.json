@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-02-04T22:50:03.299291",
-    "main_index": 8.45,
+    "generated_at": "2026-02-04T23:48:01.870572",
+    "main_index": 8.23,
     "status": "CRITICAL",
     "active_scan": true,
-    "next_update": "2026-02-04T23:00:00",
+    "next_update": "2026-02-05T00:00:00",
     "version": "2.0.0"
   },
   "countries": {
@@ -36,6 +36,20 @@
           "weight": 1.8462350964546204,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "61.5%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Armenia"
+        },
+        {
+          "title": "If we cannot come forward",
+          "translated_title": null,
+          "link": "https://armenianweekly.com/2026/02/04/if-we-cannot-come-forward/",
+          "date": "Wed, 04 Feb 2026 22:38:13 +0000",
+          "category": "neutral news",
+          "confidence": 0.2711504101753235,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "27.1%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Armenia"
@@ -121,20 +135,6 @@
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "33.7%",
           "detected_lang": "local",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
-          "title": "New IJAGS special issue examines law, activism and global recognition of the Armenian Genocide",
-          "translated_title": null,
-          "link": "https://armenianweekly.com/2026/02/02/new-ijags-special-issue-examines-law-activism-and-global-recognition-of-the-armenian-genocide/",
-          "date": "Mon, 02 Feb 2026 23:08:42 +0000",
-          "category": "humanitarian crisis",
-          "confidence": 0.38928696513175964,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "38.9%",
-          "detected_lang": "en",
           "is_translated": false,
           "country": "Armenia"
         },
@@ -441,8 +441,8 @@
       ]
     },
     "Greece": {
-      "index": 3.87,
-      "raw_score": 11.79,
+      "index": 4.25,
+      "raw_score": 15.41,
       "events": [
         {
           "title": "Συνελήφθη 56χρονη δασκάλα γιόγκα για εκρήξεις σε τρία αυτοκίνητα σε Νέα Ερυθραία, Μεταμόρφωση και Κηφισιά, δείτε βίντεο",
@@ -473,6 +473,20 @@
           "country": "Greece"
         },
         {
+          "title": "Λήξη συναγερμού  στο Παγκράτι μετά από εντοπισμό ύποπτου αντικειμένου έξω από τράπεζα, δείτε βίντεο",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/greece/article/1768771/sunagermos-sto-pagrati-gia-upopto-adikeimeno-exo-apo-trapeza-stin-odo-eutuhidou/?utm_source=rss",
+          "date": "Thu, 05 Feb 2026 01:22:53 +0200",
+          "category": "violent protest",
+          "confidence": 0.8626325726509094,
+          "weight": 6.038428008556366,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "86.3%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
           "title": "Άρης - Νεπτούνας 83-64: Τη  συνέτριψε κι έκανε βήμα πρόκρισης!",
           "translated_title": null,
           "link": "https://www.protothema.gr/sports/article/1768753/o-aris-sunetripse-83-64-ti-neptounas-ki-ekane-vima-prokrisis/?utm_source=rss",
@@ -496,6 +510,34 @@
           "weight": 2.232983708381653,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "74.4%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Ανεμοστρόβιλος στην Κέρκυρα: Σοβαρές ζημιές σε σπίτια στον Αφιώνα, πλημμύρες και στην Κεφαλονιά, δείτε βίντεο",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/greece/article/1768775/anemostrovilos-stin-kerkura-sovares-zimies-se-spitia-ston-afiona-plimmures-kai-stin-kefalonia-deite-video/?utm_source=rss",
+          "date": "Thu, 05 Feb 2026 01:38:00 +0200",
+          "category": "humanitarian crisis",
+          "confidence": 0.3622317910194397,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "36.2%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Η Ίντερ νίκησε με 2-1 την Τορίνο και προκρίθηκε στα ημιτελικά του Κυπέλλου Ιταλίας, δείτε τα γκολ",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/sports/article/1768770/i-ider-nikise-me-2-1-tin-torino-kai-prokrithike-sta-imitelika-tou-kupellou-italias-deite-ta-gol/?utm_source=rss",
+          "date": "Thu, 05 Feb 2026 00:50:00 +0200",
+          "category": "violent protest",
+          "confidence": 0.2957058250904083,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "29.6%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -599,48 +641,6 @@
           "country": "Greece"
         },
         {
-          "title": "Τα ζευγάρια του Final 8 του Κυπέλλου μπάσκετ: Ολυμπιακός και Παναθηναϊκός θα βρεθούν μόνο στον τελικό",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/sports/article/1768746/ta-zeugaria-tou-final-8-tou-kupellou-basket-olubiakos-kai-panathinaikos-tha-vrethoun-mono-ston-teliko/?utm_source=rss",
-          "date": "Wed, 04 Feb 2026 23:10:00 +0200",
-          "category": "violent protest",
-          "confidence": 0.28404173254966736,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "28.4%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Κατερίνα Λάσπα: Η φωτογραφία από τα παιδικά της χρόνια στην αγκαλιά του πατέρα της",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/life-style/article/1768745/i-katerina-laspa-dimosieuse-mia-fotografia-apo-ta-paidika-tis-hronia-stin-agalia-tou-patera-tis/?utm_source=rss",
-          "date": "Wed, 04 Feb 2026 23:45:00 +0200",
-          "category": "peaceful diplomacy",
-          "confidence": 0.23281198740005493,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "23.3%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Γιακουμάκης: Πάμε να το τελειώσουμε στην Τούμπα",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/sports/article/1768742/giakoumakis-pame-na-to-teleiosoume-stin-touba/?utm_source=rss",
-          "date": "Wed, 04 Feb 2026 22:59:23 +0200",
-          "category": "violent protest",
-          "confidence": 0.3314979672431946,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "33.1%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
           "title": "Ο Άδωνις Γεωργιάδης δεν φοβήθηκε τον διάλογο με συνδικαλιστές στα Γιάννενα και απάντησε στους «μύθους» για το ΕΣΥ, δείτε βίντεο",
           "translated_title": null,
           "link": "https://www.protothema.gr/politics/article/1768752/i-stigmi-pou-o-adonis-georgiadis-apada-me-epiheirimata-se-sundikalistes-sta-giannena-video/?utm_source=rss",
@@ -657,8 +657,8 @@
       ]
     },
     "Iran": {
-      "index": 6.71,
-      "raw_score": 81.51,
+      "index": 6.41,
+      "raw_score": 66.83,
       "events": [
         {
           "title": "Russia criticises US as final nuclear warhead treaty set to expire",
@@ -703,22 +703,8 @@
           "country": "Iran"
         },
         {
-          "title": "Russia jails stand-up comic Artemy Ostani over war joke",
-          "translated_title": "Russia jails stand-up comic Artemy Ostani over war joke",
-          "link": "https://www.aljazeera.com/news/2026/2/4/russia-jails-stand-up-comic-artemy-ostani-over-war-joke?traffic_source=rss",
-          "date": "Wed, 04 Feb 2026 19:03:20 +0000",
-          "category": "military conflict",
-          "confidence": 0.807772696018219,
-          "weight": 8.07772696018219,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "80.8%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
           "title": "Some in Israel question its influence over US as Iran war decision nears",
-          "translated_title": null,
+          "translated_title": "Some in Israel question its influence over US as Iran war decision nears",
           "link": "https://www.aljazeera.com/news/2026/2/4/some-israel-question-influence-over-us-iran-war-decision-nears?traffic_source=rss",
           "date": "Wed, 04 Feb 2026 20:05:05 +0000",
           "category": "military conflict",
@@ -732,7 +718,7 @@
         },
         {
           "title": "‘Treacherous assassination’: Who was Saif al-Islam Gaddafi?",
-          "translated_title": null,
+          "translated_title": "‘Treacherous assassination’: Who was Saif al-Islam Gaddafi?",
           "link": "https://www.aljazeera.com/video/newsfeed/2026/2/4/treacherous-assassination-who-was-saif-al-islam-gaddafi?traffic_source=rss",
           "date": "Wed, 04 Feb 2026 20:58:19 +0000",
           "category": "terrorist act",
@@ -741,22 +727,9 @@
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "81.1%",
           "detected_lang": "local",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
-          "title": "Hungary jails German activist for eight years over far-right rally attacks",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/news/2026/2/4/hungary-jails-german-activist-for-eight-years-over-far-right-rally-attacks?traffic_source=rss",
-          "date": "Wed, 04 Feb 2026 19:29:47 +0000",
-          "category": "violent protest",
-          "confidence": 0.9426423907279968,
-          "weight": 6.598496735095978,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "94.3%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
+          "is_translated": true,
+          "country": "Iran",
+          "translation_engine": "Google Neural MT"
         },
         {
           "title": "Six British activists acquitted over raid on Israeli defence firm’s factory",
@@ -825,6 +798,34 @@
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "54.4%",
           "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Ukraine says first day of peace talks with Russia ‘productive’",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/news/2026/2/4/ukraine-says-first-day-of-peace-talks-with-russia?traffic_source=rss",
+          "date": "Wed, 04 Feb 2026 22:52:13 +0000",
+          "category": "peaceful diplomacy",
+          "confidence": 0.946077287197113,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "94.6%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "US Supreme Court rejects challenge to California redistricting effort",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/news/2026/2/4/us-supreme-court-rejects-challenge-to-california-redistricting-bid?traffic_source=rss",
+          "date": "Wed, 04 Feb 2026 22:26:32 +0000",
+          "category": "political crisis",
+          "confidence": 0.23215216398239136,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "23.2%",
+          "detected_lang": "en",
           "is_translated": false,
           "country": "Iran"
         },
@@ -906,7 +907,7 @@
         },
         {
           "title": "Sudan paramilitary advances near Ethiopia border",
-          "translated_title": null,
+          "translated_title": "Sudan paramilitary advances near Ethiopia border",
           "link": "https://www.newarab.com/news/sudan-paramilitary-advances-near-ethiopia-border",
           "date": "Wed, 04 Feb 2026 19:53:36 +0000",
           "category": "military conflict",
@@ -928,6 +929,20 @@
           "weight": 2.309346914291382,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "77.0%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "Syria signs landmark offshore oil field deal with Chevron and a Qatari investor",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/syria-signs-landmark-offshore-oil-field-deal-chevron-and-qatari-investor",
+          "date": "Wed, 04 Feb 2026 23:18:28 +0000",
+          "category": "neutral news",
+          "confidence": 0.26526886224746704,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "26.5%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
@@ -1071,26 +1086,12 @@
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
-        },
-        {
-          "title": "What SDF integration means for the future of Syria's army",
-          "translated_title": null,
-          "link": "https://www.newarab.com/analysis/what-sdf-integration-means-future-syrias-army",
-          "date": "Wed, 04 Feb 2026 17:14:37 +0000",
-          "category": "military conflict",
-          "confidence": 0.4509735405445099,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "45.1%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
         }
       ]
     },
     "Syria": {
-      "index": 6.63,
-      "raw_score": 77.6,
+      "index": 6.11,
+      "raw_score": 54.64,
       "events": [
         {
           "title": "US carries out strikes in Syria targeting Islamic States, military says - Reuters",
@@ -1116,20 +1117,6 @@
           "weight": 9.500202536582947,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "95.0%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "US Military Hits Islamic State Targets in Syria Over Past Week - Bloomberg.com",
-          "translated_title": "US Military Hits Islamic State Targets in Syria Over Past Week - Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSjVYZ1V1OWV2MmdReXdpbk1hVmNHcVowTUphY2xJM3BfNzFVdTFiN0Y5c19obkZQQ0hFS2lMSTNMaExpWlRESjB3RWFUNG9pNGx0YnZaYVNWM1hDOVZ1NjdUb3NUZ2t0c0xzM19nbFlvbnpxZGN4bmc5aEprUGxDM3ZOU2xBY0gzWFV5X2podXVjTm1zVTBzeXg3anEwZkR6czJtVmx4SXdGZTI0dHltVGs3dw?oc=5",
-          "date": "Wed, 04 Feb 2026 17:49:05 GMT",
-          "category": "military conflict",
-          "confidence": 0.9381963610649109,
-          "weight": 9.381963610649109,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "93.8%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
@@ -1177,20 +1164,6 @@
           "country": "Syria"
         },
         {
-          "title": "Will the U.S. withdraw military forces from Syria? - NPR",
-          "translated_title": "Will the U.S. withdraw military forces from Syria? - NPR",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZWc3YjRDSjhJY3NmY1JyLXJDQ3ZMd2h6Znk5YnphbmNKeGo4WVZaMVVqcFgxRE9pNUJRRHJmdmwySmMwR1R1X1dyS0JYUmhMN2RTTkhwREs5NHJlMk1OaEx6S3ozbVRBYnNFM182bThGOF8wRGNoaFVKanMwNmFJNmRDSktudm9PaTk0eE9vYWQ2a1pDempHQw?oc=5",
-          "date": "Wed, 04 Feb 2026 21:40:52 GMT",
-          "category": "military conflict",
-          "confidence": 0.7835960388183594,
-          "weight": 7.835960388183594,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "78.4%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
           "title": "Syrian forces enter SDF-stronghold of Qamishli under ceasefire deal - Al Jazeera",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVXBqWjlXaVBDRXB3RWNaU3ZJSzlmSTQ2Qlc5VGo4bnVJdi1FSF9xR0lXcHhOM3NDVkt2a1owMzBzVEZ2OTZwSmRUazhXaldINldkaEJlb2RKU0tZaFJhYVZxbDNKNkRmTU5mZGhTUVNzSFRKZzRBNGhZV2hDSmowY3FISkZtY2w1VC1SellIMGx1U19BVVM5N2ZZcFdnUkNyM0tDWlA1ckFyVWFYd2040gG0AUFVX3lxTE5OQmFHdGlCLVo4ajFObnVEbWd6SGF0VDZ0SmVVOVluQnlfXzdYSjZfc3poT19yS1FPMWNtZmVVTnJhd1NrNHI4d0Vfcl81bUNxR0xKZlR5R1V0RndZbmE1X3AxNEsyR3FONmNkSXpZSzNhQTc4QXFHVXpWd21idUhOWllCMzUwUkFLcENlekRIRnFwQngtMmNiWmJWMlBlTXU4dmFtanpvTEtsNy1KRkVXZi1sOQ?oc=5",
@@ -1200,20 +1173,6 @@
           "weight": 5.714530944824219,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "57.1%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "What does future hold for Syria's Kurds after dramatic losses to Damascus? - AL-Monitor",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNjhEcTlzTUpuNDQ3Rzh6TjlCc0R2QmNvbHFMNnZvUlRoU0NMdVpFNm5XOUlUZ295Z1JZeFJTZFVYcTl1Q3ljOTVUQjJ0WHQ1OEY2LVR6czlka0JQYi1PdlhlTWJKMnJkbWVrc2VlSkJVZVlVLUZvQXZiZTBBYWFpaGFzdFNJRlFvTVd0aXRCZ1JQa3BYSnpJMTdvN1RJcThLVU1n?oc=5",
-          "date": "Tue, 03 Feb 2026 18:39:13 GMT",
-          "category": "political crisis",
-          "confidence": 0.801976203918457,
-          "weight": 4.811857223510742,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "80.2%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
@@ -1229,6 +1188,48 @@
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "52.3%",
           "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Syrian President Meets Kurdish National Council in Damascus, Affirms Commitment to National Partnership",
+          "translated_title": null,
+          "link": "https://syrianobserver.com/syrian-actors/syrian-president-meets-kurdish-national-council-in-damascus-affirms-commitment-to-national-partnership.html",
+          "date": "Tue, 03 Feb 2026 21:00:53 +0000",
+          "category": "neutral news",
+          "confidence": 0.20050054788589478,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "20.1%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "From a Lattakia Governor’s Circular to a Broader Policy Pattern: Women in the Transitional Phase Under Scrutiny",
+          "translated_title": null,
+          "link": "https://syrianobserver.com/society/from-a-lattakia-governors-circular-to-a-broader-policy-pattern-women-in-the-transitional-phase-under-scrutiny.html",
+          "date": "Tue, 03 Feb 2026 21:00:38 +0000",
+          "category": "political crisis",
+          "confidence": 0.2505866587162018,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "25.1%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Women’s Protection Units (YPJ) Vow to Retain Arms Despite Agreement with Damascus",
+          "translated_title": null,
+          "link": "https://syrianobserver.com/syrian-actors/womens-protection-units-ypj-vow-to-retain-arms-despite-agreement-with-damascus.html",
+          "date": "Tue, 03 Feb 2026 21:00:36 +0000",
+          "category": "peaceful diplomacy",
+          "confidence": 0.3521748483181,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "35.2%",
+          "detected_lang": "local",
           "is_translated": false,
           "country": "Syria"
         },
@@ -1261,20 +1262,6 @@
           "country": "Syria"
         },
         {
-          "title": "Chevron signs initial exploration deal for Syrian waters with Qatari firm - Reuters",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSHoxV1ZTc1hmU1cxaXdfSzZQVGRIbDVsNGZCd3oteWxQME5pRWpBTXlheEFfX2dmdUxyeXV3cDU2ZEFrRmdwOTdsWk5FNEZRaU5fdmJqV2xJTjVSd2VYRDV3RDFzcEpvR2Vwcnh3dnZuUXhQbmJyQzIycGtwSjEyVTVIUWw4RkFPOHpJZS1QWVhISXowY1BBQUx6SDVBSHB4Z1VycE5KV2NVQU5HZHAxTG5nS0dKRFJnT2QyYmtn?oc=5",
-          "date": "Wed, 04 Feb 2026 13:37:12 GMT",
-          "category": "military conflict",
-          "confidence": 0.14968697726726532,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "15.0%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
           "title": "Syria signs landmark offshore oil field deal with Chevron and a Qatari investor - AP News",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNb2F3NEI2ZVB4d3lQd0VGMUdpQ3JaNEl3Z2JwSklNUDRGWXB0dzVHc01vbWVKempRNk9jR1BYOVd3RVVqaUIzdlZKRFZkdXZtMXdBUzl6LVJ0eGwtanliLXZFeWZYUHlKUUR6NktTQjB0bjRkYVNQay1MMVREUmxBbm41NXRTTXZNZTZDcmFFbXZkYVg0UVBUQjNCNTJRNjEyQXR5NG1xMzctcGQ1TkE?oc=5",
@@ -1289,15 +1276,29 @@
           "country": "Syria"
         },
         {
-          "title": "From Chevron to Saudi Arabia, Syria signs raft of new business deals - Middle East Eye",
+          "title": "Chevron signs initial exploration deal for Syrian waters with Qatari firm - Reuters",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOS0V4cmhyNFd5VlE3SlgxcjA4b09ZTXhNQ05INmJTV1A2TnlHQW1tTjZXZjVRRElsYXZ5TzNrb0RFamlMWThCbFhrLVl2c2ZoX09TdjVjT2VwdGJOQ3RldzZrT09PNDdZWnZrY3dkdnp4MlhMRV9zMHo1Rjk0VjRxTjdjQmlsVHAwMGIwYlFLQ3RDWkY3V1E?oc=5",
-          "date": "Wed, 04 Feb 2026 17:26:00 GMT",
-          "category": "terrorist act",
-          "confidence": 0.25160956382751465,
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSHoxV1ZTc1hmU1cxaXdfSzZQVGRIbDVsNGZCd3oteWxQME5pRWpBTXlheEFfX2dmdUxyeXV3cDU2ZEFrRmdwOTdsWk5FNEZRaU5fdmJqV2xJTjVSd2VYRDV3RDFzcEpvR2Vwcnh3dnZuUXhQbmJyQzIycGtwSjEyVTVIUWw4RkFPOHpJZS1QWVhISXowY1BBQUx6SDVBSHB4Z1VycE5KV2NVQU5HZHAxTG5nS0dKRFJnT2QyYmtn?oc=5",
+          "date": "Wed, 04 Feb 2026 13:37:12 GMT",
+          "category": "military conflict",
+          "confidence": 0.14968697726726532,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "25.2%",
+          "ai_confidence_score": "15.0%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Internal Security Forces Enter Qamishli to Widespread Public Welcome",
+          "translated_title": null,
+          "link": "https://syrianobserver.com/syrian-actors/internal-security-forces-enter-qamishli-to-widespread-public-welcome.html",
+          "date": "Tue, 03 Feb 2026 21:00:31 +0000",
+          "category": "peaceful diplomacy",
+          "confidence": 0.46333035826683044,
+          "weight": -0.9266607165336609,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "46.3%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
@@ -1738,48 +1739,54 @@
       "main_index": 8.45,
       "index": 8.45,
       "type": "historical"
+    },
+    {
+      "timestamp": "2026-02-04T23:48:03.059339",
+      "main_index": 8.23,
+      "index": 8.23,
+      "type": "historical"
     }
   ],
   "forecast": [
     {
-      "timestamp": "2026-02-04T23:50:04.629562",
-      "index": 7.92,
-      "main_index": 7.92,
-      "confidence": 0.36,
-      "type": "forecast"
-    },
-    {
-      "timestamp": "2026-02-05T00:50:04.629562",
-      "index": 7.94,
-      "main_index": 7.94,
-      "confidence": 0.33,
-      "type": "forecast"
-    },
-    {
-      "timestamp": "2026-02-05T01:50:04.629562",
-      "index": 7.97,
-      "main_index": 7.97,
-      "confidence": 0.3,
-      "type": "forecast"
-    },
-    {
-      "timestamp": "2026-02-05T02:50:04.629562",
-      "index": 8.0,
-      "main_index": 8.0,
-      "confidence": 0.3,
-      "type": "forecast"
-    },
-    {
-      "timestamp": "2026-02-05T03:50:04.629562",
+      "timestamp": "2026-02-05T00:48:03.059339",
       "index": 8.03,
       "main_index": 8.03,
-      "confidence": 0.3,
+      "confidence": 0.48,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-05T04:50:04.629562",
-      "index": 8.05,
-      "main_index": 8.05,
+      "timestamp": "2026-02-05T01:48:03.059339",
+      "index": 8.06,
+      "main_index": 8.06,
+      "confidence": 0.44,
+      "type": "forecast"
+    },
+    {
+      "timestamp": "2026-02-05T02:48:03.059339",
+      "index": 8.1,
+      "main_index": 8.1,
+      "confidence": 0.39,
+      "type": "forecast"
+    },
+    {
+      "timestamp": "2026-02-05T03:48:03.059339",
+      "index": 8.13,
+      "main_index": 8.13,
+      "confidence": 0.35,
+      "type": "forecast"
+    },
+    {
+      "timestamp": "2026-02-05T04:48:03.059339",
+      "index": 8.17,
+      "main_index": 8.17,
+      "confidence": 0.31,
+      "type": "forecast"
+    },
+    {
+      "timestamp": "2026-02-05T05:48:03.059339",
+      "index": 8.2,
+      "main_index": 8.2,
       "confidence": 0.3,
       "type": "forecast"
     }
