@@ -1,10 +1,10 @@
 window.BNTI_DATA = {
   "meta": {
-    "generated_at": "2026-02-13T05:12:24.491385",
-    "main_index": 7.6,
+    "generated_at": "2026-02-13T06:27:49.102341",
+    "main_index": 7.41,
     "status": "CRITICAL",
     "active_scan": true,
-    "next_update": "2026-02-13T06:00:00",
+    "next_update": "2026-02-13T07:00:00",
     "version": "2.0.0"
   },
   "countries": {
@@ -230,7 +230,7 @@ window.BNTI_DATA = {
       "events": [
         {
           "title": "Tbilisi marks Iran’s Islamic Revolution amidst ongoing government crackdown",
-          "translated_title": null,
+          "translated_title": "Tbilisi marks Iran’s Islamic Revolution amidst ongoing government crackdown",
           "link": "https://oc-media.org/tbilisi-marks-irans-islamic-revolution-amidst-ongoing-government-crackdown/",
           "date": "Thu, 12 Feb 2026 12:43:17 +0000",
           "category": "political crisis",
@@ -239,8 +239,9 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "73.4%",
           "detected_lang": "local",
-          "is_translated": false,
-          "country": "Georgia"
+          "is_translated": true,
+          "country": "Georgia",
+          "translation_engine": "Google Neural MT"
         },
         {
           "title": "Tbilisi TV Tower Lit for Iran’s Revolution as Deputy FM Attends Commemoration Event",
@@ -441,68 +442,52 @@ window.BNTI_DATA = {
       ]
     },
     "Greece": {
-      "index": 4.43,
-      "raw_score": 17.44,
+      "index": 4.01,
+      "raw_score": 12.96,
       "events": [
         {
-          "title": "Σαρωτική νίκη του Εθνικιστικού Κόμματος του Μπανγκλαντές στις πρώτες εκλογές μετά την εξέγερση του 2024",
-          "translated_title": "Bangladesh Nationalist Party sweeps first post-rebellion election in 2024",
-          "link": "https://www.protothema.gr/world/article/1773221/sarotiki-niki-tou-ethnikistikou-kommatos-tou-banglades-stis-protes-ekloges-meta-tin-exegersi-tou-2024/?utm_source=rss",
-          "date": "Fri, 13 Feb 2026 06:08:24 +0200",
-          "category": "violent protest",
-          "confidence": 0.8877044916152954,
-          "weight": 6.213931441307068,
+          "title": "ΗΠΑ: Σήμερα η συνάντηση Τραμπ με τους στρατιωτικούς που συνέλαβαν τον Μαδούρο",
+          "translated_title": "USA: Today Trump's meeting with the military that arrested Maduro",
+          "link": "https://www.protothema.gr/world/article/1773240/ipa-simera-i-sunadisi-trab-me-tous-stratiotikous-pou-sunelavan-ton-madouro/?utm_source=rss",
+          "date": "Fri, 13 Feb 2026 07:14:00 +0200",
+          "category": "military conflict",
+          "confidence": 0.7515800595283508,
+          "weight": 7.515800595283508,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "88.8%",
+          "ai_confidence_score": "75.2%",
           "detected_lang": "local",
           "is_translated": true,
           "country": "Greece",
           "translation_engine": "Google Neural MT"
         },
         {
-          "title": "ΗΠΑ: «Λουκέτο» στο γραφείο της DEA στο Σάντο Ντομίνγκο λόγω υποψιών διαφθοράς",
-          "translated_title": "USA: \"Lockdown\" of the DEA office in Santo Domingo due to suspicions of corruption",
-          "link": "https://www.protothema.gr/world/article/1773214/ipa-louketo-sto-grafeio-tis-dea-sto-sado-domingo-logo-upopsion-diafthoras/?utm_source=rss",
-          "date": "Fri, 13 Feb 2026 04:57:08 +0200",
-          "category": "violent protest",
-          "confidence": 0.8829341530799866,
-          "weight": 6.180539071559906,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "88.3%",
-          "detected_lang": "local",
-          "is_translated": true,
-          "country": "Greece",
-          "translation_engine": "Google Neural MT"
-        },
-        {
-          "title": "Υπόσχεση Ροδρίγκες για «ελεύθερες και δίκαιες» εκλογές στη Βενεζουέλα μετά την αιχμαλώτιση Μαδούρο",
-          "translated_title": "Rodriguez promises 'free and fair' elections in Venezuela after Maduro capture",
-          "link": "https://www.protothema.gr/world/article/1773219/uposhesi-rodriges-gia-eleutheres-kai-dikaies-ekloges-sti-venezouela-meta-tin-aihmalotisi-madouro/?utm_source=rss",
-          "date": "Fri, 13 Feb 2026 05:25:51 +0200",
+          "title": "ΟΠΕΚΕΠΕ Νο2 (έρχεται αλλά ήμουν νιος…), ο υιός Παναγόπουλος, Τσίπρας, τσίπουρα, Τασούλας, η άδεια Τζόκοβιτς, ξένοι κι Ελληνες επενδυτές για τις αλυκές",
+          "translated_title": "OPEKEPE No2 (coming but I was young...), the son Panagopoulos, Tsipras, Tsipoura, Tassoulas, the Djokovic license, foreign and Greek investors for the salt flats",
+          "link": "https://www.protothema.gr/economy/article/1773242/opekepe-no2-erhetai-uios-panagopoulos-tsipras-tsipoura-tasoulas-adeia-tzokovits-xenoi-ellines-ependutes-alukes/?utm_source=rss",
+          "date": "Fri, 13 Feb 2026 07:17:31 +0200",
           "category": "political crisis",
-          "confidence": 0.9622143507003784,
-          "weight": 5.7732861042022705,
+          "confidence": 0.8092547059059143,
+          "weight": 4.855528235435486,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "96.2%",
+          "ai_confidence_score": "80.9%",
           "detected_lang": "local",
           "is_translated": true,
           "country": "Greece",
           "translation_engine": "Google Neural MT"
         },
         {
-          "title": "Ομπάμα εναντίον Τραμπ για το κλίμα: Ο Αμερικανός πρόεδρος καταργεί τη ρύθμιση που θεμελίωσε τους περιορισμούς εκπομπών στα αυτοκίνητα",
-          "translated_title": "Obama vs. Trump on climate: US president repeals regulation that established car emissions limits",
-          "link": "https://www.protothema.gr/environment/article/1773212/trab-enadion-obama-gia-to-klima-katargei-ti-ruthmisi-pou-themeliose-tous-periorismous-ekpobon-sta-autokinita/?utm_source=rss",
-          "date": "Fri, 13 Feb 2026 03:16:00 +0200",
+          "title": "ΕΣΗΕΑ: Τα αποτελέσματα των εκλογών, ποιοι εκλέγονται στο νέο Διοικητικό Συμβούλιο",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/greece/article/1773239/esieata-apotelesmata-ton-eklogon-poioi-eklegodai-sto-neo-dioikitiko-sumvoulio/?utm_source=rss",
+          "date": "Fri, 13 Feb 2026 07:06:00 +0200",
           "category": "political crisis",
-          "confidence": 0.8637241125106812,
-          "weight": 5.182344675064087,
+          "confidence": 0.5863016247749329,
+          "weight": 3.517809748649597,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "86.4%",
+          "ai_confidence_score": "58.6%",
           "detected_lang": "local",
-          "is_translated": true,
-          "country": "Greece",
-          "translation_engine": "Google Neural MT"
+          "is_translated": false,
+          "country": "Greece"
         },
         {
           "title": "Casus belli ως \"κύμβαλον αλαλάζον\"",
@@ -528,6 +513,90 @@ window.BNTI_DATA = {
           "weight": 2.758608341217041,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "92.0%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Καπερνάρος για Ρούτσι: «Περιφέρεται στο δικαστήριο με το καπέλο, κάνει ό,τι μπορεί για να δημιουργεί θέματα»",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/greece/article/1773245/kapernaros-gia-routsi-periferetai-sto-dikastirio-me-to-kapelo-kanei-oti-borei-gia-na-dimiourgei-themata/?utm_source=rss",
+          "date": "Fri, 13 Feb 2026 07:51:00 +0200",
+          "category": "neutral news",
+          "confidence": 0.35738134384155273,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "35.7%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Παύλος ντε Γκρες για το ενδεχόμενο δημιουργίας κόμματος: Πολλά περνάνε από το μυαλό μου",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/politics/article/1773244/paulos-de-gres-gia-to-endehomeno-dimiourgias-kommatos-polla-pernane-apo-to-mualo-mou/?utm_source=rss",
+          "date": "Fri, 13 Feb 2026 07:51:00 +0200",
+          "category": "neutral news",
+          "confidence": 0.38280075788497925,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "38.3%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Σοβαρό τροχαίο στο κέντρο της Θεσσαλονίκης: ΙΧ «καρφώθηκε» σε φανάρι και αναποδογύρισε, σώος ο οδηγός",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/greece/article/1773243/sovaro-trohaio-sto-kedro-tis-thessalonikis-ih-karfothike-se-fanari-kai-anapodogurise-soos-o-odigos/?utm_source=rss",
+          "date": "Fri, 13 Feb 2026 07:30:00 +0200",
+          "category": "humanitarian crisis",
+          "confidence": 0.23647218942642212,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "23.6%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Καναδάς: Ο Έμετ, η Κάιλι, ο Αμπέλ, η Ζόε, η Τικάρια, ο Εζεκιέλ, η Τζένιφερ και η Σάντα : Θλίψη για τα θύματα της 18χρονης τρανς",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/world/article/1773241/kanadas-o-emet-i-kaili-o-abel-i-zoe-i-tikaria-o-ezekiel-i-tzenifer-kai-i-sada-thlipsi-gia-ta-thumata-tis-18hronis-trans/?utm_source=rss",
+          "date": "Fri, 13 Feb 2026 07:16:00 +0200",
+          "category": "humanitarian crisis",
+          "confidence": 0.32818537950515747,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "32.8%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Τι είναι ο Νόμος Βιομηχανικής Επιτάχυνσης της ΕΕ: Το νέο εμπορικό δόγμα των Βρυξελλών που ανησυχεί την Κίνα, τι αλλάζει",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/world/article/1773238/ti-einai-o-nomos-viomihanikis-epitahunsis-tis-ee-to-neo-eboriko-dogma-ton-vruxellon-pou-anisuhei-tin-kina-ti-allazei/?utm_source=rss",
+          "date": "Fri, 13 Feb 2026 08:01:26 +0200",
+          "category": "violent protest",
+          "confidence": 0.16149333119392395,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "16.1%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Το κόλπο με τα ΑΦΜ μιας χρήσης: Πώς το κύκλωμα των αχυρανθρώπων έβγαζε εκατομμύρια με εικονικές εταιρίες-βιτρίνες",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/economy/article/1773233/to-kolpo-me-ta-afm-mias-hrisis-pos-to-kukloma-ton-ahuranthropon-evgaze-ekatommuria-me-eikonikes-etairies-vitrines/?utm_source=rss",
+          "date": "Fri, 13 Feb 2026 07:21:00 +0200",
+          "category": "terrorist act",
+          "confidence": 0.25626039505004883,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "25.6%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -575,85 +644,15 @@ window.BNTI_DATA = {
           "country": "Greece"
         },
         {
-          "title": "Οι αγρότες κατεβαίνουν σήμερα στην Αθήνα με τρακτέρ, φορτηγά και λεωφορεία, έφτασαν στον Πειραιά οι Κρητικοί",
+          "title": "Οι αγρότες φόρτωσαν τα τρακτέρ στα φορτηγά και κατεβαίνουν στην Αθήνα, έφτασαν στον Πειραιά οι Κρητικοί",
           "translated_title": null,
           "link": "https://www.protothema.gr/greece/article/1773229/oi-agrotes-katevainoun-simera-me-trakter-sti-athina-ti-ora-ftanoun-mehri-pote-tha-meinoun/?utm_source=rss",
-          "date": "Fri, 13 Feb 2026 06:32:00 +0200",
+          "date": "Fri, 13 Feb 2026 08:07:00 +0200",
           "category": "violent protest",
-          "confidence": 0.20322135090827942,
+          "confidence": 0.20031629502773285,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "20.3%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Η Σοφία Βεργκάρα επανέρχεται στο παρελθόν της με μπικίνι στα... χακί, δείτε φωτογραφίες",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/life-style/article/1773228/i-sofia-vergara-epanerhetai-sto-parelthon-tis-me-bikini-sta-haki-deite-fotografies/?utm_source=rss",
-          "date": "Fri, 13 Feb 2026 06:19:00 +0200",
-          "category": "neutral news",
-          "confidence": 0.5376517176628113,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "53.8%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Καθεστώς «υψίστης ασφαλείας» στις φυλακές στο Περού",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/world/article/1773220/kathestos-upsistis-asfaleias-stis-fulakes-sto-perou/?utm_source=rss",
-          "date": "Fri, 13 Feb 2026 05:49:02 +0200",
-          "category": "neutral news",
-          "confidence": 0.2179161012172699,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "21.8%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Καιρός: Υποχωρεί από σήμερα το κύμα καταιγίδων και θυελλωδών ανέμων που προκάλεσε ζημιές και καταστροφές",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/greece/article/1773217/kairos-upohorei-apo-simera-to-kuma-kataigidon-kai-thuellodon-anemon-pou-prokalese-zimies-kai-katastrofes/?utm_source=rss",
-          "date": "Fri, 13 Feb 2026 06:29:56 +0200",
-          "category": "violent protest",
-          "confidence": 0.205265074968338,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "20.5%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Το FBI αυξάνει στα 100.000 δολάρια την αμοιβή για την εξαφάνιση της Νάνσι Γκάθρι και δίνει νέα περιγραφή υπόπτου",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/world/article/1773216/to-fbi-auxanei-sta-100000-dolaria-tin-amoivi-gia-tin-exafanisi-tis-nansi-gathri-kai-dinei-nea-perigrafi-upoptou/?utm_source=rss",
-          "date": "Fri, 13 Feb 2026 04:22:45 +0200",
-          "category": "political crisis",
-          "confidence": 0.13619181513786316,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "13.6%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Εκλογές στο Μπανγκλαντές: Το Εθνικιστικό Κόμμα (BNP) οδεύει σε σαρωτική νίκη μετά την πτώση της Χασίνα",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/world/article/1773213/ekloges-sto-banglades-to-ethnikistiko-komma-bnp-odeuei-se-sarotiki-niki-meta-tin-ptosi-tis-hasina/?utm_source=rss",
-          "date": "Fri, 13 Feb 2026 03:56:00 +0200",
-          "category": "political crisis",
-          "confidence": 0.28836408257484436,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "28.8%",
+          "ai_confidence_score": "20.0%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -661,8 +660,8 @@ window.BNTI_DATA = {
       ]
     },
     "Iran": {
-      "index": 4.66,
-      "raw_score": 20.47,
+      "index": 4.25,
+      "raw_score": 15.42,
       "events": [
         {
           "title": "Protesters march in Venezuela as National Assembly weighs amnesty bill",
@@ -679,23 +678,8 @@ window.BNTI_DATA = {
           "country": "Iran"
         },
         {
-          "title": "Norwegian police search former PM Jagland’s properties over Epstein ties",
-          "translated_title": "Norwegian police search former PM Jagland’s properties over Epstein ties",
-          "link": "https://www.aljazeera.com/news/2026/2/12/norwegian-police-search-former-pm-jaglands-properties-over-epstein-ties?traffic_source=rss",
-          "date": "Thu, 12 Feb 2026 20:15:34 +0000",
-          "category": "political crisis",
-          "confidence": 0.841907799243927,
-          "weight": 5.051446795463562,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "84.2%",
-          "detected_lang": "local",
-          "is_translated": true,
-          "country": "Iran",
-          "translation_engine": "Google Neural MT"
-        },
-        {
           "title": "New CIA recruitment video targets Chinese military personnel",
-          "translated_title": null,
+          "translated_title": "New CIA recruitment video targets Chinese military personnel",
           "link": "https://www.aljazeera.com/news/2026/2/13/new-cia-recruitment-video-targets-chinese-military-personnel?traffic_source=rss",
           "date": "Fri, 13 Feb 2026 04:34:04 +0000",
           "category": "terrorist act",
@@ -731,6 +715,34 @@ window.BNTI_DATA = {
           "weight": 2.3078874349594116,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "76.9%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Top Goldman Sachs lawyer Kathy Ruemmler resigns over Epstein ties",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/economy/2026/2/13/top-goldman-sachs-lawyer-kathy-ruemmler-resigns-over-epstein-ties?traffic_source=rss",
+          "date": "Fri, 13 Feb 2026 05:04:16 +0000",
+          "category": "violent protest",
+          "confidence": 0.2524397671222687,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "25.2%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Israel deprives Palestinians of proper education by withholding revenues",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/features/2026/2/13/israel-deprives-palestinians-proper-education-witholding-revenues?traffic_source=rss",
+          "date": "Fri, 13 Feb 2026 04:43:27 +0000",
+          "category": "military conflict",
+          "confidence": 0.27248844504356384,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "27.2%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iran"
@@ -848,20 +860,6 @@ window.BNTI_DATA = {
           "country": "Iran"
         },
         {
-          "title": "Canada’s PM Carney to visit Tumbler Ridge after mass school shooting",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/news/2026/2/12/canadas-pm-carney-to-visit-tumbler-ridge-after-mass-school-shooting?traffic_source=rss",
-          "date": "Thu, 12 Feb 2026 20:12:52 +0000",
-          "category": "military conflict",
-          "confidence": 0.25722622871398926,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "25.7%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
           "title": "US and Taiwan sign ‘pivotal’ deal to cut tariffs",
           "translated_title": null,
           "link": "https://www.aljazeera.com/economy/2026/2/13/us-and-taiwan-sign-pivotal-deal-to-cut-trade-tariffs?traffic_source=rss",
@@ -911,7 +909,7 @@ window.BNTI_DATA = {
         },
         {
           "title": "Israel president says hasn't decided on Netanyahu pardon after Trump jab",
-          "translated_title": null,
+          "translated_title": "Israel president says hasn't decided on Netanyahu pardon after Trump jab",
           "link": "https://www.newarab.com/news/israel-president-says-hasnt-decided-netanyahu-pardon-after-trump-jab",
           "date": "Thu, 12 Feb 2026 22:52:05 +0000",
           "category": "violent protest",
@@ -1094,23 +1092,9 @@ window.BNTI_DATA = {
       ]
     },
     "Syria": {
-      "index": 5.93,
-      "raw_score": 48.61,
+      "index": 5.72,
+      "raw_score": 42.06,
       "events": [
-        {
-          "title": "Syrian army takes control of al-Tanf military base as US troops pull out - Al Jazeera",
-          "translated_title": "Syrian army takes control of al-Tanf military base as US troops pull out - Al Jazeera",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRi1qdVlGamh0SGlBSXJaZWJxc1pnT3JCWVU3QkxiSWoyWk9Zbk5jck5UM0NfRlJ4clVKQmNqNlFXMmFCR1ZuZTYzUm1rUXl6TG9fZDRSM3lndHhwTEFnOWpocWFNS3duZkN0d2IyalVqSXJTWEpEcURhNndITXA4SkpmSzZlcmNMVUlfdUh5YjQ0Y0tGNXBFOTJ6dTZwTkpNekZLWUZzaUFhR212VzdsMmhESdIBuAFBVV95cUxPRFJkYmk4c1gzRUV4bkRFVk84bGtkVTZuMm1kZTJKX0ZGNHJrZ0NzTzB0Q0I4S25tOWJFR1lBX1BZNUswZ2lrNHk5eXpuN2dySTN1ZkNNVXpKV01fbVRpS0h0VzZKTkhTc2g4NllJNjhabUd3VUxUT29UT0xQeVJwbVJHT2xpMHNfdHRVVXhaXzNTWnJ6VnczMGZDOVFqRW9yekZQRm9zZEZDQlhIY1UtSFhsX2tlRWh2?oc=5",
-          "date": "Thu, 12 Feb 2026 20:44:56 GMT",
-          "category": "military conflict",
-          "confidence": 0.9556031823158264,
-          "weight": 9.556031823158264,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "95.6%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
         {
           "title": "U.S. Forces Leave Base in Syria Used in Fight Against ISIS - The New York Times",
           "translated_title": "U.S. Forces Leave Base in Syria Used in Fight Against ISIS - The New York Times",
@@ -1126,29 +1110,29 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
-          "title": "Iran Update, February 12, 2026 - Institute for the Study of War",
-          "translated_title": "Iran Update, February 12, 2026 - Institute for the Study of War",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOb2RnRW5rbkJTUGQxV0R1RFJnbWJsREdzN0ZOdl82WXRjWmtBbE4ySW5NRG03SUpUNFdLS0p3eldka21KQTl5TUw0VWNfaVc2LWJvUWNPaGVRbDUzT1ZwdWtiM3g5Nk43MjNENmpfSEJZckhQcFNDdzdfMDZOcGVuSGtJeWphZw?oc=5",
-          "date": "Fri, 13 Feb 2026 02:55:51 GMT",
+          "title": "US military pulls last troops from key military facility in Syria - CNN",
+          "translated_title": "US military pulls last troops from key military facility in Syria - CNN",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9HSUVFdy1URVJQc3d3QXRoQ2ktVkJNdnliMDE2aS1aTVI4cTBKUjkyelktOGpNS1U1bF9kaHBSSXU1RnNrSUMyTkcweEJ5X1BBNFVMbzFtVVdETkRVNlhaZUt1YVptTTVsTUZYbUczWHhuazFXQjAySzUwVQ?oc=5",
+          "date": "Thu, 12 Feb 2026 17:27:01 GMT",
           "category": "military conflict",
-          "confidence": 0.7172271013259888,
-          "weight": 7.172271013259888,
+          "confidence": 0.9079657196998596,
+          "weight": 9.079657196998596,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "71.7%",
+          "ai_confidence_score": "90.8%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
         },
         {
-          "title": "Syria says its forces have taken over al-Tanf base after handover from US - Military Times",
-          "translated_title": "Syria says its forces have taken over al-Tanf base after handover from US - Military Times",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTWxodjA4MUNZczMxQ2lSeGtXbmY1OV95UjMtRllqRmYyS09WY2dsWVhqMG9ZT1FiTVRpaWxlOUpQWnhyekFwMDhhZDI3RzlkYlU0Vlk5MU1sejNudERDU0MzdjlZRnozYUIzVksyTTR3cmJLbW1OaFFuWnMyb2g2YjI1THMtMlFCaUdzb3dMa0hZeFl1R1p6MHowenRDdDc4bXJtbHFlY2FyUThMUE9CQzNwR0ZqTm5YdFBDZ0c0QUEwaVN2enpWNVJKdUlIQ1E?oc=5",
-          "date": "Thu, 12 Feb 2026 17:46:35 GMT",
+          "title": "US forces complete withdrawal from strategic al-Tanf Garrison in Syria - Fox News",
+          "translated_title": "US forces complete withdrawal from strategic al-Tanf Garrison in Syria - Fox News",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZWR6X21uWm0yNHZNb2RPMDRkR2oyZ3hDU1JyOVRQTUNRdWdPTkpVNDhXVG5uSFVRdExTM3ZkWFp0Ty1QT01Gb2d3OEluS2tBRXoxZEFOSFVTOThRaGZPd3hPZGg5eTZyV0dJMHZzc2tUWTZ1MXJlcnpuMWJKWjlRRzFwek9WTzlDd0lnX3BCR014UjRrdS0xMnJqb1VkZ9IBowFBVV95cUxQY0Q3eXBZMjRsb0RibUsxMjRBV1hnQm5uZjBBWlNvQ09XWlQ1ZVhZRlg2WnpkOWZWcFdVbTVmSlBsamNoMkg0cU03T1NxTU1yLTc2REsxVVlQSU9ubFZCdHpzTGtIQmpuQnFGN3FhMWxhamt4QURXbFdDc1hmN0Z6OEU0Y1ZkcHVvTHd5WnlVTTYyS2hhbUFpWEMyS05QMjNqbUVj?oc=5",
+          "date": "Thu, 12 Feb 2026 17:28:48 GMT",
           "category": "military conflict",
-          "confidence": 0.7067851424217224,
-          "weight": 7.067851424217224,
+          "confidence": 0.8157808184623718,
+          "weight": 8.157808184623718,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "70.7%",
+          "ai_confidence_score": "81.6%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
@@ -1239,6 +1223,20 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
+          "title": "Opinion | Even Suspected ISIS Members Deserve Justice - The New York Times",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWmhwdGlXUHdMSWdScmtaeHVXbEVKYVhoSlNab3JycUVmc2hUM2U1Zi1sc3NGMWFteG9yemVnVVUwRzhwYUppWFFURFNJbDlWc1l3Rm43cXNFRkwtS05DbnpZUGQwTHFHWXFVRm5Wb2huR2lkWlN4c3hNcEZydG9YUFpxT2F2VnpsOVhFRkVzQ0NkckJHUkE?oc=5",
+          "date": "Fri, 13 Feb 2026 06:00:06 GMT",
+          "category": "terrorist act",
+          "confidence": 0.41298943758010864,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "41.3%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
           "title": "Why Syria and Iraq cannot reconcile - The Economist",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQb0hldVM5RFFIQ3djUlV1eTJkcEo5ZFozejRxQ1Z6c2dBbWR0dDM4TGFPY2FPUFp2bmlLczJxVlNoaXQycXZpN2JwQUNiZ0NTUjFFSEtDS3EyNnk5ZmRpellLTDd6TldaOXRGQTVldVNlNTlxTFNTSng5OXZBUzduMWJOdVhEYTI0R3FmR3NKNlVjUjd5d3QyaVVsNA?oc=5",
@@ -1253,15 +1251,15 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
-          "title": "U.S. Vacates a Key Military Base in Syria - WSJ - The Wall Street Journal",
+          "title": "German government pushes Syrians to return to their homeland - dw.com",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMilgNBVV95cUxPRTVRUDBCcWRMUFJ5UXZMMGloaGtJUXlja2g1LXE2V2dfSkxTSk1CNy0yR3M2TVR6dzhETnBRNkN1RVo0d0RyWVJCMjE0LVgxX3lSNXRFZ1RwWk85cllBQ043dU9MVGVtQkQ1eXlBY252dUppekFFX0stbmxvWjNNRzU1NGZvc1VzcExicG1oeVo3UEpmV3UzbkpkQl9fbGZyRmdYeklGa0MtV21uS2VFX210Q1RIanc0UFVwd281emI1RGctMmtIN1AzYlRmVzM4MFgydExjRkJlQmd6N3BPekU5ZWRzZHMzQkcyZnhaXzNORlpkTTd2dXo4cHdKdVkwUGRJQ2JXS3FPdWIzWVRjTTdkWktOdUc1Z19EdGhUNnR3VTdtVVZSWXllRzRKa1JlZEF4U2JQN0U0MVpjODRDQURKaVlKM2ViVEVIVjFVZnBYcEJtT3g3ZGJ5cEd3MjlSNXJoUUlURVZCRUd5WG13NFZnWnRic0ZMMnhkRW5TOW9lcWFCazNnaVJYS0VzTDRqRzFTd1JR?oc=5",
-          "date": "Thu, 12 Feb 2026 18:02:00 GMT",
-          "category": "military conflict",
-          "confidence": 0.32157936692237854,
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeHl5ZlllR1l0bmRMRlF0SzY3Y3RwTVRKQlJ5UzBYUFA3cUREVjVyVHp2Nl82S0FfRHdaRTlSaXI0MTlucVRkdVpNTWJkWG45TmY0NjNzVjBFOUItb0VvWFlWUFF2TTJuTTBZaVJkRFl4ZXlRdjRIVmJDNmJqbEU3bEZXY3JWQWNzZUd3NjN3MGJVdEtpLU9QSk9RY0VhZ2tWbkd0QmlUc9IBpwFBVV95cUxOdU84R1hfQ0J3N2lmUkJmMk40TzBha18xVnBnemxFR3kxcFlFTmxnMVF1SWNzUVQzNVZWakdjT19lVnVuOThkVExWSFdGTHQ5ZUFPdDNBcmhEajQxSlN2cThPYnlMcVZEaWEzTEV5V1Z4ei1YaTMyR3g2WUthOHRRSXhnd3o4ZFhUQmR2NUlRRWlOT19TcjYyeW1feGJaWG9TSV9hV0tVSQ?oc=5",
+          "date": "Thu, 12 Feb 2026 11:33:57 GMT",
+          "category": "political crisis",
+          "confidence": 0.22777067124843597,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "32.2%",
+          "ai_confidence_score": "22.8%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
@@ -1281,6 +1279,20 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
+          "title": "U.S. Vacates a Key Military Base in Syria - The Wall Street Journal",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMilgNBVV95cUxPNTV3a1I1TDNSMHJtUlNWdGtQUXhrNkdHV2JUVTNSM2lfSk10ZHYxT0hCWWthdUF6ZHJab0V1am0teEtOSlJyNGZ1aUpGak5wU3A4MGNsS3JPcllOWmF2S2JtUDlkQUpJMG5UWlIxTnRKTGwzWk9Ic01VNWpRNXd0RWlwV0ZjMGVRV1IzYktzakpzeUkwVmdwWEh1ZHdYenpBWXUyeG5PcXRHdGtiRE9FcTFQYU9YM3gxMHctWmx2RG1LSVFZZTdwT20xdGhrSVBZZk9UenR6THJ1SjRycEpGdkdxMzU4ZTNHOEtwblM0UFRYT3JiaFNnenlhMndELUF5Ukgydzd1RG5MODJfM252RTVSbnpHaWV6RU9veVRQV0VsN3BMTU1nVm9raTk4LVgzdXQ5MkJPQ1ZyRjZHNHZybjB3NDhKdFk5VjhvWF8tdWRmcUtuQVNFcWZkSndZVkQ5Z2tjSHdPdlVTX0pSU1lkYjRZQ0ZpMWpCVWRoWUo4ODd5bi1mQ1VCcmdSMTl5NFdhNkhwekpB?oc=5",
+          "date": "Thu, 12 Feb 2026 18:02:00 GMT",
+          "category": "military conflict",
+          "confidence": 0.35587605834007263,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "35.6%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
           "title": "Most families of foreign fighters said to have left ISIS-linked camp in Syria - The Times of Israel",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbmlweW9OR0I3Z3B1MENiVHlvUmVSOEUtYlBvV2dEY1UyTGhQNU9SeHZOcUtRSGZEMzhaZ0lzNlF4UmNTMlBTSE9PTDM3VEluMHp3YnJmMjFzT0xrcmZhSEtFRXlqcm9xUXA2cUJTOE5IVDRMZkdIU0ZsWTdsUFNON3ZkVU5tbE9WbU5OdGRGaXdSR2IzVXBRZ21XTVE3WXpibXJUSFNKU2lGVTE1bjg5UVlFR2ZEVFA3SlhZYlViaHY?oc=5",
@@ -1293,30 +1305,16 @@ window.BNTI_DATA = {
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
-        },
-        {
-          "title": "US troops have left al-Tanf base, CENTCOM says, handing over control to Syrian government - Stars and Stripes",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPN3BwekFhd0JXSFJzYURyN1N1MzZrZzM2MmRNZzJLUlozRXV3SkktNG9ZR1gzRkF2LW16UWROVU9DWkUxNW1yVkQ1Uk1lUW0wSmx2RzZvTUp3TzRfeVhaeFhCZ0tkLWRzeUJzRHExX0RzN0xsV3pnR244LXdOZGY3OWxsTVpnTW1MMS1BbjZhMHB2VUdBS2c2bUJBZFUwcXQtVUE?oc=5",
-          "date": "Thu, 12 Feb 2026 19:16:39 GMT",
-          "category": "military conflict",
-          "confidence": 0.29456132650375366,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "29.5%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
         }
       ]
     },
     "Bulgaria": {
-      "index": 3.32,
-      "raw_score": 7.87,
+      "index": 2.92,
+      "raw_score": 5.81,
       "events": [
         {
           "title": "Геополитиката не се яде: ще загуби ли Орбан най-важните избори в Европа",
-          "translated_title": null,
+          "translated_title": "Geopolitics is not eaten: will Orbán lose the most important elections in Europe",
           "link": "https://www.dnevnik.bg/sviat/2026/02/13/4882308_geopolitikata_ne_se_iade_shte_zagubi_li_orban/?ref=rss",
           "date": "Fri, 13 Feb 2026 06:18:00 +0200",
           "category": "political crisis",
@@ -1325,19 +1323,76 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "73.7%",
           "detected_lang": "local",
+          "is_translated": true,
+          "country": "Bulgaria",
+          "translation_engine": "Google Neural MT"
+        },
+        {
+          "title": "Ако имате шуробаджанашка икономика. Какво ще учат учителите. Търсете камерите.",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/sutreshen-dnevnik/2026/02/13/4882502_ako_imate_shurobadjanashka_ikonomika_kakvo_shte_uchat/?ref=rss",
+          "date": "Fri, 13 Feb 2026 07:30:00 +0200",
+          "category": "economic crisis",
+          "confidence": 0.9718583226203918,
+          "weight": 3.8874332904815674,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "97.2%",
+          "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
         },
         {
-          "title": "Брулени хълмове",
+          "title": "Северна Македония ще внася американски втечнен газ",
           "translated_title": null,
-          "link": "https://www.dnevnik.bg/sled5/filmi/2026/02/13/4833946_bruleni_hulmove/?ref=rss",
-          "date": "Fri, 13 Feb 2026 00:05:00 +0200",
-          "category": "violent protest",
-          "confidence": 0.6166115403175354,
-          "weight": 4.316280782222748,
+          "link": "https://www.dnevnik.bg/sviat/2026/02/13/4882544_severna_makedoniia_shte_vnasia_amerikanski_vtechnen_gaz/?ref=rss",
+          "date": "Fri, 13 Feb 2026 07:59:00 +0200",
+          "category": "terrorist act",
+          "confidence": 0.1874323934316635,
+          "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "61.7%",
+          "ai_confidence_score": "18.7%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Тир блъсна пешеходец на пътя Велико Търново – Русе, жена е загинала",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/bulgaria/2026/02/13/4882545_tir_blusna_peshehodec_na_putia_veliko_turnovo_ruse/?ref=rss",
+          "date": "Fri, 13 Feb 2026 07:51:00 +0200",
+          "category": "military conflict",
+          "confidence": 0.376132994890213,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "37.6%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Милиарди и войски за Газа може да обяви Тръмп на първото заседание на Съвета за мир",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/sviat/2026/02/13/4882540_miliardi_i_voiski_za_gaza_moje_da_obiavi_trump_na/?ref=rss",
+          "date": "Fri, 13 Feb 2026 07:48:00 +0200",
+          "category": "military conflict",
+          "confidence": 0.444905161857605,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "44.5%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Тръмп ще намали митата на стоманата и алуминия",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/sviat/2026/02/13/4882541_trump_shte_namali_mitata_na_stomanata_i_aluminiia/?ref=rss",
+          "date": "Fri, 13 Feb 2026 07:45:00 +0200",
+          "category": "terrorist act",
+          "confidence": 0.2504734396934509,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "25.0%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
@@ -1352,6 +1407,20 @@ window.BNTI_DATA = {
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "36.0%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Лидери от ЕС са имали предварителна среща в хотел в Белгия",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/evropa/2026/02/13/4882538_lideri_ot_es_sa_imali_predvaritelna_sreshta_v_hotel_v/?ref=rss",
+          "date": "Fri, 13 Feb 2026 07:06:00 +0200",
+          "category": "neutral news",
+          "confidence": 0.3507331609725952,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "35.1%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
@@ -1427,90 +1496,6 @@ window.BNTI_DATA = {
           "country": "Bulgaria"
         },
         {
-          "title": "Валежи ще обхванат по-голямата част от страната",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/bulgaria/2026/02/13/4882509_valeji_shte_obhvanat_po-goliamata_chast_ot_stranata/?ref=rss",
-          "date": "Fri, 13 Feb 2026 06:10:00 +0200",
-          "category": "violent protest",
-          "confidence": 0.2918093800544739,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "29.2%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "Важните събития в България и по света днес",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/bulgaria/2026/02/13/4882513_vajnite_subitiia_v_bulgariia_i_po_sveta_dnes/?ref=rss",
-          "date": "Fri, 13 Feb 2026 06:05:00 +0200",
-          "category": "terrorist act",
-          "confidence": 0.2311936765909195,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "23.1%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "Бързи новини (13 февруари)",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/burzi-novini/2026/02/13/4882388_burzi_novini_13_fevruari/?ref=rss",
-          "date": "Fri, 13 Feb 2026 06:00:00 +0200",
-          "category": "humanitarian crisis",
-          "confidence": 0.2057347297668457,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "20.6%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "Швейцария ще гласува предложение за налагане максимален брой на населението",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/sviat/2026/02/13/4882472_shveicariia_shte_glasuva_predlojenie_za_nalagane/?ref=rss",
-          "date": "Fri, 13 Feb 2026 05:03:00 +0200",
-          "category": "neutral news",
-          "confidence": 0.2830219864845276,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "28.3%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "ЗамраZено зло",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/sled5/filmi/2026/02/13/4882207_zamrazeno_zlo/?ref=rss",
-          "date": "Fri, 13 Feb 2026 00:17:00 +0200",
-          "category": "neutral news",
-          "confidence": 0.4217025935649872,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "42.2%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "Шампион по природа",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/sled5/filmi/2026/02/13/4821036_shampion_po_priroda/?ref=rss",
-          "date": "Fri, 13 Feb 2026 00:08:00 +0200",
-          "category": "neutral news",
-          "confidence": 0.33892104029655457,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "33.9%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
           "title": "\"Лукойл\" има принципна сделка за продажба на активите си с още един кандидат",
           "translated_title": null,
           "link": "https://www.dnevnik.bg/sviat/2026/02/13/4882528_lukoil_ima_principna_sdelka_za_prodajba_na_aktivite_si/?ref=rss",
@@ -1523,17 +1508,25 @@ window.BNTI_DATA = {
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
+        },
+        {
+          "title": "Стабилизирано е 15-годишното момиче, намушкано в столичен квартал",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/bulgaria/2026/02/13/4882549_stabilizirano_e_15-godishnoto_momiche_namushkano_v/?ref=rss",
+          "date": "Fri, 13 Feb 2026 08:16:00 +0200",
+          "category": "peaceful diplomacy",
+          "confidence": 0.8131664395332336,
+          "weight": -1.6263328790664673,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "81.3%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
         }
       ]
     }
   },
   "history": [
-    {
-      "timestamp": "2026-02-11T05:22:31.946520",
-      "main_index": 7.57,
-      "index": 7.57,
-      "type": "historical"
-    },
     {
       "timestamp": "2026-02-11T07:25:10.673547",
       "main_index": 7.33,
@@ -1719,48 +1712,54 @@ window.BNTI_DATA = {
       "main_index": 7.6,
       "index": 7.6,
       "type": "historical"
+    },
+    {
+      "timestamp": "2026-02-13T06:27:56.684026",
+      "main_index": 7.41,
+      "index": 7.41,
+      "type": "historical"
     }
   ],
   "forecast": [
     {
-      "timestamp": "2026-02-13T06:12:31.835765",
-      "index": 7.34,
-      "main_index": 7.34,
+      "timestamp": "2026-02-13T07:27:56.684026",
+      "index": 7.32,
+      "main_index": 7.32,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-13T07:12:31.835765",
-      "index": 7.33,
-      "main_index": 7.33,
-      "confidence": 0.3,
-      "type": "forecast"
-    },
-    {
-      "timestamp": "2026-02-13T08:12:31.835765",
+      "timestamp": "2026-02-13T08:27:56.684026",
       "index": 7.31,
       "main_index": 7.31,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-13T09:12:31.835765",
+      "timestamp": "2026-02-13T09:27:56.684026",
       "index": 7.3,
       "main_index": 7.3,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-13T10:12:31.835765",
+      "timestamp": "2026-02-13T10:27:56.684026",
       "index": 7.29,
       "main_index": 7.29,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-13T11:12:31.835765",
+      "timestamp": "2026-02-13T11:27:56.684026",
       "index": 7.28,
       "main_index": 7.28,
+      "confidence": 0.3,
+      "type": "forecast"
+    },
+    {
+      "timestamp": "2026-02-13T12:27:56.684026",
+      "index": 7.27,
+      "main_index": 7.27,
       "confidence": 0.3,
       "type": "forecast"
     }
