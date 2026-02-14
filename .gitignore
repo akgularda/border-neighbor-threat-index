@@ -9,3 +9,16 @@ __pycache__/
 update_bnti.bat
 serve.bat
 agents/
+
+# Generated Data (Don't deploy local data)
+bnti_data.js
+bnti_data.json
+bnti_history.csv
+feed_cache.json
+
+# Vessel Tracker (Local Only) (User Request)
+index_vessels.html
+vessels.html
+vessels-template.html
+js/vessel_overlay.js
+css/vessels.css

@@ -64,16 +64,29 @@ The raw threat contribution ($C_i$) for a news item $i$ is calculated as:
 \end{equation}
 where $W_c$ is the category weight, $S_{conf}$ is the model's confidence score, and $\tau = 0.4$ is the noise filtration threshold.
 
-\subsection{Logarithmic Normalization}
-To align the final index with standard metrics like the Fragile States Index \cite{messner2018fragile}, we normalize the aggregated raw score ($R$) using a logarithmic function. This prevents high-volume news cycles from skewing the index disproportionately compared to low-volume, high-intensity events.
-
-The final BNTI Index ($I$) is derived as:
+Following Caldara and Iacoviello's GPR Index methodology \cite{caldara2022measuring}, we normalize by article volume to obtain the average threat intensity per country:
 \begin{equation}
-    I = \min\left(10.0, \; \log_{10}(1 + R) \times 3.5\right)
+    \bar{T}_k = \frac{1}{N_k} \sum_{i=1}^{N_k} C_i
+\end{equation}
+where $N_k$ is the number of articles analyzed for country $k$.
+
+\subsection{Saturating Exponential Normalization}
+To prevent volume-driven inflation observed in simple logarithmic scaling, we apply a saturating exponential function. Unlike the logarithmic approach, this produces a natural asymptote that distributes scores across the full 1--10 range:
+
+The per-country index ($I_k$) is derived as:
+\begin{equation}
+    I_k = 1 + 9 \cdot \left(1 - e^{-\frac{\bar{T}_k}{5} \cdot 1.2}\right)
 \end{equation}
 
+\subsection{Composite Index via Weighted Averaging}
+Drawing on the Fragile States Index (FSI) methodology \cite{messner2018fragile}, the composite BNTI is computed as a weighted average of per-country indices rather than a sum, preventing any single country from dominating the index:
+\begin{equation}
+    I_{\text{BNTI}} = \frac{\sum_{k} w_k \cdot I_k}{\sum_{k} w_k}
+\end{equation}
+where $w_k$ reflects the geopolitical importance weight of country $k$ (e.g., $w_{\text{Syria}} = 1.5$ for active conflict zones, $w_{\text{Greece}} = 0.6$ for NATO-integrated allies).
+
 \section{Conclusion}
-The BNTI represents an advancement in automated threat perception, moving beyond simple sentiment analysis to a theoretically grounded, event-intensity model. By codifying the Goldstein Scale into a modern NLP pipeline, we provide a robust tool for real-time geopolitical monitoring.
+The BNTI represents an advancement in automated threat perception, moving beyond simple sentiment analysis to a theoretically grounded, event-intensity model. By combining the Goldstein Scale, GPR-style volume normalization, and FSI-inspired weighted averaging within a modern NLP pipeline, we provide a robust tool for real-time geopolitical monitoring that distributes risk assessments across the full analytical scale.
 
 \bibliography{citations}
 \bibliographystyle{plain}

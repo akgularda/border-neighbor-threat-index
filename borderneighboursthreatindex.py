@@ -62,6 +62,8 @@ class BNTIAnalyzer:
                 "https://en.armradio.am/feed/",
                 "https://www.panarmenian.net/eng/rss/news/",
                 "https://www.civilnet.am/en/rss/",
+                # International / wire service
+                "https://eurasianet.org/feed",
                 # Native Armenian language
                 "https://www.aravot.am/feed/",
                 "https://news.am/arm/news/rss/",
@@ -75,6 +77,8 @@ class BNTIAnalyzer:
                 "https://oc-media.org/feed",
                 "https://www.interpressnews.ge/en/rss",
                 "https://agenda.ge/en/news.rss",
+                # International / wire service
+                "https://eurasianet.org/feed",
                 # Native Georgian language
                 "https://www.interpressnews.ge/ge/rss",
                 "https://www.radiotavisupleba.ge/api/z-yqmeqmev",
@@ -150,47 +154,48 @@ class BNTIAnalyzer:
             ]
         }
 
+        # Debiased mirror queries — neutral framing to avoid inflating threat scores
         self.mirror_queries = {
             "Armenia": [
-                "Armenia",
-                "Armenia border conflict",
-                "Armenia security",
-                "Armenia military"
+                "Armenia news today",
+                "Armenia politics",
+                "Armenia economy",
+                "Armenia diplomacy"
             ],
             "Georgia": [
-                "Georgia country",
-                "Georgia border",
-                "Georgia security",
-                "Georgia military"
+                "Georgia country news",
+                "Georgia politics today",
+                "Georgia economy",
+                "Georgia diplomacy"
             ],
             "Greece": [
-                "Greece",
-                "Greece border",
-                "Greece security",
-                "Greece military"
+                "Greece news today",
+                "Greece politics",
+                "Greece economy",
+                "Greece Aegean"
             ],
             "Iran": [
-                "Iran",
-                "Iran protest",
-                "Iran security",
-                "Iran military"
+                "Iran news today",
+                "Iran politics",
+                "Iran economy",
+                "Iran diplomacy"
             ],
             "Iraq": [
-                "Iraq",
-                "Iraq security",
-                "Iraq conflict",
-                "Iraq military"
+                "Iraq news today",
+                "Iraq politics",
+                "Iraq economy",
+                "Iraq reconstruction"
             ],
             "Syria": [
-                "Syria",
-                "Syria conflict",
-                "Syria security",
-                "Syria military"
+                "Syria news today",
+                "Syria politics",
+                "Syria economy",
+                "Syria reconstruction"
             ],
             "Bulgaria": [
-                "Bulgaria",
-                "Bulgaria security",
-                "Bulgaria military"
+                "Bulgaria news today",
+                "Bulgaria politics",
+                "Bulgaria economy"
             ]
         }
         self._add_mirror_sources()
@@ -579,6 +584,9 @@ class BNTIAnalyzer:
         original_titles = list(titles_map.values())
         
         base_threat_score, analysis_details = self.analyze_news(original_titles)
+        # GPR-style volume normalization: average threat intensity per article
+        n_articles = max(len(original_titles), 1)
+        base_threat_score = base_threat_score / n_articles
         
         final_report_data = []
         for i, detail in enumerate(analysis_details):
@@ -597,8 +605,22 @@ class BNTIAnalyzer:
         return country, base_threat_score, final_report_data
 
     def calculate_final_index(self, raw_score):
+        """Maps volume-normalized threat score to 1-10 index.
+        
+        Uses a saturating exponential (sigmoid-like) curve that:
+        - Maps 0 -> 1.0 (minimum/stable)
+        - Maps ~2.5 avg threat -> ~4.5 (ELEVATED threshold)
+        - Maps ~5.0 avg threat -> ~7.0 (CRITICAL threshold)  
+        - Only reaches ~9.5+ for extreme threat densities
+        
+        Based on GPR Index and FSI normalization methodology.
+        """
         if raw_score <= 0: return 1.0
-        return min(math.log10(1 + raw_score) * 3.5, 10.0)
+        # After volume normalization, raw_score is avg contribution per article
+        # Typical range: 0-8 (weight*confidence per article)
+        scaled = raw_score / 5.0
+        index = 1.0 + 9.0 * (1.0 - math.exp(-scaled * 1.2))
+        return round(min(max(index, 1.0), 10.0), 2)
 
     def _parse_timestamp(self, value):
         if not value:
@@ -845,7 +867,7 @@ class BNTIAnalyzer:
                 "name": "Modified Goldstein Scale",
                 "description": "AI-powered threat classification using XLM-RoBERTa multilingual model with category-weighted scoring",
                 "weights": self.category_weights,
-                "formula": "ThreatIndex = log10(1 + sum(category_weight * confidence)) * 3.5",
+                "formula": "PerCountry = 1 + 9*(1 - exp(-avg(weight*confidence)/5 * 1.2)); Composite = weighted_avg(PerCountry)",
                 "scale": {
                     "min": 1.0,
                     "max": 10.0,
@@ -881,20 +903,41 @@ class BNTIAnalyzer:
     def run(self):
         os.makedirs(self.output_path, exist_ok=True)
         country_results = {}
-        total_raw_threat = 0.0
+        country_raw_scores = {}
+        
+        # FSI-style geopolitical importance weights for composite index
+        # Higher weight = greater contribution to Turkey's threat perception
+        importance_weights = {
+            "Syria": 1.5,     # Active conflict zone, direct border
+            "Iraq": 1.5,      # Active conflict zone, direct border
+            "Iran": 1.3,      # Nuclear/sanctions risk, direct border
+            "Armenia": 1.0,   # Regional tensions
+            "Georgia": 1.0,   # Regional gateway
+            "Greece": 0.6,    # NATO ally, institutional dampening
+            "Bulgaria": 0.6   # NATO ally, institutional dampening
+        }
         
         self.save_snapshot({}, 0.0, "INITIALIZING_MODELS")
         
         for country, urls in self.rss_urls.items():
             if not urls: continue
             
-            self.save_snapshot(country_results, self.calculate_final_index(total_raw_threat), f"SCANNING: {country.upper()}")
+            # Interim composite for progress display
+            if country_raw_scores:
+                interim_sum = sum(
+                    self.calculate_final_index(country_raw_scores[c]) * importance_weights.get(c, 1.0)
+                    for c in country_raw_scores
+                )
+                interim_weight = sum(importance_weights.get(c, 1.0) for c in country_raw_scores)
+                interim_idx = interim_sum / interim_weight
+            else:
+                interim_idx = 0.0
+            self.save_snapshot(country_results, interim_idx, f"SCANNING: {country.upper()}")
             
             _, raw_score, data = self.process_country(country, urls)
-            if country == "Greece": raw_score *= 0.6
             
             final_index = self.calculate_final_index(raw_score)
-            total_raw_threat += raw_score
+            country_raw_scores[country] = raw_score
             sorted_events = sorted(data, key=lambda x: x['weight'], reverse=True)
             
             country_results[country] = {
@@ -903,10 +946,26 @@ class BNTIAnalyzer:
                 "events": sorted_events
             }
             
-            turkey_idx = self.calculate_final_index(total_raw_threat)
+            # FSI-style weighted average of per-country indices
+            weighted_sum = sum(
+                self.calculate_final_index(country_raw_scores[c]) * importance_weights.get(c, 1.0)
+                for c in country_raw_scores
+            )
+            total_weight = sum(importance_weights.get(c, 1.0) for c in country_raw_scores)
+            turkey_idx = weighted_sum / total_weight
             self.save_snapshot(country_results, turkey_idx, f"ANALYZING: {country.upper()}")
 
-        final_turkey_index = self.calculate_final_index(total_raw_threat)
+        # Final composite index
+        if country_raw_scores:
+            weighted_sum = sum(
+                self.calculate_final_index(country_raw_scores[c]) * importance_weights.get(c, 1.0)
+                for c in country_raw_scores
+            )
+            total_weight = sum(importance_weights.get(c, 1.0) for c in country_raw_scores)
+            final_turkey_index = weighted_sum / total_weight
+        else:
+            final_turkey_index = 1.0
+        
         final_status = "CRITICAL" if final_turkey_index > 7.0 else "ELEVATED" if final_turkey_index > 4.0 else "STABLE"
         
         logging.info("Starting Final Translation Pass...")
