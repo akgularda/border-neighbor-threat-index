@@ -76,12 +76,12 @@ class BNTIAnalyzer:
                 "https://jam-news.net/feed",
                 "https://oc-media.org/feed",
                 "https://www.interpressnews.ge/en/rss",
-                "https://agenda.ge/en/news.rss",
+
                 # International / wire service
                 "https://eurasianet.org/feed",
                 # Native Georgian language
                 "https://www.interpressnews.ge/ge/rss",
-                "https://www.radiotavisupleba.ge/api/z-yqmeqmev",
+
                 "https://netgazeti.ge/feed/"
             ],
             "Greece": [
@@ -102,7 +102,7 @@ class BNTIAnalyzer:
                 "https://www.irna.ir/rss",
                 "https://www.isna.ir/rss",
                 "https://www.farsnews.ir/rss",
-                "https://www.tasnimnews.com/fa/rss/feed",
+
                 # English sources
                 "https://en.irna.ir/rss.aspx",
                 "https://www.presstv.ir/RSS",
@@ -200,10 +200,13 @@ class BNTIAnalyzer:
         }
         self._add_mirror_sources()
 
+        # Modern User Agents (Feb 2026)
         self.user_agents = [
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edge/122.0.0.0 Safari/537.36",
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:123.0) Gecko/20100101 Firefox/123.0"
         ]
         
         self.now = datetime.now()
@@ -430,10 +433,19 @@ class BNTIAnalyzer:
         session.mount('http://', HTTPAdapter(max_retries=retries))
 
         base_headers = {
-            'Accept': 'application/rss+xml, application/xml, text/xml, */*',
-            'Accept-Language': 'en-US,en;q=0.8',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+            'Accept-Language': 'en-US,en;q=0.9',
             'Cache-Control': 'no-cache',
             'Pragma': 'no-cache',
+            'Upgrade-Insecure-Requests': '1',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'none',
+            'Sec-Fetch-User': '?1',
+            'Sec-Ch-Ua': '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
+            'Sec-Ch-Ua-Mobile': '?0',
+            'Sec-Ch-Ua-Platform': '"Linux"',
+            'Connection': 'keep-alive',
             'Referer': 'https://www.google.com/'
         }
 
