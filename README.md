@@ -5,13 +5,13 @@
 [![AI Model](https://img.shields.io/badge/AI-XLM--RoBERTa--Large--XNLI-green.svg)](https://huggingface.co/joeddav/xlm-roberta-large-xnli)
 [![Dashboard](https://img.shields.io/badge/Dashboard-Live-brightgreen.svg)](https://akgularda.github.io/border-neighbor-threat-index/)
 
-> A real-time geopolitical threat assessment system using multilingual NLP and weighted event classification for Turkey's border regions.
+> A real-time geopolitical threat assessment system using multilingual NLP and weighted event classification for T�rkiye's border regions.
 
 ---
 
 ## Abstract
 
-The **Border Neighbor Threat Index (BNTI)** is an automated intelligence monitoring system designed to quantify and track geopolitical risk levels across Turkey's neighboring countries. The system employs a transformer-based multilingual NLP model (XLM-RoBERTa-Large-XNLI) for zero-shot classification of news articles, combined with a modified Goldstein scale weighting scheme to produce a normalized threat index (1.0–10.0) for each monitored region.
+The **Border Neighbor Threat Index (BNTI)** is an automated intelligence monitoring system designed to quantify and track geopolitical risk levels across T�rkiye's neighboring countries. The system employs a transformer-based multilingual NLP model (XLM-RoBERTa-Large-XNLI) for zero-shot classification of news articles, combined with a modified Goldstein scale weighting scheme to produce a normalized threat index (1.0–10.0) for each monitored region.
 
 The index is updated hourly via automated pipelines and serves as an early warning indicator for regional security developments enabling continuous situational awareness without manual intervention.
 
@@ -180,3 +180,4 @@ Apache License 2.0 — see [LICENSE](LICENSE).
 ---
 
 <p align="center"><strong>Continuous Intelligence • AI-Powered Analysis • Real-Time Monitoring</strong></p>
+
