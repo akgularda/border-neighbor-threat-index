@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-02-19T21:31:42.128992",
-    "main_index": 3.25,
+    "generated_at": "2026-02-19T21:50:11.519132",
+    "main_index": 3.37,
     "status": "STABLE",
     "active_scan": true,
     "next_update": "2026-02-19T22:00:00",
@@ -43,7 +43,7 @@
         },
         {
           "title": "Vance visit greenlights escalation of Pashinyan’s war against Armenian Apostolic Church",
-          "translated_title": "Vance visit greenlights escalation of Pashinyan’s war against Armenian Apostolic Church",
+          "translated_title": null,
           "link": "https://armenianweekly.com/2026/02/18/vance-visit-greenlights-escalation-of-pashinyans-war-against-armenian-apostolic-church/",
           "date": "Wed, 18 Feb 2026 16:50:26 +0000",
           "category": "political crisis",
@@ -52,9 +52,22 @@
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "84.5%",
           "detected_lang": "local",
-          "is_translated": true,
-          "country": "Armenia",
-          "translation_engine": "Google Neural MT"
+          "is_translated": false,
+          "country": "Armenia"
+        },
+        {
+          "title": "Aznavoorian Sisters to make Boston debut at the Armenian Museum of America",
+          "translated_title": null,
+          "link": "https://armenianweekly.com/2026/02/19/aznavoorian-sisters-to-make-boston-debut-at-the-armenian-museum-of-america/",
+          "date": "Thu, 19 Feb 2026 21:26:52 +0000",
+          "category": "violent protest",
+          "confidence": 0.23684334754943848,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "23.7%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Armenia"
         },
         {
           "title": "The Region in Brief",
@@ -197,20 +210,6 @@
           "country": "Armenia"
         },
         {
-          "title": "Pashinyan to U.S. for Trump&#039;s Board of Peace Meeting",
-          "translated_title": null,
-          "link": "https://hetq.am/en/article/179847",
-          "date": "Wed, 18 Feb 2026 11:09:00 +0400",
-          "category": "political crisis",
-          "confidence": 0.2959015965461731,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "29.6%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
           "title": "Peace on Baku’s terms: Aliyev says treaty possible ‘next day’ if Armenia amends constitution",
           "translated_title": null,
           "link": "https://armenianweekly.com/2026/02/19/peace-on-bakus-terms-aliyev-says-treaty-possible-next-day-if-armenia-amends-constitution/",
@@ -227,8 +226,8 @@
       ]
     },
     "Georgia": {
-      "index": 3.63,
-      "raw_score": 1.44,
+      "index": 3.91,
+      "raw_score": 1.63,
       "events": [
         {
           "title": "Georgia Arrests Two Foreigners Over Attempt to Buy Nuclear, Radioactive Materials",
@@ -245,20 +244,6 @@
           "country": "Georgia"
         },
         {
-          "title": "Daghestani man sentenced for murder of university rector",
-          "translated_title": "Daghestani man sentenced for murder of university rector",
-          "link": "https://oc-media.org/daghestani-man-sentenced-for-murder-of-university-rector/",
-          "date": "Thu, 19 Feb 2026 12:17:18 +0000",
-          "category": "terrorist act",
-          "confidence": 0.7284214496612549,
-          "weight": 6.555793046951294,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "72.8%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
           "title": "15 Arrested in Brawls Outside Tbilisi Court During Jangveladze Murder Case Hearing",
           "translated_title": "15 Arrested in Brawls Outside Tbilisi Court During Jangveladze Murder Case Hearing",
           "link": "https://civil.ge/archives/721876",
@@ -269,6 +254,35 @@
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "84.7%",
           "detected_lang": "en",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
+          "title": "ინსულტის შემდეგ ციხიდან გაუშვეს ბელარუსი პატიმარი, რომელმაც მანამდე ქვეყნიდან გაძევებაზე უარი თქვა",
+          "translated_title": "Belarusian prisoner released from prison after stroke, who had previously refused to be deported",
+          "link": "https://netgazeti.ge/news/799193/",
+          "date": "Thu, 19 Feb 2026 19:25:47 +0000",
+          "category": "violent protest",
+          "confidence": 0.7841843366622925,
+          "weight": 5.489290356636047,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "78.4%",
+          "detected_lang": "local",
+          "is_translated": true,
+          "country": "Georgia",
+          "translation_engine": "Google Neural MT"
+        },
+        {
+          "title": "ახალი თეატრის ფასადიდან, რ2-ს პროექტის გამო, ანდრო ჭიჭინაძის ბანერს ხსნიან",
+          "translated_title": null,
+          "link": "https://netgazeti.ge/news/799174/",
+          "date": "Thu, 19 Feb 2026 15:04:05 +0000",
+          "category": "violent protest",
+          "confidence": 0.5532902479171753,
+          "weight": 3.873031735420227,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "55.3%",
+          "detected_lang": "local",
           "is_translated": false,
           "country": "Georgia"
         },
@@ -371,71 +385,57 @@
           "country": "Georgia"
         },
         {
-          "title": "Two exiled Azerbaijani critics  convicted in absentia",
+          "title": "ელისო კილაძის და სხვების საქმე დაიხურა, საზოგადოება პროცესის დეტალებს ვერ გაიგებს",
           "translated_title": null,
-          "link": "https://oc-media.org/two-exiled-azerbaijani-critics-convicted-in-absentia/",
-          "date": "Thu, 19 Feb 2026 14:48:53 +0000",
+          "link": "https://netgazeti.ge/life/799190/",
+          "date": "Thu, 19 Feb 2026 17:46:26 +0000",
+          "category": "neutral news",
+          "confidence": 0.46413156390190125,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "46.4%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
+          "title": "ოპოზიციამ კიდევ ერთხელ აჩვენა სახე – კობახიძე ბაჩიაშვილის გამოძიებასთან თანამშრომლობაზე",
+          "translated_title": null,
+          "link": "https://netgazeti.ge/news/799167/",
+          "date": "Thu, 19 Feb 2026 13:58:36 +0000",
           "category": "political crisis",
-          "confidence": 0.2599238157272339,
+          "confidence": 0.25851041078567505,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "26.0%",
-          "detected_lang": "en",
+          "ai_confidence_score": "25.9%",
+          "detected_lang": "local",
           "is_translated": false,
           "country": "Georgia"
         },
         {
-          "title": "How the Aliyevs are getting a taste of their own bitter medicine",
+          "title": "სამოქალაქო აქტივისტი აცხადებს, რომ ერთი ქმედებისთვის ორჯერ სჯიან",
           "translated_title": null,
-          "link": "https://oc-media.org/how-the-aliyevs-are-getting-a-taste-of-their-own-bitter-medicine/",
-          "date": "Thu, 19 Feb 2026 14:12:27 +0000",
+          "link": "https://netgazeti.ge/news/799133/",
+          "date": "Thu, 19 Feb 2026 13:53:08 +0000",
           "category": "violent protest",
-          "confidence": 0.2956678569316864,
+          "confidence": 0.2038857787847519,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "29.6%",
-          "detected_lang": "en",
+          "ai_confidence_score": "20.4%",
+          "detected_lang": "local",
           "is_translated": false,
           "country": "Georgia"
         },
         {
-          "title": "Chechnya says it provided $560 million for full-scale invasion of Ukraine",
+          "title": "“ჯობია ჯერ იმსჯელო და შემდეგ მიიღო გადაწყვეტილება” – გია ჟორჟოლიანი განათლების რეფორმაზე",
           "translated_title": null,
-          "link": "https://oc-media.org/chechnya-says-it-provided-560-million-for-full-scale-invasion-of-ukraine/",
-          "date": "Thu, 19 Feb 2026 13:52:39 +0000",
-          "category": "military conflict",
-          "confidence": 0.9443219900131226,
+          "link": "https://netgazeti.ge/opinion/799074/",
+          "date": "Thu, 19 Feb 2026 13:27:52 +0000",
+          "category": "neutral news",
+          "confidence": 0.28851333260536194,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "94.4%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
-          "title": "Queer Azerbaijani says husband remains in ICE detention although both have agreed to leave US",
-          "translated_title": null,
-          "link": "https://oc-media.org/queer-azerbaijani-says-husband-remains-in-ice-detention-although-both-have-agreed-to-leave-us/",
-          "date": "Thu, 19 Feb 2026 13:22:00 +0000",
-          "category": "peaceful diplomacy",
-          "confidence": 0.26916325092315674,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "26.9%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
-          "title": "Russia warns Armenia not to make ‘ill-considered decisions' regarding railway takeover",
-          "translated_title": null,
-          "link": "https://oc-media.org/russia-warns-armenia-not-to-make-ill-considered-decisions-regarding-railway-takeover/",
-          "date": "Thu, 19 Feb 2026 11:16:55 +0000",
-          "category": "military conflict",
-          "confidence": 0.29885801672935486,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "29.9%",
+          "ai_confidence_score": "28.9%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Georgia"
@@ -443,9 +443,24 @@
       ]
     },
     "Greece": {
-      "index": 2.76,
-      "raw_score": 0.9,
+      "index": 3.24,
+      "raw_score": 1.19,
       "events": [
+        {
+          "title": "Συγγενείς άρπαξαν παππού 102 ετών από νοσοκομείο της Ταϊβάν για να μην γράψει την περιουσία στην 68χρονη νέα του σύζυγο (vid)",
+          "translated_title": "Relatives snatched 102-year-old grandfather from hospital in Taiwan to prevent him from writing the estate to his 68-year-old new wife (vid)",
+          "link": "https://www.protothema.gr/best-of-network/article/1777108/suggeneis-arpaxan-pappou-102-eton-apo-nosokomeio-tis-taivan-gia-na-min-grapsei-tin-periousia-stin-68hroni-nea-other/?utm_source=rss",
+          "date": "Thu, 19 Feb 2026 23:10:00 +0200",
+          "category": "violent protest",
+          "confidence": 0.8250029683113098,
+          "weight": 5.775020778179169,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "82.5%",
+          "detected_lang": "local",
+          "is_translated": true,
+          "country": "Greece",
+          "translation_engine": "Google Neural MT"
+        },
         {
           "title": "Ανησυχία με Λόβρεν στον ΠΑΟΚ: Ένιωσε ενοχλήσεις μετά από σύγκρουση με παίκτη της Θέλτα",
           "translated_title": null,
@@ -475,29 +490,43 @@
           "country": "Greece"
         },
         {
-          "title": "«Διπλό» της Γκενκ 3-1 στο Ζάγκρεμπ με σόου Καρέτσα, 1-0 η Μπολόνια την Μπραν στη Νορβηγία, δείτε γκολ",
+          "title": "Βαρύ κλίμα στη Wall Street με φόντο την αγορά ιδιωτικών δανείων και το Ιράν",
           "translated_title": null,
-          "link": "https://www.protothema.gr/sports/article/1777074/diplo-tis-genk-3-1-sto-zagreb-me-soou-karetsa-1-0-i-bolonia-tin-bran-sti-norvigia-deite-gol/?utm_source=rss",
-          "date": "Thu, 19 Feb 2026 22:08:00 +0200",
-          "category": "violent protest",
-          "confidence": 0.46785855293273926,
-          "weight": 3.275009870529175,
+          "link": "https://www.protothema.gr/economy/article/1777116/wall-street-varu-klima-me-fodo-private-credit-kai-iran/?utm_source=rss",
+          "date": "Thu, 19 Feb 2026 23:17:00 +0200",
+          "category": "economic crisis",
+          "confidence": 0.8381751775741577,
+          "weight": 3.352700710296631,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "46.8%",
+          "ai_confidence_score": "83.8%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
         },
         {
-          "title": "Έλενα Χαραλαμπούδη: Η κόρη μου έχει υποστεί μπούλινγκ, νιώθεις ότι δεν είσαι δίπλα στο παιδί σου",
+          "title": "Πολύ λυπηρή η υπόθεση με τον Άντριου, λέει ο Τραμπ που δηλώνει ειδικός στις απαλλαγές",
           "translated_title": null,
-          "link": "https://www.protothema.gr/life-style/article/1777081/elena-haralaboudi-i-kori-mou-ehei-upostei-bouling-niotheis-oti-den-eisai-dipla-sto-paidi-sou/?utm_source=rss",
-          "date": "Thu, 19 Feb 2026 22:10:00 +0200",
-          "category": "humanitarian crisis",
-          "confidence": 0.5247636437416077,
-          "weight": 1.574290931224823,
+          "link": "https://www.protothema.gr/world/article/1777117/polu-lupiri-i-upothesi-me-ton-adriou-leei-o-trab-pou-dilonei-eidikos-stis-apallages/?utm_source=rss",
+          "date": "Thu, 19 Feb 2026 23:30:00 +0200",
+          "category": "neutral news",
+          "confidence": 0.219046488404274,
+          "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "52.5%",
+          "ai_confidence_score": "21.9%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Λουτσέσκου: «Τίποτα δεν χάθηκε, το πιστεύω ότι θα παλέψουμε στην Ισπανία»",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/sports/article/1777114/loutseskou-tipota-den-hathike-to-pisteuo-oti-tha-palepsoume-stin-ispania/?utm_source=rss",
+          "date": "Thu, 19 Feb 2026 23:13:47 +0200",
+          "category": "neutral news",
+          "confidence": 0.5467813014984131,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "54.7%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -624,34 +653,6 @@
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "29.3%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Ρογκαβόπουλος: Περαστικά στον Μιλουτίνοφ, τεράστια μεταγραφή ο Χέιζ Ντέιβις, βίντεο",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/sports/article/1777083/rogavopoulos-perastika-ston-miloutinof-terastia-metagrafi-o-heiz-deivis/?utm_source=rss",
-          "date": "Thu, 19 Feb 2026 22:19:00 +0200",
-          "category": "violent protest",
-          "confidence": 0.20986846089363098,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "21.0%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Καστορίνα: «Το γκολ μας δίνει μεγάλο κίνητρο»",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/sports/article/1777073/kastorina-to-gol-mas-dinei-megalo-kinitro/?utm_source=rss",
-          "date": "Thu, 19 Feb 2026 22:05:36 +0200",
-          "category": "violent protest",
-          "confidence": 0.28143972158432007,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "28.1%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -876,9 +877,24 @@
       ]
     },
     "Iraq": {
-      "index": 3.31,
-      "raw_score": 1.23,
+      "index": 3.44,
+      "raw_score": 1.32,
       "events": [
+        {
+          "title": "رجل تحول إلى أنثى ليتجنب التعبئة العسكرية في أوكرانيا",
+          "translated_title": "A man turned into a woman to avoid military mobilization in Ukraine",
+          "link": "https://arabic.rt.com/funny/1759551-%D8%B1%D8%AC%D9%84-%D8%AA%D8%AD%D9%88%D9%84-%D8%A5%D9%84%D9%89-%D8%A3%D9%86%D8%AB%D9%89-%D9%84%D9%8A%D8%AA%D8%AC%D9%86%D8%A8-%D8%A7%D9%84%D8%AA%D8%B9%D8%A8%D8%A6%D8%A9-%D8%A7%D9%84%D8%B9%D8%B3%D9%83%D8%B1%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A3%D9%88%D9%83%D8%B1%D8%A7%D9%86%D9%8A%D8%A7/",
+          "date": "Thu, 19 Feb 2026 21:34:27 +0000",
+          "category": "military conflict",
+          "confidence": 0.6778627634048462,
+          "weight": 6.778627634048462,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "67.8%",
+          "detected_lang": "local",
+          "is_translated": true,
+          "country": "Iraq",
+          "translation_engine": "Google Neural MT"
+        },
         {
           "title": "روبيو: لا توجد خطة \"ب\" لغزة والبديل هو العودة إلى الحرب (فيديو)",
           "translated_title": "Rubio: There is no Plan B for Gaza and the alternative is a return to war (video)",
@@ -889,21 +905,6 @@
           "weight": 5.934304296970367,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "84.8%",
-          "detected_lang": "local",
-          "is_translated": true,
-          "country": "Iraq",
-          "translation_engine": "Google Neural MT"
-        },
-        {
-          "title": "أوربان يتوعد سلطات كييف برد هنغاري قاس إن لم توقف \"الابتزاز\"",
-          "translated_title": "Orban threatens the Kiev authorities with a harsh Hungarian response if they do not stop the \"blackmail\"",
-          "link": "https://arabic.rt.com/world/1759536-%D8%A3%D9%88%D8%B1%D8%A8%D8%A7%D9%86-%D9%8A%D8%AA%D9%88%D8%B9%D8%AF-%D8%B3%D9%84%D8%B7%D8%A7%D8%AA-%D9%83%D9%8A%D9%8A%D9%81-%D8%A8%D8%B1%D8%AF-%D9%87%D9%86%D8%BA%D8%A7%D8%B1%D9%8A-%D9%82%D8%A7%D8%B3-%D8%A5%D9%86-%D9%84%D9%85-%D8%AA%D9%88%D9%82%D9%81-%D8%A7%D9%84%D8%A7%D8%A8%D8%AA%D8%B2%D8%A7%D8%B2/",
-          "date": "Thu, 19 Feb 2026 20:30:48 +0000",
-          "category": "violent protest",
-          "confidence": 0.7929617166519165,
-          "weight": 5.5507320165634155,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "79.3%",
           "detected_lang": "local",
           "is_translated": true,
           "country": "Iraq",
@@ -933,6 +934,34 @@
           "weight": 4.010157823562622,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "66.8%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "ترامب يمهل إيران أسبوعين فقط للتوصل إلى اتفاق",
+          "translated_title": null,
+          "link": "https://arabic.rt.com/world/1759553-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%8A%D9%85%D9%87%D9%84-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%A3%D8%B3%D8%A8%D9%88%D8%B9%D9%8A%D9%86-%D9%81%D9%82%D8%B7-%D9%84%D9%84%D8%AA%D9%88%D8%B5%D9%84-%D8%A5%D9%84%D9%89-%D8%A7%D8%AA%D9%81%D8%A7%D9%82/",
+          "date": "Thu, 19 Feb 2026 21:42:38 +0000",
+          "category": "political crisis",
+          "confidence": 0.2681495249271393,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "26.8%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "سوريا.. مقتل عنصر أمن وإصابة آخر و\"داعش\" يتبنى الهجوم",
+          "translated_title": null,
+          "link": "https://arabic.rt.com/middle_east/1759549-%D8%B3%D9%88%D8%B1%D9%8A%D8%A7-%D9%85%D9%82%D8%AA%D9%84-%D8%B9%D9%86%D8%B5%D8%B1-%D8%A3%D9%85%D9%86-%D9%88%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-%D8%A2%D8%AE%D8%B1-%D9%88%D8%AF%D8%A7%D8%B9%D8%B4-%D9%8A%D8%AA%D8%A8%D9%86%D9%89-%D8%A7%D9%84%D9%87%D8%AC%D9%88%D9%85/",
+          "date": "Thu, 19 Feb 2026 21:41:38 +0000",
+          "category": "military conflict",
+          "confidence": 0.5083146095275879,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "50.8%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Iraq"
@@ -1050,34 +1079,6 @@
           "country": "Iraq"
         },
         {
-          "title": "أنقرة: إسرائيل لا تلتزم بالاتفاقيات",
-          "translated_title": null,
-          "link": "https://arabic.rt.com/features/1759525-%D8%A3%D9%86%D9%82%D8%B1%D8%A9-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D9%84%D8%A7-%D8%AA%D9%84%D8%AA%D8%B2%D9%85-%D8%A8%D8%A7%D9%84%D8%A7%D8%AA%D9%81%D8%A7%D9%82%D9%8A%D8%A7%D8%AA/",
-          "date": "Thu, 19 Feb 2026 20:40:40 +0000",
-          "category": "neutral news",
-          "confidence": 0.2831914722919464,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "28.3%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Iraq"
-        },
-        {
-          "title": "أول صورة له بعد اعتقاله.. الأمير البريطاني السابق أندرو يغادر السجن رهن التحقيق",
-          "translated_title": null,
-          "link": "https://arabic.rt.com/world/1759537-%D8%A3%D9%88%D9%84-%D8%B5%D9%88%D8%B1%D8%A9-%D9%84%D9%87-%D9%85%D9%86%D8%B0-%D8%A7%D8%B9%D8%AA%D9%82%D8%A7%D9%84%D9%87-%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1-%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D9%82-%D8%A3%D9%86%D8%AF%D8%B1%D9%88-%D9%8A%D8%BA%D8%A7%D8%AF%D8%B1-%D8%A7%D9%84%D8%B3%D8%AC%D9%86-%D8%B1%D9%87%D9%86-%D8%A7%D9%84%D8%AA%D8%AD%D9%82%D9%8A%D9%82/",
-          "date": "Thu, 19 Feb 2026 20:36:14 +0000",
-          "category": "political crisis",
-          "confidence": 0.2777498960494995,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "27.8%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Iraq"
-        },
-        {
           "title": "\"مجلس السلام\" يعقد اجتماعه الأول بواشنطن",
           "translated_title": null,
           "link": "https://arabic.rt.com/features/1759538-%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85-%D9%8A%D8%B9%D9%82%D8%AF-%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%87-%D8%A7%D9%84%D8%A3%D9%88%D9%84-%D8%A8%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86/",
@@ -1094,8 +1095,8 @@
       ]
     },
     "Syria": {
-      "index": 5.27,
-      "raw_score": 2.68,
+      "index": 5.04,
+      "raw_score": 2.48,
       "events": [
         {
           "title": "U.S. cuts forces in Syria as its new government fights terror threat - PBS",
@@ -1155,21 +1156,6 @@
           "translation_engine": "Google Neural MT"
         },
         {
-          "title": "قتلى باقتتال بين عائلتين حول بئر نفطي في الحسكة",
-          "translated_title": "Killed in a fight between two families over an oil well in Al-Hasakah",
-          "link": "https://www.enabbaladi.net/796464/%d9%82%d8%aa%d9%84%d9%89-%d8%a8%d8%a7%d9%82%d8%aa%d8%aa%d8%a7%d9%84-%d8%a8%d9%8a%d9%86-%d8%b9%d8%a7%d8%a6%d9%84%d8%aa%d9%8a%d9%86-%d8%ad%d9%88%d9%84-%d8%a8%d8%a6%d8%b1-%d9%86%d9%81%d8%b7%d9%8a-%d9%81/",
-          "date": "Thu, 19 Feb 2026 21:17:05 +0000",
-          "category": "violent protest",
-          "confidence": 0.7233163118362427,
-          "weight": 5.063214182853699,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "72.3%",
-          "detected_lang": "local",
-          "is_translated": true,
-          "country": "Syria",
-          "translation_engine": "Google Neural MT"
-        },
-        {
           "title": "Is the Damascus Government Cementing an Unjust Judiciary?",
           "translated_title": null,
           "link": "https://syrianobserver.com/syrian-actors/is-the-damascus-government-cementing-an-unjust-judiciary.html",
@@ -1180,6 +1166,20 @@
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "49.1%",
           "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Coles admits in court to strong-arming supplier amid ‘Down Down’ campaign – as it happened - The Guardian",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQSkNBWVVvbkpGTFZZUUNMNDdoeWVHLUJ1X0xyQlRvVTBNUlh1MUZuMmV3anBGTnZVdHBwakFJWGdzMElZazZ4WktpN2NuRS1LQmpSeGs5dHdXUzZmOVlGOTJVdEk1VHpySlZUdklNR1NCTG1iLU82V0hZME5mVnkyck51cFA0TnNHaHZndVBwUnl4OURHbTZRNkptR1FKSjFMZzM2X0pXSDZQMEVlUmEyUFRXbWY3X1JnTTFjd0Y1QXJfejcweURjQWtmZzhEMmJFNG9lRzhIM2taRmE4RWhRYndZR0cwS1dOR3kyenBzUQ?oc=5",
+          "date": "Thu, 19 Feb 2026 06:44:40 GMT",
+          "category": "economic crisis",
+          "confidence": 0.5223919153213501,
+          "weight": 2.0895676612854004,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "52.2%",
+          "detected_lang": "local",
           "is_translated": false,
           "country": "Syria"
         },
@@ -1282,29 +1282,29 @@
           "country": "Syria"
         },
         {
-          "title": "الحسكة.. مستشفى الشدادي يعود للعمل ويخدم 300 ألف نسمة",
+          "title": "Aleppo reopens long-closed roads to revive movement",
           "translated_title": null,
-          "link": "https://www.enabbaladi.net/796458/%d8%a7%d9%84%d8%ad%d8%b3%d9%83%d8%a9-%d9%85%d8%b3%d8%aa%d8%b4%d9%81%d9%89-%d8%a7%d9%84%d8%b4%d8%af%d8%a7%d8%af%d9%8a-%d9%8a%d8%b9%d9%88%d8%af-%d9%84%d9%84%d8%b9%d9%85%d9%84-%d9%88%d9%8a%d8%ae%d8%af/",
-          "date": "Thu, 19 Feb 2026 20:31:33 +0000",
+          "link": "https://sana.sy/en/syria/2290185/",
+          "date": "Mon, 12 Jan 2026 16:38:18 +0000",
           "category": "peaceful diplomacy",
-          "confidence": 0.3750189244747162,
+          "confidence": 0.23570534586906433,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "37.5%",
-          "detected_lang": "local",
+          "ai_confidence_score": "23.6%",
+          "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
         },
         {
-          "title": "تنظيم “الدولة” يتبنى هجومًا ضد القوات الحكومية في دير الزور",
+          "title": "Aleppo response committee reviews steps for residents’ return to northern neighborhoods",
           "translated_title": null,
-          "link": "https://www.enabbaladi.net/796454/%d8%aa%d9%86%d8%b8%d9%8a%d9%85-%d8%a7%d9%84%d8%af%d9%88%d9%84%d8%a9-%d9%8a%d8%aa%d8%a8%d9%86%d9%89-%d9%87%d8%ac%d9%88%d9%85%d9%8b%d8%a7-%d8%b6%d8%af-%d8%a7%d9%84%d9%82%d9%88%d8%a7%d8%aa-%d8%a7/",
-          "date": "Thu, 19 Feb 2026 19:44:07 +0000",
-          "category": "terrorist act",
-          "confidence": 0.3274538815021515,
+          "link": "https://sana.sy/en/syria/2290182/",
+          "date": "Mon, 12 Jan 2026 16:02:52 +0000",
+          "category": "peaceful diplomacy",
+          "confidence": 0.23959098756313324,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "32.7%",
+          "ai_confidence_score": "24.0%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Syria"
@@ -1312,9 +1312,24 @@
       ]
     },
     "Bulgaria": {
-      "index": 1.01,
-      "raw_score": 0.01,
+      "index": 1.81,
+      "raw_score": 0.39,
       "events": [
+        {
+          "title": "Делото за побоя срещу полицейския началник в Русе ще бъде гледано във Велико Търново",
+          "translated_title": "The case for the beating against the police chief in Ruse will be heard in Veliko Tarnovo",
+          "link": "https://www.dnevnik.bg/bulgaria/2026/02/19/4884851_deloto_za_poboia_sreshtu_policeiskiia_nachalnik_v_ruse/?ref=rss",
+          "date": "Thu, 19 Feb 2026 23:35:00 +0200",
+          "category": "violent protest",
+          "confidence": 0.822745144367218,
+          "weight": 5.759216010570526,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "82.3%",
+          "detected_lang": "local",
+          "is_translated": true,
+          "country": "Bulgaria",
+          "translation_engine": "Google Neural MT"
+        },
         {
           "title": "Над 1000 кенийци се бият в Украйна на страната на Русия",
           "translated_title": "Over 1,000 Kenyans are fighting in Ukraine on the side of Russia",
@@ -1452,20 +1467,6 @@
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "36.3%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "Румяна Бъчварова е назначена за началник на кабинета на Андрей Гюров",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/izbori-2026/2026/02/19/4884770_rumiana_buchvarova_e_naznachena_za_nachalnik_na/?ref=rss",
-          "date": "Thu, 19 Feb 2026 17:28:00 +0200",
-          "category": "violent protest",
-          "confidence": 0.30429306626319885,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "30.4%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
@@ -1727,48 +1728,54 @@
       "main_index": 3.25,
       "index": 3.25,
       "type": "historical"
+    },
+    {
+      "timestamp": "2026-02-19T21:50:20.693453",
+      "main_index": 3.37,
+      "index": 3.37,
+      "type": "historical"
     }
   ],
   "forecast": [
     {
-      "timestamp": "2026-02-19T22:31:49.757314",
-      "index": 3.73,
-      "main_index": 3.73,
+      "timestamp": "2026-02-19T22:50:20.693453",
+      "index": 3.68,
+      "main_index": 3.68,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-19T23:31:49.757314",
-      "index": 3.74,
-      "main_index": 3.74,
+      "timestamp": "2026-02-19T23:50:20.693453",
+      "index": 3.69,
+      "main_index": 3.69,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-20T00:31:49.757314",
-      "index": 3.75,
-      "main_index": 3.75,
+      "timestamp": "2026-02-20T00:50:20.693453",
+      "index": 3.69,
+      "main_index": 3.69,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-20T01:31:49.757314",
-      "index": 3.76,
-      "main_index": 3.76,
+      "timestamp": "2026-02-20T01:50:20.693453",
+      "index": 3.7,
+      "main_index": 3.7,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-20T02:31:49.757314",
-      "index": 3.78,
-      "main_index": 3.78,
+      "timestamp": "2026-02-20T02:50:20.693453",
+      "index": 3.71,
+      "main_index": 3.71,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-20T03:31:49.757314",
-      "index": 3.79,
-      "main_index": 3.79,
+      "timestamp": "2026-02-20T03:50:20.693453",
+      "index": 3.72,
+      "main_index": 3.72,
       "confidence": 0.3,
       "type": "forecast"
     }
