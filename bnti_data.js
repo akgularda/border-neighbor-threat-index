@@ -1,10 +1,10 @@
 window.BNTI_DATA = {
   "meta": {
-    "generated_at": "2026-02-19T23:46:43.813470",
-    "main_index": 4.05,
-    "status": "ELEVATED",
+    "generated_at": "2026-02-20T02:45:53.149501",
+    "main_index": 3.95,
+    "status": "STABLE",
     "active_scan": true,
-    "next_update": "2026-02-20T00:00:00",
+    "next_update": "2026-02-20T03:00:00",
     "version": "2.0.0"
   },
   "countries": {
@@ -37,6 +37,76 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "84.5%",
           "detected_lang": "local",
+          "is_translated": false,
+          "country": "Armenia"
+        },
+        {
+          "title": "Aznavoorian Sisters to make Boston debut at the Armenian Museum of America",
+          "translated_title": null,
+          "link": "https://armenianweekly.com/2026/02/19/aznavoorian-sisters-to-make-boston-debut-at-the-armenian-museum-of-america/",
+          "date": "Thu, 19 Feb 2026 21:26:52 +0000",
+          "category": "violent protest",
+          "confidence": 0.23684334754943848,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "23.7%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Armenia"
+        },
+        {
+          "title": "The Region in Brief",
+          "translated_title": null,
+          "link": "https://armenianweekly.com/2026/02/19/the-region-in-brief-157/",
+          "date": "Thu, 19 Feb 2026 15:59:43 +0000",
+          "category": "violent protest",
+          "confidence": 0.16657759249210358,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "16.7%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Armenia"
+        },
+        {
+          "title": "Not one Armenian-American should vote for Vance in 2028 presidential election",
+          "translated_title": null,
+          "link": "https://armenianweekly.com/2026/02/19/not-one-armenian-american-should-vote-for-vance-in-2028-presidential-election/",
+          "date": "Thu, 19 Feb 2026 14:53:54 +0000",
+          "category": "neutral news",
+          "confidence": 0.3186526298522949,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "31.9%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Armenia"
+        },
+        {
+          "title": "Apply to be a part of Camp Javakhk 2026!",
+          "translated_title": null,
+          "link": "https://armenianweekly.com/2026/02/18/apply-to-be-a-part-of-camp-javakhk-2026/",
+          "date": "Thu, 19 Feb 2026 00:00:00 +0000",
+          "category": "military conflict",
+          "confidence": 0.20076626539230347,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "20.1%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Armenia"
+        },
+        {
+          "title": "Boston students explore geometry and the immigrant experience through public art at Armenian Heritage Park",
+          "translated_title": null,
+          "link": "https://armenianweekly.com/2026/02/18/boston-students-explore-geometry-and-the-immigrant-experience-through-public-art-at-armenian-heritage-park/",
+          "date": "Wed, 18 Feb 2026 23:05:57 +0000",
+          "category": "humanitarian crisis",
+          "confidence": 0.2999911308288574,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "30.0%",
+          "detected_lang": "en",
           "is_translated": false,
           "country": "Armenia"
         },
@@ -134,76 +204,6 @@ window.BNTI_DATA = {
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "29.6%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
-          "title": "Aznavoorian Sisters to make Boston debut at the Armenian Museum of America",
-          "translated_title": null,
-          "link": "https://armenianweekly.com/2026/02/19/aznavoorian-sisters-to-make-boston-debut-at-the-armenian-museum-of-america/",
-          "date": "Thu, 19 Feb 2026 21:26:52 +0000",
-          "category": "violent protest",
-          "confidence": 0.23684334754943848,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "23.7%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
-          "title": "The Region in Brief",
-          "translated_title": null,
-          "link": "https://armenianweekly.com/2026/02/19/the-region-in-brief-157/",
-          "date": "Thu, 19 Feb 2026 15:59:43 +0000",
-          "category": "violent protest",
-          "confidence": 0.16657759249210358,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "16.7%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
-          "title": "Not one Armenian-American should vote for Vance in 2028 presidential election",
-          "translated_title": null,
-          "link": "https://armenianweekly.com/2026/02/19/not-one-armenian-american-should-vote-for-vance-in-2028-presidential-election/",
-          "date": "Thu, 19 Feb 2026 14:53:54 +0000",
-          "category": "neutral news",
-          "confidence": 0.3186526298522949,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "31.9%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
-          "title": "Apply to be a part of Camp Javakhk 2026!",
-          "translated_title": null,
-          "link": "https://armenianweekly.com/2026/02/18/apply-to-be-a-part-of-camp-javakhk-2026/",
-          "date": "Thu, 19 Feb 2026 00:00:00 +0000",
-          "category": "military conflict",
-          "confidence": 0.20076626539230347,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "20.1%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
-          "title": "Boston students explore geometry and the immigrant experience through public art at Armenian Heritage Park",
-          "translated_title": null,
-          "link": "https://armenianweekly.com/2026/02/18/boston-students-explore-geometry-and-the-immigrant-experience-through-public-art-at-armenian-heritage-park/",
-          "date": "Wed, 18 Feb 2026 23:05:57 +0000",
-          "category": "humanitarian crisis",
-          "confidence": 0.2999911308288574,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "30.0%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Armenia"
@@ -516,15 +516,15 @@ window.BNTI_DATA = {
           "country": "Greece"
         },
         {
-          "title": "Αττική Οδός: Στην κυκλοφορία το πρωί της Παρασκευής το τμήμα που είχε κλείσει",
+          "title": "Αττική Οδός: Στην κυκλοφορία ξημερώματα της Παρασκευής το τμήμα που είχε κλείσει",
           "translated_title": null,
           "link": "https://www.naftemporiki.gr/society/2075252/attiki-odos-stin-kykloforia-to-proi-tis-paraskeyis-to-tmima-poy-eiche-kleisei/?utm_source=rss&utm_medium=rss&utm_campaign=attiki-odos-stin-kykloforia-to-proi-tis-paraskeyis-to-tmima-poy-eiche-kleisei",
           "date": "Thu, 19 Feb 2026 21:33:07 +0000",
           "category": "peaceful diplomacy",
-          "confidence": 0.2689325511455536,
+          "confidence": 0.30402877926826477,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "26.9%",
+          "ai_confidence_score": "30.4%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -658,24 +658,9 @@ window.BNTI_DATA = {
       ]
     },
     "Iran": {
-      "index": 4.04,
-      "raw_score": 1.71,
+      "index": 2.95,
+      "raw_score": 1.02,
       "events": [
-        {
-          "title": "Masked protesters arrested outside Trump’s Board of Peace meeting",
-          "translated_title": "Masked protesters arrested outside Trump’s Board of Peace meeting",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/2/19/masked-protesters-arrested-outside-trumps-board-of-peace-meeting?traffic_source=rss",
-          "date": "Thu, 19 Feb 2026 19:38:36 +0000",
-          "category": "violent protest",
-          "confidence": 0.8414189219474792,
-          "weight": 5.889932453632355,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "84.1%",
-          "detected_lang": "local",
-          "is_translated": true,
-          "country": "Iran",
-          "translation_engine": "Google Neural MT"
-        },
         {
           "title": "Ex-Prince Andrew’s arrest spurs Epstein accountability calls from UK to US",
           "translated_title": "Ex-Prince Andrew’s arrest spurs Epstein accountability calls from UK to US",
@@ -693,7 +678,7 @@ window.BNTI_DATA = {
         },
         {
           "title": "Macron and Meloni clash over killing of French far-right activist in Lyon",
-          "translated_title": "Macron and Meloni clash over killing of French far-right activist in Lyon",
+          "translated_title": null,
           "link": "https://www.aljazeera.com/news/2026/2/19/macron-and-meloni-clash-over-killing-of-french-far-right-activist-in-lyon?traffic_source=rss",
           "date": "Thu, 19 Feb 2026 23:12:29 +0000",
           "category": "political crisis",
@@ -702,20 +687,6 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "95.7%",
           "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
-          "title": "Palestinians in Gaza say ‘Board of Peace’ will further occupation",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/2/19/palestinians-in-gaza-say-board-of-peace-will-further-occupation?traffic_source=rss",
-          "date": "Thu, 19 Feb 2026 19:12:06 +0000",
-          "category": "political crisis",
-          "confidence": 0.7051394581794739,
-          "weight": 4.230836749076843,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "70.5%",
-          "detected_lang": "local",
           "is_translated": false,
           "country": "Iran"
         },
@@ -734,16 +705,72 @@ window.BNTI_DATA = {
           "country": "Iran"
         },
         {
-          "title": "Trump announces billions of dollars in Gaza aid at Board of Peace meeting",
+          "title": "IMF warns Venezuela’s economy and humanitarian situation is ‘quite fragile’",
           "translated_title": null,
-          "link": "https://www.aljazeera.com/news/2026/2/19/trump-announces-billions-of-dollars-in-gaza-aid-at-board-of-peace-meeting?traffic_source=rss",
-          "date": "Thu, 19 Feb 2026 18:47:48 +0000",
-          "category": "humanitarian crisis",
-          "confidence": 0.7926250696182251,
-          "weight": 2.3778752088546753,
+          "link": "https://www.aljazeera.com/news/2026/2/20/imf-warns-venezuelas-economy-and-humanitarian-situation-is-quite-fragile?traffic_source=rss",
+          "date": "Fri, 20 Feb 2026 00:08:17 +0000",
+          "category": "economic crisis",
+          "confidence": 0.5214681625366211,
+          "weight": 2.0858726501464844,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "79.3%",
+          "ai_confidence_score": "52.1%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "North Korea’s Kim Jong Un launches key party congress held every 5 years",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/news/2026/2/20/north-koreas-kim-jong-un-launches-key-party-congress-held-every-5-years?traffic_source=rss",
+          "date": "Fri, 20 Feb 2026 02:22:11 +0000",
+          "category": "political crisis",
+          "confidence": 0.24779093265533447,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "24.8%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Russia-Ukraine war: List of key events, day 1,457",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/news/2026/2/20/russia-ukraine-war-list-of-key-events-day-1457?traffic_source=rss",
+          "date": "Fri, 20 Feb 2026 02:02:24 +0000",
+          "category": "military conflict",
+          "confidence": 0.7232154011726379,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "72.3%",
           "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "New Mexico reopens criminal probe related to Jeffrey Epstein’s Zorro Ranch",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/news/2026/2/20/new-mexico-reopens-criminal-probe-related-to-jeffrey-epsteins-zorro-ranch?traffic_source=rss",
+          "date": "Fri, 20 Feb 2026 01:18:48 +0000",
+          "category": "military conflict",
+          "confidence": 0.20309418439865112,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "20.3%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "New Zealand vs Pakistan: T20 World Cup Super Eights – teams, start, lineups",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/sports/2026/2/19/new-zealand-vs-pakistan-t20-world-cup-teams-start-lineups?traffic_source=rss",
+          "date": "Thu, 19 Feb 2026 23:50:40 +0000",
+          "category": "violent protest",
+          "confidence": 0.41010308265686035,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "41.0%",
+          "detected_lang": "local",
           "is_translated": false,
           "country": "Iran"
         },
@@ -828,34 +855,6 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "38.3%",
           "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
-          "title": "Decades of international failure on Palestine",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/2/19/decades-of-international-failure-on-palestine?traffic_source=rss",
-          "date": "Thu, 19 Feb 2026 19:28:18 +0000",
-          "category": "humanitarian crisis",
-          "confidence": 0.3547665774822235,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "35.5%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
-          "title": "Les Wexner: How the billionaire enabled Jeffrey Epstein’s rise",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/news/2026/2/19/les-wexner-how-the-billionaire-enabled-jeffrey-epsteins-rise?traffic_source=rss",
-          "date": "Thu, 19 Feb 2026 17:57:41 +0000",
-          "category": "peaceful diplomacy",
-          "confidence": 0.2622741460800171,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "26.2%",
-          "detected_lang": "local",
           "is_translated": false,
           "country": "Iran"
         },
@@ -1092,9 +1091,23 @@ window.BNTI_DATA = {
       ]
     },
     "Syria": {
-      "index": 5.41,
-      "raw_score": 2.8,
+      "index": 5.83,
+      "raw_score": 3.2,
       "events": [
+        {
+          "title": "Daraa, Israeli army detains two young Syrian men in Yarmouk Basin",
+          "translated_title": "Daraa, Israeli army detains two young Syrian men in Yarmouk Basin",
+          "link": "https://english.enabbaladi.net/archives/2026/02/https-wp-me-p7cv3y-oft/",
+          "date": "Thu, 19 Feb 2026 19:30:56 +0000",
+          "category": "military conflict",
+          "confidence": 0.9923341274261475,
+          "weight": 9.923341274261475,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "99.2%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
         {
           "title": "U.S. cuts forces in Syria as its new government fights terror threat - PBS",
           "translated_title": "U.S. cuts forces in Syria as its new government fights terror threat - PBS",
@@ -1126,7 +1139,7 @@ window.BNTI_DATA = {
         {
           "title": "A Giant ISIS Detention Facility Comes Apart in Syria’s Desert - The Wall Street Journal",
           "translated_title": "A Giant ISIS Detention Facility Comes Apart in Syria’s Desert - The Wall Street Journal",
-          "link": "https://news.google.com/rss/articles/CBMivgNBVV95cUxNYWRmVnJ5NG9fX3p0TEF0dU1PZzBRSExVWThZMnptNWVJMmpyN0VKY3gtTUlpR3dpdzc0eHhxd0tmN3htenF2YlVGbEFKVFhNVlJQLUxIRUgwZzcwbjBsZjdldXhYTHlTaHRuaVdteVRUcXdNVXgtSnVEeTdQWm5vdU9MRzJqNVZDVDdncG1YdUVZX3BSZkNBalFtSjE4NVcxZTNxVFdmWmlrYk1KQmpXNmczY2t6ZWZtUmM5SUtwOTZvODZtRFFaaTlaS1FwTFlnQUpXa1lZajN4d0wtbFMybG9HT0tuZnN5YjBjYzdWUWl6WHQwcjdYaE5MdmZDazRaMGNraC1xMEYwMTNBSmp2eTI5WFlrRHVxVlkwVDR4UGRNdUU0dUVYOTVGRXIzOHJ5Qi1kZWJ0OXVEV1o4LWlYOHVxUWtEcWpoOUpWVnNiallZY1dFdnl3bklBZDJRWXFpNkViTkNmTjhoaExyS2pET0xXSURmd1B2MHNPRDd5MlJERmJoTmJfVjRmcjZRb1BIN1RVREh2QlVSRW1zdnBTRjJqam1jSE1ILVVJWWpaX0o0Z0hBZ0Iwc3g5SkZaUQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMivgNBVV95cUxPMTlJd2hnSm1MRXJ5eEcwdFVyS2dCSjlPdEFHdHQzaGZUYXAxYVpzV0l3cEoyQkZnMkxRR1pYSFlfZWptZExGUHJVaUp2OVM5U1BvWVh1ZE9zSUF4MHdNWC1oaWlXVjRnSlBfT2UybUJWNnRyZGxTRDJkQkRCZlNrN2NOZWtibEp6WTdNeUxwSGJBRlhJd254QXJINGNFS1BLd2Jtb0tpenJCcEhJUVRPM2pfRVhoSk8zZFlQVnllaFhPU2JPcWVIakdTU0ZtUlU5b19vLXQtM3RVYzF2bHlLYVpFaEdOajRfbDVLYTNqZEtkZlFUWUt3X1pzY1VjTkh4SFVkMDJNZXZGUUJ3Mlh0UVFVVzZ0SUlad0hzMzNCdWpkcTJkTzZfallNNTRPaWZ4NW52VFFQUHVrRVZVVzFqLWhVblUxWUhnd2ZFbThjTmJvTlhWRFJjcHk4X0lfTXVmZVl0SWlNbExHWWpCMmx2bkE1eDJVa1YtV0t4V2Q3NG5tbUFqall1WkhBaU9Da2xHTDktXzNUaG45dkZla0RyTHZRMU91SUozcDdTa09JWlFZV2ZkVFVka1FVY0RBUQ?oc=5",
           "date": "Wed, 18 Feb 2026 04:00:00 GMT",
           "category": "terrorist act",
           "confidence": 0.7492451071739197,
@@ -1154,32 +1167,19 @@ window.BNTI_DATA = {
           "translation_engine": "Google Neural MT"
         },
         {
-          "title": "SDC receives Swedish Political delegation, discusses developments in Syrian file - ANHA",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZnctSnpTTzRiblBUd1FYMXRMandicTlORGJkcHpXZ0RZSWNqbEtpaHRmeW5HWmNaQVhPczZCOGpKWU1jWmtMMVV3aU1meUkzUjZFdmtrc3R5LTR4OF9aTC1ZQmhlQjFKWTdmX25FS0JtcjNfNWlaWkJoZkNYeG5ZMXZQRlhsUXZudmlTUkM4S2V6MVViV0NfUm9GZXVJcE1kUjgwbTVmSQ?oc=5",
-          "date": "Thu, 19 Feb 2026 20:48:56 GMT",
+          "title": "“The Political Secretariat,” Engineering Syria’s Post-Baath Political Order",
+          "translated_title": "“The Political Secretariat,” Engineering Syria’s Post-Baath Political Order",
+          "link": "https://english.enabbaladi.net/archives/2026/02/the-political-secretariat-engineering-the-post-baath-order/",
+          "date": "Wed, 18 Feb 2026 18:27:24 +0000",
           "category": "political crisis",
-          "confidence": 0.8937339186668396,
-          "weight": 5.362403512001038,
+          "confidence": 0.9804675579071045,
+          "weight": 5.882805347442627,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "89.4%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Political Council of Central, Western Syria questions legitimacy of “Amnesty Decree” - ANHA",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQTMzTzUzOWZYY3QzSS1Td25yOVZjY253MjVZM082YndsMS1iQ09VektVUkhFRG5TWGRDc0R4XzVBaGc5akNoNTAzMHZGM1ZxdU12T05FZzBmQm5iZW9hNHRvaGNrb2hVSVVYcGM1QVBkdF9CSUQ3eG8yNFJ2TFhVNkhpbFY3aF9UR3o5N3ZabE5ZX1lFeFlkcklSeTQzWHc5S1N0T0RDNU1vdw?oc=5",
-          "date": "Thu, 19 Feb 2026 15:45:04 GMT",
-          "category": "political crisis",
-          "confidence": 0.5845220685005188,
-          "weight": 3.507132411003113,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "58.5%",
+          "ai_confidence_score": "98.0%",
           "detected_lang": "local",
-          "is_translated": false,
-          "country": "Syria"
+          "is_translated": true,
+          "country": "Syria",
+          "translation_engine": "Google Neural MT"
         },
         {
           "title": "The End of Rojava Is Bad News for the United States - The National Interest",
@@ -1210,15 +1210,43 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
-          "title": "A woman is banned from returning to Australia from Syria | Morning News Bulletin 19 February 2026 - SBS Australia",
+          "title": "Al-Souriya channel launches in a new format on the first day of Ramadan",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQTzBleFVSR3lpWkwzSWl0LWRWWDJiakYyMzJjQjgxa24xcDItbkZ5aUFoU1BwSklwb2tRSmRlSzh2N3pJQjY3S2tlUEtiOTVmd2pTVFlGdFhfZzh5NmIzY1VvRUtweFc4dmxBcmtPSDZZXzBuVWdYQ0xabFAwT2lIZjFFalFaLUUyUlhiejNqczBRcEZOUDRmbkNwZlRTdm53TzU5NWdtX3RpZ0Jza0h4WXBtSVJUVVpmZ1EtWDJxVGhHeFlHWlhGM21sSVYzSjVScm9hejh0Vm1jV295WEdZb3ZvZw?oc=5",
-          "date": "Wed, 18 Feb 2026 19:14:27 GMT",
-          "category": "military conflict",
-          "confidence": 0.24864482879638672,
+          "link": "https://english.enabbaladi.net/archives/2026/02/al-souriya-channel-launches-in-a-new-format-on-the-first-day-of-ramadan/",
+          "date": "Thu, 19 Feb 2026 20:02:12 +0000",
+          "category": "violent protest",
+          "confidence": 0.19886992871761322,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "24.9%",
+          "ai_confidence_score": "19.9%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Canada eases Assad era Syria sanctions, targets “new perpetrators”",
+          "translated_title": null,
+          "link": "https://english.enabbaladi.net/archives/2026/02/canada-eases-sanctions/",
+          "date": "Thu, 19 Feb 2026 18:35:26 +0000",
+          "category": "political crisis",
+          "confidence": 0.287415087223053,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "28.7%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Iraq transfers 157 juvenile IS detainees to rehabilitation centers",
+          "translated_title": null,
+          "link": "https://english.enabbaladi.net/archives/2026/02/iraq-transfers-157-juvenile-is-detainees-to-rehabilitation-centers/",
+          "date": "Wed, 18 Feb 2026 20:53:22 +0000",
+          "category": "terrorist act",
+          "confidence": 0.27655938267707825,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "27.7%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
@@ -1266,44 +1294,16 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
-          "title": "Canada eases Syria sanctions, imposes new measures on 6 - Enab Baladi",
+          "title": "Ahead of Ramadan, al-Sharaa issues a general amnesty",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9yamI5QS1lSERGY3YwWjhwTGdrOHRtRjdMaTgwU2xwb1RjOGZucTNyZGVaUGo2dmtwU0o0R0pOQm01T2FNcGJhTkx2eU1GQWphWVVHS2JvN2pjdTR4c3VvVkNiVDBBUkk1ODJERWJBeTV1ZHFkb0VfREFEONIBgAFBVV95cUxQRjJ1RHpJeXF1bDRUNFhreWx3SjcyeEs3SWdONTJDRTdqci02SVNiNENJR082UWYzNjRReU9vOEJxaG9pdDFXV3lDLVdPSENTejNmdGFueXJFZHBESVhHS0JlcHpvNkdscWstdFA2TlJLb0lrczIwaFp1UGgtVU1rTg?oc=5",
-          "date": "Thu, 19 Feb 2026 18:35:26 GMT",
-          "category": "military conflict",
-          "confidence": 0.2144000232219696,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "21.4%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "SUP meets with Director of Political Affairs Administration of Hasakah Governorate, stresses the importance of enshrining Syriac national, cultural, and linguistic rights in Syrian constitution - SyriacPress",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxOR0R5VUN0dWwxU1gweUo3QkhpcVQyMFBOVWlHRTRoV3pTX3NFcmhnX3dzYVJva1RwTkV5ZVkzNDBHaWNGQl9sQXdiVVNBeVdEaTU3VXhUTDRxSEF5MXcxeDlEWlhZVU1zM0Q3OERDMHZxUnlvVEZwYkh1OElPY2xoSTJZeXoxNkRsNHBHQWVCdFVNWFNoTjdDZjJKdEZvd2toU2ZFUWp2ZzQwdG1pVzU0QjlmTThieVMyYkVSN1o5NzRCNV9temt2WU51dDVobGM4SWlsSGlDNy03em91XzdBbmxIOVpZSjMzM2ZGYnJWWmFoUHRDWk5BdnhOcW4tVG56U0Z1RE04M0o0VzBMYWVYbGFaSG5IVWNPYnZnV1FydDBWTTJUMlJHcVQzVFl5X3ZpT2lUN3E5d3h6V3ZHdm1DU0FUYXlKS0ctd0J1VXR4bFM?oc=5",
-          "date": "Thu, 19 Feb 2026 11:12:10 GMT",
+          "link": "https://english.enabbaladi.net/archives/2026/02/on-the-eve-of-ramadan-al-sharaa-issues-a-general-amnesty/",
+          "date": "Wed, 18 Feb 2026 21:23:59 +0000",
           "category": "peaceful diplomacy",
-          "confidence": 0.20928391814231873,
-          "weight": 0.0,
+          "confidence": 0.46078065037727356,
+          "weight": -0.9215613007545471,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "20.9%",
+          "ai_confidence_score": "46.1%",
           "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Federal politics: PM says he 'has nothing but contempt' for women in Syria linked to ISIS — as it happened - Australian Broadcasting Corporation",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdVVZV0dlaUN1c0JKRzdPR2VubVBlOHhsSFlfS2dVT2U2U2hweE5uWGRHczJXd3Jsa1dJU3BiX1N4SU5WeWltM0tuY3hfX0FCOGNiUXF4NHM5R2lodm5IVVRLMmlPYW9aNEhnOHlfbndncnBlUEY2UXNWcm1QNmxxVWMyanM3YlFvbUhxaFU2SjdXbFBNTG1QcGpaX0dvR1U?oc=5",
-          "date": "Thu, 19 Feb 2026 13:38:29 GMT",
-          "category": "military conflict",
-          "confidence": 0.3947470784187317,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "39.5%",
-          "detected_lang": "local",
           "is_translated": false,
           "country": "Syria"
         }
@@ -1381,6 +1381,20 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "21.0%",
           "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "A large group of US military heavy aircraft was spotted today on tarmac at Sofia Airport, Bulgaria - airlive",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQQzdNcXhfR3d1eHBzbzA0WU5GWEFic1I5QXlWcTFaVk0zaXV0MERZVk5fdG10RkZjSF8xRTB6M2lua1RZY0VmUHR6YjdBbzl3ZlI2VkZQMU5oQWJ2Ny02X1VNOGpUTWl0aUc2NFNEZm16QllJYUVFcUFZLUs5bFlJUEpYRzhxc1R3SjFUNXpoaXJqUUhzNWJ1aXNNbWJta1VkbndjSU9nUW5BU3ljY3ZJa0U3SkZZNDNyNUtzMldtdEQ2MjRTWkNnZi03NWhNNjl5Y0RNag?oc=5",
+          "date": "Fri, 20 Feb 2026 00:53:28 GMT",
+          "category": "military conflict",
+          "confidence": 0.20177806913852692,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "20.2%",
+          "detected_lang": "en",
           "is_translated": false,
           "country": "Bulgaria"
         },
@@ -1497,20 +1511,6 @@ window.BNTI_DATA = {
           "country": "Bulgaria"
         },
         {
-          "title": "Русия е готова да приюти ирански уран",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/sviat/2026/02/19/4884812_rusiia_e_gotova_da_prijuti_iranski_uran/?ref=rss",
-          "date": "Thu, 19 Feb 2026 20:19:00 +0200",
-          "category": "terrorist act",
-          "confidence": 0.21321648359298706,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "21.3%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
           "title": "Албания, Косово и още три държави дават войски за мира в Газа",
           "translated_title": null,
           "link": "https://www.dnevnik.bg/sviat/2026/02/19/4884836_albaniia_kosovo_i_oshte_tri_durjavi_davat_voiski_za/?ref=rss",
@@ -1528,12 +1528,6 @@ window.BNTI_DATA = {
     }
   },
   "history": [
-    {
-      "timestamp": "2026-02-17T23:46:52.678434",
-      "main_index": 3.01,
-      "index": 3.01,
-      "type": "historical"
-    },
     {
       "timestamp": "2026-02-18T03:03:02.685172",
       "main_index": 3.09,
@@ -1731,46 +1725,52 @@ window.BNTI_DATA = {
       "main_index": 4.05,
       "index": 4.05,
       "type": "historical"
+    },
+    {
+      "timestamp": "2026-02-20T02:45:56.722188",
+      "main_index": 3.95,
+      "index": 3.95,
+      "type": "historical"
     }
   ],
   "forecast": [
     {
-      "timestamp": "2026-02-20T00:46:49.373190",
-      "index": 3.8,
-      "main_index": 3.8,
-      "confidence": 0.3,
-      "type": "forecast"
-    },
-    {
-      "timestamp": "2026-02-20T01:46:49.373190",
+      "timestamp": "2026-02-20T03:45:56.722188",
       "index": 3.81,
       "main_index": 3.81,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-20T02:46:49.373190",
+      "timestamp": "2026-02-20T04:45:56.722188",
       "index": 3.83,
       "main_index": 3.83,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-20T03:46:49.373190",
+      "timestamp": "2026-02-20T05:45:56.722188",
       "index": 3.84,
       "main_index": 3.84,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-20T04:46:49.373190",
-      "index": 3.86,
-      "main_index": 3.86,
+      "timestamp": "2026-02-20T06:45:56.722188",
+      "index": 3.85,
+      "main_index": 3.85,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-20T05:46:49.373190",
+      "timestamp": "2026-02-20T07:45:56.722188",
+      "index": 3.87,
+      "main_index": 3.87,
+      "confidence": 0.3,
+      "type": "forecast"
+    },
+    {
+      "timestamp": "2026-02-20T08:45:56.722188",
       "index": 3.88,
       "main_index": 3.88,
       "confidence": 0.3,
