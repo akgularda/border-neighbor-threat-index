@@ -1,10 +1,10 @@
 window.BNTI_DATA = {
   "meta": {
-    "generated_at": "2026-02-20T21:43:15.725957",
-    "main_index": 4.42,
+    "generated_at": "2026-02-20T22:44:26.083650",
+    "main_index": 4.24,
     "status": "ELEVATED",
     "active_scan": true,
-    "next_update": "2026-02-20T22:00:00",
+    "next_update": "2026-02-20T23:00:00",
     "version": "2.0.0"
   },
   "countries": {
@@ -225,8 +225,8 @@ window.BNTI_DATA = {
       ]
     },
     "Georgia": {
-      "index": 3.86,
-      "raw_score": 1.59,
+      "index": 3.6,
+      "raw_score": 1.42,
       "events": [
         {
           "title": "Russian war correspondent with Akhmat unit accused of wearing fake Wagner award",
@@ -243,15 +243,15 @@ window.BNTI_DATA = {
           "country": "Georgia"
         },
         {
-          "title": "Georgia Arrests Two Foreigners Over Attempt to Buy Nuclear, Radioactive Materials",
-          "translated_title": "Georgia Arrests Two Foreigners Over Attempt to Buy Nuclear, Radioactive Materials",
-          "link": "https://civil.ge/archives/722043",
-          "date": "Thu, 19 Feb 2026 08:40:29 +0000",
-          "category": "military conflict",
-          "confidence": 0.9157488942146301,
-          "weight": 9.157488942146301,
+          "title": "Daghestani man sentenced for murder of university rector",
+          "translated_title": "Daghestani man sentenced for murder of university rector",
+          "link": "https://oc-media.org/daghestani-man-sentenced-for-murder-of-university-rector/",
+          "date": "Thu, 19 Feb 2026 12:17:18 +0000",
+          "category": "terrorist act",
+          "confidence": 0.7284214496612549,
+          "weight": 6.555793046951294,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "91.6%",
+          "ai_confidence_score": "72.8%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Georgia"
@@ -266,62 +266,6 @@ window.BNTI_DATA = {
           "weight": 5.040772497653961,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "72.0%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
-          "title": "Spike in Georgia’s Oil Exports Raises Questions",
-          "translated_title": null,
-          "link": "https://civil.ge/archives/722217",
-          "date": "Fri, 20 Feb 2026 14:03:37 +0000",
-          "category": "neutral news",
-          "confidence": 0.18186704814434052,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "18.2%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
-          "title": "Georgia to Review Social Assistance Database Amid Growth in Beneficiaries, ‘Economic Success’",
-          "translated_title": null,
-          "link": "https://civil.ge/archives/722220",
-          "date": "Fri, 20 Feb 2026 11:29:14 +0000",
-          "category": "neutral news",
-          "confidence": 0.26629289984703064,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "26.6%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
-          "title": "Georgia’s Foreign Trade Falls 24% in January 2026",
-          "translated_title": null,
-          "link": "https://civil.ge/archives/722076",
-          "date": "Thu, 19 Feb 2026 10:26:41 +0000",
-          "category": "neutral news",
-          "confidence": 0.2232772260904312,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "22.3%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
-          "title": "Pro-Government Channels Take Almost 80% of Georgia’s TV Ad Revenue in 2025",
-          "translated_title": null,
-          "link": "https://civil.ge/archives/721974",
-          "date": "Thu, 19 Feb 2026 07:51:45 +0000",
-          "category": "neutral news",
-          "confidence": 0.18486876785755157,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "18.5%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Georgia"
@@ -437,12 +381,68 @@ window.BNTI_DATA = {
           "detected_lang": "en",
           "is_translated": false,
           "country": "Georgia"
+        },
+        {
+          "title": "How the Aliyevs are getting a taste of their own bitter medicine",
+          "translated_title": null,
+          "link": "https://oc-media.org/how-the-aliyevs-are-getting-a-taste-of-their-own-bitter-medicine/",
+          "date": "Thu, 19 Feb 2026 14:12:27 +0000",
+          "category": "violent protest",
+          "confidence": 0.2956678569316864,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "29.6%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
+          "title": "Chechnya says it provided $560 million for full-scale invasion of Ukraine",
+          "translated_title": null,
+          "link": "https://oc-media.org/chechnya-says-it-provided-560-million-for-full-scale-invasion-of-ukraine/",
+          "date": "Thu, 19 Feb 2026 13:52:39 +0000",
+          "category": "military conflict",
+          "confidence": 0.9443219900131226,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "94.4%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
+          "title": "Russia warns Armenia not to make ‘ill-considered decisions' regarding railway takeover",
+          "translated_title": null,
+          "link": "https://oc-media.org/russia-warns-armenia-not-to-make-ill-considered-decisions-regarding-railway-takeover/",
+          "date": "Thu, 19 Feb 2026 11:16:55 +0000",
+          "category": "military conflict",
+          "confidence": 0.29885801672935486,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "29.9%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
+          "title": "Kobakhidze blames ‘liberal ideology’ for declining birth rates",
+          "translated_title": null,
+          "link": "https://oc-media.org/kobakhidze-blames-liberal-ideology-for-declining-birth-rates/",
+          "date": "Thu, 19 Feb 2026 11:12:25 +0000",
+          "category": "political crisis",
+          "confidence": 0.2766481637954712,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "27.7%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Georgia"
         }
       ]
     },
     "Greece": {
-      "index": 4.94,
-      "raw_score": 2.4,
+      "index": 3.75,
+      "raw_score": 1.52,
       "events": [
         {
           "title": "Λίβανος: Οκτώ νεκροί από ισραηλινά πλήγματα στην Κοιλάδα Μπεκάα",
@@ -460,30 +460,15 @@ window.BNTI_DATA = {
           "translation_engine": "Google Neural MT"
         },
         {
-          "title": "Ποια σενάρια για χτύπημα στο Ιράν εξετάζουν οι ΗΠΑ, εκκενώνουν αμερικανικές βάσεις σε Κατάρ και Μπαχρέιν",
-          "translated_title": "What scenarios for striking Iran is the US considering, evacuate US bases in Qatar and Bahrain",
-          "link": "https://www.protothema.gr/world/article/1777713/new-york-times-amerikanoi-stratiotes-apomakrunthikan-apo-vaseis-sto-katar-kai-to-bahrein/?utm_source=rss",
-          "date": "Fri, 20 Feb 2026 23:07:00 +0200",
-          "category": "military conflict",
-          "confidence": 0.8445922136306763,
-          "weight": 8.445922136306763,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "84.5%",
-          "detected_lang": "local",
-          "is_translated": true,
-          "country": "Greece",
-          "translation_engine": "Google Neural MT"
-        },
-        {
-          "title": "Ασταμάτητος Αλκαράθ: «Εκθρόνισε» τον Ρούμπλεφ στην Ντόχα και οδεύει για το τρόπαιο, βίντεο",
+          "title": "La Liga, Αθλέτικ Μπιλμπάο – Έλτσε 2-1: «Χτύπησε» στο 89’ και πλησίασε την εξάδα, δείτε τα γκολ",
           "translated_title": null,
-          "link": "https://www.protothema.gr/sports/article/1777694/astamatitos-alkarath-ekthronise-ton-roublef-stin-doha-kai-odeuei-gia-to-tropaio/?utm_source=rss",
-          "date": "Fri, 20 Feb 2026 22:11:00 +0200",
+          "link": "https://www.protothema.gr/sports/article/1777728/la-liga-athletik-bilbao-eltse-2-1-htupise-sto-89-kai-plisiase-tin-exada-deite-ta-gol/?utm_source=rss",
+          "date": "Sat, 21 Feb 2026 00:15:24 +0200",
           "category": "violent protest",
-          "confidence": 0.9425120949745178,
-          "weight": 6.597584664821625,
+          "confidence": 0.6141833066940308,
+          "weight": 4.299283146858215,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "94.3%",
+          "ai_confidence_score": "61.4%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -531,15 +516,29 @@ window.BNTI_DATA = {
           "country": "Greece"
         },
         {
-          "title": "Αυστρία: Τέσσερις νεκροί και πολλά προβλήματα στις μεταφορές λόγω της σφοδρής χιονόπτωσης",
+          "title": "Η Ουάσινγκτον διαπραγματεύεται με την Ινδία την αγορά πετρελαίου από τη Βενεζουέλα",
           "translated_title": null,
-          "link": "https://www.protothema.gr/world/article/1777704/austria-tesseris-nekroi-kai-polla-provlimata-stis-metafores-logo-tis-sfodris-hionoptosis/?utm_source=rss",
-          "date": "Fri, 20 Feb 2026 22:26:00 +0200",
-          "category": "humanitarian crisis",
-          "confidence": 0.8329920172691345,
-          "weight": 2.4989760518074036,
+          "link": "https://www.protothema.gr/world/article/1777726/i-ouasington-diapragmateuetai-me-tin-india-tin-agora-petrelaiou-apo-ti-venezouela/?utm_source=rss",
+          "date": "Fri, 20 Feb 2026 23:50:00 +0200",
+          "category": "violent protest",
+          "confidence": 0.415000855922699,
+          "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "83.3%",
+          "ai_confidence_score": "41.5%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Οι φωτογραφίες με την Κιμ Καρντάσιαν σε ηλικία επτά ετών",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/life-style/article/1777721/oi-fotografies-me-tin-kim-kardasian-se-ilikia-epta-eton/?utm_source=rss",
+          "date": "Fri, 20 Feb 2026 23:45:00 +0200",
+          "category": "neutral news",
+          "confidence": 0.21448880434036255,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "21.4%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -587,6 +586,20 @@ window.BNTI_DATA = {
           "country": "Greece"
         },
         {
+          "title": "Ποια σενάρια για χτύπημα στο Ιράν εξετάζουν οι ΗΠΑ, μετά το «σκέφτομαι περιορισμένη επίθεση» που είπε ο Τραμπ",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/world/article/1777713/new-york-times-amerikanoi-stratiotes-apomakrunthikan-apo-vaseis-sto-katar-kai-to-bahrein/?utm_source=rss",
+          "date": "Fri, 20 Feb 2026 23:07:00 +0200",
+          "category": "violent protest",
+          "confidence": 0.1772284358739853,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "17.7%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
           "title": "Πατρινό Καρναβάλι 2026: Φαντασμαγορική πρεμιέρα για το τριήμερο, με τη νυχτερινή παρέλαση των αρμάτων",
           "translated_title": null,
           "link": "https://www.protothema.gr/greece/article/1777711/patrino-karnavali-2026-fadasmagoriki-premiera-gia-to-triimero-me-ti-nuhterini-parelasi-ton-armaton/?utm_source=rss",
@@ -615,29 +628,15 @@ window.BNTI_DATA = {
           "country": "Greece"
         },
         {
-          "title": "Δείτε το video με την παρέμβαση της Elisabeth Werner στο 4ο Cantina Academy",
+          "title": "Ιταλός εκπαίδευσε... τον σκύλο του να πετάει τα σκουπίδια στον δρόμο",
           "translated_title": null,
-          "link": "https://www.protothema.gr/cantina/article/1777706/deite-to-video-me-tin-paremvasi-tis-elisabeth-werner-sto-4o-cantina-academy/?utm_source=rss",
-          "date": "Fri, 20 Feb 2026 22:32:00 +0200",
-          "category": "violent protest",
-          "confidence": 0.19710209965705872,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "19.7%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Άρης Τσάπης για το «Ευτυχισμένοι Μαζί»: Ο Γιάννης Μπέζος ήταν σαν μπαμπάς, μας έλεγε ανέκδοτα πριν ξεκινήσει η σκηνή",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/life-style/article/1777703/aris-tsapis-gia-to-eutuhismenoi-mazi-o-giannis-bezos-itan-san-babas-mas-elege-anekdota-prin-xekinisei-i-skini/?utm_source=rss",
-          "date": "Fri, 20 Feb 2026 22:23:47 +0200",
+          "link": "https://www.protothema.gr/world/article/1777709/italos-ekpaideuse-ton-skulo-tou-na-petaei-ta-skoupidia-ston-dromo/?utm_source=rss",
+          "date": "Fri, 20 Feb 2026 23:37:32 +0200",
           "category": "peaceful diplomacy",
-          "confidence": 0.27506324648857117,
+          "confidence": 0.2128620594739914,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "27.5%",
+          "ai_confidence_score": "21.3%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -659,8 +658,8 @@ window.BNTI_DATA = {
       ]
     },
     "Iran": {
-      "index": 4.35,
-      "raw_score": 1.94,
+      "index": 4.52,
+      "raw_score": 2.07,
       "events": [
         {
           "title": "Israeli attacks across Lebanon kill at least eight people",
@@ -744,6 +743,20 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "49.1%",
           "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Can Trump still impose tariffs after the Supreme Court ruling?",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/economy/2026/2/20/can-trump-still-impose-tariffs-after-the-supreme-court-ruling?traffic_source=rss",
+          "date": "Fri, 20 Feb 2026 21:32:23 +0000",
+          "category": "political crisis",
+          "confidence": 0.3816315233707428,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "38.2%",
+          "detected_lang": "en",
           "is_translated": false,
           "country": "Iran"
         },
@@ -858,51 +871,23 @@ window.BNTI_DATA = {
           "detected_lang": "local",
           "is_translated": false,
           "country": "Iran"
-        },
-        {
-          "title": "Who made the cut on Trump’s ‘Board of Peace’ and what they want",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/video/the-take-2/2026/2/20/aje-onl-glb_boardofpeacemeeting_av_v1-190226?traffic_source=rss",
-          "date": "Fri, 20 Feb 2026 18:08:19 +0000",
-          "category": "peaceful diplomacy",
-          "confidence": 0.9546148777008057,
-          "weight": -1.9092297554016113,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "95.5%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Iran"
         }
       ]
     },
     "Iraq": {
-      "index": 5.16,
-      "raw_score": 2.59,
+      "index": 4.58,
+      "raw_score": 2.11,
       "events": [
         {
-          "title": "At least 6 killed, 25 wounded in Israeli strikes in east Lebanon",
-          "translated_title": "At least 6 killed, 25 wounded in Israeli strikes in east Lebanon",
-          "link": "https://www.newarab.com/news/least-6-killed-25-wounded-israeli-strikes-east-lebanon",
+          "title": "Israeli strikes kill at least 10 in east Lebanon",
+          "translated_title": "Israeli strikes kill at least 10 in east Lebanon",
+          "link": "https://www.newarab.com/news/israeli-strikes-kill-least-10-east-lebanon",
           "date": "Fri, 20 Feb 2026 21:00:21 +0000",
           "category": "military conflict",
-          "confidence": 0.9774501323699951,
-          "weight": 9.774501323699951,
+          "confidence": 0.9389477968215942,
+          "weight": 9.389477968215942,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "97.7%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
-        },
-        {
-          "title": "Two killed in Israeli strike on Palestinian camp in Lebanon",
-          "translated_title": "Two killed in Israeli strike on Palestinian camp in Lebanon",
-          "link": "https://www.newarab.com/news/two-killed-israeli-strike-palestinian-camp-lebanon",
-          "date": "Fri, 20 Feb 2026 16:36:03 +0000",
-          "category": "military conflict",
-          "confidence": 0.9541805386543274,
-          "weight": 9.541805386543274,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "95.4%",
+          "ai_confidence_score": "93.9%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
@@ -923,7 +908,7 @@ window.BNTI_DATA = {
         },
         {
           "title": "Defiant Albanese rejects smear campaign, refuses to step down",
-          "translated_title": null,
+          "translated_title": "Defiant Albanese rejects smear campaign, refuses to step down",
           "link": "https://www.newarab.com/news/defiant-albanese-rejects-smear-campaign-refuses-step-down",
           "date": "Fri, 20 Feb 2026 17:30:05 +0000",
           "category": "violent protest",
@@ -950,6 +935,20 @@ window.BNTI_DATA = {
           "country": "Iraq"
         },
         {
+          "title": "Trump vows 10% global tariff after Supreme Court rebuke",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/trump-vows-10-global-tariff-after-supreme-court-rebuke",
+          "date": "Fri, 20 Feb 2026 21:49:47 +0000",
+          "category": "political crisis",
+          "confidence": 0.47032684087753296,
+          "weight": 2.8219610452651978,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "47.0%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
           "title": "X files? Trump to order release of data on UFOs and aliens",
           "translated_title": null,
           "link": "https://www.newarab.com/news/x-files-trump-order-release-data-ufos-and-aliens",
@@ -959,6 +958,20 @@ window.BNTI_DATA = {
           "weight": 2.8116703033447266,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "46.9%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "US makes plans to reopen embassy in Syria after 14 years",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/us-makes-plans-reopen-embassy-syria-after-14-years",
+          "date": "Fri, 20 Feb 2026 21:50:05 +0000",
+          "category": "neutral news",
+          "confidence": 0.2814764976501465,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "28.1%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
@@ -1074,26 +1087,12 @@ window.BNTI_DATA = {
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
-        },
-        {
-          "title": "Amnesty says at least 30 in Iran at risk of execution",
-          "translated_title": null,
-          "link": "https://www.newarab.com/news/amnesty-says-least-30-iran-risk-execution",
-          "date": "Fri, 20 Feb 2026 16:16:43 +0000",
-          "category": "humanitarian crisis",
-          "confidence": 0.3598824739456177,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "36.0%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
         }
       ]
     },
     "Syria": {
-      "index": 5.69,
-      "raw_score": 3.07,
+      "index": 5.86,
+      "raw_score": 3.23,
       "events": [
         {
           "title": "U.S. cuts forces in Syria as its new government fights terror threat - PBS",
@@ -1152,6 +1151,21 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
+          "title": "الأمم المتحدة تنسق عودة 191 عراقيًا من “الهول”",
+          "translated_title": "The United Nations coordinates the return of 191 Iraqis from Al-Hawl",
+          "link": "https://www.enabbaladi.net/796503/%d8%a7%d9%84%d8%a3%d9%85%d9%85-%d8%a7%d9%84%d9%85%d8%aa%d8%ad%d8%af%d8%a9-%d8%aa%d9%86%d8%b3%d9%82-%d8%b9%d9%88%d8%af%d8%a9-191-%d8%b9%d8%b1%d8%a7%d9%82%d9%8a%d9%8b%d8%a7-%d9%85%d9%86-%d8%a7%d9%84/",
+          "date": "Fri, 20 Feb 2026 15:38:18 +0000",
+          "category": "violent protest",
+          "confidence": 0.8730652332305908,
+          "weight": 6.111456632614136,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "87.3%",
+          "detected_lang": "local",
+          "is_translated": true,
+          "country": "Syria",
+          "translation_engine": "Google Neural MT"
+        },
+        {
           "title": "US to withdraw troops from Syria as tensions mount with Iran - BBC",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1nMENSYWx0bTFibVV6SjZWMXRDc01URlI2eEl6emdkVlVrMFBjSjF5M3NSVWRIMm9ubjhOeGxNdDhkLVBtSFF5OEhPaGVOdWY5SXRHbTRjZHlJUQ?oc=5",
@@ -1166,29 +1180,15 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
-          "title": "The End of Rojava Is Bad News for the United States - The National Interest",
+          "title": "توتر إثر اعتقال “قسد” فتاة في الحسكة",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNemhldDExZ0M0OW1lMzJaLVZVNERuOHVQbDlIaFFPdFNYblNBeVkxN3A2REI1bmdaN0Jxem1qSXgwWHVyNHhRblRvdy16Qy13QTZXX1ZTZzctMjdrcGZxTl9hNEFWSW5meXJiN1luWjBFUVFLOFlNYnYwQmNmd0lxZ2toVGhkbmdwMk1mQUVJRjhxbUVIR09rUEdVLVFlOHNGeWJIcnRR?oc=5",
-          "date": "Thu, 19 Feb 2026 16:05:17 GMT",
+          "link": "https://www.enabbaladi.net/796521/%d8%aa%d9%88%d8%aa%d8%b1-%d8%a5%d8%ab%d8%b1-%d8%a7%d8%b9%d8%aa%d9%82%d8%a7%d9%84-%d9%82%d8%b3%d8%af-%d9%81%d8%aa%d8%a7%d8%a9-%d9%81%d9%8a-%d8%a7%d9%84%d8%ad%d8%b3%d9%83%d8%a9/",
+          "date": "Fri, 20 Feb 2026 20:04:11 +0000",
           "category": "violent protest",
-          "confidence": 0.473734587430954,
-          "weight": 3.316142112016678,
+          "confidence": 0.6305624842643738,
+          "weight": 4.4139373898506165,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "47.4%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "News live: charity calls for ‘moral clarity’ on Australians in Syrian camp, saying children devastated not to be coming home - The Guardian",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxQak1qWVJmcjZQNUtna2x2MU5KelU5clUwM0VqSkFVN0VEX2c0ZEVDYUlTRTlqR3pNbzdRTUxxZHBOMEg5cVpKU1QxZ1k4dEtCRUhfS3FaSkZabUlRNU5jSkw3YjNVQUU4ZDBtYXI3OHdQckhGQUFldzhMRDJoTjJleE5aQVJHQkphOHlscFNQc3k4R1FtX2FZM1paSnJVUzdrNmNKVGdJTlpOeEhSOHZpOHJGbldfNXBoZnZfVEViTTMxS3FJZk1YNjRGNVU2SXBOeTlqTkN1cHRVRGNOR29qZHVBVUhVbnF1ckVNZHlXNnFKdENTUXlrUExwc2RWSk1XZmdYdWdHWTJQSms3NmIzRWZLWTU1OEtGSnlzWTlnQmE4czlaMDBZYnE0cEhEUGtyNHJPQ0JNLXpFN2VuWFNSTA?oc=5",
-          "date": "Thu, 19 Feb 2026 00:38:30 GMT",
-          "category": "humanitarian crisis",
-          "confidence": 0.9415871500968933,
-          "weight": 2.82476145029068,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "94.2%",
+          "ai_confidence_score": "63.1%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Syria"
@@ -1211,7 +1211,7 @@ window.BNTI_DATA = {
           "title": "A camp in Syria that held families of Islamic State members is nearly empty after repatriations - The Washington Post",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVkZyZzV1LW9hV0xYbExVU2xWR3NQUDFaS2M1MzFlcHFtSDhFUnh3cTVudFk5UHQyVWpoamxSN3RYQkhDTXg5czNMV0o4d0NWY29ocmFnM2ZkbEk2T0NZbmYyeFFxU19NSWY1eTlrNmNWUllscWNsYVlGTHp6bjY2TkF5VC1fN2dFaWlwZ2UtSGREam1QZUJJNGR6VEk0UjBYcTJSdjVlbkxqRmNwTHRmYmwtVnNNOVNwWXlvdEtSVVhpeDJz?oc=5",
-          "date": "Fri, 20 Feb 2026 20:10:16 GMT",
+          "date": "Fri, 20 Feb 2026 21:40:16 GMT",
           "category": "terrorist act",
           "confidence": 0.2509225904941559,
           "weight": 0.0,
@@ -1264,44 +1264,44 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
-          "title": "US makes plans to reopen embassy in Syria after 14 years - The Washington Post",
+          "title": "“الداخلية” تحدد إجراءات الحصول على الجنسية للمواطنين الكرد",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPb2dSQ2kwRTlpUlRHVWdvTmJhM1NGMzZKRlBUdGJwUldKZzhlRmhsbm5KSGh0ekVEU0F6OF92Q0NYXzBOMWVvcjFQdndkeGw1WFExR21mT3VpOVhHYkU5eTVXSVR1cE1oVUpjRzQ1YUtBMUVBSzd5aUhLbUVxVDZUVVF4SXJUQnQwMXVSaU5IM1p0RHhOT1hQRWc3ZnVxa3h3NEdBR1pQTzhZcC02eUdQdlpxVVNoWGMzY21oSVJYdVN2Tjc0NFUzZ0tRSQ?oc=5",
-          "date": "Fri, 20 Feb 2026 20:36:46 GMT",
-          "category": "violent protest",
-          "confidence": 0.20324872434139252,
+          "link": "https://www.enabbaladi.net/796533/%d8%a7%d9%84%d8%af%d8%a7%d8%ae%d9%84%d9%8a%d8%a9-%d8%aa%d8%ad%d8%af%d8%af-%d8%a5%d8%ac%d8%b1%d8%a7%d8%a1%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d8%b5%d9%88%d9%84-%d8%b9%d9%84%d9%89-%d8%a7%d9%84/",
+          "date": "Fri, 20 Feb 2026 20:21:25 +0000",
+          "category": "political crisis",
+          "confidence": 0.21700625121593475,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "20.3%",
-          "detected_lang": "en",
+          "ai_confidence_score": "21.7%",
+          "detected_lang": "local",
           "is_translated": false,
           "country": "Syria"
         },
         {
-          "title": "US Pulls Forces From Syria as New Government Exerts Control - Bloomberg.com",
+          "title": "درعا.. قتيل ومصاب بمحاولة استهداف أحمد العودة",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNVdKdjk5RThXVjBNTWpSRWZzQ2NMWjdqSk94S0lIbkZzM01JZjRONmpRVGM5TEZFa2pWeDNSRmdVR2tGbm1kTVRVQlpqVklxYjh0ZHhmZXhSQ1QzVzl6Ym0tb3YzNWlRN3lMQnJfX2JNSTF2UGpNbzdCM0pGb29RT0Nhb21xRUVBS3V1aUNfQkNSZjk4M3RPMzRkQ0VHT0RPcmh6WG5vMGhCQWJva3BZ?oc=5",
-          "date": "Wed, 18 Feb 2026 21:45:43 GMT",
+          "link": "https://www.enabbaladi.net/796522/%d8%af%d8%b1%d8%b9%d8%a7-%d9%82%d8%aa%d9%8a%d9%84-%d9%88%d9%85%d8%b5%d8%a7%d8%a8-%d8%a8%d9%85%d8%ad%d8%a7%d9%88%d9%84%d8%a9-%d8%a7%d8%b3%d8%aa%d9%87%d8%af%d8%a7%d9%81-%d8%a3%d8%ad%d9%85%d8%af-%d8%a7/",
+          "date": "Fri, 20 Feb 2026 18:49:55 +0000",
           "category": "military conflict",
-          "confidence": 0.5432954430580139,
+          "confidence": 0.27433305978775024,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "54.3%",
-          "detected_lang": "en",
+          "ai_confidence_score": "27.4%",
+          "detected_lang": "local",
           "is_translated": false,
           "country": "Syria"
         },
         {
-          "title": "Trump orders complete withdrawal of all troops from Syria within two months: report - Fox News",
+          "title": "رغم الحديث عن عراقيل.. خطوات الدمج مستمرة بالحسكة",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUUVULTdLSk5PWktZUHlOTDZxcUVzdHkxUjZ5RmJuYTdxYXhwd1BCb3JpSkMtb3J1TEFzdlRvcldjMndoNzNubVk5bWJvMi0tQmdNRENMY09ROEtkcDNyWkVhMnFTeWZTZUUxVm9NdFJiTnJYOXBlV29xQ0otRzNaeG9ORFUxZS1PcjBBSkRkbTlKbHlWMHhVZGdiUTlXWDdrQmfSAacBQVVfeXFMTmlCNXBBdTlkd0RYeWM1MVNPTHlFRGxoVldGcGFQQzB0eWsyaWI5VU4walIwb3dxNmloUG5KUHdIeGUyRmZaU3gtTktmdlB6VjVIRi1Xd3p6TTZZZ0w0Sm1BYTloQ0paaVdVZjZnRkZRYmY3ZWRwZGFsQUFmUllOakN5MlJqcUFIamFMaHVzZW15WG54czJwQ3ZIbUhqZkdLM3FyOC1LWFk?oc=5",
-          "date": "Wed, 18 Feb 2026 22:27:52 GMT",
-          "category": "military conflict",
-          "confidence": 0.5133024454116821,
-          "weight": 0.0,
+          "link": "https://www.enabbaladi.net/796541/%d8%b1%d8%ba%d9%85-%d8%a7%d9%84%d8%ad%d8%af%d9%8a%d8%ab-%d8%b9%d9%86-%d8%b9%d8%b1%d8%a7%d9%82%d9%8a%d9%84-%d8%ae%d8%b7%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%af%d9%85%d8%ac-%d9%85%d8%b3%d8%aa%d9%85%d8%b1/",
+          "date": "Fri, 20 Feb 2026 22:11:16 +0000",
+          "category": "peaceful diplomacy",
+          "confidence": 0.963360607624054,
+          "weight": -1.926721215248108,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "51.3%",
-          "detected_lang": "en",
+          "ai_confidence_score": "96.3%",
+          "detected_lang": "local",
           "is_translated": false,
           "country": "Syria"
         }
@@ -1426,6 +1426,20 @@ window.BNTI_DATA = {
           "country": "Bulgaria"
         },
         {
+          "title": "Затворен е пътят между София и Самоков заради свличане на скална маса",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/bulgaria/2026/02/20/4885173_zatvoren_e_putia_mejdu_sofiia_i_samokov_zaradi/?ref=rss",
+          "date": "Fri, 20 Feb 2026 23:45:00 +0200",
+          "category": "violent protest",
+          "confidence": 0.22462669014930725,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "22.5%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
           "title": "Унгария обяви вето върху заема на ЕС за Украйна",
           "translated_title": null,
           "link": "https://www.dnevnik.bg/evropa/2026/02/20/4885169_ungariia_obiavi_veto_vurhu_zaema_na_es_za_ukraina/?ref=rss",
@@ -1508,31 +1522,11 @@ window.BNTI_DATA = {
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
-        },
-        {
-          "title": "Тръмп наложи нови световни мита от 10%, три часа след отмяната на предишните",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/sviat/2026/02/20/4885148_trump_naloji_novi_svetovni_mita_ot_10_tri_chasa_sled/?ref=rss",
-          "date": "Fri, 20 Feb 2026 20:47:00 +0200",
-          "category": "military conflict",
-          "confidence": 0.17605125904083252,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "17.6%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
         }
       ]
     }
   },
   "history": [
-    {
-      "timestamp": "2026-02-18T22:11:51.197124",
-      "main_index": 3.51,
-      "index": 3.51,
-      "type": "historical"
-    },
     {
       "timestamp": "2026-02-18T22:47:33.944747",
       "main_index": 3.63,
@@ -1730,48 +1724,54 @@ window.BNTI_DATA = {
       "main_index": 4.42,
       "index": 4.42,
       "type": "historical"
+    },
+    {
+      "timestamp": "2026-02-20T22:44:31.938696",
+      "main_index": 4.24,
+      "index": 4.24,
+      "type": "historical"
     }
   ],
   "forecast": [
     {
-      "timestamp": "2026-02-20T22:43:20.464207",
-      "index": 4.07,
-      "main_index": 4.07,
+      "timestamp": "2026-02-20T23:44:31.938696",
+      "index": 4.1,
+      "main_index": 4.1,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-20T23:43:20.464207",
-      "index": 4.09,
-      "main_index": 4.09,
-      "confidence": 0.3,
-      "type": "forecast"
-    },
-    {
-      "timestamp": "2026-02-21T00:43:20.464207",
+      "timestamp": "2026-02-21T00:44:31.938696",
       "index": 4.12,
       "main_index": 4.12,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-21T01:43:20.464207",
+      "timestamp": "2026-02-21T01:44:31.938696",
       "index": 4.14,
       "main_index": 4.14,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-21T02:43:20.464207",
+      "timestamp": "2026-02-21T02:44:31.938696",
       "index": 4.16,
       "main_index": 4.16,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-21T03:43:20.464207",
+      "timestamp": "2026-02-21T03:44:31.938696",
       "index": 4.18,
       "main_index": 4.18,
+      "confidence": 0.3,
+      "type": "forecast"
+    },
+    {
+      "timestamp": "2026-02-21T04:44:31.938696",
+      "index": 4.2,
+      "main_index": 4.2,
       "confidence": 0.3,
       "type": "forecast"
     }
