@@ -1,10 +1,10 @@
 window.BNTI_DATA = {
   "meta": {
-    "generated_at": "2026-02-21T14:44:17.969972",
-    "main_index": 4.13,
+    "generated_at": "2026-02-21T15:49:59.205801",
+    "main_index": 4.43,
     "status": "ELEVATED",
     "active_scan": true,
-    "next_update": "2026-02-21T15:00:00",
+    "next_update": "2026-02-21T16:00:00",
     "version": "2.0.0"
   },
   "countries": {
@@ -22,48 +22,6 @@ window.BNTI_DATA = {
           "weight": 1.5176594853401184,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "50.6%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
-          "title": "Armenian, Georgian Economy Ministers Meet in Yerevan",
-          "translated_title": null,
-          "link": "https://hetq.am/en/article/179910",
-          "date": "Fri, 20 Feb 2026 18:34:00 +0400",
-          "category": "neutral news",
-          "confidence": 0.2928593158721924,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "29.3%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
-          "title": "Trump Believes Pashinyan and Aliyev Are Now Friends",
-          "translated_title": null,
-          "link": "https://hetq.am/en/article/179892",
-          "date": "Thu, 19 Feb 2026 19:28:00 +0400",
-          "category": "neutral news",
-          "confidence": 0.2878967821598053,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "28.8%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
-          "title": "Court Orders Two Month Detention Extension for Archbishop Galstyan",
-          "translated_title": null,
-          "link": "https://hetq.am/en/article/179891",
-          "date": "Thu, 19 Feb 2026 16:57:00 +0400",
-          "category": "neutral news",
-          "confidence": 0.21246188879013062,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "21.2%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Armenia"
@@ -195,6 +153,48 @@ window.BNTI_DATA = {
           "country": "Armenia"
         },
         {
+          "title": "Armenian, Georgian Economy Ministers Meet in Yerevan",
+          "translated_title": null,
+          "link": "https://hetq.am/en/article/179910",
+          "date": "Fri, 20 Feb 2026 18:34:00 +0400",
+          "category": "neutral news",
+          "confidence": 0.2928593158721924,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "29.3%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Armenia"
+        },
+        {
+          "title": "Trump Believes Pashinyan and Aliyev Are Now Friends",
+          "translated_title": null,
+          "link": "https://hetq.am/en/article/179892",
+          "date": "Thu, 19 Feb 2026 19:28:00 +0400",
+          "category": "neutral news",
+          "confidence": 0.2878967821598053,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "28.8%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Armenia"
+        },
+        {
+          "title": "Court Orders Two Month Detention Extension for Archbishop Galstyan",
+          "translated_title": null,
+          "link": "https://hetq.am/en/article/179891",
+          "date": "Thu, 19 Feb 2026 16:57:00 +0400",
+          "category": "neutral news",
+          "confidence": 0.21246188879013062,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "21.2%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Armenia"
+        },
+        {
           "title": "Is normalization at the door? Türkiye-Armenia land trade begins - Türkiye Today",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORFpmVEh3djQ0bGhfYXgtLVY4RVMtUXlWUFBrUVEtTG00UDlnX2dBNzB4aDZCdmJMM09pVWNIZDdMQ256bVBfWFR4cHdKdmxnY2M4TWJuTlJHUU9sa2pmM3RtZlZObW41NUFJWi02VGI3anJGczNOc2hVNS1lWl8wa1VBNTktYkU1Sm9JaW1jRl9TM1VrM1dROUc5N29PWVVPOTRsQmlpV1B6WFk?oc=5",
@@ -225,8 +225,8 @@ window.BNTI_DATA = {
       ]
     },
     "Georgia": {
-      "index": 4.35,
-      "raw_score": 1.94,
+      "index": 4.86,
+      "raw_score": 2.33,
       "events": [
         {
           "title": "Russian war correspondent with Akhmat unit accused of wearing fake Wagner award",
@@ -258,6 +258,20 @@ window.BNTI_DATA = {
           "translation_engine": "Google Neural MT"
         },
         {
+          "title": "მსახიობები ტოვებენ თეატრს, საიდანაც ანდრო ჭიჭინაძის ბანერი ჩამოხსნეს",
+          "translated_title": null,
+          "link": "https://netgazeti.ge/life/799327/",
+          "date": "Sat, 21 Feb 2026 05:20:33 +0000",
+          "category": "violent protest",
+          "confidence": 0.8408592343330383,
+          "weight": 5.886014640331268,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "84.1%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
           "title": "9 მსახიობმა დატოვა თეატრი, საიდანაც ანდრო ჭიჭინაძის ბანერი ჩამოხსნეს",
           "translated_title": null,
           "link": "https://netgazeti.ge/news/799338/",
@@ -281,34 +295,6 @@ window.BNTI_DATA = {
           "weight": 5.040772497653961,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "72.0%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
-          "title": "Spike in Georgia’s Oil Exports Raises Questions",
-          "translated_title": null,
-          "link": "https://civil.ge/archives/722217",
-          "date": "Fri, 20 Feb 2026 14:03:37 +0000",
-          "category": "neutral news",
-          "confidence": 0.18186704814434052,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "18.2%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
-          "title": "Georgia to Review Social Assistance Database Amid Growth in Beneficiaries, ‘Economic Success’",
-          "translated_title": null,
-          "link": "https://civil.ge/archives/722220",
-          "date": "Fri, 20 Feb 2026 11:29:14 +0000",
-          "category": "neutral news",
-          "confidence": 0.26629289984703064,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "26.6%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Georgia"
@@ -412,16 +398,30 @@ window.BNTI_DATA = {
           "country": "Georgia"
         },
         {
-          "title": "Two exiled Azerbaijani critics  convicted in absentia",
+          "title": "Spike in Georgia’s Oil Exports Raises Questions",
           "translated_title": null,
-          "link": "https://oc-media.org/two-exiled-azerbaijani-critics-convicted-in-absentia/",
-          "date": "Thu, 19 Feb 2026 14:48:53 +0000",
-          "category": "political crisis",
-          "confidence": 0.2599238157272339,
+          "link": "https://civil.ge/archives/722217",
+          "date": "Fri, 20 Feb 2026 14:03:37 +0000",
+          "category": "neutral news",
+          "confidence": 0.18186704814434052,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "26.0%",
-          "detected_lang": "en",
+          "ai_confidence_score": "18.2%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
+          "title": "Georgia to Review Social Assistance Database Amid Growth in Beneficiaries, ‘Economic Success’",
+          "translated_title": null,
+          "link": "https://civil.ge/archives/722220",
+          "date": "Fri, 20 Feb 2026 11:29:14 +0000",
+          "category": "neutral news",
+          "confidence": 0.26629289984703064,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "26.6%",
+          "detected_lang": "local",
           "is_translated": false,
           "country": "Georgia"
         },
@@ -442,9 +442,38 @@ window.BNTI_DATA = {
       ]
     },
     "Greece": {
-      "index": 3.74,
-      "raw_score": 1.51,
+      "index": 4.71,
+      "raw_score": 2.21,
       "events": [
+        {
+          "title": "Ουκρανία: Πύραυλοι Flamingo έπληξαν ρωσικό εργοστάσιο κατασκευής βαλλιστικών πυραύλων",
+          "translated_title": "Ukraine: Flamingo missiles hit Russian ballistic missile factory",
+          "link": "https://www.naftemporiki.gr/kosmos/2075783/oykrania-pyrayloi-flamingo-eplixan-rosiko-ergostasio-kataskeyis-vallistikon-pyraylon/?utm_source=rss&utm_medium=rss&utm_campaign=oykrania-pyrayloi-flamingo-eplixan-rosiko-ergostasio-kataskeyis-vallistikon-pyraylon",
+          "date": "Sat, 21 Feb 2026 15:01:53 +0000",
+          "category": "military conflict",
+          "confidence": 0.9458997249603271,
+          "weight": 9.458997249603271,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "94.6%",
+          "detected_lang": "local",
+          "is_translated": true,
+          "country": "Greece",
+          "translation_engine": "Google Neural MT"
+        },
+        {
+          "title": "Δασμοί: «Η Ευρωπαϊκή Ενωση έχει τα εργαλεία για να απαντήσει στη νέα ομοβροντία από τον Τραμπ»",
+          "translated_title": null,
+          "link": "https://www.naftemporiki.gr/finance/world/2075779/dasmoi-i-eyropaiki-enosi-echei-ta-ergaleia-gia-na-apantisei-sti-nea-omovrontia-apo-ton-tramp/?utm_source=rss&utm_medium=rss&utm_campaign=dasmoi-i-eyropaiki-enosi-echei-ta-ergaleia-gia-na-apantisei-sti-nea-omovrontia-apo-ton-tramp",
+          "date": "Sat, 21 Feb 2026 14:43:26 +0000",
+          "category": "political crisis",
+          "confidence": 0.971805989742279,
+          "weight": 5.830835938453674,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "97.2%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
         {
           "title": "Ο «ΟΠΕΚΕμπεε» και… «το τζάμπα πέθανε»: Όταν το καρναβάλι εμπνέεται από την πολιτική επικαιρότητα",
           "translated_title": null,
@@ -488,20 +517,6 @@ window.BNTI_DATA = {
           "country": "Greece"
         },
         {
-          "title": "Κ. Τσουκαλάς για ηλεκτρική διασύνδεση με Κύπρο: Θα πει επιτέλους η κυβέρνηση την αλήθεια για το καλώδιο;",
-          "translated_title": null,
-          "link": "https://www.naftemporiki.gr/politics/2075758/k-tsoykalas-gia-ilektriki-diasyndesi-me-kypro-tha-pei-epiteloys-i-kyvernisi-tin-alitheia-gia-to-kalodio/?utm_source=rss&utm_medium=rss&utm_campaign=k-tsoykalas-gia-ilektriki-diasyndesi-me-kypro-tha-pei-epiteloys-i-kyvernisi-tin-alitheia-gia-to-kalodio",
-          "date": "Sat, 21 Feb 2026 12:52:10 +0000",
-          "category": "political crisis",
-          "confidence": 0.5872482061386108,
-          "weight": 3.523489236831665,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "58.7%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
           "title": "Λήμνος: Ακατάλληλο για πόση το νερό της Μύρινας",
           "translated_title": null,
           "link": "https://www.naftemporiki.gr/society/2075762/limnos-akatallilo-gia-posi-to-nero-tis-myrinas/?utm_source=rss&utm_medium=rss&utm_campaign=limnos-akatallilo-gia-posi-to-nero-tis-myrinas",
@@ -516,15 +531,43 @@ window.BNTI_DATA = {
           "country": "Greece"
         },
         {
-          "title": "Κακοκαιρία: Εικόνες καταστροφής στη Λήμνο – «Βούλιαξαν» στα λασπόνερα δρόμοι, σπίτια και καταστήματα",
+          "title": "Αλ. Τσίπρας: «Οι προοδευτικές δυνάμεις, πρέπει να αντισταθούμε στις βάρβαρες νεοφιλελεύθερες πολιτικές»",
           "translated_title": null,
-          "link": "https://www.naftemporiki.gr/society/2075744/kakokairia-eikones-katastrofis-sti-limno-voyliaxan-sta-lasponera-dromoi-spitia-kai-katastimata/?utm_source=rss&utm_medium=rss&utm_campaign=kakokairia-eikones-katastrofis-sti-limno-voyliaxan-sta-lasponera-dromoi-spitia-kai-katastimata",
-          "date": "Sat, 21 Feb 2026 11:58:06 +0000",
-          "category": "humanitarian crisis",
-          "confidence": 0.41377246379852295,
-          "weight": 1.2413173913955688,
+          "link": "https://www.naftemporiki.gr/society/2075788/al-tsipras-oi-proodeytikes-dynameis-prepei-na-antistathoyme-stis-varvares-neofileleytheres-politikes/?utm_source=rss&utm_medium=rss&utm_campaign=al-tsipras-oi-proodeytikes-dynameis-prepei-na-antistathoyme-stis-varvares-neofileleytheres-politikes",
+          "date": "Sat, 21 Feb 2026 15:26:50 +0000",
+          "category": "neutral news",
+          "confidence": 0.2686684727668762,
+          "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "41.4%",
+          "ai_confidence_score": "26.9%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Οι πρώτες αλλαγές στα ΕΛΤΑ έγιναν – Τι ακολουθεί",
+          "translated_title": null,
+          "link": "https://www.naftemporiki.gr/business/2075689/oi-protes-allages-sta-elta-eginan-ti-akoloythei/?utm_source=rss&utm_medium=rss&utm_campaign=oi-protes-allages-sta-elta-eginan-ti-akoloythei",
+          "date": "Sat, 21 Feb 2026 15:04:35 +0000",
+          "category": "peaceful diplomacy",
+          "confidence": 0.19178840517997742,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "19.2%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Τα κερδοφόρα… χαρτιά και τα «κρυφά όπλα» για τον Κύπριο πρόεδρο της AVAX",
+          "translated_title": null,
+          "link": "https://www.naftemporiki.gr/business/2073958/ta-kerdofora-chartia-kai-ta-kryfa-opla-gia-ton-kyprio-proedro-tis-avax/?utm_source=rss&utm_medium=rss&utm_campaign=ta-kerdofora-chartia-kai-ta-kryfa-opla-gia-ton-kyprio-proedro-tis-avax",
+          "date": "Sat, 21 Feb 2026 15:02:45 +0000",
+          "category": "terrorist act",
+          "confidence": 0.18302731215953827,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "18.3%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -600,48 +643,6 @@ window.BNTI_DATA = {
           "country": "Greece"
         },
         {
-          "title": "Κοζάνη: Συνελήφθη 39χρονη που κατέγραφε παράνομα δίκη με το κινητό της",
-          "translated_title": null,
-          "link": "https://www.naftemporiki.gr/society/2075755/kozani-synelifthi-39chroni-poy-kategrafe-paranoma-diki-me-to-kinito-tis/?utm_source=rss&utm_medium=rss&utm_campaign=kozani-synelifthi-39chroni-poy-kategrafe-paranoma-diki-me-to-kinito-tis",
-          "date": "Sat, 21 Feb 2026 12:34:03 +0000",
-          "category": "terrorist act",
-          "confidence": 0.17292769253253937,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "17.3%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Αχαΐα: Χωρίς τις αισθήσεις του εντοπίστηκε 44χρονος ψαράς που αγνοείτο",
-          "translated_title": null,
-          "link": "https://www.naftemporiki.gr/society/2075752/achaia-choris-tis-aisthiseis-toy-entopistike-44chronos-psaras-poy-agnoeito/?utm_source=rss&utm_medium=rss&utm_campaign=achaia-choris-tis-aisthiseis-toy-entopistike-44chronos-psaras-poy-agnoeito",
-          "date": "Sat, 21 Feb 2026 12:13:19 +0000",
-          "category": "violent protest",
-          "confidence": 0.44434481859207153,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "44.4%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Κι όμως ο Άντριου θεωρητικά μπορεί ακόμη να γίνει βασιλιάς – Τι εξετάζει η κυβέρνηση για τη διαδοχή του θρόνου",
-          "translated_title": null,
-          "link": "https://www.naftemporiki.gr/kosmos/2075743/ki-omos-o-antrioy-theoritika-mporei-akomi-na-ginei-vasilias-ti-exetazei-i-kyvernisi-gia-ti-diadochi-toy-thronoy/?utm_source=rss&utm_medium=rss&utm_campaign=ki-omos-o-antrioy-theoritika-mporei-akomi-na-ginei-vasilias-ti-exetazei-i-kyvernisi-gia-ti-diadochi-toy-thronoy",
-          "date": "Sat, 21 Feb 2026 11:54:22 +0000",
-          "category": "violent protest",
-          "confidence": 0.37775078415870667,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "37.8%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
           "title": "Κυπριακό νηολόγιο: Στο υψηλότερο επίπεδο των τελευταίων 25 ετών",
           "translated_title": null,
           "link": "https://www.naftemporiki.gr/maritime/2075760/kypriako-niologio-sto-ypsilotero-epipedo-ton-teleytaion-25-eton/?utm_source=rss&utm_medium=rss&utm_campaign=kypriako-niologio-sto-ypsilotero-epipedo-ton-teleytaion-25-eton",
@@ -658,8 +659,8 @@ window.BNTI_DATA = {
       ]
     },
     "Iran": {
-      "index": 6.05,
-      "raw_score": 3.43,
+      "index": 5.74,
+      "raw_score": 3.11,
       "events": [
         {
           "title": "Two soldiers killed during military operation in Pakistan’s northwest: Army",
@@ -735,20 +736,6 @@ window.BNTI_DATA = {
           "translation_engine": "Google Neural MT"
         },
         {
-          "title": "Clashes in Albania as protesters demand PM Rama resign",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/news/2026/2/21/clashes-in-albania-as-protesters-demand-pm-rama-resign?traffic_source=rss",
-          "date": "Sat, 21 Feb 2026 06:42:45 +0000",
-          "category": "violent protest",
-          "confidence": 0.6864389777183533,
-          "weight": 4.805072844028473,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "68.6%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
           "title": "World reacts as US top court limits Trump’s tariff powers",
           "translated_title": null,
           "link": "https://www.aljazeera.com/news/2026/2/21/trump-tariff-reactions?traffic_source=rss",
@@ -772,6 +759,20 @@ window.BNTI_DATA = {
           "weight": 3.1668323278427124,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "52.8%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Russian attack on Kharkiv kills two, Ukraine hits missile plant",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/news/2026/2/21/russian-attack-on-kharkiv-kills-two-ukraine-hits-missile-plant?traffic_source=rss",
+          "date": "Sat, 21 Feb 2026 14:37:22 +0000",
+          "category": "military conflict",
+          "confidence": 0.8508483171463013,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "85.1%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iran"
@@ -877,19 +878,19 @@ window.BNTI_DATA = {
       ]
     },
     "Iraq": {
-      "index": 5.33,
-      "raw_score": 2.74,
+      "index": 5.54,
+      "raw_score": 2.93,
       "events": [
         {
-          "title": "Dozens killed and injured in Lebanon as Israel escalates attacks",
-          "translated_title": "Dozens killed and injured in Lebanon as Israel escalates attacks",
-          "link": "https://www.newarab.com/news/dozens-killed-and-injured-lebanon-israel-escalates-attacks",
-          "date": "Fri, 20 Feb 2026 21:00:21 +0000",
+          "title": "US strikes alleged drug boat in eastern Pacific, killing 3",
+          "translated_title": "US strikes alleged drug boat in eastern Pacific, killing 3",
+          "link": "https://www.newarab.com/news/us-strikes-alleged-drug-boat-eastern-pacific-killing-3",
+          "date": "Sat, 21 Feb 2026 14:58:31 +0000",
           "category": "military conflict",
-          "confidence": 0.9588996171951294,
-          "weight": 9.588996171951294,
+          "confidence": 0.8649031519889832,
+          "weight": 8.649031519889832,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "95.9%",
+          "ai_confidence_score": "86.5%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
@@ -909,22 +910,23 @@ window.BNTI_DATA = {
           "country": "Iraq"
         },
         {
-          "title": "US lawmakers plan Iran war powers vote as Trump weighs strikes",
-          "translated_title": "US lawmakers plan Iran war powers vote as Trump weighs strikes",
-          "link": "https://www.newarab.com/news/us-lawmakers-plan-iran-war-powers-vote-trump-weighs-strikes",
-          "date": "Fri, 20 Feb 2026 20:01:33 +0000",
-          "category": "military conflict",
-          "confidence": 0.6870187520980835,
-          "weight": 6.870187520980835,
+          "title": "Jordan blasts US envoy’s Israel can ‘take Middle East' remarks",
+          "translated_title": "Jordan blasts US envoy’s Israel can ‘take Middle East' remarks",
+          "link": "https://www.newarab.com/news/jordan-blasts-us-envoys-israel-can-take-middle-east-remarks",
+          "date": "Sat, 21 Feb 2026 15:15:41 +0000",
+          "category": "violent protest",
+          "confidence": 0.9609176516532898,
+          "weight": 6.726423561573029,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "68.7%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
+          "ai_confidence_score": "96.1%",
+          "detected_lang": "local",
+          "is_translated": true,
+          "country": "Iraq",
+          "translation_engine": "Google Neural MT"
         },
         {
           "title": "Palestinian Christians defiant in Lent amid Israeli persecution",
-          "translated_title": "Palestinian Christians defiant in Lent amid Israeli persecution",
+          "translated_title": null,
           "link": "https://www.newarab.com/news/palestinian-christians-defiant-lent-amid-israeli-persecution",
           "date": "Sat, 21 Feb 2026 13:46:28 +0000",
           "category": "violent protest",
@@ -938,7 +940,7 @@ window.BNTI_DATA = {
         },
         {
           "title": "Lebanon condemns deadly Israeli strikes on south and east",
-          "translated_title": "Lebanon condemns deadly Israeli strikes on south and east",
+          "translated_title": null,
           "link": "https://www.newarab.com/news/lebanon-condemns-deadly-israeli-strikes-south-and-east",
           "date": "Sat, 21 Feb 2026 10:05:57 +0000",
           "category": "violent protest",
@@ -961,6 +963,34 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "82.5%",
           "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "Iraq bloc may drop Maliki from PM nomination after US threats",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/iraq-bloc-may-drop-maliki-pm-nomination-after-us-threats",
+          "date": "Sat, 21 Feb 2026 15:09:05 +0000",
+          "category": "political crisis",
+          "confidence": 0.6585597991943359,
+          "weight": 3.9513587951660156,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "65.9%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "Syrian Kurdish leader warns of ‘renewed war’ after ceasefire",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/syrian-kurdish-leader-warns-renewed-war-after-ceasefire",
+          "date": "Sat, 21 Feb 2026 14:56:39 +0000",
+          "category": "political crisis",
+          "confidence": 0.33257368206977844,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "33.3%",
+          "detected_lang": "local",
           "is_translated": false,
           "country": "Iraq"
         },
@@ -1061,41 +1091,27 @@ window.BNTI_DATA = {
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
-        },
-        {
-          "title": "Trump imposes 10% global tariff after Supreme Court rebuke",
-          "translated_title": null,
-          "link": "https://www.newarab.com/news/trump-imposes-10-global-tariff-after-supreme-court-rebuke",
-          "date": "Fri, 20 Feb 2026 21:49:47 +0000",
-          "category": "political crisis",
-          "confidence": 0.3460806906223297,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "34.6%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
-        },
-        {
-          "title": "UK govt could remove ex-prince Andrew from line of succession",
-          "translated_title": null,
-          "link": "https://www.newarab.com/news/uk-govt-could-remove-ex-prince-andrew-line-succession",
-          "date": "Fri, 20 Feb 2026 20:49:42 +0000",
-          "category": "peaceful diplomacy",
-          "confidence": 0.20387904345989227,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "20.4%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
         }
       ]
     },
     "Syria": {
-      "index": 3.91,
-      "raw_score": 1.62,
+      "index": 4.51,
+      "raw_score": 2.06,
       "events": [
+        {
+          "title": "Daraa, Israeli army detains two young Syrian men in Yarmouk Basin",
+          "translated_title": "Daraa, Israeli army detains two young Syrian men in Yarmouk Basin",
+          "link": "https://english.enabbaladi.net/archives/2026/02/https-wp-me-p7cv3y-oft/",
+          "date": "Thu, 19 Feb 2026 19:30:56 +0000",
+          "category": "military conflict",
+          "confidence": 0.9923341274261475,
+          "weight": 9.923341274261475,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "99.2%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
         {
           "title": "Canada Sanctions Six Figures Tied to Syrian Military Formations as Policy Shifts Toward Economic Reengagement",
           "translated_title": "Canada Sanctions Six Figures Tied to Syrian Military Formations as Policy Shifts Toward Economic Reengagement",
@@ -1121,20 +1137,6 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "90.0%",
           "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "الدوري السوري.. صراع على القمة ومنافسة محتدمة في القاع",
-          "translated_title": null,
-          "link": "https://www.enabbaladi.net/796576/%d8%a7%d9%84%d8%af%d9%88%d8%b1%d9%8a-%d8%a7%d9%84%d8%b3%d9%88%d8%b1%d9%8a-%d8%b5%d8%b1%d8%a7%d8%b9-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d9%82%d9%85%d8%a9-%d9%88%d9%85%d9%86%d8%a7%d9%81%d8%b3%d8%a9-%d9%85/",
-          "date": "Sat, 21 Feb 2026 10:43:32 +0000",
-          "category": "violent protest",
-          "confidence": 0.731026828289032,
-          "weight": 5.117187798023224,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "73.1%",
-          "detected_lang": "local",
           "is_translated": false,
           "country": "Syria"
         },
@@ -1223,94 +1225,94 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
-          "title": "كم نسبة اللاجئين العاملين في ألمانيا؟ أرقام وحقائق",
+          "title": "The Syrian Interior Ministry” sets procedures for Syrian citizenship applications for Kurdish residents",
           "translated_title": null,
-          "link": "https://www.enabbaladi.net/796645/%d9%83%d9%85-%d9%86%d8%b3%d8%a8%d8%a9-%d8%a7%d9%84%d9%84%d8%a7%d8%ac%d8%a6%d9%8a%d9%86-%d8%a7%d9%84%d8%b9%d8%a7%d9%85%d9%84%d9%8a%d9%86-%d9%81%d9%8a-%d8%a3%d9%84%d9%85%d8%a7%d9%86%d9%8a%d8%a7%d8%9f/",
-          "date": "Sat, 21 Feb 2026 14:13:49 +0000",
+          "link": "https://english.enabbaladi.net/archives/2026/02/the-syrian-interior-ministry-sets-procedures-for-syrian-citizenship-applications-for-kurdish-residents/",
+          "date": "Sat, 21 Feb 2026 09:52:48 +0000",
           "category": "peaceful diplomacy",
-          "confidence": 0.2810143530368805,
+          "confidence": 0.20799076557159424,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "28.1%",
+          "ai_confidence_score": "20.8%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Syria"
         },
         {
-          "title": "فضية دولية لاختراع سوري يعالج القدم السكرية",
+          "title": "UN coordinates return of 191 Iraqis from al-Hol camp",
           "translated_title": null,
-          "link": "https://www.enabbaladi.net/796591/%d9%81%d8%b6%d9%8a%d8%a9-%d8%af%d9%88%d9%84%d9%8a%d8%a9-%d9%84%d8%a7%d8%ae%d8%aa%d8%b1%d8%a7%d8%b9-%d8%b3%d9%88%d8%b1%d9%8a-%d9%8a%d8%b9%d8%a7%d9%84%d8%ac-%d8%a7%d9%84%d9%82%d8%af%d9%85-%d8%a7%d9%84/",
-          "date": "Sat, 21 Feb 2026 13:23:01 +0000",
+          "link": "https://english.enabbaladi.net/archives/2026/02/un-coordinates-return-of-191-iraqis-from-al-hol-camp/",
+          "date": "Fri, 20 Feb 2026 19:18:16 +0000",
+          "category": "violent protest",
+          "confidence": 0.1950225830078125,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "19.5%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Islamic State Claims Attack on Government Forces in Deir Ezzor",
+          "translated_title": null,
+          "link": "https://english.enabbaladi.net/archives/2026/02/islamic-state/",
+          "date": "Fri, 20 Feb 2026 08:11:33 +0000",
           "category": "military conflict",
-          "confidence": 0.2937217950820923,
+          "confidence": 0.493838906288147,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "29.4%",
-          "detected_lang": "local",
+          "ai_confidence_score": "49.4%",
+          "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
         },
         {
-          "title": "للباحثين عن عمل في طرطوس.. دعوة رسمية لتسجيل بياناتهم",
+          "title": "Al-Souriya channel launches in a new format on the first day of Ramadan",
           "translated_title": null,
-          "link": "https://www.enabbaladi.net/796616/%d9%84%d9%84%d8%a8%d8%a7%d8%ad%d8%ab%d9%8a%d9%86-%d8%b9%d9%86-%d8%b9%d9%85%d9%84-%d9%81%d9%8a-%d8%b7%d8%b1%d8%b7%d9%88%d8%b3-%d8%af%d8%b9%d9%88%d8%a9-%d8%b1%d8%b3%d9%85%d9%8a%d8%a9-%d9%84%d8%aa/",
-          "date": "Sat, 21 Feb 2026 11:57:29 +0000",
+          "link": "https://english.enabbaladi.net/archives/2026/02/al-souriya-channel-launches-in-a-new-format-on-the-first-day-of-ramadan/",
+          "date": "Thu, 19 Feb 2026 20:02:12 +0000",
           "category": "violent protest",
-          "confidence": 0.3032721281051636,
+          "confidence": 0.19886992871761322,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "30.3%",
-          "detected_lang": "local",
+          "ai_confidence_score": "19.9%",
+          "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
         },
         {
-          "title": "ما استعصاء صيدنايا 2008 الذي يستعيده مسلسل “الخروج إلى البئر”؟",
+          "title": "Canada eases Assad era Syria sanctions, targets “new perpetrators”",
           "translated_title": null,
-          "link": "https://www.enabbaladi.net/796590/%d9%85%d8%a7-%d8%a7%d8%b3%d8%aa%d8%b9%d8%b5%d8%a7%d8%a1-%d8%b5%d9%8a%d8%af%d9%86%d8%a7%d9%8a%d8%a7-2008-%d8%a7%d9%84%d8%b0%d9%8a-%d9%8a%d8%b3%d8%aa%d8%b9%d9%8a%d8%af%d9%87-%d9%85%d8%b3%d9%84%d8%b3/",
-          "date": "Sat, 21 Feb 2026 11:09:25 +0000",
-          "category": "violent protest",
-          "confidence": 0.22993338108062744,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "23.0%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "وفد حكومي في مطار القامشلي تمهيدًا لتشغيله",
-          "translated_title": null,
-          "link": "https://www.enabbaladi.net/796569/%d9%88%d9%81%d8%af-%d8%ad%d9%83%d9%88%d9%85%d9%8a-%d9%81%d9%8a-%d9%85%d8%b7%d8%a7%d8%b1-%d8%a7%d9%84%d9%82%d8%a7%d9%85%d8%b4%d9%84%d9%8a-%d8%aa%d9%85%d9%87%d9%8a%d8%af%d9%8b%d8%a7-%d9%84%d8%aa%d8%b4/",
-          "date": "Sat, 21 Feb 2026 10:03:10 +0000",
+          "link": "https://english.enabbaladi.net/archives/2026/02/canada-eases-sanctions/",
+          "date": "Thu, 19 Feb 2026 18:35:26 +0000",
           "category": "political crisis",
-          "confidence": 0.19266845285892487,
+          "confidence": 0.287415087223053,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "19.3%",
+          "ai_confidence_score": "28.7%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Syria"
         },
         {
-          "title": "“قسد” تفرج عن 51 معتقلًا في الحسكة وتدعو إلى “مرحلة مسامحة وبناء”",
+          "title": "US makes plans to reopen embassy in Syria after 14 years - Boston Herald",
           "translated_title": null,
-          "link": "https://www.enabbaladi.net/796624/%d9%82%d8%b3%d8%af-%d8%aa%d9%81%d8%b1%d8%ac-%d8%b9%d9%86-51-%d9%85%d8%b9%d8%aa%d9%82%d9%84%d9%8b%d8%a7-%d9%81%d9%8a-%d8%a7%d9%84%d8%ad%d8%b3%d9%83%d8%a9-%d9%88%d8%aa%d8%af%d8%b9%d9%88-%d8%a5%d9%84/",
-          "date": "Sat, 21 Feb 2026 12:34:15 +0000",
-          "category": "peaceful diplomacy",
-          "confidence": 0.8631769418716431,
-          "weight": -1.7263538837432861,
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5UenliTjFUb0pURktLZGV0dkdEUXU2TTNKZndoR1dPX3g0cktveVpHQ2xoODhFZ1RQVzVLRWp5eHcyWUlUWm51RjV2Z1JIa0txcXhQWWZINFpuWXFaZ3pjaHVJRGFMcW9M?oc=5",
+          "date": "Fri, 20 Feb 2026 20:46:05 GMT",
+          "category": "violent protest",
+          "confidence": 0.18294236063957214,
+          "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "86.3%",
-          "detected_lang": "local",
+          "ai_confidence_score": "18.3%",
+          "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
         }
       ]
     },
     "Bulgaria": {
-      "index": 2.74,
-      "raw_score": 0.89,
+      "index": 3.35,
+      "raw_score": 1.26,
       "events": [
         {
           "title": "Sofia airport to close for civilian flights as US military planes stage in Bulgaria - Türkiye Today",
@@ -1326,6 +1328,20 @@ window.BNTI_DATA = {
           "is_translated": true,
           "country": "Bulgaria",
           "translation_engine": "Google Neural MT"
+        },
+        {
+          "title": "Поразен е производителят на ракетите \"Искандер\" и \"Орешник\", на 1300 км от Украйна",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/sviat/voinata_v_ukraina/2026/02/21/4885260_porazen_e_proizvoditeliat_na_raketite_iskander_i/?ref=rss",
+          "date": "Sat, 21 Feb 2026 16:45:00 +0200",
+          "category": "military conflict",
+          "confidence": 0.5528765916824341,
+          "weight": 5.528765916824341,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "55.3%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
         },
         {
           "title": "Фицо заплаши Украйна, че ще ѝ спре доставите на ток",
@@ -1356,20 +1372,6 @@ window.BNTI_DATA = {
           "country": "Bulgaria"
         },
         {
-          "title": "Facebook Page Uploaded Misleading Picture of Bulgarian Battalion Fighting In Ukraine",
-          "translated_title": null,
-          "link": "https://balkaninsight.com/techresponses/facebook-page-uploaded-misleading-picture-of-bulgarian-battalion-fighting-in-ukraine/",
-          "date": "Thu, 24 Mar 2022 09:39:36 +0000",
-          "category": "military conflict",
-          "confidence": 0.6184797286987305,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "61.8%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
           "title": "Weather today, forecast for Friday, February 20: Rainy morning in the west, snow in the mountains above 1,400 meters - fakti.bg",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPOXBUX29iaVhUUTlPYzdUT0RwYzJYcjY2TW9PcjJGcGFPem5jWkhzaVVFOXV1Ty1kc3BQcGJQbzM2enhHamRTTlNpcl9Fb3hHZ3VOSW5QOGJrWU5vMVhTQUc1QlBzclVVSkhRV2lrd2UtczBkem1DX2pERGlDRU9BTjk3Y0RWTENlS0tzOVE3T1hjMWZ2bkYydTlRSFpuUWYwRVh1aVRjOG5YUTFkaTZCaUtZcDYteHZhYVYwN1oxbU9adFVoQjJ5c1RGeGxUektCYnBzNWdodDZaeWlhWXZnVGxn?oc=5",
@@ -1394,6 +1396,34 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "20.2%",
           "detected_lang": "en",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Facebook Page Uploaded Misleading Picture of Bulgarian Battalion Fighting In Ukraine",
+          "translated_title": null,
+          "link": "https://balkaninsight.com/techresponses/facebook-page-uploaded-misleading-picture-of-bulgarian-battalion-fighting-in-ukraine/",
+          "date": "Thu, 24 Mar 2022 09:39:36 +0000",
+          "category": "military conflict",
+          "confidence": 0.6184797286987305,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "61.8%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Здравното министерство отрече да се уволняват шефове на болници с политически мотиви",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/zdrave/2026/02/21/4885265_zdravnoto_ministerstvo_otreche_da_se_uvolniavat/?ref=rss",
+          "date": "Sat, 21 Feb 2026 17:32:00 +0200",
+          "category": "neutral news",
+          "confidence": 0.7289056777954102,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "72.9%",
+          "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
         },
@@ -1454,15 +1484,15 @@ window.BNTI_DATA = {
           "country": "Bulgaria"
         },
         {
-          "title": "Трайков: Значителна част от жалбите срещу сметките за ток са основателни",
+          "title": "Абонатите с основателни жалби за завишени сметки за ток ще бъдат компенсирани",
           "translated_title": null,
           "link": "https://www.dnevnik.bg/bulgaria/2026/02/21/4885242_traikov_znachitelna_chast_ot_jalbite_sreshtu_smetkite/?ref=rss",
           "date": "Sat, 21 Feb 2026 15:24:00 +0200",
           "category": "neutral news",
-          "confidence": 0.2684759199619293,
+          "confidence": 0.3027229607105255,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "26.8%",
+          "ai_confidence_score": "30.3%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
@@ -1477,34 +1507,6 @@ window.BNTI_DATA = {
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "29.7%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "ИТН настоява да се провери искал ли е Емил Дечев оставките на разследващите случая \"Петрохан\"",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/bulgaria/2026/02/21/4885219_itn_iska_da_se_razsledva_iskal_li_e_emil_dechev/?ref=rss",
-          "date": "Sat, 21 Feb 2026 13:30:00 +0200",
-          "category": "military conflict",
-          "confidence": 0.2644442915916443,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "26.4%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "Атанасов предложи със закон да се наложи щателна проверка на кандидатите за министри",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/bulgaria/2026/02/21/4885217_atanasov_predloji_sus_zakon_da_se_naloji_shtatelna/?ref=rss",
-          "date": "Sat, 21 Feb 2026 13:09:00 +0200",
-          "category": "neutral news",
-          "confidence": 0.2767414152622223,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "27.7%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
@@ -1527,12 +1529,6 @@ window.BNTI_DATA = {
     }
   },
   "history": [
-    {
-      "timestamp": "2026-02-19T15:05:14.418718",
-      "main_index": 3.33,
-      "index": 3.33,
-      "type": "historical"
-    },
     {
       "timestamp": "2026-02-19T16:08:22.034751",
       "main_index": 3.88,
@@ -1754,48 +1750,54 @@ window.BNTI_DATA = {
       "main_index": 4.13,
       "index": 4.13,
       "type": "historical"
+    },
+    {
+      "timestamp": "2026-02-21T15:50:05.216353",
+      "main_index": 4.43,
+      "index": 4.43,
+      "type": "historical"
     }
   ],
   "forecast": [
     {
-      "timestamp": "2026-02-21T15:44:20.896835",
-      "index": 4.26,
-      "main_index": 4.26,
+      "timestamp": "2026-02-21T16:50:05.216353",
+      "index": 4.34,
+      "main_index": 4.34,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-21T16:44:20.896835",
-      "index": 4.28,
-      "main_index": 4.28,
+      "timestamp": "2026-02-21T17:50:05.216353",
+      "index": 4.36,
+      "main_index": 4.36,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-21T17:44:20.896835",
-      "index": 4.3,
-      "main_index": 4.3,
+      "timestamp": "2026-02-21T18:50:05.216353",
+      "index": 4.38,
+      "main_index": 4.38,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-21T18:44:20.896835",
-      "index": 4.31,
-      "main_index": 4.31,
+      "timestamp": "2026-02-21T19:50:05.216353",
+      "index": 4.4,
+      "main_index": 4.4,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-21T19:44:20.896835",
-      "index": 4.33,
-      "main_index": 4.33,
+      "timestamp": "2026-02-21T20:50:05.216353",
+      "index": 4.42,
+      "main_index": 4.42,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-21T20:44:20.896835",
-      "index": 4.35,
-      "main_index": 4.35,
+      "timestamp": "2026-02-21T21:50:05.216353",
+      "index": 4.44,
+      "main_index": 4.44,
       "confidence": 0.3,
       "type": "forecast"
     }
