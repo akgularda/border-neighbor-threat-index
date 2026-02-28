@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-02-28T02:35:00.269760",
-    "main_index": 3.45,
+    "generated_at": "2026-02-28T04:43:12.293923",
+    "main_index": 3.84,
     "status": "STABLE",
     "active_scan": true,
-    "next_update": "2026-02-28T03:00:00",
+    "next_update": "2026-02-28T05:00:00",
     "version": "2.0.0"
   },
   "countries": {
@@ -441,8 +441,8 @@
       ]
     },
     "Greece": {
-      "index": 5.1,
-      "raw_score": 2.54,
+      "index": 4.65,
+      "raw_score": 2.17,
       "events": [
         {
           "title": "Kατάπαυση του πυρός στη Ζαπορίζια για την αποκατάσταση εφεδρικής παροχής ηλεκτρικής ενέργειας στον πυρηνικό σταθμό",
@@ -491,7 +491,7 @@
         },
         {
           "title": "Άνδρας με ισραηλινή σημαία πέφτει με το αμάξι του σε πλήθος στην Αίγυπτο, έξι τραυματίες: Βίντεο",
-          "translated_title": "A man with an Israeli flag crashes his car into a crowd in Egypt, six injured: Video",
+          "translated_title": null,
           "link": "https://www.protothema.gr/world/article/1781280/andras-stin-aigupto-peftei-me-to-amaxi-tou-se-plithos-eihe-tin-israilini-simaia-kremasmeni-video/?utm_source=rss",
           "date": "Sat, 28 Feb 2026 00:00:00 +0200",
           "category": "violent protest",
@@ -500,9 +500,8 @@
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "66.1%",
           "detected_lang": "local",
-          "is_translated": true,
-          "country": "Greece",
-          "translation_engine": "Google Neural MT"
+          "is_translated": false,
+          "country": "Greece"
         },
         {
           "title": "ΟΗΕ: Άρση κυρώσεων σε βάρος της πρώην οργάνωσης του Άχμεντ αλ Σάρα",
@@ -514,20 +513,6 @@
           "weight": 4.077238082885742,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "68.0%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "AI, Fed και πιστωτικές ανησυχίες βάρυναν τους δείκτες στη Wall Street, o χειρότερος μήνας από τον Μάρτιο 2025",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/economy/article/1781272/ai-fed-kai-pistotikes-anisuhies-varunan-tous-deiktes-sti-wall-street-o-heiroteros-minas-apo-ton-martio-2025/?utm_source=rss",
-          "date": "Fri, 27 Feb 2026 23:14:00 +0200",
-          "category": "economic crisis",
-          "confidence": 0.9862554669380188,
-          "weight": 3.945021867752075,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "98.6%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -556,6 +541,48 @@
           "weight": 3.2234925031661987,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "46.0%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Ο Καναδάς απομακρύνει προσωρινά μέρος του διπλωματικού προσωπικού του από το Τελ Αβίβ",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/world/article/1781303/o-kanadas-apomakrunei-prosorina-meros-tou-diplomatikou-prosopikou-tou-apo-to-tel-aviv/?utm_source=rss",
+          "date": "Sat, 28 Feb 2026 06:27:00 +0200",
+          "category": "neutral news",
+          "confidence": 0.2634800970554352,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "26.3%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Καιρός: Αντικυκλώνας φέρνει ήλιο και ήπιο καιρό την πρώτη εβδομάδα του Μαρτίου",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/greece/article/1781300/kairos-adikuklonas-fernei-ilio-kai-ipio-kairo-tin-proti-evdomada-tou-martiou/?utm_source=rss",
+          "date": "Sat, 28 Feb 2026 05:56:42 +0200",
+          "category": "peaceful diplomacy",
+          "confidence": 0.31165167689323425,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "31.2%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Το Κογκρέσο της Αργεντινής ενέκρινε τη μεταρρύθμιση Μιλέι για πιο «ευέλικτη» εργασία",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/world/article/1781296/to-kogreso-tis-argedinis-enekrine-ti-metarruthmisi-milei-gia-pio-euelikti-ergasia/?utm_source=rss",
+          "date": "Sat, 28 Feb 2026 04:39:00 +0200",
+          "category": "neutral news",
+          "confidence": 0.30997583270072937,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "31.0%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -617,43 +644,15 @@
           "country": "Greece"
         },
         {
-          "title": "Ρία Ελληνίδου: Οι φωτογραφίες από το ταξίδι της στην Ταϊλάνδη",
+          "title": "ΕΕ για Αφγανιστάν - Πακιστάν: Έκκληση για αποκλιμάκωση και προειδοποίηση για σοβαρές επιπτώσεις",
           "translated_title": null,
-          "link": "https://www.protothema.gr/life-style/article/1781271/ria-ellinidou-oi-fotografies-apo-to-taxidi-tis-stin-tailandi/?utm_source=rss",
-          "date": "Fri, 27 Feb 2026 23:45:00 +0200",
-          "category": "violent protest",
-          "confidence": 0.3427223563194275,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "34.3%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Στην Ουάσινγκτον η Κίμπερλι Γκιλφόιλ, ενημέρωσε τον Τραμπ για τα βήματα στις σχέσεις ΗΠΑ - Ελλάδας",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/politics/article/1781270/stin-ouasington-i-kiberli-gilfoil-enimerose-ton-trab-gia-ta-vimata-stis-sheseis-ipa-elladas/?utm_source=rss",
-          "date": "Fri, 27 Feb 2026 22:59:00 +0200",
-          "category": "violent protest",
-          "confidence": 0.38000747561454773,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "38.0%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Akylas: Δεν είχα ξαναπάρει τόση αγάπη στη ζωή μου, είπε από τη Σερβία",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/life-style/article/1781269/akylas-den-eiha-xanaparei-tosi-agapi-sti-zoi-mou-eipe-apo-ti-servia/?utm_source=rss",
-          "date": "Fri, 27 Feb 2026 22:59:39 +0200",
+          "link": "https://www.protothema.gr/world/article/1781302/ee-gia-afganistan-pakistan-ekklisi-gia-apoklimakosi-kai-proeidopoiisi-gia-sovares-epiptoseis/?utm_source=rss",
+          "date": "Sat, 28 Feb 2026 05:35:33 +0200",
           "category": "peaceful diplomacy",
-          "confidence": 0.3363340198993683,
-          "weight": 0.0,
+          "confidence": 0.778526782989502,
+          "weight": -1.557053565979004,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "33.6%",
+          "ai_confidence_score": "77.9%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -661,9 +660,51 @@
       ]
     },
     "Iran": {
-      "index": 3.75,
-      "raw_score": 1.52,
+      "index": 6.24,
+      "raw_score": 3.64,
       "events": [
+        {
+          "title": "Trump 'not thrilled' with Iran after latest talks on nuclear programme",
+          "translated_title": "Trump 'not thrilled' with Iran after latest talks on nuclear programme",
+          "link": "https://www.bbc.com/news/articles/c309vz0z893o?at_medium=RSS&at_campaign=rss",
+          "date": "Fri, 27 Feb 2026 22:21:35 GMT",
+          "category": "military conflict",
+          "confidence": 0.8535288572311401,
+          "weight": 8.535288572311401,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "85.4%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Israeli soldiers shot a Palestinian boy and stood around as he bled to death, video shows",
+          "translated_title": "Israeli soldiers shot a Palestinian boy and stood around as he bled to death, video shows",
+          "link": "https://www.bbc.com/news/articles/cpqwv9vvzx9o?at_medium=RSS&at_campaign=rss",
+          "date": "Thu, 26 Feb 2026 06:01:11 GMT",
+          "category": "military conflict",
+          "confidence": 0.8344365358352661,
+          "weight": 8.344365358352661,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "83.4%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Iranian national jailed in France for promoting terrorism online",
+          "translated_title": "Iranian national jailed in France for promoting terrorism online",
+          "link": "https://www.bbc.com/news/articles/c20lz7q5we1o?at_medium=RSS&at_campaign=rss",
+          "date": "Thu, 26 Feb 2026 16:06:39 GMT",
+          "category": "terrorist act",
+          "confidence": 0.8819552659988403,
+          "weight": 7.937597393989563,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "88.2%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
+        },
         {
           "title": "Trump orders federal agencies to stop using Anthropic as dispute escalates",
           "translated_title": "Trump orders federal agencies to stop using Anthropic as dispute escalates",
@@ -679,19 +720,18 @@
           "country": "Iran"
         },
         {
-          "title": "Oman’s foreign minister meets with US’s Vance as Iran tensions rise",
-          "translated_title": "Oman’s foreign minister meets with US’s Vance as Iran tensions rise",
-          "link": "https://www.aljazeera.com/news/2026/2/27/omans-foreign-minister-meets-with-uss-vance-as-middle-east-tensions-rise?traffic_source=rss",
-          "date": "Fri, 27 Feb 2026 20:19:36 +0000",
-          "category": "political crisis",
-          "confidence": 0.9391924738883972,
-          "weight": 5.635154843330383,
+          "title": "'They seized everything': Yemen's Houthi rebels drive aid groups to the brink",
+          "translated_title": "'They seized everything': Yemen's Houthi rebels drive aid groups to the brink",
+          "link": "https://www.bbc.com/news/articles/cj4z129dq8vo?at_medium=RSS&at_campaign=rss",
+          "date": "Fri, 27 Feb 2026 09:15:27 GMT",
+          "category": "violent protest",
+          "confidence": 0.8138269186019897,
+          "weight": 5.696788430213928,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "93.9%",
-          "detected_lang": "local",
-          "is_translated": true,
-          "country": "Iran",
-          "translation_engine": "Google Neural MT"
+          "ai_confidence_score": "81.4%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
         },
         {
           "title": "Pakistan-Afghanistan live: Iran, EU urge dialogue amid deadly clashes",
@@ -708,15 +748,43 @@
           "country": "Iran"
         },
         {
-          "title": "Who runs Venezuela now? Trump, oil and the fight for power",
-          "translated_title": "Who runs Venezuela now? Trump, oil and the fight for power",
-          "link": "https://www.aljazeera.com/video/head-to-head/2026/2/27/who-runs-venezuela-now-trump-oil-and-the-fight-for-power?traffic_source=rss",
-          "date": "Fri, 27 Feb 2026 22:51:33 +0000",
+          "title": "Anxious days inside Iran as speculation grows of US strikes",
+          "translated_title": null,
+          "link": "https://www.bbc.com/news/articles/cm2reey52n9o?at_medium=RSS&at_campaign=rss",
+          "date": "Fri, 27 Feb 2026 17:48:48 GMT",
           "category": "political crisis",
-          "confidence": 0.8410745859146118,
-          "weight": 5.046447515487671,
+          "confidence": 0.7538029551506042,
+          "weight": 4.5228177309036255,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "84.1%",
+          "ai_confidence_score": "75.4%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "'People are getting poorer': How Iran's struggling economy is changing how families live",
+          "translated_title": null,
+          "link": "https://www.bbc.com/news/articles/cn5geplde0wo?at_medium=RSS&at_campaign=rss",
+          "date": "Thu, 26 Feb 2026 11:44:21 GMT",
+          "category": "economic crisis",
+          "confidence": 0.995545506477356,
+          "weight": 3.982182025909424,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "99.6%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Aid groups in Gaza and West Bank thrown lifeline as Israel court pauses ban threat",
+          "translated_title": null,
+          "link": "https://www.bbc.com/news/articles/cd6z382de8yo?at_medium=RSS&at_campaign=rss",
+          "date": "Fri, 27 Feb 2026 20:31:27 GMT",
+          "category": "violent protest",
+          "confidence": 0.5002551674842834,
+          "weight": 3.501786172389984,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "50.0%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iran"
@@ -732,6 +800,34 @@
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "43.0%",
           "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "US-Iran talks end after 'significant progress', mediator says",
+          "translated_title": null,
+          "link": "https://www.bbc.com/news/articles/cvg1vd95nl9o?at_medium=RSS&at_campaign=rss",
+          "date": "Thu, 26 Feb 2026 21:43:44 GMT",
+          "category": "neutral news",
+          "confidence": 0.2516077160835266,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "25.2%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Peace ‘within reach’ as Iran agrees no nuclear material stockpile: Oman FM",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/news/2026/2/28/peace-within-reach-as-iran-agrees-no-nuclear-material-stockpile-oman-fm?traffic_source=rss",
+          "date": "Sat, 28 Feb 2026 03:51:14 +0000",
+          "category": "neutral news",
+          "confidence": 0.42972251772880554,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "43.0%",
+          "detected_lang": "local",
           "is_translated": false,
           "country": "Iran"
         },
@@ -776,104 +872,6 @@
           "detected_lang": "local",
           "is_translated": false,
           "country": "Iran"
-        },
-        {
-          "title": "Hong Kong-linked company decries search of Panama Canal port offices",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/news/2026/2/27/hong-kong-linked-company-decries-search-of-panama-canal-port-offices?traffic_source=rss",
-          "date": "Fri, 27 Feb 2026 23:03:18 +0000",
-          "category": "neutral news",
-          "confidence": 0.22100874781608582,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "22.1%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
-          "title": "Why is Trump objecting to al-Maliki’s comeback?",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/video/inside-story/2026/2/27/why-is-trump-objecting-to-al-malikis-comeback?traffic_source=rss",
-          "date": "Fri, 27 Feb 2026 22:35:45 +0000",
-          "category": "political crisis",
-          "confidence": 0.41366761922836304,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "41.4%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
-          "title": "Trump suggests a ‘friendly takeover’ of Cuba amid US fuel blockade",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/news/2026/2/27/trump-suggests-a-friendly-takeover-of-cuba-amid-us-fuel-blockade?traffic_source=rss",
-          "date": "Fri, 27 Feb 2026 21:24:01 +0000",
-          "category": "peaceful diplomacy",
-          "confidence": 0.3471081554889679,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "34.7%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
-          "title": "Ukraine claws back southern territory as Russia’s war enters fifth year",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/news/2026/2/27/ukraine-claws-back-southern-territory-as-russias-war-enters-fifth-year?traffic_source=rss",
-          "date": "Fri, 27 Feb 2026 21:00:11 +0000",
-          "category": "military conflict",
-          "confidence": 0.8891034126281738,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "88.9%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
-          "title": "IAEA urges Iran to allow inspections, points at Isfahan",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/news/2026/2/27/iaea-eyes-isfahan-nuclear-complex-as-it-urges-iran-to-allow?traffic_source=rss",
-          "date": "Fri, 27 Feb 2026 20:46:34 +0000",
-          "category": "neutral news",
-          "confidence": 0.210987851023674,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "21.1%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
-          "title": "Near-blind Rohingya refugee found dead after border patrol release",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/2/27/near-blind-rohingya-refugee-found-dead-after-border-patrol-release?traffic_source=rss",
-          "date": "Fri, 27 Feb 2026 20:27:17 +0000",
-          "category": "humanitarian crisis",
-          "confidence": 0.20452797412872314,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "20.5%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
-          "title": "Trump says ‘friendly takeover of Cuba’ possible",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/2/27/trump-says-friendly-takeover-of-cuba-possible?traffic_source=rss",
-          "date": "Fri, 27 Feb 2026 19:56:02 +0000",
-          "category": "neutral news",
-          "confidence": 0.41007593274116516,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "41.0%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Iran"
         }
       ]
     },
@@ -897,7 +895,7 @@
         },
         {
           "title": "Family of UN's Albanese sues Trump administration over sanctions",
-          "translated_title": "Family of UN's Albanese sues Trump administration over sanctions",
+          "translated_title": null,
           "link": "https://www.newarab.com/news/family-uns-albanese-sues-trump-administration-over-sanctions",
           "date": "Fri, 27 Feb 2026 16:11:51 +0000",
           "category": "political crisis",
@@ -1283,30 +1281,30 @@
           "country": "Syria"
         },
         {
-          "title": "Greens urge Labor to stop treating children detained in Syria camp like ‘disposable political pawns’ – as it happened - The Guardian",
+          "title": "Aleppo reopens long-closed roads to revive movement",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMihgNBVV95cUxOWEg5dVdFODgyaUg0d1h3M1pVOUdSNC1PaFVtcGN0dDhLZEZpbmRyUWtuQlVQZzJnblR3RXA2ZmdtYmdzbGlzTTRLYUFGN05fVTJ3OWlQTHZhRzhUY1VpaW9NQ3RrRnhod1FwdU9VNkRZSlBfWUtCMmVrU0JaX2RaSk5wTzF0MDFOVlg0c1ExNmg0RFF4dkJockdBSUtOLTlzel9LVDEzR3F0U1pRYVFhdW10QnFqQjM1cE54SE44NUhxUmt0VjB0U2hvY0pVSDVzYVZpTjB6MHdYMGdDUk1TRm1EenI0bnROamZRWEV0QVM4WWtLVWdiU1RVVW5kdkQ0Z2VuS0ItOURJU29PVXNLS2haa1N1MHBQOFdRN3hMNmRoRHpsNllWWUpTM1ROSnlmR25veF8xSVVYdEtBSWo5cUlGQXJfUUFFNWt6OUVHa0NDaXlMeWZ5RURxX0RMdFB0RVlhdUI3WWwwS3Zjc3RoTTlseS1mYk5pZHdOV2NtUVY1MDNETGc?oc=5",
-          "date": "Thu, 26 Feb 2026 06:56:00 GMT",
-          "category": "political crisis",
-          "confidence": 0.3401907980442047,
+          "link": "https://sana.sy/en/syria/2290185/",
+          "date": "Mon, 12 Jan 2026 16:38:18 +0000",
+          "category": "peaceful diplomacy",
+          "confidence": 0.23570534586906433,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "34.0%",
-          "detected_lang": "local",
+          "ai_confidence_score": "23.6%",
+          "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
         },
         {
-          "title": "Trump asks Supreme Court to remove immigration protections for thousands of Syrians - CNN",
+          "title": "Aleppo response committee reviews steps for residents’ return to northern neighborhoods",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5LdUEtLUNrQmt4VllFWS1FdFdJNG1MMXBvLXV0eXRiQXluNlFnU0lZNVdQM3FrWXJLZ0U2V2I5d2VLUkJaSE82b3pJZUxtaWRpcTBhd3BHSmRySk5wVWJlT0wxQ3VaZ1dRMHJGczJHNXo?oc=5",
-          "date": "Thu, 26 Feb 2026 16:17:48 GMT",
-          "category": "political crisis",
-          "confidence": 0.43093061447143555,
+          "link": "https://sana.sy/en/syria/2290182/",
+          "date": "Mon, 12 Jan 2026 16:02:52 +0000",
+          "category": "peaceful diplomacy",
+          "confidence": 0.23959098756313324,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "43.1%",
-          "detected_lang": "en",
+          "ai_confidence_score": "24.0%",
+          "detected_lang": "local",
           "is_translated": false,
           "country": "Syria"
         }
@@ -1354,6 +1352,34 @@
           "weight": 1.9371712803840637,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "64.6%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Предимно слънчево ще бъде времето днес",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/bulgaria/2026/02/28/4887646_predimno_slunchevo_shte_bude_vremeto_dnes/?ref=rss",
+          "date": "Sat, 28 Feb 2026 06:01:00 +0200",
+          "category": "neutral news",
+          "confidence": 0.2399444729089737,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "24.0%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Бързи новини (28 февруари)",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/burzi-novini/2026/02/28/4887541_burzi_novini_28_fevruari/?ref=rss",
+          "date": "Sat, 28 Feb 2026 06:00:00 +0200",
+          "category": "neutral news",
+          "confidence": 0.20886650681495667,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "20.9%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
@@ -1497,45 +1523,11 @@
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
-        },
-        {
-          "title": "Прокуратурата е поискала допълнителни експертизи за телата от кемпера на Околчица",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/bulgaria/2026/02/27/4887538_prokuraturata_e_poiskala_dopulnitelni_ekspertizi_za/?ref=rss",
-          "date": "Fri, 27 Feb 2026 17:38:00 +0200",
-          "category": "military conflict",
-          "confidence": 0.1971418857574463,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "19.7%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "Васил Терзиев след решенията за сметосъбирането: Няма да подписваме под натиск",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/bulgaria/2026/02/27/4887545_vasil_terziev_sled_resheniiata_za_smetosubiraneto/?ref=rss",
-          "date": "Fri, 27 Feb 2026 17:14:00 +0200",
-          "category": "neutral news",
-          "confidence": 0.2621159553527832,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "26.2%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
         }
       ]
     }
   },
   "history": [
-    {
-      "timestamp": "2026-02-26T03:11:28.177631",
-      "main_index": 3.85,
-      "index": 3.85,
-      "type": "historical"
-    },
     {
       "timestamp": "2026-02-26T05:12:11.868629",
       "main_index": 4.01,
@@ -1757,48 +1749,54 @@
       "main_index": 3.45,
       "index": 3.45,
       "type": "historical"
+    },
+    {
+      "timestamp": "2026-02-28T04:43:15.799556",
+      "main_index": 3.84,
+      "index": 3.84,
+      "type": "historical"
     }
   ],
   "forecast": [
     {
-      "timestamp": "2026-02-28T03:35:08.349387",
-      "index": 3.77,
-      "main_index": 3.77,
-      "confidence": 0.3,
-      "type": "forecast"
-    },
-    {
-      "timestamp": "2026-02-28T04:35:08.349387",
+      "timestamp": "2026-02-28T05:43:15.799556",
       "index": 3.76,
       "main_index": 3.76,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-28T05:35:08.349387",
+      "timestamp": "2026-02-28T06:43:15.799556",
       "index": 3.75,
       "main_index": 3.75,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-28T06:35:08.349387",
-      "index": 3.75,
-      "main_index": 3.75,
-      "confidence": 0.3,
-      "type": "forecast"
-    },
-    {
-      "timestamp": "2026-02-28T07:35:08.349387",
+      "timestamp": "2026-02-28T07:43:15.799556",
       "index": 3.74,
       "main_index": 3.74,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-02-28T08:35:08.349387",
+      "timestamp": "2026-02-28T08:43:15.799556",
       "index": 3.73,
       "main_index": 3.73,
+      "confidence": 0.3,
+      "type": "forecast"
+    },
+    {
+      "timestamp": "2026-02-28T09:43:15.799556",
+      "index": 3.72,
+      "main_index": 3.72,
+      "confidence": 0.3,
+      "type": "forecast"
+    },
+    {
+      "timestamp": "2026-02-28T10:43:15.799556",
+      "index": 3.71,
+      "main_index": 3.71,
       "confidence": 0.3,
       "type": "forecast"
     }
