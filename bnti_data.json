@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-03-12T21:03:23.950709",
-    "main_index": 5.48,
+    "generated_at": "2026-03-12T22:02:20.814188",
+    "main_index": 4.98,
     "status": "ELEVATED",
     "active_scan": true,
-    "next_update": "2026-03-12T22:00:00",
+    "next_update": "2026-03-12T23:00:00",
     "version": "2.0.0"
   },
   "countries": {
     "Armenia": {
-      "index": 2.15,
-      "raw_score": 0.57,
+      "index": 2.17,
+      "raw_score": 0.58,
       "events": [
         {
           "title": "Lebanon: 100 Arab Families Seek Shelter from War in Anjar",
@@ -27,15 +27,29 @@
           "country": "Armenia"
         },
         {
-          "title": "A prelude of Ottoman genocides: The tragedy of Thracian Bulgarians",
+          "title": "A threat to lawyers’ independence: Upholding free expression and judicial accountability in Armenia",
           "translated_title": null,
-          "link": "https://armenianweekly.com/2026/03/11/a-prelude-of-ottoman-genocides-the-tragedy-of-thracian-bulgarians/",
-          "date": "Wed, 11 Mar 2026 17:08:06 +0000",
-          "category": "humanitarian crisis",
-          "confidence": 0.8548715710639954,
-          "weight": 2.564614713191986,
+          "link": "https://armenianweekly.com/2026/03/12/a-threat-to-lawyers-independence-upholding-free-expression-and-judicial-accountability-in-armenia/",
+          "date": "Thu, 12 Mar 2026 21:31:50 +0000",
+          "category": "political crisis",
+          "confidence": 0.45731887221336365,
+          "weight": 2.743913233280182,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "85.5%",
+          "ai_confidence_score": "45.7%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Armenia"
+        },
+        {
+          "title": "In memory of Richard Haig (Dick) Gavoor",
+          "translated_title": null,
+          "link": "https://armenianweekly.com/2026/03/12/in-memory-of-richard-haig-dick-gavoor/",
+          "date": "Thu, 12 Mar 2026 18:34:08 +0000",
+          "category": "neutral news",
+          "confidence": 0.17683584988117218,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "17.7%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Armenia"
@@ -153,20 +167,6 @@
           "country": "Armenia"
         },
         {
-          "title": "From Sumgait to Artsakh: The unbroken struggle for Armenian survival",
-          "translated_title": null,
-          "link": "https://armenianweekly.com/2026/03/11/from-sumgait-to-artsakh-the-unbroken-struggle-for-armenian-survival/",
-          "date": "Wed, 11 Mar 2026 16:58:53 +0000",
-          "category": "military conflict",
-          "confidence": 0.37461212277412415,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "37.5%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
           "title": "Pashinyan, EU Commissioner Discuss Democracy Reforms",
           "translated_title": null,
           "link": "https://hetq.am/en/article/180305",
@@ -225,8 +225,8 @@
       ]
     },
     "Georgia": {
-      "index": 5.54,
-      "raw_score": 2.92,
+      "index": 4.31,
+      "raw_score": 1.91,
       "events": [
         {
           "title": "Two Ingush men sentenced to life imprisonment over Crocus City Hall terror attack",
@@ -257,34 +257,6 @@
           "country": "Georgia"
         },
         {
-          "title": "Kobakhidze Meets with Israeli Ambassador Amid War in Middle East",
-          "translated_title": null,
-          "link": "https://civil.ge/archives/724621",
-          "date": "Wed, 11 Mar 2026 11:44:46 +0000",
-          "category": "military conflict",
-          "confidence": 0.5914101004600525,
-          "weight": 5.914101004600525,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "59.1%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
-          "title": "GD’s New Laws Restricting Grants, Political Activity Draw International Condemnation",
-          "translated_title": null,
-          "link": "https://civil.ge/archives/723981",
-          "date": "Wed, 11 Mar 2026 07:40:16 +0000",
-          "category": "political crisis",
-          "confidence": 0.9816387295722961,
-          "weight": 5.889832377433777,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "98.2%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
           "title": "Pashinyan says Brussels–Tbilisi rift is ‘biggest problem’ for Armenia’s EU bid",
           "translated_title": null,
           "link": "https://oc-media.org/pashinyan-says-brussels-tbilisi-rift-is-biggest-problem-for-armenias-eu-bid/",
@@ -299,30 +271,30 @@
           "country": "Georgia"
         },
         {
-          "title": "EU Parliament Adopts Resolution on ‘Political Prisoners’ in Georgia, Calls for Targeted Sanctions",
+          "title": "Armenia’s opposition reportedly planning to bus in voters from Russia for parliamentary election",
           "translated_title": null,
-          "link": "https://civil.ge/archives/724735",
-          "date": "Thu, 12 Mar 2026 12:24:41 +0000",
+          "link": "https://oc-media.org/armenias-opposition-reportedly-planning-to-bus-in-voters-from-russia-for-parliamentary-election/",
+          "date": "Wed, 11 Mar 2026 14:25:25 +0000",
           "category": "political crisis",
-          "confidence": 0.8789604306221008,
-          "weight": 5.273762583732605,
+          "confidence": 0.6286748051643372,
+          "weight": 3.772048830986023,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "87.9%",
+          "ai_confidence_score": "62.9%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Georgia"
         },
         {
-          "title": "OSCE Moscow Mechanism Report Notes ‘Marked Democratic Backsliding’, Issues Recommendations",
+          "title": "Parliament swept clean of tents after a year of protest",
           "translated_title": null,
-          "link": "https://civil.ge/archives/724890",
-          "date": "Thu, 12 Mar 2026 15:21:05 +0000",
+          "link": "https://oc-media.org/parliament-swept-clean-of-tents-after-a-year-of-protest/",
+          "date": "Thu, 12 Mar 2026 11:09:31 +0000",
           "category": "political crisis",
-          "confidence": 0.8123716711997986,
-          "weight": 4.8742300271987915,
+          "confidence": 0.5040795207023621,
+          "weight": 3.0244771242141724,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "81.2%",
-          "detected_lang": "local",
+          "ai_confidence_score": "50.4%",
+          "detected_lang": "en",
           "is_translated": false,
           "country": "Georgia"
         },
@@ -337,76 +309,6 @@
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "58.8%",
           "detected_lang": "en",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
-          "title": "GD Authorities Replace Six-Year-Older Car Import Ban with Up to Fivefold Excise Tax",
-          "translated_title": null,
-          "link": "https://civil.ge/archives/724786",
-          "date": "Thu, 12 Mar 2026 14:44:43 +0000",
-          "category": "peaceful diplomacy",
-          "confidence": 0.18599802255630493,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "18.6%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
-          "title": "TV Pirveli Says Channel’s Satellite Broadcasting Halted Over Unpaid Fees",
-          "translated_title": null,
-          "link": "https://civil.ge/archives/724693",
-          "date": "Wed, 11 Mar 2026 19:44:56 +0000",
-          "category": "violent protest",
-          "confidence": 0.21356253325939178,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "21.4%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
-          "title": "Pashinyan: ‘Frozen’ EU-Georgia Dialogue ‘Biggest Problem’ for Armenia’s European Path",
-          "translated_title": null,
-          "link": "https://civil.ge/archives/724651",
-          "date": "Wed, 11 Mar 2026 14:11:33 +0000",
-          "category": "violent protest",
-          "confidence": 0.42023566365242004,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "42.0%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
-          "title": "Geostat: FDI Reaches USD 1.7 Billion in 2025, Up 7.6%",
-          "translated_title": null,
-          "link": "https://civil.ge/archives/724581",
-          "date": "Wed, 11 Mar 2026 08:32:05 +0000",
-          "category": "violent protest",
-          "confidence": 0.29490670561790466,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "29.5%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
-          "title": "OSCE PA Delegation Concludes Visit to Georgia, Notes ‘Absence of Political Dialogue’",
-          "translated_title": null,
-          "link": "https://civil.ge/archives/724572",
-          "date": "Wed, 11 Mar 2026 07:45:56 +0000",
-          "category": "neutral news",
-          "confidence": 0.3601343333721161,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "36.0%",
-          "detected_lang": "local",
           "is_translated": false,
           "country": "Georgia"
         },
@@ -437,54 +339,125 @@
           "detected_lang": "local",
           "is_translated": false,
           "country": "Georgia"
+        },
+        {
+          "title": "Aliyev meets European Council President Costa in Baku",
+          "translated_title": null,
+          "link": "https://oc-media.org/aliyev-meets-eu-council-president-costa-in-baku/",
+          "date": "Thu, 12 Mar 2026 12:01:11 +0000",
+          "category": "violent protest",
+          "confidence": 0.24864931404590607,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "24.9%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
+          "title": "Iran attacks oil tanker in Iraqi waters reportedly carrying over 20 Georgians",
+          "translated_title": null,
+          "link": "https://oc-media.org/iran-attacks-oil-tanker-in-iraqi-waters-reportedly-carrying-over-20-georgians/",
+          "date": "Thu, 12 Mar 2026 11:29:18 +0000",
+          "category": "military conflict",
+          "confidence": 0.5336877107620239,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "53.4%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
+          "title": "Pashinyan confirms firing genocide memorial head for giving Vance book on Nagorno-Karabakh conflict",
+          "translated_title": null,
+          "link": "https://oc-media.org/pashinyan-confirms-firing-genocide-memorial-head-for-giving-vance-book-on-nagorno-karabakh-conflict/",
+          "date": "Thu, 12 Mar 2026 10:45:22 +0000",
+          "category": "terrorist act",
+          "confidence": 0.44753608107566833,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "44.8%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
+          "title": "Aliyev says he achieved peace with Armenia by force",
+          "translated_title": null,
+          "link": "https://oc-media.org/aliyev-says-he-achieved-peace-with-armenia-by-force/",
+          "date": "Thu, 12 Mar 2026 10:38:06 +0000",
+          "category": "violent protest",
+          "confidence": 0.389222115278244,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "38.9%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
+          "title": "Azerbaijan eyes oil windfall as Iran war rattles energy markets",
+          "translated_title": null,
+          "link": "https://oc-media.org/azerbaijan-eyes-oil-windfall-as-iran-war-rattles-energy-markets/",
+          "date": "Thu, 12 Mar 2026 09:29:03 +0000",
+          "category": "military conflict",
+          "confidence": 0.42120105028152466,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "42.1%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
+          "title": "Thursday, 12 March 2026",
+          "translated_title": null,
+          "link": "https://oc-media.org/thursday-12-march-2026/",
+          "date": "Thu, 12 Mar 2026 08:37:15 +0000",
+          "category": "neutral news",
+          "confidence": 0.25238290429115295,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "25.2%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
+          "title": "Explainer | How Pashinyan is working to topple Catholicos Karekin II",
+          "translated_title": null,
+          "link": "https://oc-media.org/explainer-how-pashinyan-is-working-to-topple-catholicos-karekin-ii/",
+          "date": "Thu, 12 Mar 2026 08:20:09 +0000",
+          "category": "terrorist act",
+          "confidence": 0.5474023818969727,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "54.7%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Georgia"
         }
       ]
     },
     "Greece": {
-      "index": 4.89,
-      "raw_score": 2.36,
+      "index": 4.24,
+      "raw_score": 1.86,
       "events": [
         {
-          "title": "Τουλάχιστον δύο ισραηλινά πλήγματα στο κέντρο της Βηρυτού",
-          "translated_title": null,
-          "link": "https://www.naftemporiki.gr/kosmos/2084930/toylachiston-dyo-israilina-pligmata-sto-kentro-tis-virytoy/?utm_source=rss&utm_medium=rss&utm_campaign=toylachiston-dyo-israilina-pligmata-sto-kentro-tis-virytoy",
-          "date": "Thu, 12 Mar 2026 19:16:33 +0000",
+          "title": "Μπέσεντ: «Κανένα τίμημα δεν θα έκανε τον πόλεμο του Ιράν οικονομικά ασύμφορο»",
+          "translated_title": "Bessed: \"No price would make the Iran war economically unprofitable\"",
+          "link": "https://www.naftemporiki.gr/kosmos/2084968/mpesent-kanena-timima-den-tha-ekane-ton-polemo-toy-iran-oikonomika-asymforo/?utm_source=rss&utm_medium=rss&utm_campaign=mpesent-kanena-timima-den-tha-ekane-ton-polemo-toy-iran-oikonomika-asymforo",
+          "date": "Thu, 12 Mar 2026 20:54:36 +0000",
           "category": "military conflict",
-          "confidence": 0.7098434567451477,
-          "weight": 7.098434567451477,
+          "confidence": 0.907741129398346,
+          "weight": 9.07741129398346,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "71.0%",
+          "ai_confidence_score": "90.8%",
           "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Της πρότειναν αύξηση μισθού 75% για να παραμείνει μετά τις 4.000 απολύσεις – Ένοιωσε «ντροπή» και τα βρόντηξε",
-          "translated_title": null,
-          "link": "https://www.naftemporiki.gr/finance/world/2084888/tis-proteinan-ayxisi-misthoy-75-gia-na-parameinei-meta-tis-4-000-apolyseis-enoiose-ntropi-kai-ta-vrontixe/?utm_source=rss&utm_medium=rss&utm_campaign=tis-proteinan-ayxisi-misthoy-75-gia-na-parameinei-meta-tis-4-000-apolyseis-enoiose-ntropi-kai-ta-vrontixe",
-          "date": "Thu, 12 Mar 2026 19:51:48 +0000",
-          "category": "violent protest",
-          "confidence": 0.9800919890403748,
-          "weight": 6.860643923282623,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "98.0%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Τα μαθηματικά του θανάτου – Πόσους νεκρούς έχει κάθε χώρα που εμπλέκεται στον πόλεμο",
-          "translated_title": null,
-          "link": "https://www.naftemporiki.gr/kosmos/2084938/ta-mathimatika-toy-thanatoy-posoys-nekroys-echei-kathe-chora-poy-empleketai-ston-polemo/?utm_source=rss&utm_medium=rss&utm_campaign=ta-mathimatika-toy-thanatoy-posoys-nekroys-echei-kathe-chora-poy-empleketai-ston-polemo",
-          "date": "Thu, 12 Mar 2026 19:32:49 +0000",
-          "category": "military conflict",
-          "confidence": 0.6583207249641418,
-          "weight": 6.5832072496414185,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "65.8%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
+          "is_translated": true,
+          "country": "Greece",
+          "translation_engine": "Google Neural MT"
         },
         {
           "title": "Πόλεμος στο Ιράν: Περίπου 47.000 Αμερικανοί επέστρεψαν στις ΗΠΑ",
@@ -515,15 +488,29 @@
           "country": "Greece"
         },
         {
-          "title": "Ο πρόεδρος της Πολωνίας ασκεί βέτο στη χρηματοδότηση της χώρας του από την ΕΕ για την άμυνα",
+          "title": "Τραμπ: «Είμαστε αξεπέραστοι» – «Ο πόλεμος προχωράει πολύ γρήγορα»",
           "translated_title": null,
-          "link": "https://www.naftemporiki.gr/kosmos/2084935/o-proedros-tis-polonias-askei-veto-sti-chrimatodotisi-tis-choras-toy-apo-tin-ee-gia-tin-amyna/?utm_source=rss&utm_medium=rss&utm_campaign=o-proedros-tis-polonias-askei-veto-sti-chrimatodotisi-tis-choras-toy-apo-tin-ee-gia-tin-amyna",
-          "date": "Thu, 12 Mar 2026 19:51:12 +0000",
+          "link": "https://www.naftemporiki.gr/kosmos/2084969/tramp-eimaste-axeperastoi-o-polemos-prochoraei-poly-grigora/?utm_source=rss&utm_medium=rss&utm_campaign=tramp-eimaste-axeperastoi-o-polemos-prochoraei-poly-grigora",
+          "date": "Thu, 12 Mar 2026 21:09:40 +0000",
           "category": "political crisis",
-          "confidence": 0.6074629426002502,
-          "weight": 3.6447776556015015,
+          "confidence": 0.8159360289573669,
+          "weight": 4.895616173744202,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "60.7%",
+          "ai_confidence_score": "81.6%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Τραγικό δυστύχημα στη Σητεία: Νεκρός 23χρονος δικυκλιστής",
+          "translated_title": null,
+          "link": "https://www.naftemporiki.gr/society/2084971/tragiko-dystychima-sti-siteia-nekros-23chronos-dikyklistis/?utm_source=rss&utm_medium=rss&utm_campaign=tragiko-dystychima-sti-siteia-nekros-23chronos-dikyklistis",
+          "date": "Thu, 12 Mar 2026 21:11:28 +0000",
+          "category": "humanitarian crisis",
+          "confidence": 0.9093962907791138,
+          "weight": 2.7281888723373413,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "90.9%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -585,15 +572,15 @@
           "country": "Greece"
         },
         {
-          "title": "Μπέσεντ: Το Πολεμικό Ναυτικό των ΗΠΑ θα μπορούσε να συνοδεύσει πλοία στα Στενά του Ορμούζ μαζί έναν διεθνή συνασπισμό",
+          "title": "Μπέσεντ: Το Πολεμικό Ναυτικό των ΗΠΑ θα συνοδεύσει πλοία στα Στενά του Ορμούζ  όταν θα είναι εφικτό",
           "translated_title": null,
           "link": "https://www.naftemporiki.gr/maritime/2084951/mpesent-to-polemiko-naytiko-ton-ipa-tha-mporoyse-na-synodeysei-ploia-sta-stena-toy-ormoyz-mazi-enan-diethni-synaspismo/?utm_source=rss&utm_medium=rss&utm_campaign=mpesent-to-polemiko-naytiko-ton-ipa-tha-mporoyse-na-synodeysei-ploia-sta-stena-toy-ormoyz-mazi-enan-diethni-synaspismo",
           "date": "Thu, 12 Mar 2026 19:59:42 +0000",
-          "category": "military conflict",
-          "confidence": 0.35223376750946045,
+          "category": "violent protest",
+          "confidence": 0.30475011467933655,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "35.2%",
+          "ai_confidence_score": "30.5%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -608,6 +595,34 @@
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "23.9%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Της πρότειναν αύξηση μισθού 75% για να παραμείνει μετά τις 4.000 απολύσεις -Τι απάντησε",
+          "translated_title": null,
+          "link": "https://www.naftemporiki.gr/finance/world/2084888/tis-proteinan-ayxisi-misthoy-75-gia-na-parameinei-meta-tis-4-000-apolyseis-enoiose-ntropi-kai-ta-vrontixe/?utm_source=rss&utm_medium=rss&utm_campaign=tis-proteinan-ayxisi-misthoy-75-gia-na-parameinei-meta-tis-4-000-apolyseis-enoiose-ntropi-kai-ta-vrontixe",
+          "date": "Thu, 12 Mar 2026 19:51:48 +0000",
+          "category": "neutral news",
+          "confidence": 0.2660543620586395,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "26.6%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Ο πρόεδρος της Πολωνίας είπε «όχι» στα δάνεια της ΕΕ για την άμυνα – «Υπονομεύει την κυριαρχία μας»",
+          "translated_title": null,
+          "link": "https://www.naftemporiki.gr/kosmos/2084935/o-proedros-tis-polonias-askei-veto-sti-chrimatodotisi-tis-choras-toy-apo-tin-ee-gia-tin-amyna/?utm_source=rss&utm_medium=rss&utm_campaign=o-proedros-tis-polonias-askei-veto-sti-chrimatodotisi-tis-choras-toy-apo-tin-ee-gia-tin-amyna",
+          "date": "Thu, 12 Mar 2026 19:51:12 +0000",
+          "category": "political crisis",
+          "confidence": 0.41730472445487976,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "41.7%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -639,26 +654,12 @@
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
-        },
-        {
-          "title": "ΠΑΣΟΚ: Διεγράφη από την Κ.Ο. ο Οδυσσέας Κωνσταντινόπουλος",
-          "translated_title": null,
-          "link": "https://www.naftemporiki.gr/politics/2084934/pasok-ektos-k-o-o-odysseas-konstantinopoylos/?utm_source=rss&utm_medium=rss&utm_campaign=pasok-ektos-k-o-o-odysseas-konstantinopoylos",
-          "date": "Thu, 12 Mar 2026 19:22:07 +0000",
-          "category": "political crisis",
-          "confidence": 0.24727876484394073,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "24.7%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
         }
       ]
     },
     "Iran": {
-      "index": 7.17,
-      "raw_score": 4.82,
+      "index": 7.22,
+      "raw_score": 4.9,
       "events": [
         {
           "title": "Israel drops charges against soldiers in Palestinian detainee abuse case",
@@ -745,6 +746,20 @@
           "country": "Iran"
         },
         {
+          "title": "Advocates push for major probe as US boat strikes in Latin America kill 157",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/news/2026/3/12/advocates-push-for-major-probe-as-us-boat-strikes-in-latin-america-kill-157?traffic_source=rss",
+          "date": "Thu, 12 Mar 2026 21:02:34 +0000",
+          "category": "military conflict",
+          "confidence": 0.6798797249794006,
+          "weight": 6.798797249794006,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "68.0%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
           "title": "How oil is at the center of the US-Israel war with Iran",
           "translated_title": null,
           "link": "https://www.aljazeera.com/video/the-take-2/2026/3/12/aje-onl-irn_tuesdayupdates_av_v2-100326?traffic_source=rss",
@@ -755,20 +770,6 @@
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "67.1%",
           "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
-          "title": "Iran’s president sets terms to end the war: Is an off-ramp in sight?",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/news/2026/3/12/irans-president-sets-terms-to-end-the-war-is-an-off-ramp-in-sight?traffic_source=rss",
-          "date": "Thu, 12 Mar 2026 15:41:29 +0000",
-          "category": "military conflict",
-          "confidence": 0.5605475306510925,
-          "weight": 5.605475306510925,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "56.1%",
-          "detected_lang": "local",
           "is_translated": false,
           "country": "Iran"
         },
@@ -873,19 +874,19 @@
       ]
     },
     "Iraq": {
-      "index": 5.66,
-      "raw_score": 3.04,
+      "index": 5.6,
+      "raw_score": 2.98,
       "events": [
         {
-          "title": "A slow but growing anti-war movement across the US",
-          "translated_title": "A slow but growing anti-war movement across the US",
-          "link": "https://www.newarab.com/news/slow-growing-anti-war-movement-across-us",
-          "date": "Thu, 12 Mar 2026 15:32:53 +0000",
+          "title": "Israel drops charges against soldiers in Sde Teiman abuse case",
+          "translated_title": "Israel drops charges against soldiers in Sde Teiman abuse case",
+          "link": "https://www.newarab.com/news/israel-drops-charges-against-soldiers-sde-teiman-abuse-case",
+          "date": "Thu, 12 Mar 2026 21:15:52 +0000",
           "category": "military conflict",
-          "confidence": 0.8685472011566162,
-          "weight": 8.685472011566162,
+          "confidence": 0.9800588488578796,
+          "weight": 9.800588488578796,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "86.9%",
+          "ai_confidence_score": "98.0%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
@@ -975,20 +976,6 @@
           "country": "Iraq"
         },
         {
-          "title": "UN’s Albanese floats study on genocide and media during Gaza war",
-          "translated_title": null,
-          "link": "https://www.newarab.com/news/uns-albanese-floats-study-genocide-and-media-during-gaza-war",
-          "date": "Thu, 12 Mar 2026 15:33:41 +0000",
-          "category": "humanitarian crisis",
-          "confidence": 0.6807146668434143,
-          "weight": 2.042144000530243,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "68.1%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Iraq"
-        },
-        {
           "title": "Major banks evacuate, close branches in Gulf as fears grow",
           "translated_title": null,
           "link": "https://www.newarab.com/news/major-banks-evacuate-close-branches-gulf-fears-grow",
@@ -998,6 +985,20 @@
           "weight": 1.6005868911743164,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "40.0%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "Trump advises Iran team to skip World Cup for 'their own safety'",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/trump-advises-iran-team-skip-world-cup-their-own-safety",
+          "date": "Thu, 12 Mar 2026 21:46:25 +0000",
+          "category": "political crisis",
+          "confidence": 0.25202953815460205,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "25.2%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
@@ -1089,36 +1090,23 @@
       ]
     },
     "Syria": {
-      "index": 6.58,
-      "raw_score": 4.03,
+      "index": 5.16,
+      "raw_score": 2.59,
       "events": [
         {
-          "title": "Dozens killed in Israeli strikes in Lebanon, including Syrians",
-          "translated_title": "Dozens killed in Israeli strikes in Lebanon, including Syrians",
-          "link": "https://english.enabbaladi.net/archives/2026/03/dozens-killed-in-israeli-strikes-in-lebanon-including-syrians/",
-          "date": "Wed, 11 Mar 2026 14:42:07 +0000",
+          "title": "Shells Fired From Lebanon Land West of Syrian Capital, Country’s Military Says - The New York Times",
+          "translated_title": "Shells Fired From Lebanon Land West of Syrian Capital, Country’s Military Says - The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQkpiSFdwUXJqd01SajJrU0xMZHJYQVhrYk0yYzRQMV9yVENURFpfQWJ1TXJhbFdka3pWT3JidzloUUczNmdxUy1LdFhHVnN1blZLQ0JYbDRGVG1TVkY4bzU0WThnYjduT1A0aENRTXlWdENhSV8ySnF5c1FiMDRDM3FiWHJkVlNkbUU2SzlB?oc=5",
+          "date": "Tue, 10 Mar 2026 00:18:54 GMT",
           "category": "military conflict",
-          "confidence": 0.9713415503501892,
-          "weight": 9.713415503501892,
+          "confidence": 0.9619548916816711,
+          "weight": 9.619548916816711,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "97.1%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Syrian decree forms committee to rehabilitate infrastructure in war-damaged areas",
-          "translated_title": "Syrian decree forms committee to rehabilitate infrastructure in war-damaged areas",
-          "link": "https://english.enabbaladi.net/archives/2026/03/syrian-decree-forms-committee-to-rehabilitate-infrastructure-in-war-damaged-areas/",
-          "date": "Tue, 10 Mar 2026 23:01:52 +0000",
-          "category": "military conflict",
-          "confidence": 0.9457151293754578,
-          "weight": 9.457151293754578,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "94.6%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
+          "ai_confidence_score": "96.2%",
+          "detected_lang": "local",
+          "is_translated": true,
+          "country": "Syria",
+          "translation_engine": "Google Neural MT"
         },
         {
           "title": "U.S. cuts forces in Syria as its new government fights terror threat - PBS",
@@ -1135,43 +1123,29 @@
           "country": "Syria"
         },
         {
-          "title": "15 Syrians injured amid Israeli strikes as Israel holds 12 positions in Lebanon",
-          "translated_title": "15 Syrians injured amid Israeli strikes as Israel holds 12 positions in Lebanon",
-          "link": "https://english.enabbaladi.net/archives/2026/03/15-syrians-injured-amid-israeli-strikes-as-israel-holds-12-positions-in-lebanon/",
-          "date": "Tue, 10 Mar 2026 21:15:20 +0000",
+          "title": "Israeli strikes kill 37 across Lebanon in 24 hours",
+          "translated_title": null,
+          "link": "https://sana.sy/en/international/2301162/",
+          "date": "Sun, 08 Mar 2026 09:45:10 +0000",
           "category": "military conflict",
-          "confidence": 0.8559595346450806,
-          "weight": 8.559595346450806,
+          "confidence": 0.6331971883773804,
+          "weight": 6.331971883773804,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "85.6%",
+          "ai_confidence_score": "63.3%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
         },
         {
-          "title": "U.S., Partner Forces Strike ISIS Targets in Syria > U.S. Central Command > Press Release View - centcom.mil",
+          "title": "ISIS attack, separate shootings leave casualties in Deir ez-Zor",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNY2p0ZGJOaUFSTlM3a095MDczOXM0aWlkazk4WThMZThoN2pweTc4VUdZdHB5RHZ4aXRFbF80V3N6ZVJqcW5TWmFaMG5ZTUE0MDVZRHBmaDMxSUcwOUFCTnVfYVplRVRtR2NuSXR2UUpUNnhwM1JMSV83WHJyZ1pxbTcxWVE4Yld0NUNiR2U2cTdNODFGcmwycW0tWWkySERicUZkenF0WklhZFRaRUtMdDVYWEthalcybDJWQnQ3OFkxN0d0MWc?oc=5",
-          "date": "Sat, 10 Jan 2026 08:00:00 GMT",
-          "category": "military conflict",
-          "confidence": 0.6101365089416504,
-          "weight": 6.101365089416504,
+          "link": "https://npasyria.com/en/136141/",
+          "date": "Thu, 12 Mar 2026 09:10:15 +0000",
+          "category": "terrorist act",
+          "confidence": 0.5522788763046265,
+          "weight": 4.970509886741638,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "61.0%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Syria hands OPCW 34 boxes of Assad-era chemical weapons documents",
-          "translated_title": null,
-          "link": "https://english.enabbaladi.net/archives/2026/03/syria-hands-opcw-34-boxes-of-assad-era-chemical-weapons-documents/",
-          "date": "Thu, 12 Mar 2026 18:47:30 +0000",
-          "category": "military conflict",
-          "confidence": 0.5944126844406128,
-          "weight": 5.944126844406128,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "59.4%",
+          "ai_confidence_score": "55.2%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
@@ -1191,20 +1165,6 @@
           "country": "Syria"
         },
         {
-          "title": "Rising prices in Syria, two experts assess the economic situation",
-          "translated_title": null,
-          "link": "https://english.enabbaladi.net/archives/2026/03/rising-prices-in-syria-two-experts-assess-the-economic-situation/",
-          "date": "Tue, 10 Mar 2026 22:23:32 +0000",
-          "category": "economic crisis",
-          "confidence": 0.9846869111061096,
-          "weight": 3.9387476444244385,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "98.5%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
           "title": "Today's top news: Occupied Palestinian Territory, Syria - OCHA",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWHdmUmQ1ZWpaT0RMYk9BcktPemYtWVhGRHR1dXBELUdIR2tkb1FKWTJMRE9wVDNMMUJ2ektIVi1vTTZ3dFF0Uks5bGRTaDFwNjdwR01JRGxDNlN4Zi05My1hWTNkX1k1MW9wZkh3Ml9jUE9HRWRJWGlsNkxWMlhxLVdOUVB0WFk2b3c?oc=5",
@@ -1214,6 +1174,34 @@
           "weight": 2.706226944923401,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "45.1%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Syrian Ministry launches social affairs strategic plan for 2026–2028",
+          "translated_title": null,
+          "link": "https://sana.sy/en/syria/2301141/",
+          "date": "Sun, 08 Mar 2026 09:24:38 +0000",
+          "category": "humanitarian crisis",
+          "confidence": 0.4588467478752136,
+          "weight": 1.3765402436256409,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "45.9%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Life returns to markets in Maarrat al-Numan, Idlib countryside, during Ramadan",
+          "translated_title": null,
+          "link": "https://sana.sy/en/video/2301156/",
+          "date": "Sun, 08 Mar 2026 09:24:04 +0000",
+          "category": "humanitarian crisis",
+          "confidence": 0.4176611304283142,
+          "weight": 1.2529833912849426,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "41.8%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
@@ -1233,62 +1221,6 @@
           "country": "Syria"
         },
         {
-          "title": "Saudi MoU to supply smart meters to Syria explained by expert",
-          "translated_title": null,
-          "link": "https://english.enabbaladi.net/archives/2026/03/saudi-smart-electricity-meters-syria/",
-          "date": "Thu, 12 Mar 2026 20:00:10 +0000",
-          "category": "humanitarian crisis",
-          "confidence": 0.208444282412529,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "20.8%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Macron praises al-Sharaa’s support for Lebanon’s sovereignty",
-          "translated_title": null,
-          "link": "https://english.enabbaladi.net/archives/2026/03/macron-praises-al-sharaas-support-for-lebanons-sovereignty/",
-          "date": "Thu, 12 Mar 2026 19:30:45 +0000",
-          "category": "neutral news",
-          "confidence": 0.31537747383117676,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "31.5%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Exceptional flights from Aleppo International Airport",
-          "translated_title": null,
-          "link": "https://english.enabbaladi.net/archives/2026/03/aleppo-international-airport-exceptional-flights/",
-          "date": "Thu, 12 Mar 2026 18:51:59 +0000",
-          "category": "neutral news",
-          "confidence": 0.21924705803394318,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "21.9%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Wheat and Barley Cultivation Sees Noticeable Improvement in Syria",
-          "translated_title": null,
-          "link": "https://english.enabbaladi.net/archives/2026/03/wheat-and-barley-cultivation-sees-noticeable-improvement-in-syria/",
-          "date": "Wed, 11 Mar 2026 19:35:17 +0000",
-          "category": "terrorist act",
-          "confidence": 0.2647724747657776,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "26.5%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
           "title": "China urges dialogue with Washington, warns of escalation risks",
           "translated_title": null,
           "link": "https://sana.sy/en/international/2301169/",
@@ -1298,6 +1230,76 @@
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "35.2%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "On International Women’s Day, Syrian woman is a pillar of national reconstruction",
+          "translated_title": null,
+          "link": "https://sana.sy/en/syria/2301166/",
+          "date": "Sun, 08 Mar 2026 10:05:03 +0000",
+          "category": "political crisis",
+          "confidence": 0.2911052703857422,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "29.1%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Barzani, US envoy Barrack discuss stability of Kurdistan Region",
+          "translated_title": null,
+          "link": "https://npasyria.com/en/136150/",
+          "date": "Thu, 12 Mar 2026 17:12:54 +0000",
+          "category": "political crisis",
+          "confidence": 0.38463830947875977,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "38.5%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Israeli forces detain four shepherds in Quneitra countryside",
+          "translated_title": null,
+          "link": "https://npasyria.com/en/136147/",
+          "date": "Thu, 12 Mar 2026 17:09:48 +0000",
+          "category": "military conflict",
+          "confidence": 0.5488477349281311,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "54.9%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "CPJ urges Syria to clarify fate of two missing journalists in Raqqa",
+          "translated_title": null,
+          "link": "https://npasyria.com/en/136136/",
+          "date": "Thu, 12 Mar 2026 08:01:34 +0000",
+          "category": "violent protest",
+          "confidence": 0.23118728399276733,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "23.1%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Civil Defense recovers remains of five near Manbij, Aleppo",
+          "translated_title": null,
+          "link": "https://npasyria.com/en/136144/",
+          "date": "Thu, 12 Mar 2026 15:03:26 +0000",
+          "category": "peaceful diplomacy",
+          "confidence": 0.7510315775871277,
+          "weight": -1.5020631551742554,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "75.1%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
@@ -1325,7 +1327,7 @@
         },
         {
           "title": "Ормузкият проток ще остане затворен, България предвижда помощи за горива: най-важното от войната на 12 март",
-          "translated_title": null,
+          "translated_title": "The Strait of Hormuz will remain closed, Bulgaria provides aid for fuel: the most important of the war on March 12",
           "link": "https://www.dnevnik.bg/sviat/2026/03/12/4891603_ormuzkiiat_protok_shte_ostane_zatvoren_bulgariia/?ref=rss",
           "date": "Thu, 12 Mar 2026 21:33:00 +0200",
           "category": "military conflict",
@@ -1334,8 +1336,9 @@
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "76.1%",
           "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
+          "is_translated": true,
+          "country": "Bulgaria",
+          "translation_engine": "Google Neural MT"
         },
         {
           "title": "Войната забавя разширението на най-голямото газово находище в света",
@@ -1375,6 +1378,20 @@
           "weight": 3.0203880071640015,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "50.3%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Най-добрият ресторант в България отново е извън София",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/bacchus/2026/03/12/4891615_nai-dobriiat_restorant_v_bulgariia_otnovo_e_izvun/?ref=rss",
+          "date": "Thu, 12 Mar 2026 23:21:00 +0200",
+          "category": "peaceful diplomacy",
+          "confidence": 0.34456583857536316,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "34.5%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
@@ -1504,31 +1521,11 @@
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
-        },
-        {
-          "title": "Американският енергиен министър завоалирано отрече цената на барел петрол да стигне $200",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/sviat/2026/03/12/4891568_amerikanskiiat_energien_ministur_zavoalirano_otreche/?ref=rss",
-          "date": "Thu, 12 Mar 2026 18:52:00 +0200",
-          "category": "neutral news",
-          "confidence": 0.45099079608917236,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "45.1%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
         }
       ]
     }
   },
   "history": [
-    {
-      "timestamp": "2026-03-10T21:54:34.086755",
-      "main_index": 4.38,
-      "index": 4.38,
-      "type": "historical"
-    },
     {
       "timestamp": "2026-03-10T23:12:39.806294",
       "main_index": 4.4,
@@ -1732,48 +1729,54 @@
       "main_index": 5.48,
       "index": 5.48,
       "type": "historical"
+    },
+    {
+      "timestamp": "2026-03-12T22:02:25.551532",
+      "main_index": 4.98,
+      "index": 4.98,
+      "type": "historical"
     }
   ],
   "forecast": [
     {
-      "timestamp": "2026-03-12T22:03:25.785707",
+      "timestamp": "2026-03-12T23:02:25.551532",
       "index": 4.98,
       "main_index": 4.98,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-12T23:03:25.785707",
+      "timestamp": "2026-03-13T00:02:25.551532",
       "index": 5.01,
       "main_index": 5.01,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-13T00:03:25.785707",
-      "index": 5.05,
-      "main_index": 5.05,
+      "timestamp": "2026-03-13T01:02:25.551532",
+      "index": 5.04,
+      "main_index": 5.04,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-13T01:03:25.785707",
-      "index": 5.08,
-      "main_index": 5.08,
+      "timestamp": "2026-03-13T02:02:25.551532",
+      "index": 5.07,
+      "main_index": 5.07,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-13T02:03:25.785707",
-      "index": 5.12,
-      "main_index": 5.12,
+      "timestamp": "2026-03-13T03:02:25.551532",
+      "index": 5.1,
+      "main_index": 5.1,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-13T03:03:25.785707",
-      "index": 5.15,
-      "main_index": 5.15,
+      "timestamp": "2026-03-13T04:02:25.551532",
+      "index": 5.13,
+      "main_index": 5.13,
       "confidence": 0.3,
       "type": "forecast"
     }
