@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-03-13T21:02:31.777350",
-    "main_index": 4.76,
+    "generated_at": "2026-03-13T22:10:45.083480",
+    "main_index": 4.62,
     "status": "ELEVATED",
     "active_scan": true,
-    "next_update": "2026-03-13T22:00:00",
+    "next_update": "2026-03-13T23:00:00",
     "version": "2.0.0"
   },
   "countries": {
@@ -441,33 +441,159 @@
       ]
     },
     "Greece": {
-      "index": 2.25,
-      "raw_score": 0.62,
+      "index": 2.49,
+      "raw_score": 0.76,
       "events": [
         {
-          "title": "Γιώργος Θεοφάνους: «Έκοβα» τα πόδια στα παιδιά στα talent show και δεν έπρεπε",
+          "title": "Ελισάβετ Σπανού μετά την καταδίκη του Δόξα για ενδοοικογενειακή βία: Δυσκολεύομαι να πιστέψω ότι ξύπνησε μια μέρα και άσκησε βία",
           "translated_title": null,
-          "link": "https://www.protothema.gr/life-style/article/1788423/giorgos-theofanous-ekova-ta-podia-sta-paidia-sta-talent-shows-kai-den-eprepe/?utm_source=rss",
-          "date": "Fri, 13 Mar 2026 22:17:00 +0200",
+          "link": "https://www.protothema.gr/life-style/article/1788437/elisavet-spanou-meta-tin-katadiki-tou-doxa-gia-endooikogeneiaki-via-duskoleuomai-na-pistepso-oti-xupnise-kai-askise-via/?utm_source=rss",
+          "date": "Fri, 13 Mar 2026 22:45:00 +0200",
           "category": "violent protest",
-          "confidence": 0.8265724778175354,
-          "weight": 5.786007344722748,
+          "confidence": 0.8263838291168213,
+          "weight": 5.784686803817749,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "82.7%",
+          "ai_confidence_score": "82.6%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
         },
         {
-          "title": "Η κιθάρα του Ντέιβιντ Γκίλμορ των Pink Floyd πωλήθηκε για 14,55 εκατ. και έγινε η ακριβότερη στην ιστορία",
+          "title": "Διασυνδέσεις με τη Χεζμπολάχ φέρεται να είχε ο δράστης της επίθεσης σε συναγωγή στο Μίσιγκαν",
           "translated_title": null,
-          "link": "https://www.protothema.gr/world/article/1788405/i-kithara-tou-deivid-gilmor-ton-pink-floyd-polithike-gia-1455-ekat-kai-egine-i-akrivoteri-kithara-stin-istoria/?utm_source=rss",
-          "date": "Fri, 13 Mar 2026 21:26:00 +0200",
+          "link": "https://www.protothema.gr/world/article/1788440/misigkan/?utm_source=rss",
+          "date": "Fri, 13 Mar 2026 23:10:00 +0200",
           "category": "violent protest",
-          "confidence": 0.5030328631401062,
-          "weight": 3.5212300419807434,
+          "confidence": 0.7925336360931396,
+          "weight": 5.5477354526519775,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "50.3%",
+          "ai_confidence_score": "79.3%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "ΑΑΔΕ: Άνοιξε η ψηφιακή εφαρμογή δήλωσης κατοχής αγροτεμαχίων για το 2025",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/economy/article/1788451/aade-anoixe-i-psifiaki-efarmogi-dilosis-katohis-agrotemahion-gia-to-2025/?utm_source=rss",
+          "date": "Fri, 13 Mar 2026 23:45:00 +0200",
+          "category": "terrorist act",
+          "confidence": 0.2682923376560211,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "26.8%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Moody’s: Αμετάβλητη η βαθμολόγηση της Ελλάδας σε «Baa3» με σταθερό outlook",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/economy/article/1788448/moodys-ametavliti-i-vathmologisi-tis-elladas-se-baa3-me-stathero-outlook/?utm_source=rss",
+          "date": "Fri, 13 Mar 2026 23:41:00 +0200",
+          "category": "neutral news",
+          "confidence": 0.34683993458747864,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "34.7%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Axios: Ο Τραμπ απέρριψε πρόταση του Πούτιν να μεταφερθεί εμπλουτισμένο ουράνιο του Ιράν στη Ρωσία",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/world/article/1788446/axios-o-trab-aperripse-protasi-tou-poutin-na-metaferthei-ebloutismeno-ouranio-tou-iran-sti-rosia/?utm_source=rss",
+          "date": "Fri, 13 Mar 2026 23:28:00 +0200",
+          "category": "political crisis",
+          "confidence": 0.27782881259918213,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "27.8%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Ερυθρός Αστέρας - Φενέρ 79-73: Οι Σέρβοι έβαλαν τέλος στο σερί 19 νικών των Τούρκων και ελπίζουν σε εξάδα στη Euroleague",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/sports/article/1788444/eruthros-asteras-fener-79-73-oi-servoi-evalan-telos-sto-seri-19-nikon-ton-tourkon-kai-elpizoun-se-exada-sti-euroleague/?utm_source=rss",
+          "date": "Fri, 13 Mar 2026 23:19:00 +0200",
+          "category": "neutral news",
+          "confidence": 0.24298261106014252,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "24.3%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Basket League: Αναβλήθηκε το ντέρμπι της Θεσσαλονίκης ανάμεσα στον ΠΑΟΚ και στον Άρη",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/sports/article/1788442/basket-league-anavlithike-to-derbi-tis-thessalonikis-anamesa-ston-paok-kai-ston-ari/?utm_source=rss",
+          "date": "Fri, 13 Mar 2026 23:05:00 +0200",
+          "category": "neutral news",
+          "confidence": 0.22022780776023865,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "22.0%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Πρώτο βήμα για την πρόκριση στους τελικούς της Volleyleague από τον Παναθηναϊκό, 3-1 τον Ολυμπιακό στο Μετς, βίντεο",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/sports/article/1788441/proto-vima-gia-tin-prokrisi-stous-telikous-tis-volleyleague-apo-ton-panathinaiko-3-1-ton-olubiako-sto-mets-video/?utm_source=rss",
+          "date": "Fri, 13 Mar 2026 23:13:00 +0200",
+          "category": "peaceful diplomacy",
+          "confidence": 0.2570916712284088,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "25.7%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Ζελένσκι: Οι ΗΠΑ ζήτησαν να αναβληθεί ο επόμενος γύρος των τριμερών συνομιλιών με Ουκρανία και Ρωσία",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/world/article/1788439/oi-ipa-zitisan-na-anavlithei-o-epomenos-guros-ton-trimeron-sunomilion-me-oukrania-kai-rosia/?utm_source=rss",
+          "date": "Fri, 13 Mar 2026 22:45:00 +0200",
+          "category": "violent protest",
+          "confidence": 0.421257346868515,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "42.1%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "«Δεν σε αναγνωρίζω καν»: Η πρώην Μις Καλιφόρνια επιτίθεται με ανοιχτή επιστολή στον Τραμπ για τη στήριξή του στο Ισραήλ",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/world/article/1788438/den-se-anagnorizo-kan-i-proin-mis-ipa-epitithetai-me-anoihti-tis-epistoli-ston-trab-gia-ti-stirixi-sto-israil/?utm_source=rss",
+          "date": "Fri, 13 Mar 2026 22:57:00 +0200",
+          "category": "violent protest",
+          "confidence": 0.3920620083808899,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "39.2%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Αύγουστος Κορτώ: Ποιος κόσμος; Το σύμπαν μου είσαι, γράφει ποζάροντας στο πλευρό του συζύγου του",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/life-style/article/1788435/augoustos-korto-poios-kosmos-to-suban-mou-eisai-grafei-pozarodas-sto-pleuro-tou-suzugou-tou/?utm_source=rss",
+          "date": "Fri, 13 Mar 2026 23:45:00 +0200",
+          "category": "violent protest",
+          "confidence": 0.24930034577846527,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "24.9%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -527,138 +653,12 @@
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
-        },
-        {
-          "title": "Βίντεο: Πρώην παίκτης της Καρδίτσας κάρφωσε και τον πλάκωσε η μπασκέτα στην Κροατία",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/sports/article/1788424/video-basketbolistas-stin-kroatia-karfose-kai-ton-plakose-i-basketa/?utm_source=rss",
-          "date": "Fri, 13 Mar 2026 22:21:00 +0200",
-          "category": "violent protest",
-          "confidence": 0.4067404568195343,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "40.7%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "ΗΠΑ: Δικαστής ακύρωσε ως «προσχηματική» την έρευνα σε βάρος του προέδρου της Fed Τζερόμ Πάουελ",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/world/article/1788420/ipa-dikastis-akurose-os-proshimatiki-tin-ereuna-se-varos-tou-proedrou-tis-fed-tzerom-paouel/?utm_source=rss",
-          "date": "Fri, 13 Mar 2026 22:11:00 +0200",
-          "category": "neutral news",
-          "confidence": 0.3309509754180908,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "33.1%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Ντουπλάντις: Κατέρριψε για 15η σερί φορά το παγκόσμιο ρεκόρ στο επί κοντώ και άφησε πίσω του τον Μπούμπκα, βίντεο",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/sports/article/1788419/doupladis-katerripse-gia-15i-seri-fora-to-pagosmio-rekor-sto-epi-kodo-kai-afise-piso-tou-ton-boubka-video/?utm_source=rss",
-          "date": "Fri, 13 Mar 2026 22:07:00 +0200",
-          "category": "violent protest",
-          "confidence": 0.3800574541091919,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "38.0%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Έκαψε ΙΧ σε μάντρα αυτοκινήτων στην Πάτρα με βενζίνη και φωτοβολίδα, βίντεο δείχνει τις κινήσεις του δράστη",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/greece/article/1788416/ekapse-ih-se-madra-autokiniton-stin-patra-me-venzini-kai-fotovolida-video-deihnei-tis-kiniseis-tou-drasti/?utm_source=rss",
-          "date": "Fri, 13 Mar 2026 22:02:26 +0200",
-          "category": "terrorist act",
-          "confidence": 0.5057465434074402,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "50.6%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Έλενα Τσαγκρινού για τον Dj Stephan μετά τον χωρισμό τους: Θα τον αγαπώ για πάντα με όλες του τις επιλογές",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/life-style/article/1788415/elena-tsagrinou-gia-ton-dj-stephan-meta-ton-horismo-tous-tha-ton-agapo-gia-pada-me-oles-tou-tis-epiloges/?utm_source=rss",
-          "date": "Fri, 13 Mar 2026 21:46:00 +0200",
-          "category": "violent protest",
-          "confidence": 0.36418768763542175,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "36.4%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Συνελήφθη αστυνομικός που ενεπλάκη σε τροχαίο δυστύχημα στο κέντρο της Αθήνας",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/greece/article/1788413/sullipsi-astunomikou-gia-thanatiforo-trohaio-sto-kedro-tis-athinas/?utm_source=rss",
-          "date": "Fri, 13 Mar 2026 21:39:00 +0200",
-          "category": "violent protest",
-          "confidence": 0.17067663371562958,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "17.1%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Θεραπευτής στη Βρετανία έπεισε πελάτισσά του να κάνει σεξ μαζί του για να γιατρέψει το παιδικό της τραύμα",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/world/article/1788412/therapeutis-sti-vretania-epeise-pelatissa-tou-oti-tha-giatrepsei-to-paidiko-tis-trauma-me-sexoualiki-epafi/?utm_source=rss",
-          "date": "Fri, 13 Mar 2026 21:35:00 +0200",
-          "category": "peaceful diplomacy",
-          "confidence": 0.30188316106796265,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "30.2%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Ενημερώθηκε από την ΚΑΕ ΠΑΟΚ ο Βρούτσης και οδεύει προς αναβολή το παιχνίδι με τον Άρη",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/sports/article/1788408/enimerothike-apo-tin-kae-paok-o-vroutsis-kai-odeuei-pros-anavoli-to-paihnidi-me-ton-ari/?utm_source=rss",
-          "date": "Fri, 13 Mar 2026 21:28:00 +0200",
-          "category": "violent protest",
-          "confidence": 0.227870374917984,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "22.8%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Ξέσπασμα Αλμέιδα για τον πόλεμο: Κάθε πύραυλος στοιχίζει 50 εκατ. ευρώ, γιατί να μην δίνουν τα λεφτά σε τρόφιμα",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/sports/article/1788404/xespasma-almeida-gia-ton-polemo-kathe-puraulos-stoihizei-50-ekat-euro-giati-na-min-dinoun-ta-lefta-se-trofima/?utm_source=rss",
-          "date": "Fri, 13 Mar 2026 21:21:17 +0200",
-          "category": "military conflict",
-          "confidence": 0.3350890278816223,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "33.5%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
         }
       ]
     },
     "Iran": {
-      "index": 5.84,
-      "raw_score": 3.21,
+      "index": 6.23,
+      "raw_score": 3.62,
       "events": [
         {
           "title": "Israel’s military campaign in Lebanon reaches devastating new phase",
@@ -728,6 +728,20 @@
           "weight": 8.035428524017334,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "80.4%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Drone attack on market in Sudan kills 11, as air war civilian toll mounts",
+          "translated_title": "Drone attack on market in Sudan kills 11, as air war civilian toll mounts",
+          "link": "https://www.aljazeera.com/news/2026/3/13/drone-attack-on-market-in-sudan-kills-11-as-air-war-civilian-toll-mounts?traffic_source=rss",
+          "date": "Fri, 13 Mar 2026 20:50:49 +0000",
+          "category": "military conflict",
+          "confidence": 0.6142786145210266,
+          "weight": 6.142786145210266,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "61.4%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iran"
@@ -857,26 +871,12 @@
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iran"
-        },
-        {
-          "title": "Thousands march worldwide in solidarity with Palestine, Iran on al-Quds Day",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/gallery/2026/3/13/thousands-march-worldwide-in-solidarity-with-palestine-iran-on-al-quds-day?traffic_source=rss",
-          "date": "Fri, 13 Mar 2026 15:26:20 +0000",
-          "category": "political crisis",
-          "confidence": 0.300089031457901,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "30.0%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
         }
       ]
     },
     "Iraq": {
-      "index": 6.21,
-      "raw_score": 3.61,
+      "index": 5.66,
+      "raw_score": 3.04,
       "events": [
         {
           "title": "'Huge' rocket blast left over from Syria war injures 11 in Homs",
@@ -935,20 +935,6 @@
           "country": "Iraq"
         },
         {
-          "title": "Anger as Israel drops sexual abuse charges against soldiers",
-          "translated_title": "Anger as Israel drops sexual abuse charges against soldiers",
-          "link": "https://www.newarab.com/news/anger-israel-drops-sexual-abuse-charges-against-soldiers",
-          "date": "Fri, 13 Mar 2026 15:11:21 +0000",
-          "category": "military conflict",
-          "confidence": 0.858905017375946,
-          "weight": 8.58905017375946,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "85.9%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
-        },
-        {
           "title": "Iran vows 'stronger' response than January if new protests erupt",
           "translated_title": null,
           "link": "https://www.newarab.com/news/iran-vows-stronger-response-january-if-new-protests-erupt",
@@ -986,6 +972,20 @@
           "weight": 2.4490606784820557,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "81.6%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "NGO: 14% of Lebanese territory under Israeli evacuation warnings",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/ngo-14-lebanese-territory-under-israeli-evacuation-warnings",
+          "date": "Fri, 13 Mar 2026 21:20:54 +0000",
+          "category": "humanitarian crisis",
+          "confidence": 0.30731770396232605,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "30.7%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
@@ -1091,19 +1091,19 @@
       ]
     },
     "Syria": {
-      "index": 6.51,
-      "raw_score": 3.95,
+      "index": 6.03,
+      "raw_score": 3.41,
       "events": [
         {
-          "title": "War remnant explosion injures over 10 people in Homs countryside",
-          "translated_title": "War remnant explosion injures over 10 people in Homs countryside",
-          "link": "https://npasyria.com/en/136160/",
-          "date": "Fri, 13 Mar 2026 16:38:19 +0000",
+          "title": "War remnants explosion injures 31 civilians in Homs",
+          "translated_title": "War remnants explosion injures 31 civilians in Homs",
+          "link": "https://english.enabbaladi.net/archives/2026/03/war-remnants-explosion-injures-31-civilians-in-homs/",
+          "date": "Fri, 13 Mar 2026 21:57:25 +0000",
           "category": "military conflict",
-          "confidence": 0.9207487106323242,
-          "weight": 9.207487106323242,
+          "confidence": 0.8946529030799866,
+          "weight": 8.946529030799866,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "92.1%",
+          "ai_confidence_score": "89.5%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
@@ -1152,22 +1152,8 @@
           "translation_engine": "Google Neural MT"
         },
         {
-          "title": "Israeli forces enter two villages in Daraa, release detainees in Quneitra",
-          "translated_title": "Israeli forces enter two villages in Daraa, release detainees in Quneitra",
-          "link": "https://npasyria.com/en/136157/",
-          "date": "Fri, 13 Mar 2026 12:27:55 +0000",
-          "category": "military conflict",
-          "confidence": 0.7935943007469177,
-          "weight": 7.935943007469177,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "79.4%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
           "title": "Israeli strikes kill 37 across Lebanon in 24 hours",
-          "translated_title": null,
+          "translated_title": "Israeli strikes kill 37 across Lebanon in 24 hours",
           "link": "https://sana.sy/en/international/2301162/",
           "date": "Sun, 08 Mar 2026 09:45:10 +0000",
           "category": "military conflict",
@@ -1236,30 +1222,16 @@
           "country": "Syria"
         },
         {
-          "title": "China urges dialogue with Washington, warns of escalation risks",
+          "title": "Islamic State claims attacks in Syria",
           "translated_title": null,
-          "link": "https://sana.sy/en/international/2301169/",
-          "date": "Sun, 08 Mar 2026 10:16:02 +0000",
-          "category": "neutral news",
-          "confidence": 0.35187846422195435,
+          "link": "https://english.enabbaladi.net/archives/2026/03/islamic-state-claims-attacks-in-syria/",
+          "date": "Fri, 13 Mar 2026 21:05:49 +0000",
+          "category": "military conflict",
+          "confidence": 0.43133342266082764,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "35.2%",
+          "ai_confidence_score": "43.1%",
           "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "On International Women’s Day, Syrian woman is a pillar of national reconstruction",
-          "translated_title": null,
-          "link": "https://sana.sy/en/syria/2301166/",
-          "date": "Sun, 08 Mar 2026 10:05:03 +0000",
-          "category": "political crisis",
-          "confidence": 0.2911052703857422,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "29.1%",
-          "detected_lang": "local",
           "is_translated": false,
           "country": "Syria"
         },
@@ -1304,27 +1276,41 @@
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
+        },
+        {
+          "title": "China urges dialogue with Washington, warns of escalation risks",
+          "translated_title": null,
+          "link": "https://sana.sy/en/international/2301169/",
+          "date": "Sun, 08 Mar 2026 10:16:02 +0000",
+          "category": "neutral news",
+          "confidence": 0.35187846422195435,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "35.2%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "On International Women’s Day, Syrian woman is a pillar of national reconstruction",
+          "translated_title": null,
+          "link": "https://sana.sy/en/syria/2301166/",
+          "date": "Sun, 08 Mar 2026 10:05:03 +0000",
+          "category": "political crisis",
+          "confidence": 0.2911052703857422,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "29.1%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Syria"
         }
       ]
     },
     "Bulgaria": {
-      "index": 1.47,
-      "raw_score": 0.23,
+      "index": 1.24,
+      "raw_score": 0.11,
       "events": [
-        {
-          "title": "Хегсет горещо очаква съмишленик на Тръмп да купи Си Ен Ен заради репортажите за войната",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/sviat/2026/03/13/4892254_hegset_goreshto_ochakva_sumishlenik_na_trump_da_kupi/?ref=rss",
-          "date": "Fri, 13 Mar 2026 18:47:00 +0200",
-          "category": "political crisis",
-          "confidence": 0.5904649496078491,
-          "weight": 3.5427896976470947,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "59.0%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
         {
           "title": "Пентагонът ще разположи нови 5 хил. морски пехотинци и моряци в Близкия изток",
           "translated_title": null,
@@ -1335,6 +1321,62 @@
           "weight": 3.3703806698322296,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "48.1%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Radan Kanev: Membership in the Peace Council puts Bulgaria in a subordinate position to Trump - fakti.bg",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNV1BVdHRpeVhyLVpwcXdOZ21zWHpfcDlSMnU0RGIzcXVsZFFtLWhwUnBMbGFaVkFIb2Rtb1FBRldiNWhaNzhVa2FyZU15TkJ0amFKcWV0QTFtUXFCcFhXZ2FmWjdXdG1IMWxnQ1hsMHUtbFhHRXZxbFI4YkljWmxUeGRCT0l4ZlRLWjhPWktTTlAzZ3NDbU5pbUZVQWxnS0pieWYyWkw0YTlGX1Y2dU4xLXVkSjBpZFA0RnA2MzVHR1VSVm8?oc=5",
+          "date": "Fri, 13 Mar 2026 17:14:00 GMT",
+          "category": "peaceful diplomacy",
+          "confidence": 0.3918921947479248,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "39.2%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Parliament elected Karina Karaivanova as Deputy Governor of the Bulgarian National Bank - fakti.bg",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPLTNpVlpFY2tUS1VjSGh5UTdIZDZiY2ZZSzNDaGRUZ19LalZMeU5VQy0tck9RcExTMFRGWkYyU0FDRVlTazNDUld2alBGSGlTSVo5Z0ltc1dBaThQT0JhaUZGSjlXenVuaVk0VlZHOGhzbVVFdDAxUVZ2SFBLTFpYMmxUWGR3bk1lNHNjQTRfc25QZ29sbk9Xb0hGVWc?oc=5",
+          "date": "Fri, 13 Mar 2026 14:35:00 GMT",
+          "category": "peaceful diplomacy",
+          "confidence": 0.1900387406349182,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "19.0%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Подценявали сме интелигентността на гарваните, установиха учени",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/sviat/2026/03/14/4892324_podceniavali_sme_inteligentnostta_na_garvanite/?ref=rss",
+          "date": "Sat, 14 Mar 2026 00:08:00 +0200",
+          "category": "violent protest",
+          "confidence": 0.36777520179748535,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "36.8%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Тошко Йорданов за Съвета за мир: ИТН е консервативна партия, логично е да подкрепя инициативи на Тръмп",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/politika/2026/03/13/4892322_toshko_iordanov_za_suveta_za_mir_itn_e_konservativna/?ref=rss",
+          "date": "Fri, 13 Mar 2026 23:31:00 +0200",
+          "category": "neutral news",
+          "confidence": 0.7823616862297058,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "78.2%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
@@ -1466,34 +1508,6 @@
           "country": "Bulgaria"
         },
         {
-          "title": "\"Истината днес\": стотици настояха прокуратурата и МВР да покажат всички документи по случая \"Петрохан\"",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/bulgaria/2026/03/13/4892293_istinata_dnes_stotici_nastoiaha_prokuraturata_i_mvr_da/?ref=rss",
-          "date": "Fri, 13 Mar 2026 18:56:00 +0200",
-          "category": "violent protest",
-          "confidence": 0.25828278064727783,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "25.8%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "\"Така няма да стане\": енергийната комисия се провали за трети път",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/bulgaria/2026/03/13/4892260_taka_niama_da_stane_energiinata_komisiia_se_provali_za/?ref=rss",
-          "date": "Fri, 13 Mar 2026 18:37:00 +0200",
-          "category": "neutral news",
-          "confidence": 0.4538295865058899,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "45.4%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
           "title": "Израел отхвърли историческото предложение на Ливан за директни преговори",
           "translated_title": null,
           "link": "https://www.dnevnik.bg/sviat/2026/03/13/4892301_izrael_othvurli_istoricheskoto_predlojenie_na_livan_za/?ref=rss",
@@ -1506,31 +1520,11 @@
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
-        },
-        {
-          "title": "Защо Съветът за мир на Тръмп още си няма дори централа и кои са членовете му",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/sviat/2026/03/13/4892097_zashto_suvetut_za_mir_na_trump_oshte_si_niama_dori/?ref=rss",
-          "date": "Fri, 13 Mar 2026 18:26:00 +0200",
-          "category": "peaceful diplomacy",
-          "confidence": 0.9208934903144836,
-          "weight": -1.8417869806289673,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "92.1%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
         }
       ]
     }
   },
   "history": [
-    {
-      "timestamp": "2026-03-11T21:02:42.319962",
-      "main_index": 5.19,
-      "index": 5.19,
-      "type": "historical"
-    },
     {
       "timestamp": "2026-03-11T22:12:39.070085",
       "main_index": 4.44,
@@ -1746,48 +1740,54 @@
       "main_index": 4.76,
       "index": 4.76,
       "type": "historical"
+    },
+    {
+      "timestamp": "2026-03-13T22:10:46.769885",
+      "main_index": 4.62,
+      "index": 4.62,
+      "type": "historical"
     }
   ],
   "forecast": [
     {
-      "timestamp": "2026-03-13T22:02:33.487261",
-      "index": 4.91,
-      "main_index": 4.91,
+      "timestamp": "2026-03-13T23:10:46.769885",
+      "index": 4.86,
+      "main_index": 4.86,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-13T23:02:33.487261",
-      "index": 4.91,
-      "main_index": 4.91,
+      "timestamp": "2026-03-14T00:10:46.769885",
+      "index": 4.86,
+      "main_index": 4.86,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-14T00:02:33.487261",
-      "index": 4.92,
-      "main_index": 4.92,
+      "timestamp": "2026-03-14T01:10:46.769885",
+      "index": 4.86,
+      "main_index": 4.86,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-14T01:02:33.487261",
-      "index": 4.92,
-      "main_index": 4.92,
+      "timestamp": "2026-03-14T02:10:46.769885",
+      "index": 4.86,
+      "main_index": 4.86,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-14T02:02:33.487261",
-      "index": 4.92,
-      "main_index": 4.92,
+      "timestamp": "2026-03-14T03:10:46.769885",
+      "index": 4.86,
+      "main_index": 4.86,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-14T03:02:33.487261",
-      "index": 4.93,
-      "main_index": 4.93,
+      "timestamp": "2026-03-14T04:10:46.769885",
+      "index": 4.87,
+      "main_index": 4.87,
       "confidence": 0.3,
       "type": "forecast"
     }
