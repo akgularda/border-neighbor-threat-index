@@ -1,10 +1,10 @@
 window.BNTI_DATA = {
   "meta": {
-    "generated_at": "2026-03-13T23:54:29.295281",
-    "main_index": 4.52,
+    "generated_at": "2026-03-14T03:07:02.417919",
+    "main_index": 4.72,
     "status": "ELEVATED",
     "active_scan": true,
-    "next_update": "2026-03-14T00:00:00",
+    "next_update": "2026-03-14T04:00:00",
     "version": "2.0.0"
   },
   "countries": {
@@ -442,23 +442,9 @@ window.BNTI_DATA = {
       ]
     },
     "Greece": {
-      "index": 3.24,
-      "raw_score": 1.19,
+      "index": 2.59,
+      "raw_score": 0.81,
       "events": [
-        {
-          "title": "Ελισάβετ Σπανού μετά την καταδίκη του Δόξα για ενδοοικογενειακή βία: Δυσκολεύομαι να πιστέψω ότι ξύπνησε μια μέρα και άσκησε βία",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/life-style/article/1788437/elisavet-spanou-meta-tin-katadiki-tou-doxa-gia-endooikogeneiaki-via-duskoleuomai-na-pistepso-oti-xupnise-kai-askise-via/?utm_source=rss",
-          "date": "Fri, 13 Mar 2026 22:45:00 +0200",
-          "category": "violent protest",
-          "confidence": 0.8263838291168213,
-          "weight": 5.784686803817749,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "82.6%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
         {
           "title": "Διασυνδέσεις με τη Χεζμπολάχ φέρεται να είχε ο δράστης της επίθεσης σε συναγωγή στο Μίσιγκαν",
           "translated_title": null,
@@ -502,15 +488,57 @@ window.BNTI_DATA = {
           "country": "Greece"
         },
         {
-          "title": "Τραμπ: «Εξαφανίσαμε κάθε στρατιωτικό στόχο στο νησί Χαργκ στο Ιράν, η προστασία της ναυσιπλοΐας ξεκινά σύντομα»",
+          "title": "Συνελήφθη στην Βολιβία και εκδόθηκε στις ΗΠΑ ο Ουρουγουανός βαρόνος των ναρκωτικών Μαρσέτ, δείτε βίντεο",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/world/article/1788463/sunelifthi-stin-volivia-kai-ekdothike-stis-ipa-o-ourougouanos-varonos-ton-narkotikon-marset/?utm_source=rss",
+          "date": "Sat, 14 Mar 2026 03:31:27 +0200",
+          "category": "military conflict",
+          "confidence": 0.28933200240135193,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "28.9%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Νησί Χαργκ: Το «πολύτιμο κόσμημα» της ιρανικής οικονομίας και η στρατηγική του σημασία",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/world/article/1788462/nisi-harg-to-polutimo-kosmima-tis-iranikis-oikonomias-kai-i-stratigiki-tou-simasia/?utm_source=rss",
+          "date": "Sat, 14 Mar 2026 02:42:00 +0200",
+          "category": "economic crisis",
+          "confidence": 0.36332836747169495,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "36.3%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "WSJ: Ιρανοί χτύπησαν τις προηγούμενες ημέρες 5 αεροπλάνα ανεφοδιασμού των ΗΠΑ στη Σαουδική Αραβία",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/world/article/1788461/wsj-iranoi-htupisan-tis-proigoumenes-imeres-5-aeroplana-anefodiasmou-ton-ipa-sti-saoudiki-aravia/?utm_source=rss",
+          "date": "Sat, 14 Mar 2026 01:59:49 +0200",
+          "category": "military conflict",
+          "confidence": 0.25623396039009094,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "25.6%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Τραμπ: «Εξαφανίσαμε κάθε στρατιωτικό στόχο στο νησί Χαργκ στο Ιράν, η προστασία της ναυσιπλοΐας ξεκινά σύντομα», δείτε βίντεο",
           "translated_title": null,
           "link": "https://www.protothema.gr/world/article/1788459/trab-oi-ipa-eplixan-stratigiko-stoho-sto-iran-i-prostasia-tis-nausiploias-xekina-sudoma/?utm_source=rss",
           "date": "Sat, 14 Mar 2026 01:16:00 +0200",
           "category": "military conflict",
-          "confidence": 0.5075327157974243,
+          "confidence": 0.38149744272232056,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "50.8%",
+          "ai_confidence_score": "38.1%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -626,40 +654,12 @@ window.BNTI_DATA = {
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
-        },
-        {
-          "title": "Ζελένσκι: Οι ΗΠΑ ζήτησαν να αναβληθεί ο επόμενος γύρος των τριμερών συνομιλιών με Ουκρανία και Ρωσία",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/world/article/1788439/oi-ipa-zitisan-na-anavlithei-o-epomenos-guros-ton-trimeron-sunomilion-me-oukrania-kai-rosia/?utm_source=rss",
-          "date": "Fri, 13 Mar 2026 22:45:00 +0200",
-          "category": "violent protest",
-          "confidence": 0.421257346868515,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "42.1%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "«Δεν σε αναγνωρίζω καν»: Η πρώην Μις Καλιφόρνια επιτίθεται με ανοιχτή επιστολή στον Τραμπ για τη στήριξή του στο Ισραήλ",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/world/article/1788438/den-se-anagnorizo-kan-i-proin-mis-ipa-epitithetai-me-anoihti-tis-epistoli-ston-trab-gia-ti-stirixi-sto-israil/?utm_source=rss",
-          "date": "Fri, 13 Mar 2026 22:57:00 +0200",
-          "category": "violent protest",
-          "confidence": 0.3920620083808899,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "39.2%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
         }
       ]
     },
     "Iran": {
-      "index": 6.23,
-      "raw_score": 3.62,
+      "index": 5.95,
+      "raw_score": 3.33,
       "events": [
         {
           "title": "Israel’s military campaign in Lebanon reaches devastating new phase",
@@ -691,35 +691,6 @@ window.BNTI_DATA = {
           "country": "Iran"
         },
         {
-          "title": "Success uncertain, but Israelis continue to back ‘heroic’ war with Iran",
-          "translated_title": "Success uncertain, but Israelis continue to back ‘heroic’ war with Iran",
-          "link": "https://www.aljazeera.com/news/2026/3/13/success-uncertain-but-israelis-continue-to-back-heroic-war-with-iran?traffic_source=rss",
-          "date": "Fri, 13 Mar 2026 17:14:04 +0000",
-          "category": "military conflict",
-          "confidence": 0.8878058195114136,
-          "weight": 8.878058195114136,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "88.8%",
-          "detected_lang": "local",
-          "is_translated": true,
-          "country": "Iran",
-          "translation_engine": "Google Neural MT"
-        },
-        {
-          "title": "Lebanese father buries four daughters killed in Israeli strike",
-          "translated_title": "Lebanese father buries four daughters killed in Israeli strike",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/3/13/lebanese-father-buries-four-daughters-killed-in-israeli-strike?traffic_source=rss",
-          "date": "Fri, 13 Mar 2026 17:28:17 +0000",
-          "category": "military conflict",
-          "confidence": 0.8049311637878418,
-          "weight": 8.049311637878418,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "80.5%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
           "title": "Israel destroys bridge in Lebanon and threatens Gaza-scale devastation",
           "translated_title": "Israel destroys bridge in Lebanon and threatens Gaza-scale devastation",
           "link": "https://www.aljazeera.com/news/2026/3/13/israel-destroys-bridge-in-lebanon-and-threatens-gaza-scale-devastation?traffic_source=rss",
@@ -734,8 +705,23 @@ window.BNTI_DATA = {
           "country": "Iran"
         },
         {
+          "title": "Iran war live: US bombs Iran’s Kharg Island, warns oil facilities next",
+          "translated_title": "Iran war live: US bombs Iran’s Kharg Island, warns oil facilities next",
+          "link": "https://www.aljazeera.com/news/liveblog/2026/3/14/iran-war-live-pentagon-vows-to-ramp-up-us-military-campaign-against-iran?traffic_source=rss",
+          "date": "Sat, 14 Mar 2026 00:00:00 +0000",
+          "category": "military conflict",
+          "confidence": 0.7108960747718811,
+          "weight": 7.108960747718811,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "71.1%",
+          "detected_lang": "local",
+          "is_translated": true,
+          "country": "Iran",
+          "translation_engine": "Google Neural MT"
+        },
+        {
           "title": "Drone attack on market in Sudan kills 11, as air war civilian toll mounts",
-          "translated_title": "Drone attack on market in Sudan kills 11, as air war civilian toll mounts",
+          "translated_title": null,
           "link": "https://www.aljazeera.com/news/2026/3/13/drone-attack-on-market-in-sudan-kills-11-as-air-war-civilian-toll-mounts?traffic_source=rss",
           "date": "Fri, 13 Mar 2026 20:50:49 +0000",
           "category": "military conflict",
@@ -744,6 +730,20 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "61.4%",
           "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Republic of Congo election: Who is running and what’s at stake?",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/news/2026/3/14/republic-of-congo-election-who-is-running-and-whats-at-stake?traffic_source=rss",
+          "date": "Sat, 14 Mar 2026 00:21:09 +0000",
+          "category": "political crisis",
+          "confidence": 0.9005669355392456,
+          "weight": 5.403401613235474,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "90.1%",
+          "detected_lang": "local",
           "is_translated": false,
           "country": "Iran"
         },
@@ -757,6 +757,20 @@ window.BNTI_DATA = {
           "weight": 4.543374180793762,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "75.7%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Analysts say US threat of ‘no quarter’ for Iran violates international law",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/news/2026/3/14/analysts-say-us-threat-of-no-quarter-for-iran-violates-international-law?traffic_source=rss",
+          "date": "Sat, 14 Mar 2026 00:17:50 +0000",
+          "category": "political crisis",
+          "confidence": 0.18344098329544067,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "18.3%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Iran"
@@ -858,26 +872,12 @@ window.BNTI_DATA = {
           "detected_lang": "local",
           "is_translated": false,
           "country": "Iran"
-        },
-        {
-          "title": "Ukraine, EU allies slam US decision to roll back Russia oil sanctions",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/news/2026/3/13/ukraine-eu-allies-slam-us-decision-to-roll-back-russia-oil-sanctions?traffic_source=rss",
-          "date": "Fri, 13 Mar 2026 17:05:57 +0000",
-          "category": "political crisis",
-          "confidence": 0.5876902937889099,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "58.8%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
         }
       ]
     },
     "Iraq": {
-      "index": 4.74,
-      "raw_score": 2.24,
+      "index": 6.03,
+      "raw_score": 3.41,
       "events": [
         {
           "title": "Israel refuses Lebanon's offer for direct talks, continues war",
@@ -887,6 +887,20 @@ window.BNTI_DATA = {
           "category": "military conflict",
           "confidence": 0.9363992214202881,
           "weight": 9.36399221420288,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "93.6%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "Israeli strikes kill four in Gaza amid regional offensives",
+          "translated_title": "Israeli strikes kill four in Gaza amid regional offensives",
+          "link": "https://www.newarab.com/news/israeli-strikes-kill-four-gaza-amid-regional-offensives",
+          "date": "Sat, 14 Mar 2026 00:22:22 +0000",
+          "category": "military conflict",
+          "confidence": 0.9362002015113831,
+          "weight": 9.36200201511383,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "93.6%",
           "detected_lang": "en",
@@ -908,6 +922,20 @@ window.BNTI_DATA = {
           "country": "Iraq"
         },
         {
+          "title": "Trump says US struck military targets on Iran's Kharg Island",
+          "translated_title": "Trump says US struck military targets on Iran's Kharg Island",
+          "link": "https://www.newarab.com/news/trump-says-us-struck-military-targets-irans-kharg-island",
+          "date": "Sat, 14 Mar 2026 00:06:17 +0000",
+          "category": "military conflict",
+          "confidence": 0.8275185823440552,
+          "weight": 8.275185823440552,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "82.8%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
           "title": "Drone strike in Sudan kills 11, injures over 20, MSF says",
           "translated_title": "Drone strike in Sudan kills 11, injures over 20, MSF says",
           "link": "https://www.newarab.com/news/drone-strike-sudan-kills-11-injures-over-20-msf-says-0",
@@ -922,15 +950,15 @@ window.BNTI_DATA = {
           "country": "Iraq"
         },
         {
-          "title": "Iran vows 'stronger' response than January if new protests erupt",
+          "title": "Lebanon says Israeli strike in south kills 12 medics",
           "translated_title": null,
-          "link": "https://www.newarab.com/news/iran-vows-stronger-response-january-if-new-protests-erupt",
-          "date": "Fri, 13 Mar 2026 16:38:28 +0000",
-          "category": "political crisis",
-          "confidence": 0.5509649515151978,
-          "weight": 3.3057897090911865,
+          "link": "https://www.newarab.com/news/lebanon-says-israeli-strike-south-kills-12-medics",
+          "date": "Sat, 14 Mar 2026 02:06:45 +0000",
+          "category": "military conflict",
+          "confidence": 0.56056147813797,
+          "weight": 5.6056147813797,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "55.1%",
+          "ai_confidence_score": "56.1%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
@@ -945,20 +973,6 @@ window.BNTI_DATA = {
           "weight": 2.7084474563598633,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "45.1%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
-        },
-        {
-          "title": "Six countries file interventions in Israel's ICJ genocide case",
-          "translated_title": null,
-          "link": "https://www.newarab.com/news/six-countries-file-interventions-israels-icj-genocide-case",
-          "date": "Fri, 13 Mar 2026 15:57:47 +0000",
-          "category": "humanitarian crisis",
-          "confidence": 0.8163535594940186,
-          "weight": 2.4490606784820557,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "81.6%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
@@ -1071,20 +1085,6 @@ window.BNTI_DATA = {
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "21.3%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
-        },
-        {
-          "title": "Australia pulls non-essential staff from Lebanon, Israel, UAE",
-          "translated_title": null,
-          "link": "https://www.newarab.com/news/australia-pulls-non-essential-staff-lebanon-israel-uae",
-          "date": "Fri, 13 Mar 2026 16:38:24 +0000",
-          "category": "neutral news",
-          "confidence": 0.3000451922416687,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "30.0%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
@@ -1309,9 +1309,23 @@ window.BNTI_DATA = {
       ]
     },
     "Bulgaria": {
-      "index": 1.24,
-      "raw_score": 0.11,
+      "index": 1.72,
+      "raw_score": 0.35,
       "events": [
+        {
+          "title": "Хегсет горещо очаква съмишленик на Тръмп да купи Си Ен Ен заради репортажите за войната",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/sviat/2026/03/13/4892254_hegset_goreshto_ochakva_sumishlenik_na_trump_da_kupi/?ref=rss",
+          "date": "Fri, 13 Mar 2026 18:47:00 +0200",
+          "category": "political crisis",
+          "confidence": 0.5904649496078491,
+          "weight": 3.5427896976470947,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "59.0%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
         {
           "title": "Пентагонът ще разположи нови 5 хил. морски пехотинци и моряци в Близкия изток",
           "translated_title": null,
@@ -1323,34 +1337,6 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "48.1%",
           "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "Radan Kanev: Membership in the Peace Council puts Bulgaria in a subordinate position to Trump - fakti.bg",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNV1BVdHRpeVhyLVpwcXdOZ21zWHpfcDlSMnU0RGIzcXVsZFFtLWhwUnBMbGFaVkFIb2Rtb1FBRldiNWhaNzhVa2FyZU15TkJ0amFKcWV0QTFtUXFCcFhXZ2FmWjdXdG1IMWxnQ1hsMHUtbFhHRXZxbFI4YkljWmxUeGRCT0l4ZlRLWjhPWktTTlAzZ3NDbU5pbUZVQWxnS0pieWYyWkw0YTlGX1Y2dU4xLXVkSjBpZFA0RnA2MzVHR1VSVm8?oc=5",
-          "date": "Fri, 13 Mar 2026 17:14:00 GMT",
-          "category": "peaceful diplomacy",
-          "confidence": 0.3918921947479248,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "39.2%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "Parliament elected Karina Karaivanova as Deputy Governor of the Bulgarian National Bank - fakti.bg",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPLTNpVlpFY2tUS1VjSGh5UTdIZDZiY2ZZSzNDaGRUZ19LalZMeU5VQy0tck9RcExTMFRGWkYyU0FDRVlTazNDUld2alBGSGlTSVo5Z0ltc1dBaThQT0JhaUZGSjlXenVuaVk0VlZHOGhzbVVFdDAxUVZ2SFBLTFpYMmxUWGR3bk1lNHNjQTRfc25QZ29sbk9Xb0hGVWc?oc=5",
-          "date": "Fri, 13 Mar 2026 14:35:00 GMT",
-          "category": "peaceful diplomacy",
-          "confidence": 0.1900387406349182,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "19.0%",
-          "detected_lang": "en",
           "is_translated": false,
           "country": "Bulgaria"
         },
@@ -1509,6 +1495,20 @@ window.BNTI_DATA = {
           "country": "Bulgaria"
         },
         {
+          "title": "\"Истината днес\": стотици настояха прокуратурата и МВР да покажат всички документи по случая \"Петрохан\"",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/bulgaria/2026/03/13/4892293_istinata_dnes_stotici_nastoiaha_prokuraturata_i_mvr_da/?ref=rss",
+          "date": "Fri, 13 Mar 2026 18:56:00 +0200",
+          "category": "violent protest",
+          "confidence": 0.25828278064727783,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "25.8%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
           "title": "Израел отхвърли историческото предложение на Ливан за директни преговори",
           "translated_title": null,
           "link": "https://www.dnevnik.bg/sviat/2026/03/13/4892301_izrael_othvurli_istoricheskoto_predlojenie_na_livan_za/?ref=rss",
@@ -1526,12 +1526,6 @@ window.BNTI_DATA = {
     }
   },
   "history": [
-    {
-      "timestamp": "2026-03-12T03:00:55.481798",
-      "main_index": 5.0,
-      "index": 5.0,
-      "type": "historical"
-    },
     {
       "timestamp": "2026-03-12T05:37:38.071206",
       "main_index": 4.9,
@@ -1741,48 +1735,54 @@ window.BNTI_DATA = {
       "main_index": 4.52,
       "index": 4.52,
       "type": "historical"
+    },
+    {
+      "timestamp": "2026-03-14T03:07:04.787150",
+      "main_index": 4.72,
+      "index": 4.72,
+      "type": "historical"
     }
   ],
   "forecast": [
     {
-      "timestamp": "2026-03-14T00:54:31.841714",
-      "index": 4.68,
-      "main_index": 4.68,
-      "confidence": 0.3,
-      "type": "forecast"
-    },
-    {
-      "timestamp": "2026-03-14T01:54:31.841714",
-      "index": 4.67,
-      "main_index": 4.67,
-      "confidence": 0.3,
-      "type": "forecast"
-    },
-    {
-      "timestamp": "2026-03-14T02:54:31.841714",
-      "index": 4.66,
-      "main_index": 4.66,
-      "confidence": 0.3,
-      "type": "forecast"
-    },
-    {
-      "timestamp": "2026-03-14T03:54:31.841714",
-      "index": 4.64,
-      "main_index": 4.64,
-      "confidence": 0.3,
-      "type": "forecast"
-    },
-    {
-      "timestamp": "2026-03-14T04:54:31.841714",
-      "index": 4.63,
-      "main_index": 4.63,
-      "confidence": 0.3,
-      "type": "forecast"
-    },
-    {
-      "timestamp": "2026-03-14T05:54:31.841714",
+      "timestamp": "2026-03-14T04:07:04.787150",
       "index": 4.61,
       "main_index": 4.61,
+      "confidence": 0.3,
+      "type": "forecast"
+    },
+    {
+      "timestamp": "2026-03-14T05:07:04.787150",
+      "index": 4.59,
+      "main_index": 4.59,
+      "confidence": 0.3,
+      "type": "forecast"
+    },
+    {
+      "timestamp": "2026-03-14T06:07:04.787150",
+      "index": 4.57,
+      "main_index": 4.57,
+      "confidence": 0.3,
+      "type": "forecast"
+    },
+    {
+      "timestamp": "2026-03-14T07:07:04.787150",
+      "index": 4.55,
+      "main_index": 4.55,
+      "confidence": 0.3,
+      "type": "forecast"
+    },
+    {
+      "timestamp": "2026-03-14T08:07:04.787150",
+      "index": 4.53,
+      "main_index": 4.53,
+      "confidence": 0.3,
+      "type": "forecast"
+    },
+    {
+      "timestamp": "2026-03-14T09:07:04.787150",
+      "index": 4.5,
+      "main_index": 4.5,
       "confidence": 0.3,
       "type": "forecast"
     }
