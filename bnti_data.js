@@ -1,10 +1,10 @@
 window.BNTI_DATA = {
   "meta": {
-    "generated_at": "2026-03-14T22:56:02.125454",
-    "main_index": 4.52,
+    "generated_at": "2026-03-14T23:53:55.258541",
+    "main_index": 4.62,
     "status": "ELEVATED",
     "active_scan": true,
-    "next_update": "2026-03-14T23:00:00",
+    "next_update": "2026-03-15T00:00:00",
     "version": "2.0.0"
   },
   "countries": {
@@ -195,29 +195,29 @@ window.BNTI_DATA = {
           "country": "Armenia"
         },
         {
-          "title": "The Mayor received the Bulgarian Ambassador to the Republic of Armenia - Radar Armenia",
+          "title": "70 students from Iran to return home today via Armenia, Dubai - The Times of India",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9vMFd2MWN1SFN4ZDhMU193Si1vcnpZTjhESzd1QjZVY0h5dHJxTW1kaHE1N2liX2JtU0szczJHSXRIT3d6S09yS3NmRWp2dTM2UXFNOVl0NA?oc=5",
-          "date": "Fri, 13 Mar 2026 08:48:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWWJ3cThvTjZXSjFzTHNITDh5dUVDOHN3TlV3MVh4aV9kUWtSSjRraXNJTE03WndQNjdFNHpmSXZaZEtnRGpLT1p5ZGw3RE1DcExYUDVuend5ci0xcHJwMmhlYVN5YmNhNW9RSTlVdzFTeElmcVZzMGl6Y085V1E0YmtzMHNKSi03OTBVQjlwZHE0YjBYQ2dUUWVjMTVFOG10OGZXX2RXNzI3aWt3Q25Nc0w5aEtHajg5MHM3QjZxaW9XR2hMVmlF0gHMAUFVX3lxTFBLUjA0NzB2aVB1NzJKZGdLS1A2TGdGRjVSVHZDdXFqbjcxUmYyZDIxQ2YxNXRSVjhuM3JIT1pNSzV1ZWRNRzVEV2JxaGZrVmVMTXZMeVFhelJOSGVOcGVYa0VGRkJndmVVNW5vWnMwSHRmLXBlcjJSdnE3UEVuOWR5R21jR3VnZFJGZmR6T25XUHBpR3daVDdGWTRmb0p3djRqYlpGZmRJUElLakxKSlpkcVd6UmtBd21Xek95T0hKcVVGSlJZejNPNDZTMg?oc=5",
+          "date": "Sat, 14 Mar 2026 23:08:00 GMT",
           "category": "violent protest",
-          "confidence": 0.18624155223369598,
+          "confidence": 0.3631955087184906,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "18.6%",
+          "ai_confidence_score": "36.3%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Armenia"
         },
         {
-          "title": "A new cyclone is about to hit Armenia - Radar Armenia",
+          "title": "Armenia is ready to ensure the road connection between Azerbaijan and Nakhichevan. Prime Minister (VIDEO) - Radar Armenia",
           "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsclZnSHVqLVdEeGl4ZzRkSF96aGpvUzVEQ2xzTWZHTEJEdndQM0xBUXpjY0ZOMTgzVDdwRlB2VEhPS1dXeWJoa19WTHFvOS01clhRN2d3?oc=5",
-          "date": "Fri, 13 Mar 2026 05:23:00 GMT",
-          "category": "violent protest",
-          "confidence": 0.3046685457229614,
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBmc3g0eW41Qzd6aDQ0bUlmNENrTjFCdTdHMm5BQUtRMVBZMC1uOEFiWXNGWThPSVNTT1ZXalczY3JaeHpOUjh6TDRjRHNzR01RUS1HeDVpdEE?oc=5",
+          "date": "Fri, 13 Mar 2026 11:32:35 GMT",
+          "category": "terrorist act",
+          "confidence": 0.2566963732242584,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "30.5%",
+          "ai_confidence_score": "25.7%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Armenia"
@@ -225,8 +225,8 @@ window.BNTI_DATA = {
       ]
     },
     "Georgia": {
-      "index": 3.2,
-      "raw_score": 1.17,
+      "index": 3.56,
+      "raw_score": 1.39,
       "events": [
         {
           "title": "OSCE issues damning report on Georgia’s democratic backsliding",
@@ -239,6 +239,20 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "96.5%",
           "detected_lang": "local",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
+          "title": "Scandal in Armenia: museum director dismissed for gifting book to US vice-president",
+          "translated_title": null,
+          "link": "https://jam-news.net/scandal-in-armenia-museum-director-dismissed-for-gifting-book-to-us-vice-president/",
+          "date": "Fri, 13 Mar 2026 17:33:59 +0000",
+          "category": "political crisis",
+          "confidence": 0.9490100741386414,
+          "weight": 5.694060444831848,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "94.9%",
+          "detected_lang": "en",
           "is_translated": false,
           "country": "Georgia"
         },
@@ -257,29 +271,15 @@ window.BNTI_DATA = {
           "country": "Georgia"
         },
         {
-          "title": "ევროპელი მინისტრები ორშაბათს საქართველოს საკითხს განიხილავენ",
+          "title": "‘This is not peace, but defeatism’: a dissenting view on Armenia’s security strategy",
           "translated_title": null,
-          "link": "https://netgazeti.ge/life/801380/",
-          "date": "Sat, 14 Mar 2026 10:09:43 +0000",
-          "category": "violent protest",
-          "confidence": 0.471204549074173,
-          "weight": 3.298431843519211,
+          "link": "https://jam-news.net/this-is-not-peace-but-defeatism-a-dissenting-view-on-armenias-security-strategy/",
+          "date": "Fri, 13 Mar 2026 11:59:35 +0000",
+          "category": "political crisis",
+          "confidence": 0.6571954488754272,
+          "weight": 3.9431726932525635,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "47.1%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
-          "title": "რეპრესიული კანონების გამო საია კრიზისულ სამუშაო რეჟიმზე გადადის",
-          "translated_title": null,
-          "link": "https://netgazeti.ge/life/801383/",
-          "date": "Sat, 14 Mar 2026 10:24:40 +0000",
-          "category": "economic crisis",
-          "confidence": 0.7331966757774353,
-          "weight": 2.932786703109741,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "73.3%",
+          "ai_confidence_score": "65.7%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Georgia"
@@ -397,43 +397,43 @@ window.BNTI_DATA = {
           "country": "Georgia"
         },
         {
-          "title": "კობახიძის თქმით, ეუთოს დასკვნაში გასათვალისწინებელი რეკომენდაციებიცაა მოცემული",
+          "title": "Abkhaz model took part in a Chanel fashion show",
           "translated_title": null,
-          "link": "https://netgazeti.ge/news/801393/",
-          "date": "Sat, 14 Mar 2026 13:17:08 +0000",
+          "link": "https://jam-news.net/abkhaz-model-took-part-in-a-chanel-fashion-show/",
+          "date": "Sat, 14 Mar 2026 14:20:43 +0000",
           "category": "neutral news",
-          "confidence": 0.2254379838705063,
+          "confidence": 0.2473166435956955,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "22.5%",
+          "ai_confidence_score": "24.7%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
+          "title": "Opinion: ‘No one cares about Georgian government’s complaints’",
+          "translated_title": null,
+          "link": "https://jam-news.net/osce-moscow-mechanism-report-on-georgia-2/",
+          "date": "Fri, 13 Mar 2026 16:33:26 +0000",
+          "category": "neutral news",
+          "confidence": 0.6016546487808228,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "60.2%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Georgia"
         },
         {
-          "title": "ანტი-დოპინგური სააგენტოს გამოძიებამ ქართულ რაგბიში დოპინგ-სკანდალი გამოავლინა – WADA",
+          "title": "New fines in Azerbaijan: what will the laws on children’s rights, begging and artificial intelligence change?",
           "translated_title": null,
-          "link": "https://netgazeti.ge/news/801389/",
-          "date": "Sat, 14 Mar 2026 11:14:44 +0000",
-          "category": "violent protest",
-          "confidence": 0.20569203794002533,
+          "link": "https://jam-news.net/new-fines-in-azerbaijan-what-will-the-laws-on-childrens-rights-begging-and-artificial-intelligence-change/",
+          "date": "Fri, 13 Mar 2026 12:45:45 +0000",
+          "category": "humanitarian crisis",
+          "confidence": 0.20921899378299713,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "20.6%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
-          "title": "ზახაროვას თქმით, ერევანმა არ მიიღო რუსეთის დახმარება ყარაბაღელებისთვის",
-          "translated_title": null,
-          "link": "https://netgazeti.ge/news/801372/",
-          "date": "Fri, 13 Mar 2026 16:42:32 +0000",
-          "category": "neutral news",
-          "confidence": 0.2888563871383667,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "28.9%",
+          "ai_confidence_score": "20.9%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Georgia"
@@ -660,8 +660,8 @@ window.BNTI_DATA = {
       ]
     },
     "Iran": {
-      "index": 5.9,
-      "raw_score": 3.27,
+      "index": 4.98,
+      "raw_score": 2.44,
       "events": [
         {
           "title": "US-Israeli strike kills 15 at Isfahan factory, Iranian media says",
@@ -671,20 +671,6 @@ window.BNTI_DATA = {
           "category": "military conflict",
           "confidence": 0.9203976392745972,
           "weight": 9.203976392745972,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "92.0%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
-          "title": "Israeli settlers shoot Palestinians in West Bank villages, steal livestock",
-          "translated_title": "Israeli settlers shoot Palestinians in West Bank villages, steal livestock",
-          "link": "https://www.aljazeera.com/news/2026/3/14/israeli-settlers-shoot-palestinians-in-west-bank-villages-steal-livestock?traffic_source=rss",
-          "date": "Sat, 14 Mar 2026 19:15:08 +0000",
-          "category": "military conflict",
-          "confidence": 0.919622540473938,
-          "weight": 9.19622540473938,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "92.0%",
           "detected_lang": "en",
@@ -734,20 +720,6 @@ window.BNTI_DATA = {
           "country": "Iran"
         },
         {
-          "title": "US embassy in Venezuela reopens as Trump pushes for access to resources",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/news/2026/3/14/us-embassy-in-venezuela-reopens-as-trump-pushes-for-access-to-resources?traffic_source=rss",
-          "date": "Sat, 14 Mar 2026 19:04:05 +0000",
-          "category": "political crisis",
-          "confidence": 0.7715866565704346,
-          "weight": 4.629519939422607,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "77.2%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
           "title": "Trump administration threatens news outlets over critical coverage of Iran",
           "translated_title": null,
           "link": "https://www.aljazeera.com/news/2026/3/14/trump-administration-threatens-news-outlets-over-critical-coverage-of-iran?traffic_source=rss",
@@ -772,6 +744,62 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "60.5%",
           "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Trinidad and Tobago extends state of emergency for another three months",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/news/2026/3/14/trinidad-and-tobago-extends-state-of-emergency-for-another-three-months?traffic_source=rss",
+          "date": "Sat, 14 Mar 2026 22:27:11 +0000",
+          "category": "humanitarian crisis",
+          "confidence": 0.4271314740180969,
+          "weight": 1.2813944220542908,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "42.7%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Brazil’s jailed ex-president Bolsonaro hospitalised with lung infection",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/news/2026/3/14/brazils-jailed-ex-president-bolsonaro-hospitalised-with-lung-infection?traffic_source=rss",
+          "date": "Sat, 14 Mar 2026 23:18:28 +0000",
+          "category": "political crisis",
+          "confidence": 0.28067418932914734,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "28.1%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Bahrain and Saudi Arabia F1 race cancellations confirmed due to Iran war",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/sports/2026/3/14/bahrain-and-saudi-f1-races-cancelations-confirmed-due-to-iran-war?traffic_source=rss",
+          "date": "Sat, 14 Mar 2026 23:16:05 +0000",
+          "category": "military conflict",
+          "confidence": 0.5796242356300354,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "58.0%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Man City held at West Ham to lose ground on Premier League leaders Arsenal",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/sports/2026/3/14/man-city-held-at-west-ham-to-lose-ground-on-premier-league-leaders-arsenal?traffic_source=rss",
+          "date": "Sat, 14 Mar 2026 22:48:26 +0000",
+          "category": "violent protest",
+          "confidence": 0.3565109670162201,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "35.7%",
+          "detected_lang": "en",
           "is_translated": false,
           "country": "Iran"
         },
@@ -844,40 +872,12 @@ window.BNTI_DATA = {
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iran"
-        },
-        {
-          "title": "Iranian woman explains ‘Allahu Akbar’ to Americans, amid explosion in Iran",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/3/14/iranian-woman-explains-allahu-akbar-to-americans-amid-explosion-in-iran?traffic_source=rss",
-          "date": "Sat, 14 Mar 2026 19:23:52 +0000",
-          "category": "military conflict",
-          "confidence": 0.2823784649372101,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "28.2%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
-          "title": "Iran warns UAE ports and ‘American hideouts’ are targets",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/3/14/iran-warns-uae-ports-and-american-hideouts-are-targets?traffic_source=rss",
-          "date": "Sat, 14 Mar 2026 18:31:30 +0000",
-          "category": "military conflict",
-          "confidence": 0.23869530856609344,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "23.9%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Iran"
         }
       ]
     },
     "Iraq": {
-      "index": 5.96,
-      "raw_score": 3.33,
+      "index": 5.36,
+      "raw_score": 2.76,
       "events": [
         {
           "title": "Iran arrests dozens for alleged espionage amid wartime crackdown",
@@ -889,20 +889,6 @@ window.BNTI_DATA = {
           "weight": 9.811130166053772,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "98.1%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
-        },
-        {
-          "title": "Three Palestinians killed by Israel in Gaza as sandstorm hits",
-          "translated_title": "Three Palestinians killed by Israel in Gaza as sandstorm hits",
-          "link": "https://www.newarab.com/news/three-palestinians-killed-israel-gaza-sandstorm-hits",
-          "date": "Sat, 14 Mar 2026 17:06:24 +0000",
-          "category": "military conflict",
-          "confidence": 0.8568750023841858,
-          "weight": 8.568750023841858,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "85.7%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
@@ -987,6 +973,20 @@ window.BNTI_DATA = {
           "weight": 1.392738550901413,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "46.4%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "Three Iranian football team members leave asylum in Australia",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/three-iranian-football-team-members-leave-asylum-australia",
+          "date": "Sat, 14 Mar 2026 23:09:49 +0000",
+          "category": "peaceful diplomacy",
+          "confidence": 0.2044803649187088,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "20.4%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
@@ -1092,9 +1092,51 @@ window.BNTI_DATA = {
       ]
     },
     "Syria": {
-      "index": 3.91,
-      "raw_score": 1.63,
+      "index": 5.76,
+      "raw_score": 3.14,
       "events": [
+        {
+          "title": "War remnant blast in Aleppo countryside leaves 9 casualties",
+          "translated_title": "War remnant blast in Aleppo countryside leaves 9 casualties",
+          "link": "https://npasyria.com/en/136171/",
+          "date": "Sat, 14 Mar 2026 06:38:35 +0000",
+          "category": "military conflict",
+          "confidence": 0.9465228915214539,
+          "weight": 9.465228915214539,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "94.7%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "War remnant explosion injures over 10 people in Homs countryside",
+          "translated_title": "War remnant explosion injures over 10 people in Homs countryside",
+          "link": "https://npasyria.com/en/136160/",
+          "date": "Fri, 13 Mar 2026 16:38:19 +0000",
+          "category": "military conflict",
+          "confidence": 0.9207487106323242,
+          "weight": 9.207487106323242,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "92.1%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Two children injured in war remnant explosion in Homs",
+          "translated_title": "Two children injured in war remnant explosion in Homs",
+          "link": "https://npasyria.com/en/136163/",
+          "date": "Fri, 13 Mar 2026 16:41:47 +0000",
+          "category": "military conflict",
+          "confidence": 0.869015634059906,
+          "weight": 8.69015634059906,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "86.9%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
         {
           "title": "One Syrian Defense Ministry member killed, another injured in attacks in Deir ez-Zor",
           "translated_title": "One Syrian Defense Ministry member killed, another injured in attacks in Deir ez-Zor",
@@ -1105,20 +1147,6 @@ window.BNTI_DATA = {
           "weight": 8.15377414226532,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "81.5%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Israeli strikes kill 37 across Lebanon in 24 hours",
-          "translated_title": "Israeli strikes kill 37 across Lebanon in 24 hours",
-          "link": "https://sana.sy/en/international/2301162/",
-          "date": "Sun, 08 Mar 2026 09:45:10 +0000",
-          "category": "military conflict",
-          "confidence": 0.6331971883773804,
-          "weight": 6.331971883773804,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "63.3%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
@@ -1138,6 +1166,20 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
+          "title": "UN investigators say serious rights violations continue across Syria",
+          "translated_title": null,
+          "link": "https://npasyria.com/en/136174/",
+          "date": "Sat, 14 Mar 2026 07:05:01 +0000",
+          "category": "humanitarian crisis",
+          "confidence": 0.944156289100647,
+          "weight": 2.832468867301941,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "94.4%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
           "title": "World News in Brief: Attacks on synagogues, Syria’s continuing rights violations, shocking abuse of women during childbirth - UN News",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE00enJrLUFjM3lGRnhtQ1h2SW9XS3hrQm1RTEYyYUxwYVRwZDVfajI5bGtILWE0TnR1SXVMWjU5bGZPNURxUXZBUkM5NENYcm5DeFc5T2tCRQ?oc=5",
@@ -1152,29 +1194,15 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
-          "title": "Syrian Ministry launches social affairs strategic plan for 2026–2028",
+          "title": "Mass grave with 11 bodies discovered in northern Daraa countryside",
           "translated_title": null,
-          "link": "https://sana.sy/en/syria/2301141/",
-          "date": "Sun, 08 Mar 2026 09:24:38 +0000",
+          "link": "https://npasyria.com/en/136167/",
+          "date": "Fri, 13 Mar 2026 17:39:25 +0000",
           "category": "humanitarian crisis",
-          "confidence": 0.4588467478752136,
-          "weight": 1.3765402436256409,
+          "confidence": 0.48218247294425964,
+          "weight": 1.446547418832779,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "45.9%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Life returns to markets in Maarrat al-Numan, Idlib countryside, during Ramadan",
-          "translated_title": null,
-          "link": "https://sana.sy/en/video/2301156/",
-          "date": "Sun, 08 Mar 2026 09:24:04 +0000",
-          "category": "humanitarian crisis",
-          "confidence": 0.4176611304283142,
-          "weight": 1.2529833912849426,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "41.8%",
+          "ai_confidence_score": "48.2%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
@@ -1218,34 +1246,6 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "40.5%",
           "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "China urges dialogue with Washington, warns of escalation risks",
-          "translated_title": null,
-          "link": "https://sana.sy/en/international/2301169/",
-          "date": "Sun, 08 Mar 2026 10:16:02 +0000",
-          "category": "neutral news",
-          "confidence": 0.35187846422195435,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "35.2%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "On International Women’s Day, Syrian woman is a pillar of national reconstruction",
-          "translated_title": null,
-          "link": "https://sana.sy/en/syria/2301166/",
-          "date": "Sun, 08 Mar 2026 10:05:03 +0000",
-          "category": "political crisis",
-          "confidence": 0.2911052703857422,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "29.1%",
-          "detected_lang": "local",
           "is_translated": false,
           "country": "Syria"
         },
@@ -1308,8 +1308,8 @@ window.BNTI_DATA = {
       ]
     },
     "Bulgaria": {
-      "index": 4.94,
-      "raw_score": 2.4,
+      "index": 4.49,
+      "raw_score": 2.04,
       "events": [
         {
           "title": "Еволюция на революцията в Иран, машината на времето в Москва и уроците на свития корем",
@@ -1371,20 +1371,6 @@ window.BNTI_DATA = {
           "country": "Bulgaria"
         },
         {
-          "title": "Азиатската страна, където Революцията Z още има шанс",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/sviat/2026/03/14/4892386_aziatskata_strana_kudeto_revoljuciiata_z_oshte_ima/?ref=rss",
-          "date": "Sat, 14 Mar 2026 15:15:00 +0200",
-          "category": "violent protest",
-          "confidence": 0.760359525680542,
-          "weight": 5.322516679763794,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "76.0%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
           "title": "Божанков обеща да не задълбочава вътрешните конфликти в коалицията",
           "translated_title": null,
           "link": "https://www.dnevnik.bg/izbori-2026/2026/03/14/4892424_bojankov_obeshta_da_ne_zadulbochava_vutreshnite/?ref=rss",
@@ -1395,6 +1381,48 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "87.5%",
           "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Radan Kanev: Membership in the Peace Council puts Bulgaria in a subordinate position to Trump - fakti.bg",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNV1BVdHRpeVhyLVpwcXdOZ21zWHpfcDlSMnU0RGIzcXVsZFFtLWhwUnBMbGFaVkFIb2Rtb1FBRldiNWhaNzhVa2FyZU15TkJ0amFKcWV0QTFtUXFCcFhXZ2FmWjdXdG1IMWxnQ1hsMHUtbFhHRXZxbFI4YkljWmxUeGRCT0l4ZlRLWjhPWktTTlAzZ3NDbU5pbUZVQWxnS0pieWYyWkw0YTlGX1Y2dU4xLXVkSjBpZFA0RnA2MzVHR1VSVm8?oc=5",
+          "date": "Fri, 13 Mar 2026 17:14:00 GMT",
+          "category": "peaceful diplomacy",
+          "confidence": 0.3918921947479248,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "39.2%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Parliament elected Karina Karaivanova as Deputy Governor of the Bulgarian National Bank - fakti.bg",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPLTNpVlpFY2tUS1VjSGh5UTdIZDZiY2ZZSzNDaGRUZ19LalZMeU5VQy0tck9RcExTMFRGWkYyU0FDRVlTazNDUld2alBGSGlTSVo5Z0ltc1dBaThQT0JhaUZGSjlXenVuaVk0VlZHOGhzbVVFdDAxUVZ2SFBLTFpYMmxUWGR3bk1lNHNjQTRfc25QZ29sbk9Xb0hGVWc?oc=5",
+          "date": "Fri, 13 Mar 2026 14:35:00 GMT",
+          "category": "peaceful diplomacy",
+          "confidence": 0.1900387406349182,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "19.0%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Rumen Radev: Bulgaria must be prepared for measures against fuel price increases, but there should be no rush for now - fakti.bg",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOdkQ2VHpadzBhbnN6d19QaXdWeUJlbVR6RE9ma2c1REZpMXlHdTFhWGxYanFrUUIxZDdWSW5yWDdoUklNMGFiT24tRGd3WFM3X0RsSktfMG5vb0VuczhIRUhQbUlHVnVOeWc0T1J4TkZVLWdtRE4zZGlRT0RKenFaTU4ydXV6S0NkdFBNS2lpY3dicTdGOTEtcmhiQ0REYWI1UWRuMHAwX0tRck5XaHRNU0xjN3FVdnV5LXNKMzZHTHJWWDVFRzNNRjFaNDB2azI3N0p1VEo3OEphNW5FNHVxdEVtV2x6MGpXeHFWMEZn?oc=5",
+          "date": "Fri, 13 Mar 2026 19:14:00 GMT",
+          "category": "neutral news",
+          "confidence": 0.19997543096542358,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "20.0%",
+          "detected_lang": "en",
           "is_translated": false,
           "country": "Bulgaria"
         },
@@ -1492,34 +1520,6 @@ window.BNTI_DATA = {
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "18.3%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "Патриарх Даниил за отлагането на часовете по религия: Такава е Божията воля",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/bulgaria/2026/03/14/4892423_patriarh_daniil_za_otlaganeto_na_chasovete_po_religiia/?ref=rss",
-          "date": "Sat, 14 Mar 2026 14:53:00 +0200",
-          "category": "neutral news",
-          "confidence": 0.28151577711105347,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "28.2%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "Мария Цънцарова: Натискът над журналисти минава и през жълтите медии",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/kultura/2026/03/14/4892409_mariia_cuncarova_natiskut_nad_jurnalisti_minava_i_prez/?ref=rss",
-          "date": "Sat, 14 Mar 2026 14:19:00 +0200",
-          "category": "neutral news",
-          "confidence": 0.25134748220443726,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "25.1%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
@@ -1761,48 +1761,54 @@ window.BNTI_DATA = {
       "main_index": 4.52,
       "index": 4.52,
       "type": "historical"
+    },
+    {
+      "timestamp": "2026-03-14T23:54:03.977364",
+      "main_index": 4.62,
+      "index": 4.62,
+      "type": "historical"
     }
   ],
   "forecast": [
     {
-      "timestamp": "2026-03-14T23:56:09.088369",
-      "index": 4.98,
-      "main_index": 4.98,
+      "timestamp": "2026-03-15T00:54:03.977364",
+      "index": 4.88,
+      "main_index": 4.88,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-15T00:56:09.088369",
-      "index": 4.98,
-      "main_index": 4.98,
+      "timestamp": "2026-03-15T01:54:03.977364",
+      "index": 4.87,
+      "main_index": 4.87,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-15T01:56:09.088369",
-      "index": 4.98,
-      "main_index": 4.98,
+      "timestamp": "2026-03-15T02:54:03.977364",
+      "index": 4.87,
+      "main_index": 4.87,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-15T02:56:09.088369",
-      "index": 4.98,
-      "main_index": 4.98,
+      "timestamp": "2026-03-15T03:54:03.977364",
+      "index": 4.86,
+      "main_index": 4.86,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-15T03:56:09.088369",
-      "index": 4.98,
-      "main_index": 4.98,
+      "timestamp": "2026-03-15T04:54:03.977364",
+      "index": 4.85,
+      "main_index": 4.85,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-15T04:56:09.088369",
-      "index": 4.98,
-      "main_index": 4.98,
+      "timestamp": "2026-03-15T05:54:03.977364",
+      "index": 4.85,
+      "main_index": 4.85,
       "confidence": 0.3,
       "type": "forecast"
     }
