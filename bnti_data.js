@@ -1,7 +1,7 @@
 window.BNTI_DATA = {
   "meta": {
-    "generated_at": "2026-03-19T22:05:46.723026",
-    "main_index": 4.35,
+    "generated_at": "2026-03-19T22:59:18.864163",
+    "main_index": 4.39,
     "status": "ELEVATED",
     "active_scan": true,
     "next_update": "2026-03-19T23:00:00",
@@ -9,8 +9,8 @@ window.BNTI_DATA = {
   },
   "countries": {
     "Armenia": {
-      "index": 3.04,
-      "raw_score": 1.07,
+      "index": 2.4,
+      "raw_score": 0.7,
       "events": [
         {
           "title": "Targeting of opponents, misuse of judiciary raise election concerns",
@@ -22,20 +22,6 @@ window.BNTI_DATA = {
           "weight": 5.9236836433410645,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "98.7%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Armenia"
-        },
-        {
-          "title": "Pashinyan exposes before European Parliament his feuds with Church and political parties",
-          "translated_title": null,
-          "link": "https://armenianweekly.com/2026/03/18/pashinyan-exposes-before-european-parliament-his-feuds-with-church-and-political-parties/",
-          "date": "Wed, 18 Mar 2026 14:39:35 +0000",
-          "category": "political crisis",
-          "confidence": 0.9261109232902527,
-          "weight": 5.556665539741516,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "92.6%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Armenia"
@@ -92,6 +78,20 @@ window.BNTI_DATA = {
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "18.6%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Armenia"
+        },
+        {
+          "title": "Armenian-American soprano Tatev Baroyan performs Tatyana in Salzburg premiere of ‘Eugene Onegin’",
+          "translated_title": null,
+          "link": "https://armenianweekly.com/2026/03/19/armenian-american-soprano/",
+          "date": "Thu, 19 Mar 2026 15:00:45 +0000",
+          "category": "violent protest",
+          "confidence": 0.21185176074504852,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "21.2%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Armenia"
@@ -441,9 +441,79 @@ window.BNTI_DATA = {
       ]
     },
     "Greece": {
-      "index": 1.0,
-      "raw_score": -0.08,
+      "index": 1.64,
+      "raw_score": 0.31,
       "events": [
+        {
+          "title": "Κίνα: Ρομπότ «συνελήφθη» για παρενόχληση ηλικιωμένης!",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/best-of-network/article/1791317/kina-robot-sunelifthi-gia-parenohlisi-ilikiomenis/?utm_source=rss",
+          "date": "Thu, 19 Mar 2026 23:49:27 +0200",
+          "category": "violent protest",
+          "confidence": 0.621191680431366,
+          "weight": 4.348341763019562,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "62.1%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Νέα έκκληση της Ρωσίας για τερματισμό των εχθροπραξιών στον Περσικό Κόλπο",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/world/article/1791321/nea-ekklisi-tis-rosias-gia-termatismo-ton-ehthropraxion-ston-persiko-kolpo/?utm_source=rss",
+          "date": "Fri, 20 Mar 2026 00:01:00 +0200",
+          "category": "violent protest",
+          "confidence": 0.46985453367233276,
+          "weight": 3.2889817357063293,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "47.0%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Συντριβή και αποκλεισμός για ΠΑΟ (ήττα 4-0 από τη Μπέτις), έχασε με 2-0 από την Τσέλιε αλλά πέρασε η ΑΕΚ, δείτε βίντεο",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/sports/article/1791323/sudrivi-kai-apokleismos-gia-pao-itta-4-0-apo-ti-betis-ehase-me-2-0-apo-tin-tselie-alla-perase-i-aek-deite-video/?utm_source=rss",
+          "date": "Fri, 20 Mar 2026 00:31:13 +0200",
+          "category": "military conflict",
+          "confidence": 0.2434765100479126,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "24.3%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Ρουμάνος εργάτης που άφησε την χώρα του για 19 χρόνια εξηγεί γιατί τώρα έπρεπε να επιστρέψει",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/best-of-network/article/1791319/roumanos-ergatis-pou-afise-tin-hora-tou-gia-19-hronia-exigei-giati-tora-eprepe-na-epistrepsei/?utm_source=rss",
+          "date": "Thu, 19 Mar 2026 23:51:06 +0200",
+          "category": "peaceful diplomacy",
+          "confidence": 0.2113112211227417,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "21.1%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Πέθανε ο Ουμπέρτο Μπόσι σε ηλικία 84 ετών, ήταν ιδρυτής της Λέγκας του Βορρά στην Ιταλία",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/world/article/1791318/pethane-o-ouberto-bosi-se-ilikia-84-eton-itan-idrutis-tis-legas-stin-italia/?utm_source=rss",
+          "date": "Thu, 19 Mar 2026 23:54:00 +0200",
+          "category": "violent protest",
+          "confidence": 0.2439553290605545,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "24.4%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
         {
           "title": "Πάνω από 130 στόχους χτύπησε η ισραηλινή αεροπορία στο δυτικό και κεντρικό Ιράν σήμερα, λένε οι IDF",
           "translated_title": null,
@@ -459,15 +529,15 @@ window.BNTI_DATA = {
           "country": "Greece"
         },
         {
-          "title": "Γκάφα Γάλλου αξιωματικού αποκάλυψε τη θέση του αεροπλανοφόρου «Σαρλ ντε Γκολ» στη Μεσόγειο",
+          "title": "Απίθανη γκάφα Γάλλου αξιωματικού αποκάλυψε την απόρρητη θέση του αεροπλανοφόρου «Σαρλ ντε Γκωλ» στη Μεσόγειο",
           "translated_title": null,
           "link": "https://www.protothema.gr/world/article/1791312/gafa-gallou-axiomatikou-apokalupse-ti-thesi-tou-aeroplanoforou-sarl-de-gol-sti-mesogeio/?utm_source=rss",
           "date": "Thu, 19 Mar 2026 23:41:00 +0200",
           "category": "military conflict",
-          "confidence": 0.4094123840332031,
+          "confidence": 0.28135985136032104,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "40.9%",
+          "ai_confidence_score": "28.1%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -487,6 +557,20 @@ window.BNTI_DATA = {
           "country": "Greece"
         },
         {
+          "title": "Η Ράγιο Βαγιεκάνο αντίπαλος της ΑΕΚ στους «8» του Conference League",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/sports/article/1791310/i-adipalos-tis-aek-stous-8-tou-conference-league/?utm_source=rss",
+          "date": "Thu, 19 Mar 2026 23:57:00 +0200",
+          "category": "violent protest",
+          "confidence": 0.2450713962316513,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "24.5%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
           "title": "Μπαρτζώκας: «Κάναμε ένα από τα χειρότερα παιχνίδια μας φέτος»",
           "translated_title": null,
           "link": "https://www.protothema.gr/sports/article/1791307/bartzokas-kaname-ena-apo-ta-heirotera-paihnidia-mas-fetos/?utm_source=rss",
@@ -496,6 +580,20 @@ window.BNTI_DATA = {
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "29.2%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Σύνοδος Κορυφής: Προσωρινά και στοχευμένα μέτρα κατά της αύξησης των τιμών στην ενέργεια ζητούν οι «27» από την Κομισιόν",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/world/article/1791306/sunodos-korufis-prosorina-kai-stoheumena-metra-gia-tin-auxisi-ton-timon-stin-energeia-zitoun-oi-27-apo-tin-komision/?utm_source=rss",
+          "date": "Fri, 20 Mar 2026 00:08:00 +0200",
+          "category": "neutral news",
+          "confidence": 0.3017658591270447,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "30.2%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -529,118 +627,6 @@ window.BNTI_DATA = {
           "country": "Greece"
         },
         {
-          "title": "Νικηφόρα πρεμιέρα για τον Τσιτσιπά στο Miami Open, 2-0 σετ τον Φέρι και προκρίθηκε στον 2ο γύρο",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/sports/article/1791302/nikifora-premiera-gia-ton-tsitsipa-sto-miami-open-2-0-set-ton-feri-kai-prokrithike-ston-2o-guro/?utm_source=rss",
-          "date": "Thu, 19 Mar 2026 22:58:10 +0200",
-          "category": "violent protest",
-          "confidence": 0.4137139916419983,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "41.4%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Νίκολιτς: «Δεν δέχομαι η ατμόσφαιρα να είναι σαν να έχουμε αποκλειστεί»",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/sports/article/1791301/nikolits-den-dehomai-i-atmosfaira-na-einai-san-na-ehoume-apokleistei/?utm_source=rss",
-          "date": "Thu, 19 Mar 2026 22:55:00 +0200",
-          "category": "neutral news",
-          "confidence": 0.37569501996040344,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "37.6%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Διακομματική νομοθετική πρωτοβουλία Ελληνοαμερικανών βουλευτών για την ενίσχυση της αμυντικής συνεργασίας Ουάσινγκτον - Αθήνας",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/politics/article/1791299/diakommatiki-nomothetiki-protovoulia-ellinoamerikanon-vouleuton-gia-tin-enishusi-tis-amudikis-sunergasia/?utm_source=rss",
-          "date": "Thu, 19 Mar 2026 23:01:00 +0200",
-          "category": "military conflict",
-          "confidence": 0.24767658114433289,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "24.8%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Η Ούρσουλα Άντρες σε μία αδημοσίευτη φωτογραφία από την επίσκεψή της στην Αθήνα το 1971",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/life-style/article/1791298/i-oursoula-adres-se-mia-adimosieuti-fotografia-apo-tin-episkepsi-tis-stin-athina-to-1971/?utm_source=rss",
-          "date": "Thu, 19 Mar 2026 22:50:40 +0200",
-          "category": "neutral news",
-          "confidence": 0.28631535172462463,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "28.6%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Πράσινο φως από την Επιτροπή Εμπορίου της ΕΕ στη συμφωνία κατάργησης δασμών στα αμερικανικά προϊόντα εισαγωγής",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/world/article/1791294/energopoiithike-me-ritres-asfaleias-i-sumfonia-gia-katargisi-dasmon-sta-amerikanika-proioda-pou-eisagodai-stin-ee/?utm_source=rss",
-          "date": "Thu, 19 Mar 2026 22:49:00 +0200",
-          "category": "neutral news",
-          "confidence": 0.9123868942260742,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "91.2%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Ο Τραμπ θα κυκλοφορήσει χρυσό νόμισμα 24 καρατίων με τη μορφή του",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/world/article/1791291/o-trab-tha-kukloforisei-hruso-nomisma-24-karation-me-ti-morfi-tou/?utm_source=rss",
-          "date": "Thu, 19 Mar 2026 22:33:00 +0200",
-          "category": "political crisis",
-          "confidence": 0.16050532460212708,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "16.1%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Μικρές απώλειες στη Wall Street: Κομβικός ο ρόλος των πετρελαϊκών τιμών",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/economy/article/1791289/mikres-apoleies-sti-wall-street-komvikos-o-rolos-ton-petrelaikon-timon/?utm_source=rss",
-          "date": "Thu, 19 Mar 2026 22:22:00 +0200",
-          "category": "peaceful diplomacy",
-          "confidence": 0.19745759665966034,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "19.7%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Οι Εισαγγελείς αποδοκιμάζουν ανεύθυνες δηλώσεις πολιτικών και εμπλεκόμενων στη δίκη των Τεμπών: «Υποκρύπτουν δόλιες σκοπιμότητες»",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/greece/article/1791288/enosi-eisaggeleon-ellados-katadikazei-diloseis-pou-uponomeuoun-ti-diki-gia-to-dustuhima-ton-tebon/?utm_source=rss",
-          "date": "Thu, 19 Mar 2026 22:27:00 +0200",
-          "category": "political crisis",
-          "confidence": 0.4183322787284851,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "41.8%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
           "title": "Στο Ισραήλ αύριο ο ΥΠΕΞ της Γαλλίας για να δώσει συνέχεια στις «διπλωματικές προσπάθειες» του Μακρόν για αποκλιμάκωση",
           "translated_title": null,
           "link": "https://www.protothema.gr/world/article/1791309/sto-israil-aurio-o-upex-tis-gallias-gia-na-dosei-suneheia-stis-diplomatikes-prospatheies-tou-makron/?utm_source=rss",
@@ -653,12 +639,26 @@ window.BNTI_DATA = {
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
+        },
+        {
+          "title": "Euroleague: «Αγκαλιά» με το πλεονέκτημα ο Ολυμπιακός μετά την 22η νίκη, διπλά για Μπαρτσελόνα, Ντουμπάι, Μονακό και Παρτίζαν, δείτε βίντεο",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/sports/article/1791322/euroleague-agalia-me-to-pleonektima-o-olubiakos-meta-tin-22i-niki-dipla-gia-bartselona-doubai-monako-kai-partizan/?utm_source=rss",
+          "date": "Fri, 20 Mar 2026 00:15:00 +0200",
+          "category": "peaceful diplomacy",
+          "confidence": 0.9096438884735107,
+          "weight": -1.8192877769470215,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "91.0%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
         }
       ]
     },
     "Iran": {
-      "index": 6.91,
-      "raw_score": 4.46,
+      "index": 7.04,
+      "raw_score": 4.64,
       "events": [
         {
           "title": "Trump compares Iran strikes to Pearl Harbor as he meets Japan’s PM",
@@ -699,6 +699,20 @@ window.BNTI_DATA = {
           "weight": 8.328777551651001,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "83.3%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Israel continues Gaza attacks amid regional war, kills several Palestinians",
+          "translated_title": "Israel continues Gaza attacks amid regional war, kills several Palestinians",
+          "link": "https://www.aljazeera.com/news/2026/3/19/israel-continues-gaza-attacks-amid-regional-war-kills-several-palestinians?traffic_source=rss",
+          "date": "Thu, 19 Mar 2026 22:00:17 +0000",
+          "category": "military conflict",
+          "confidence": 0.7649601101875305,
+          "weight": 7.649601101875305,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "76.5%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iran"
@@ -748,7 +762,7 @@ window.BNTI_DATA = {
         },
         {
           "title": "How will Israel’s decades-long assassination policy continue?",
-          "translated_title": "How will Israel’s decades-long assassination policy continue?",
+          "translated_title": null,
           "link": "https://www.aljazeera.com/video/inside-story/2026/3/19/how-will-israels-decades-long-assassination-policy-continue?traffic_source=rss",
           "date": "Thu, 19 Mar 2026 21:02:28 +0000",
           "category": "terrorist act",
@@ -757,9 +771,8 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "68.6%",
           "detected_lang": "local",
-          "is_translated": true,
-          "country": "Iran",
-          "translation_engine": "Google Neural MT"
+          "is_translated": false,
+          "country": "Iran"
         },
         {
           "title": "Why the US Homeland Security shutdown is raising fears of airport delays",
@@ -776,20 +789,6 @@ window.BNTI_DATA = {
           "country": "Iran"
         },
         {
-          "title": "Who leads Iran? Assassinations leave leadership and command in question",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/news/2026/3/19/who-leads-iran-assassinations-leave-leadership-and-command-in-question?traffic_source=rss",
-          "date": "Thu, 19 Mar 2026 18:21:50 +0000",
-          "category": "political crisis",
-          "confidence": 0.8280325531959534,
-          "weight": 4.96819531917572,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "82.8%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
           "title": "US states file lawsuit challenging Trump’s revocation of climate finding",
           "translated_title": null,
           "link": "https://www.aljazeera.com/news/2026/3/19/us-states-file-lawsuit-challenging-trumps-revocation-of-climate-finding?traffic_source=rss",
@@ -799,6 +798,20 @@ window.BNTI_DATA = {
           "weight": 3.040665864944458,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "50.7%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Netanyahu says Iran’s uranium enrichment abilities destroyed",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/3/19/netanyahu-says-irans-uranium-enrichment-abilities-destroyed?traffic_source=rss",
+          "date": "Thu, 19 Mar 2026 22:03:44 +0000",
+          "category": "military conflict",
+          "confidence": 0.27924785017967224,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "27.9%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Iran"
@@ -846,20 +859,6 @@ window.BNTI_DATA = {
           "country": "Iran"
         },
         {
-          "title": "Hungary’s Orban continues to block Ukraine loan at EU summit",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/news/2026/3/19/hungarys-orban-continues-to-block-ukraine-loan-at-eu-summit?traffic_source=rss",
-          "date": "Thu, 19 Mar 2026 18:21:17 +0000",
-          "category": "political crisis",
-          "confidence": 0.7675088047981262,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "76.8%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
           "title": "Iranians shop for Persian New Year essentials despite war",
           "translated_title": null,
           "link": "https://www.aljazeera.com/video/newsfeed/2026/3/19/iranians-shop-for-persian-new-year-essentials-despite-war?traffic_source=rss",
@@ -876,8 +875,8 @@ window.BNTI_DATA = {
       ]
     },
     "Iraq": {
-      "index": 6.48,
-      "raw_score": 3.91,
+      "index": 6.25,
+      "raw_score": 3.64,
       "events": [
         {
           "title": "Ex-US counterterror chief Joe Kent blames Israel for Iran war",
@@ -992,20 +991,6 @@ window.BNTI_DATA = {
           "country": "Iraq"
         },
         {
-          "title": "Syria's investigation on 'Suweida events' falls short of justice",
-          "translated_title": null,
-          "link": "https://www.newarab.com/news/syrias-investigation-suweida-events-falls-short-justice",
-          "date": "Thu, 19 Mar 2026 15:18:58 +0000",
-          "category": "political crisis",
-          "confidence": 0.6621407866477966,
-          "weight": 3.97284471988678,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "66.2%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
-        },
-        {
           "title": "What the Iran conflict means for the future of drone warfare",
           "translated_title": null,
           "link": "https://www.newarab.com/analysis/what-iran-conflict-means-future-drone-warfare",
@@ -1015,6 +1000,34 @@ window.BNTI_DATA = {
           "weight": 3.0660513639450073,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "51.1%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "Japan PM placates Trump on Iran, but faces Pearl Harbor surprise",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/japan-pm-placates-trump-iran-faces-pearl-harbor-surprise",
+          "date": "Thu, 19 Mar 2026 22:40:00 +0000",
+          "category": "violent protest",
+          "confidence": 0.26581865549087524,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "26.6%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "Iran will boycott America, 'but not the World Cup'",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/iran-will-boycott-america-not-world-cup",
+          "date": "Thu, 19 Mar 2026 21:55:07 +0000",
+          "category": "neutral news",
+          "confidence": 0.4495278298854828,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "45.0%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
@@ -1074,26 +1087,12 @@ window.BNTI_DATA = {
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
-        },
-        {
-          "title": "US lawmakers demand answers on bombing of Iranian girls school",
-          "translated_title": null,
-          "link": "https://www.newarab.com/news/us-lawmakers-demand-answers-bombing-iranian-girls-school",
-          "date": "Thu, 19 Mar 2026 15:27:05 +0000",
-          "category": "military conflict",
-          "confidence": 0.5402675271034241,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "54.0%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
         }
       ]
     },
     "Syria": {
-      "index": 4.14,
-      "raw_score": 1.79,
+      "index": 4.79,
+      "raw_score": 2.28,
       "events": [
         {
           "title": "Middle East war risks undermining Syria’s fragile recovery, Security Council hears - UN News",
@@ -1111,6 +1110,20 @@ window.BNTI_DATA = {
           "translation_engine": "Google Neural MT"
         },
         {
+          "title": "Syrian government and SDF exchange 600 detainees in al-Hasakah",
+          "translated_title": "Syrian government and SDF exchange 600 detainees in al-Hasakah",
+          "link": "https://english.enabbaladi.net/archives/2026/03/syrian-government-and-sdf-exchange-600-detainees-in-al-hasakah/",
+          "date": "Thu, 19 Mar 2026 14:32:13 +0000",
+          "category": "military conflict",
+          "confidence": 0.8182108998298645,
+          "weight": 8.182108998298645,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "81.8%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
           "title": "Brief riots Tuesday night at Roumieh Prison after Syrian inmates transferred to Syria - L'Orient Today",
           "translated_title": "Brief riots Tuesday night at Roumieh Prison after Syrian inmates transferred to Syria - L'Orient Today",
           "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNc3M1eU9TQUlwQTJUNUI4MFR2dkRvc3pid3NZa0RMS3JlUGdMZ0VXcjFrNkpXTmlDcnF3QlZIRUk5akNfM2liWUlBMXowSGpUekFDOGVXdmNaZTA3WFMtRXRhWVNuOTFWcVpNVzRyakN1ekF0RzlQOFpJTlU4aUkwZ0ZFUmRxT3dVX1RMc0hoRndCLVBqQ1ZsblRPYkQ3VkxQNWthRE1tOEs3Xzg0QVlCNVVNV0JxSUdPV092SzhGR3JDNnlzV19sVlUwWTgwTzRUakFQZA?oc=5",
@@ -1126,7 +1139,7 @@ window.BNTI_DATA = {
         },
         {
           "title": "Islamic State Containment Is Collapsing in Syria - War on the Rocks",
-          "translated_title": "Islamic State Containment Is Collapsing in Syria - War on the Rocks",
+          "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdE9YZGlzT1R2V0ZVQll0OXlNamZ2NDEzTnNIN3hqSkVHVlRKd04xczBIZlZJblloNHBybElxa3dBeDI1M2FUcUNaaWNMUzI3MTdoRDFjOVpJWExydS0yYUdJaVVwWmFGaFp4Vk9qM191WHJqekJxQ2RBVHVuX1Nmb3BONXJaSE1EZzE0?oc=5",
           "date": "Thu, 19 Mar 2026 07:17:30 GMT",
           "category": "military conflict",
@@ -1195,20 +1208,6 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
-          "title": "Syria says no to action against Hezbollah despite US and Israeli pressure - L'Orient Today",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYVR2dDBmVUU1Q1NVODJiYUhDcVRVdTgyY1RpdlMxZmsxbnlwQXlCSENWbGYyb3B3STVSYUtDUk53RmRMUm1hQ1JCdGkyWHgwaVRqR0VtandjNnplVXdXVFIyX1ViT3NMTGZqODdmd0laZjFWNkN1d1hCSnE2NjlxektlUzlzTmhERk9pOHI3LVVtMTNUWkZJTks3VkNIdHdkT0Rwbm1vd1BvcVV2NUVlcEhUUnE5TEJwSjZYWDVyQldscWsz?oc=5",
-          "date": "Tue, 17 Mar 2026 22:15:56 GMT",
-          "category": "military conflict",
-          "confidence": 0.34137266874313354,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "34.1%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
           "title": "US pushes Syria to act against Hezbollah - Pakistan Today",
           "translated_title": null,
           "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdzREcmw1d1lMbUpSV3c0Q2c1R0t6NVlFLUdxMzJ5YURvczJWcl8wZDBVYlpqTWY2M0phMlFWNHRPSTJIdjNfWVRxUzl2dHVXRFpsNVlfc2JnV3pNbWFCVS12S1NlNHVSckdUZFlvcFpjNFYzVU9wRmktOEJZMHN0WXRDYjh2X3pmbS1fbWd1dVRfeFFzajJKeWx2RWdjcHgyZkVRdDFrTWtSeTVXOGRlUFBPMG1leHBtbFlBZTdyVVYyeGZWellPRmtybHlKODA?oc=5",
@@ -1218,6 +1217,34 @@ window.BNTI_DATA = {
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "29.4%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Syrian Ports Authority extends stay for Lebanese-plated cars owned by Syrians",
+          "translated_title": null,
+          "link": "https://english.enabbaladi.net/archives/2026/03/extends-stay-for-lebanese-plated-cars/",
+          "date": "Thu, 19 Mar 2026 22:23:34 +0000",
+          "category": "neutral news",
+          "confidence": 0.2344651222229004,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "23.4%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Syria in the halls of Congress, Ghazal escalates while Kteila defends the gains",
+          "translated_title": null,
+          "link": "https://english.enabbaladi.net/archives/2026/03/syria-in-the-halls-of-congress-ghazal-escalates-while-kteila-defends-the-gains/",
+          "date": "Thu, 19 Mar 2026 21:25:05 +0000",
+          "category": "political crisis",
+          "confidence": 0.37198927998542786,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "37.2%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
@@ -1265,52 +1292,24 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
-          "title": "Tom Barrack and the Levantine Gambit: Washington Disavows Reports of Syrian Intervention in Lebanon",
+          "title": "Al-Hasakah markets pick up ahead of Eid al-Fitr, demand meets rising prices",
           "translated_title": null,
-          "link": "https://syrianobserver.com/foreign-actors/tom-barrack-and-the-levantine-gambit-washington-disavows-reports-of-syrian-intervention-in-lebanon.html",
-          "date": "Wed, 18 Mar 2026 18:51:27 +0000",
-          "category": "neutral news",
-          "confidence": 0.3633987307548523,
-          "weight": 0.0,
+          "link": "https://english.enabbaladi.net/archives/2026/03/al-hasakah-markets-pick-up-ahead-of-eid-al-fitr-demand-meets-rising-prices/",
+          "date": "Wed, 18 Mar 2026 21:18:54 +0000",
+          "category": "peaceful diplomacy",
+          "confidence": 0.4165997803211212,
+          "weight": -0.8331995606422424,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "36.3%",
+          "ai_confidence_score": "41.7%",
           "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Türkiye urges shielding Syria from regional escalation at UN | Daily Sabah - Daily Sabah",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOUxaYTk1WnNETzA4TjV1U3RsMzVtRTRwQ1BoeVdGWl9sMFRPZFpFNlZOcU1zY3UyU3ZxLUVKUHduUHJYdGN6UmZCc2t3RTBrcVN1SEo2a2dwSGNnNlZYTEtTRXZKSFNVUzRyaEpQdDBwY0dYUHRzbjFnRXB0N1RrT0s4c1ZsSVdySmFTaVJ3Q0xpNmQtaWMyUFhaekctMVNrZXRV0gGoAUFVX3lxTE82eFI5cHlTc1V5S3lldHpRaDQwdVF5SkRjMXlsQldVT3V0VDZkbDgwZ3Jlci1HeUhJQ0tDbFhhQ3dzcmI3VGVLVGtUTi1Xdng0SVlubnhsMllFU0V2SHNhYkk0VUhZd2hlb05rMXo2SVdDXy14a1E5OXpGcDByTHNjS1A0TE9KVFJmX1dBNFRPMWRZY2QtYnpfRG1WVDd1TnA2VnF5SWk1YQ?oc=5",
-          "date": "Thu, 19 Mar 2026 11:22:00 GMT",
-          "category": "political crisis",
-          "confidence": 0.4184798300266266,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "41.8%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Türkiye stresses importance of keeping Syria out of regional war - AnewZ",
-          "translated_title": null,
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQR0l2LTdrUEpFSThxVUNONjlVZHd1eGtSYnh6TVFYUl9fSFpaTkpTd2Z5cDVMOV9GajdMZU1vRDY5dnpDMnRPR2lDRzdGSVJuT0o3V1UwRHBMVi02d0VUUFNUYkFYRi04UWlmUkNuTXY2dTBqNlFONmV6OVNkbjdfVUlkMUdfenRVcmpzd2hmbUZsTmxFRVhnQ0F4ZXctUGs?oc=5",
-          "date": "Thu, 19 Mar 2026 13:39:17 GMT",
-          "category": "political crisis",
-          "confidence": 0.31260037422180176,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "31.3%",
-          "detected_lang": "local",
           "is_translated": false,
           "country": "Syria"
         }
       ]
     },
     "Bulgaria": {
-      "index": 4.39,
-      "raw_score": 1.97,
+      "index": 3.97,
+      "raw_score": 1.67,
       "events": [
         {
           "title": "Massive US Air Force warplane movements in Bulgaria raise stakes for Iran talks - Defense News",
@@ -1336,20 +1335,6 @@ window.BNTI_DATA = {
           "weight": 5.736715793609619,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "95.6%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "Кремъл изпрати в психиатрия доносник за Навални, който неочаквано поиска съд за Путин",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/sviat/2026/03/19/4894529_kremul_izprati_v_psihiatriia_donosnik_za_navalni_koito/?ref=rss",
-          "date": "Thu, 19 Mar 2026 18:33:00 +0200",
-          "category": "political crisis",
-          "confidence": 0.9547701478004456,
-          "weight": 5.728620886802673,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "95.5%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
@@ -1393,6 +1378,34 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "89.6%",
           "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Moscow’s Embassy in Bulgaria Launches Fundraiser for Russian Troops",
+          "translated_title": null,
+          "link": "https://balkaninsight.com/techresponses/moscows-embassy-in-bulgaria-launches-fundraiser-for-russian-troops/",
+          "date": "Mon, 27 Jun 2022 16:19:43 +0000",
+          "category": "humanitarian crisis",
+          "confidence": 0.40350043773651123,
+          "weight": 1.2105013132095337,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "40.4%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Facebook Page Uploaded Misleading Picture of Bulgarian Battalion Fighting In Ukraine",
+          "translated_title": null,
+          "link": "https://balkaninsight.com/techresponses/facebook-page-uploaded-misleading-picture-of-bulgarian-battalion-fighting-in-ukraine/",
+          "date": "Thu, 24 Mar 2022 09:39:36 +0000",
+          "category": "military conflict",
+          "confidence": 0.6184797286987305,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "61.8%",
+          "detected_lang": "en",
           "is_translated": false,
           "country": "Bulgaria"
         },
@@ -1495,20 +1508,6 @@ window.BNTI_DATA = {
           "country": "Bulgaria"
         },
         {
-          "title": "Ремонтът на бул.\"Стамболийски\" ще приключи до два месеца, ако не вали много",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/gradska_sreda/2026/03/19/4894554_remontut_na_bulstamboliiski_shte_prikljuchi_do_dva/?ref=rss",
-          "date": "Thu, 19 Mar 2026 18:31:00 +0200",
-          "category": "neutral news",
-          "confidence": 0.3507460355758667,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "35.1%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
           "title": "Кевин Спейси е постигнал извънсъдебно споразумение по обвинения в Лондон",
           "translated_title": null,
           "link": "https://www.dnevnik.bg/razvlechenie/2026/03/19/4894641_kevin_speisi_e_postignal_izvunsudebno_sporazumenie_po/?ref=rss",
@@ -1526,18 +1525,6 @@ window.BNTI_DATA = {
     }
   },
   "history": [
-    {
-      "timestamp": "2026-03-17T22:15:45.632746",
-      "main_index": 3.71,
-      "index": 3.71,
-      "type": "historical"
-    },
-    {
-      "timestamp": "2026-03-17T22:59:15.655342",
-      "main_index": 3.71,
-      "index": 3.71,
-      "type": "historical"
-    },
     {
       "timestamp": "2026-03-18T00:14:22.662840",
       "main_index": 3.46,
@@ -1717,48 +1704,54 @@ window.BNTI_DATA = {
       "main_index": 4.35,
       "index": 4.35,
       "type": "historical"
+    },
+    {
+      "timestamp": "2026-03-19T22:59:20.588616",
+      "main_index": 4.39,
+      "index": 4.39,
+      "type": "historical"
     }
   ],
   "forecast": [
     {
-      "timestamp": "2026-03-19T23:05:49.466620",
+      "timestamp": "2026-03-19T23:59:20.588616",
+      "index": 4.52,
+      "main_index": 4.52,
+      "confidence": 0.3,
+      "type": "forecast"
+    },
+    {
+      "timestamp": "2026-03-20T00:59:20.588616",
+      "index": 4.53,
+      "main_index": 4.53,
+      "confidence": 0.3,
+      "type": "forecast"
+    },
+    {
+      "timestamp": "2026-03-20T01:59:20.588616",
+      "index": 4.54,
+      "main_index": 4.54,
+      "confidence": 0.3,
+      "type": "forecast"
+    },
+    {
+      "timestamp": "2026-03-20T02:59:20.588616",
+      "index": 4.55,
+      "main_index": 4.55,
+      "confidence": 0.3,
+      "type": "forecast"
+    },
+    {
+      "timestamp": "2026-03-20T03:59:20.588616",
       "index": 4.56,
       "main_index": 4.56,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-20T00:05:49.466620",
-      "index": 4.58,
-      "main_index": 4.58,
-      "confidence": 0.3,
-      "type": "forecast"
-    },
-    {
-      "timestamp": "2026-03-20T01:05:49.466620",
-      "index": 4.6,
-      "main_index": 4.6,
-      "confidence": 0.3,
-      "type": "forecast"
-    },
-    {
-      "timestamp": "2026-03-20T02:05:49.466620",
-      "index": 4.61,
-      "main_index": 4.61,
-      "confidence": 0.3,
-      "type": "forecast"
-    },
-    {
-      "timestamp": "2026-03-20T03:05:49.466620",
-      "index": 4.63,
-      "main_index": 4.63,
-      "confidence": 0.3,
-      "type": "forecast"
-    },
-    {
-      "timestamp": "2026-03-20T04:05:49.466620",
-      "index": 4.64,
-      "main_index": 4.64,
+      "timestamp": "2026-03-20T04:59:20.588616",
+      "index": 4.57,
+      "main_index": 4.57,
       "confidence": 0.3,
       "type": "forecast"
     }
