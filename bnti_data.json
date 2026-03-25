@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-03-25T11:24:57.072645",
-    "main_index": 4.6,
+    "generated_at": "2026-03-25T12:09:33.226323",
+    "main_index": 4.02,
     "status": "ELEVATED",
     "active_scan": true,
-    "next_update": "2026-03-25T12:00:00",
+    "next_update": "2026-03-25T13:00:00",
     "version": "2.0.0"
   },
   "countries": {
@@ -226,12 +226,12 @@
       ]
     },
     "Georgia": {
-      "index": 3.44,
-      "raw_score": 1.32,
+      "index": 2.79,
+      "raw_score": 0.93,
       "events": [
         {
           "title": "რუსულმა დრონმა ლვივში იუნესკოს მსოფლიო კულტურული მემკვიდრეობის ძეგლები დააზიანა – უკრაინის საგარეო",
-          "translated_title": "A Russian drone damaged the UNESCO world cultural heritage sites in Lviv - Ukrainian Foreign Ministry",
+          "translated_title": "The Russian drone damaged the UNESCO world cultural heritage monuments in Lviv - Ukrainian Foreign Ministry",
           "link": "https://netgazeti.ge/news/802314/",
           "date": "Tue, 24 Mar 2026 20:43:28 +0000",
           "category": "military conflict",
@@ -245,22 +245,8 @@
           "translation_engine": "Google Neural MT"
         },
         {
-          "title": "ხოშტარიას სასჯელი უკავშირდება სიმბოლურ ზიანს, რომელიც მან მმართველ პარტიას მიაყენა – Amnesty International",
-          "translated_title": null,
-          "link": "https://netgazeti.ge/news/802304/",
-          "date": "Tue, 24 Mar 2026 19:52:12 +0000",
-          "category": "political crisis",
-          "confidence": 0.9780424237251282,
-          "weight": 5.868254542350769,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "97.8%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
           "title": "De Facto Donetsk Court Sentences Georgian Fighter in Absentia to 14 Years",
-          "translated_title": null,
+          "translated_title": "De Facto Donetsk Court Sentences Georgian Fighter in Absentia to 14 Years",
           "link": "https://civil.ge/archives/727250",
           "date": "Wed, 25 Mar 2026 10:31:13 +0000",
           "category": "violent protest",
@@ -268,6 +254,20 @@
           "weight": 5.525439381599426,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "78.9%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
+          "title": "NBG Keeps Key Refinancing Rate Unchanged at 8%",
+          "translated_title": null,
+          "link": "https://civil.ge/archives/727249",
+          "date": "Wed, 25 Mar 2026 10:59:00 +0000",
+          "category": "neutral news",
+          "confidence": 0.5159924030303955,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "51.6%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Georgia"
@@ -385,6 +385,20 @@
           "country": "Georgia"
         },
         {
+          "title": "საქართველოს მაჩვენებელი კიდევ ერთ რეიტინგში გაუარესდა",
+          "translated_title": null,
+          "link": "https://netgazeti.ge/news/802335/",
+          "date": "Wed, 25 Mar 2026 11:06:08 +0000",
+          "category": "violent protest",
+          "confidence": 0.16032087802886963,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "16.0%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
           "title": "რუსეთიდან აზერბაიჯანის გავლით სომხეთში 350 ტონა ხორბალი გაიგზავნა",
           "translated_title": null,
           "link": "https://netgazeti.ge/news/802342/",
@@ -425,41 +439,13 @@
           "detected_lang": "local",
           "is_translated": false,
           "country": "Georgia"
-        },
-        {
-          "title": "პენსია აუცილებელი ხარჯების 22%-ს ჰყოფნის — საქართველო ევროპის ქვეყნებს შორის ბოლო ადგილზეა",
-          "translated_title": null,
-          "link": "https://netgazeti.ge/news/802268/",
-          "date": "Tue, 24 Mar 2026 15:51:45 +0000",
-          "category": "violent protest",
-          "confidence": 0.22209957242012024,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "22.2%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Georgia"
         }
       ]
     },
     "Greece": {
-      "index": 2.2,
-      "raw_score": 0.6,
+      "index": 1.14,
+      "raw_score": 0.07,
       "events": [
-        {
-          "title": "Ιράν: «Πλήξαμε το USS Abraham Lincoln με πυραύλους cruise»",
-          "translated_title": null,
-          "link": "https://www.naftemporiki.gr/kosmos/2090172/iran-plixame-to-uss-abraham-lincoln-me-pyrayloys-cruise/?utm_source=rss&utm_medium=rss&utm_campaign=iran-plixame-to-uss-abraham-lincoln-me-pyrayloys-cruise",
-          "date": "Wed, 25 Mar 2026 10:11:53 +0000",
-          "category": "military conflict",
-          "confidence": 0.557098388671875,
-          "weight": 5.57098388671875,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "55.7%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
         {
           "title": "Η Ελευθερία ως Ελληνική Επανάσταση",
           "translated_title": null,
@@ -470,6 +456,62 @@
           "weight": 3.36337673664093,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "56.1%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Οι τελευταίες ημέρες των πετροδολαρίων; Πώς ο πόλεμος στο Ιράν ανατρέπει τα πάντα",
+          "translated_title": null,
+          "link": "https://www.naftemporiki.gr/finance/markets/2090247/oi-teleytaies-imeres-ton-petrodolarion-pos-o-polemos-sto-iran-anatrepei-ta-panta/?utm_source=rss&utm_medium=rss&utm_campaign=oi-teleytaies-imeres-ton-petrodolarion-pos-o-polemos-sto-iran-anatrepei-ta-panta",
+          "date": "Wed, 25 Mar 2026 11:42:49 +0000",
+          "category": "military conflict",
+          "confidence": 0.5139787793159485,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "51.4%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Πλήγματα από drone «παγώνουν» το μεγαλύτερο λιμάνι πετρελαίου της Ρωσίας",
+          "translated_title": null,
+          "link": "https://www.naftemporiki.gr/maritime/2090233/drone-pligmata-pagonoyn-to-megalytero-limani-petrelaioy-tis-rosias/?utm_source=rss&utm_medium=rss&utm_campaign=drone-pligmata-pagonoyn-to-megalytero-limani-petrelaioy-tis-rosias",
+          "date": "Wed, 25 Mar 2026 11:29:31 +0000",
+          "category": "violent protest",
+          "confidence": 0.2836400866508484,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "28.4%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Κ. Μητσοτάκης για 25η Μαρτίου: Η επένδυση στην εθνική άμυνα δεν συνιστά πολυτέλεια αλλά αναγκαιότητα",
+          "translated_title": null,
+          "link": "https://www.naftemporiki.gr/politics/2090210/k-mitsotakis-gia-25i-martioy-i-ependysi-stin-ethniki-amyna-den-synista-polyteleia-alla-anagkaiotita/?utm_source=rss&utm_medium=rss&utm_campaign=k-mitsotakis-gia-25i-martioy-i-ependysi-stin-ethniki-amyna-den-synista-polyteleia-alla-anagkaiotita",
+          "date": "Wed, 25 Mar 2026 11:17:04 +0000",
+          "category": "neutral news",
+          "confidence": 0.5446742177009583,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "54.5%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Ν. Δένδιας: Οι Ένοπλες Δυνάμεις εκσυγχρονίζονται – «Ασπίδα ασφάλειας για την Ελλάδα και τον Ελληνισμό»",
+          "translated_title": null,
+          "link": "https://www.naftemporiki.gr/politics/2090220/n-dendias-oi-enoples-dynameis-eksygchronizontai-aspida-asfaleias-gia-tin-ellada-kai-ton-ellinismo/?utm_source=rss&utm_medium=rss&utm_campaign=n-dendias-oi-enoples-dynameis-eksygchronizontai-aspida-asfaleias-gia-tin-ellada-kai-ton-ellinismo",
+          "date": "Wed, 25 Mar 2026 11:14:15 +0000",
+          "category": "neutral news",
+          "confidence": 0.28854799270629883,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "28.9%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -587,71 +629,29 @@
           "country": "Greece"
         },
         {
-          "title": "Αντόνιο Κόστα για 25η Μαρτίου: Ευκαιρία να τιμήσουμε την ιστορία και το αδάμαστο πνεύμα της Ελλάδας",
+          "title": "Ν. Ανδρουλάκης: «Η 25η Μαρτίου είναι η ψυχή του Ελληνισμού» – Μήνυμα για αξίες, δημοκρατία και κοινωνική δικαιοσύνη",
           "translated_title": null,
-          "link": "https://www.naftemporiki.gr/politics/2090189/antonio-kosta-gia-25i-martioy-eykairia-na-timisoyme-tin-istoria-kai-to-adamasto-pneyma-tis-elladas/?utm_source=rss&utm_medium=rss&utm_campaign=antonio-kosta-gia-25i-martioy-eykairia-na-timisoyme-tin-istoria-kai-to-adamasto-pneyma-tis-elladas",
-          "date": "Wed, 25 Mar 2026 10:31:39 +0000",
+          "link": "https://www.naftemporiki.gr/society/2090231/n-androylakis-i-25i-martioy-einai-i-psychi-toy-ellinismoy-minyma-gia-axies-dimokratia-kai-koinoniki-dikaiosyni/?utm_source=rss&utm_medium=rss&utm_campaign=n-androylakis-i-25i-martioy-einai-i-psychi-toy-ellinismoy-minyma-gia-axies-dimokratia-kai-koinoniki-dikaiosyni",
+          "date": "Wed, 25 Mar 2026 11:23:43 +0000",
           "category": "peaceful diplomacy",
-          "confidence": 0.3402595818042755,
-          "weight": 0.0,
+          "confidence": 0.42066746950149536,
+          "weight": -0.8413349390029907,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "34.0%",
+          "ai_confidence_score": "42.1%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
         },
         {
-          "title": "Ο Τραμπ, τα βιβλία και το Ιράν",
+          "title": "Ρόδος: 82χρονη μαθήτρια παρελαύνει και συγκινεί – «Ειρήνη και τίποτε άλλο»",
           "translated_title": null,
-          "link": "https://www.naftemporiki.gr/opinion/2090190/o-tramp-ta-vivlia-kai-to-iran/?utm_source=rss&utm_medium=rss&utm_campaign=o-tramp-ta-vivlia-kai-to-iran",
-          "date": "Wed, 25 Mar 2026 10:28:46 +0000",
-          "category": "political crisis",
-          "confidence": 0.3619578778743744,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "36.2%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Το Αρχείο του Θεόδωρου Κολοκοτρώνη",
-          "translated_title": null,
-          "link": "https://www.naftemporiki.gr/culture/museums/2090154/to-archeio-toy-theodoroy-kolokotroni/?utm_source=rss&utm_medium=rss&utm_campaign=to-archeio-toy-theodoroy-kolokotroni",
-          "date": "Wed, 25 Mar 2026 10:22:50 +0000",
-          "category": "neutral news",
-          "confidence": 0.22382423281669617,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "22.4%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Η Τουρκία επιβεβαίωσε ότι διαδραματίζει ρόλο διαμεσολαβητή  μεταξύ ΗΠΑ και Ιράν",
-          "translated_title": null,
-          "link": "https://www.naftemporiki.gr/kosmos/2090171/i-toyrkia-epivevaiose-oti-diadramatizei-rolo-diamesolaviti-metaxy-ipa-kai-iran/?utm_source=rss&utm_medium=rss&utm_campaign=i-toyrkia-epivevaiose-oti-diadramatizei-rolo-diamesolaviti-metaxy-ipa-kai-iran",
-          "date": "Wed, 25 Mar 2026 10:18:23 +0000",
+          "link": "https://www.naftemporiki.gr/society/2090223/rodos-82chroni-mathitria-parelaynei-kai-sygkinei-eirini-kai-tipote-allo/?utm_source=rss&utm_medium=rss&utm_campaign=rodos-82chroni-mathitria-parelaynei-kai-sygkinei-eirini-kai-tipote-allo",
+          "date": "Wed, 25 Mar 2026 11:21:22 +0000",
           "category": "peaceful diplomacy",
-          "confidence": 0.21170802414417267,
-          "weight": 0.0,
+          "confidence": 0.7628777623176575,
+          "weight": -1.525755524635315,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "21.2%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "«Όσο ο Τραμπ μιλά για συμφωνία, τόσο το Ιράν απομακρύνεται» – Το παράδοξο της διπλωματίας",
-          "translated_title": null,
-          "link": "https://www.naftemporiki.gr/kosmos/2090173/oso-o-tramp-mila-gia-symfonia-toso-to-iran-apomakrynetai-to-paradoxo-tis-diplomatias/?utm_source=rss&utm_medium=rss&utm_campaign=oso-o-tramp-mila-gia-symfonia-toso-to-iran-apomakrynetai-to-paradoxo-tis-diplomatias",
-          "date": "Wed, 25 Mar 2026 10:16:01 +0000",
-          "category": "political crisis",
-          "confidence": 0.40462175011634827,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "40.5%",
+          "ai_confidence_score": "76.3%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -659,8 +659,8 @@
       ]
     },
     "Iran": {
-      "index": 5.62,
-      "raw_score": 3.0,
+      "index": 4.79,
+      "raw_score": 2.28,
       "events": [
         {
           "title": "Dreams of survival: How war has restructured Gaza’s job market",
@@ -678,23 +678,8 @@
           "translation_engine": "Google Neural MT"
         },
         {
-          "title": "US-Israel war on Iran: What’s happening on day 26 of attacks?",
-          "translated_title": "US-Israel war on Iran: What’s happening on day 26 of attacks?",
-          "link": "https://www.aljazeera.com/news/2026/3/25/us-israel-war-on-iran-whats-happening-on-day-26-of-attacks?traffic_source=rss",
-          "date": "Wed, 25 Mar 2026 06:56:04 +0000",
-          "category": "military conflict",
-          "confidence": 0.9509478211402893,
-          "weight": 9.509478211402893,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "95.1%",
-          "detected_lang": "local",
-          "is_translated": true,
-          "country": "Iran",
-          "translation_engine": "Google Neural MT"
-        },
-        {
           "title": "‘A heinous crime’: Air strikes kill seven fighters in Iraq’s Anbar",
-          "translated_title": null,
+          "translated_title": "‘A heinous crime’: Air strikes kill seven fighters in Iraq’s Anbar",
           "link": "https://www.aljazeera.com/news/2026/3/25/a-heinous-crime-air-strikes-kill-seven-fighters-in-iraqs-anbar?traffic_source=rss",
           "date": "Wed, 25 Mar 2026 09:34:59 +0000",
           "category": "military conflict",
@@ -703,22 +688,9 @@
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "56.9%",
           "detected_lang": "local",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
-          "title": "From Pakistan to Egypt, Iran war drives up prices in Global South",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/economy/2026/3/25/from-pakistan-to-egypt-iran-war-drives-up-fuel-prices-in-the-global-south?traffic_source=rss",
-          "date": "Wed, 25 Mar 2026 05:20:18 +0000",
-          "category": "military conflict",
-          "confidence": 0.5628549456596375,
-          "weight": 5.6285494565963745,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "56.3%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
+          "is_translated": true,
+          "country": "Iran",
+          "translation_engine": "Google Neural MT"
         },
         {
           "title": "US talking to itself, says Iran as Trump claims wheels of diplomacy turning",
@@ -749,16 +721,30 @@
           "country": "Iran"
         },
         {
-          "title": "Amid US-Israeli attacks, people in Iran struggle to survive ailing economy",
+          "title": "Denmark’s PM resigns after failing to secure majority in general election",
           "translated_title": null,
-          "link": "https://www.aljazeera.com/features/2026/3/25/amid-us-israeli-attacks-people-in-iran-struggle-to-survive-ailing-economy?traffic_source=rss",
-          "date": "Wed, 25 Mar 2026 05:41:14 +0000",
-          "category": "economic crisis",
-          "confidence": 0.8824309706687927,
-          "weight": 3.529723882675171,
+          "link": "https://www.aljazeera.com/news/2026/3/25/denmarks-pm-resigns-after-failing-to-secure-majority-in-general-election?traffic_source=rss",
+          "date": "Wed, 25 Mar 2026 11:18:22 +0000",
+          "category": "political crisis",
+          "confidence": 0.6759452819824219,
+          "weight": 4.055671691894531,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "88.2%",
-          "detected_lang": "en",
+          "ai_confidence_score": "67.6%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Large Polymarket, Wall Street bets on Trump’s war news under scrutiny",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/news/2026/3/25/large-polymarket-wall-street-bets-on-trumps-war-news-under-scrutiny?traffic_source=rss",
+          "date": "Wed, 25 Mar 2026 11:21:19 +0000",
+          "category": "political crisis",
+          "confidence": 0.6379576921463013,
+          "weight": 3.8277461528778076,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "63.8%",
+          "detected_lang": "local",
           "is_translated": false,
           "country": "Iran"
         },
@@ -773,6 +759,34 @@
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "45.3%",
           "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Estonia, Latvia report drone incursions from Russian airspace",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/news/2026/3/25/estonia-latvia-report-drone-incursions-from-russian-airspace?traffic_source=rss",
+          "date": "Wed, 25 Mar 2026 11:35:41 +0000",
+          "category": "military conflict",
+          "confidence": 0.2127569168806076,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "21.3%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Spain’s PM says Israel to inflict on Lebanon same destruction as in Gaza",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/news/2026/3/25/spains-pm-says-israel-to-inflict-on-lebanon-same-destruction-as-in-gaza?traffic_source=rss",
+          "date": "Wed, 25 Mar 2026 11:02:40 +0000",
+          "category": "military conflict",
+          "confidence": 0.21107421815395355,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "21.1%",
+          "detected_lang": "local",
           "is_translated": false,
           "country": "Iran"
         },
@@ -859,26 +873,12 @@
           "detected_lang": "local",
           "is_translated": false,
           "country": "Iran"
-        },
-        {
-          "title": "OpenAI pulls AI video app Sora as concerns grow on deepfake videos",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/economy/2026/3/25/openai-pulls-ai-video-app-sora-as-concerns-grow-on-deepfake-videos?traffic_source=rss",
-          "date": "Wed, 25 Mar 2026 04:59:56 +0000",
-          "category": "neutral news",
-          "confidence": 0.1714935451745987,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "17.1%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
         }
       ]
     },
     "Iraq": {
-      "index": 5.53,
-      "raw_score": 2.92,
+      "index": 5.58,
+      "raw_score": 2.96,
       "events": [
         {
           "title": "Israeli strikes kill nine in Lebanon's south",
@@ -923,22 +923,8 @@
           "country": "Iraq"
         },
         {
-          "title": "Iranian missile intercepted over Lebanon in first since war",
-          "translated_title": "Iranian missile intercepted over Lebanon in first since war",
-          "link": "https://www.newarab.com/news/iranian-missile-intercepted-over-lebanon-first-war",
-          "date": "Tue, 24 Mar 2026 20:24:27 +0000",
-          "category": "military conflict",
-          "confidence": 0.7621176242828369,
-          "weight": 7.621176242828369,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "76.2%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
-        },
-        {
           "title": "UK police probe attack on Jewish ambulances",
-          "translated_title": null,
+          "translated_title": "UK police probe attack on Jewish ambulances",
           "link": "https://www.newarab.com/news/uk-police-probe-attack-jewish-ambulances",
           "date": "Tue, 24 Mar 2026 23:05:20 +0000",
           "category": "terrorist act",
@@ -946,6 +932,20 @@
           "weight": 5.82218474149704,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "64.7%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "US 'negotiating with itself', Iran says, as Trump pushes talks",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/us-negotiating-itself-iran-says-trump-pushes-talks",
+          "date": "Wed, 25 Mar 2026 11:49:44 +0000",
+          "category": "political crisis",
+          "confidence": 0.8676097393035889,
+          "weight": 5.205658435821533,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "86.8%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
@@ -960,6 +960,48 @@
           "weight": 3.7380166053771973,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "62.3%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "Global outrage mounts as Israel threatens to annex south Lebanon",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/global-outrage-mounts-israel-threatens-annex-south-lebanon",
+          "date": "Wed, 25 Mar 2026 11:29:18 +0000",
+          "category": "political crisis",
+          "confidence": 0.5197533965110779,
+          "weight": 3.1185203790664673,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "52.0%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "Iran says 'non-hostile vessels' can transit Strait of Hormuz",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/iran-says-non-hostile-vessels-can-transit-strait-hormuz",
+          "date": "Wed, 25 Mar 2026 11:57:34 +0000",
+          "category": "neutral news",
+          "confidence": 0.8775879144668579,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "87.8%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "Israel says struck two naval missile production sites in Tehran",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/israel-says-struck-two-naval-missile-production-sites-tehran",
+          "date": "Wed, 25 Mar 2026 11:26:09 +0000",
+          "category": "military conflict",
+          "confidence": 0.5006457567214966,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "50.1%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
@@ -1047,54 +1089,12 @@
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
-        },
-        {
-          "title": "Mohamed Salah leaving Liverpool at season's end",
-          "translated_title": null,
-          "link": "https://www.newarab.com/news/mohamed-salah-leaving-liverpool-seasons-end",
-          "date": "Tue, 24 Mar 2026 22:19:33 +0000",
-          "category": "peaceful diplomacy",
-          "confidence": 0.28246745467185974,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "28.2%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
-        },
-        {
-          "title": "Egypt frees blogger after more than six years in jail",
-          "translated_title": null,
-          "link": "https://www.newarab.com/news/egypt-frees-blogger-after-more-six-years-jail",
-          "date": "Tue, 24 Mar 2026 21:37:24 +0000",
-          "category": "neutral news",
-          "confidence": 0.22931650280952454,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "22.9%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
-        },
-        {
-          "title": "Trump okayed op after Netanyahu argued for killing of Khamenei",
-          "translated_title": null,
-          "link": "https://www.newarab.com/news/trump-okayed-op-after-netanyahu-argued-killing-khamenei",
-          "date": "Tue, 24 Mar 2026 21:15:08 +0000",
-          "category": "political crisis",
-          "confidence": 0.4312521517276764,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "43.1%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
         }
       ]
     },
     "Syria": {
-      "index": 7.12,
-      "raw_score": 4.75,
+      "index": 5.8,
+      "raw_score": 3.17,
       "events": [
         {
           "title": "Quneitra, Israeli army arrests two civilians in Rafid",
@@ -1111,57 +1111,15 @@
           "country": "Syria"
         },
         {
-          "title": "War costs reach $1 billion a day as Israel faces missile interceptor shortage",
-          "translated_title": "War costs reach $1 billion a day as Israel faces missile interceptor shortage",
-          "link": "https://sana.sy/en/economic/2302960/",
-          "date": "Sun, 15 Mar 2026 11:50:11 +0000",
+          "title": "Missile Strike from Iraq Sparks New Tensions in Hassakeh",
+          "translated_title": "Missile Strike from Iraq Sparks New Tensions in Hassakeh",
+          "link": "https://syrianobserver.com/foreign-actors/missile-strike-from-iraq-sparks-new-tensions-in-hassakeh.html",
+          "date": "Wed, 25 Mar 2026 09:41:07 +0000",
           "category": "military conflict",
-          "confidence": 0.9803164601325989,
-          "weight": 9.803164601325989,
+          "confidence": 0.9416930079460144,
+          "weight": 9.416930079460144,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "98.0%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "UNIFIL calls for halt to military escalation in Southern Lebanon",
-          "translated_title": "UNIFIL calls for halt to military escalation in Southern Lebanon",
-          "link": "https://sana.sy/en/international/2302963/",
-          "date": "Sun, 15 Mar 2026 11:48:10 +0000",
-          "category": "military conflict",
-          "confidence": 0.9713152647018433,
-          "weight": 9.713152647018433,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "97.1%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Jordan, Egypt discuss impact of regional military escalation",
-          "translated_title": "Jordan, Egypt discuss impact of regional military escalation",
-          "link": "https://sana.sy/en/international/2302956/",
-          "date": "Sun, 15 Mar 2026 11:33:34 +0000",
-          "category": "military conflict",
-          "confidence": 0.955153226852417,
-          "weight": 9.55153226852417,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "95.5%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "U.S. cuts forces in Syria as its new government fights terror threat - PBS",
-          "translated_title": "U.S. cuts forces in Syria as its new government fights terror threat - PBS",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVGUtSXc2dW0tMWFzaVJRbkQ1ckVjZmhmY0FadFBSbWVoeHdPdkJ3aVdSYTZBZm9vQ2tzVm9XWkRFMUdqZWh0ZDRObWFMWFZVSFNvYWZPVTNaeGVJVmxONnV6ZDlnT1l3TXhqNUNIX0NQWjFPZ0R0UW9pSWJoa1llRlhyWlRfMi1oWUVZdk0zOGg4ZTVYakM3d25PN0ZSUERyVHQ4?oc=5",
-          "date": "Wed, 18 Feb 2026 08:00:00 GMT",
-          "category": "military conflict",
-          "confidence": 0.9297625422477722,
-          "weight": 9.297625422477722,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "93.0%",
+          "ai_confidence_score": "94.2%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
@@ -1197,7 +1155,7 @@
         },
         {
           "title": "Iran regime collapse may end Syria's 'conflict zone' status - The Jerusalem Post",
-          "translated_title": null,
+          "translated_title": "Iran regime collapse may end Syria's 'conflict zone' status - The Jerusalem Post",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5QcFhobTAxMUlBNHJpRDd4T3lmNlFxUnREZ0pRbWZYTFVGZW5oYldSTjQ2OGlFWnFjUGRfeml3NldHSl9senVBbkNtc25fcFQ1cThQQkRPdkJZbU1ZWjZITTRJSFNESVd6d2c?oc=5",
           "date": "Mon, 02 Mar 2026 08:00:00 GMT",
           "category": "political crisis",
@@ -1205,6 +1163,20 @@
           "weight": 5.814277768135071,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "96.9%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Syrian Civil War | Syrian history - Britannica",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHS3FZNVVHZjdGWXZHM0VKSVVmU3lVbXNvM3EwR1hxY0JSNUhCTl9FVzZJRk9XOUdxZkFwbXJlWVBVZ00xUnBLSlk5UWg1bVpEaFRhZ1lILU9QRi1zSlE?oc=5",
+          "date": "Wed, 18 Mar 2026 05:00:00 GMT",
+          "category": "political crisis",
+          "confidence": 0.8699144124984741,
+          "weight": 5.219486474990845,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "87.0%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
@@ -1306,26 +1278,55 @@
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
+        },
+        {
+          "title": "A New Syria Rises in Freedom Rankings: A Boost to Its Legitimacy and Global Image",
+          "translated_title": null,
+          "link": "https://syrianobserver.com/syrian-actors/a-new-syria-rises-in-freedom-rankings-a-boost-to-its-legitimacy-and-global-image.html",
+          "date": "Wed, 25 Mar 2026 09:40:32 +0000",
+          "category": "neutral news",
+          "confidence": 0.21354267001152039,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "21.4%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "The Proclamations of Sheikh al-Hijri: Embracing Strategic Shifts and the Pursuit of Self-Determination",
+          "translated_title": null,
+          "link": "https://syrianobserver.com/syrian-actors/the-proclamations-of-sheikh-al-hijri-embracing-strategic-shifts-and-the-pursuit-of-self-determination.html",
+          "date": "Wed, 25 Mar 2026 07:36:37 +0000",
+          "category": "terrorist act",
+          "confidence": 0.20893342792987823,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "20.9%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
         }
       ]
     },
     "Bulgaria": {
-      "index": 2.28,
-      "raw_score": 0.64,
+      "index": 2.24,
+      "raw_score": 0.62,
       "events": [
         {
-          "title": "При акция в цялата страна МВР конфискува над 30 хил. евро за купуване на гласове",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/bulgaria/2026/03/25/4896329_pri_akciia_v_cialata_strana_mvr_konfiskuva_nad_30_hil/?ref=rss",
-          "date": "Wed, 25 Mar 2026 12:09:00 +0200",
-          "category": "political crisis",
-          "confidence": 0.8949535489082336,
-          "weight": 5.369721293449402,
+          "title": "Ракета удари за втори път ядрената централа \"Бушер\" в Иран",
+          "translated_title": "A missile hit Iran's Bushehr nuclear power plant for the second time",
+          "link": "https://www.dnevnik.bg/sviat/2026/03/25/4896408_raketa_udari_za_vtori_put_iadrenata_centrala_busher_v/?ref=rss",
+          "date": "Wed, 25 Mar 2026 14:02:00 +0200",
+          "category": "military conflict",
+          "confidence": 0.6188462972640991,
+          "weight": 6.188462972640991,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "89.5%",
+          "ai_confidence_score": "61.9%",
           "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
+          "is_translated": true,
+          "country": "Bulgaria",
+          "translation_engine": "Google Neural MT"
         },
         {
           "title": "Rositsa Mateva: Today we were surprised to learn that there is an advisory council to the Council of Ministers in connection with the elections - fakti.bg",
@@ -1337,34 +1338,6 @@
           "weight": 3.044042229652405,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "50.7%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "Moscow’s Embassy in Bulgaria Launches Fundraiser for Russian Troops",
-          "translated_title": null,
-          "link": "https://balkaninsight.com/techresponses/moscows-embassy-in-bulgaria-launches-fundraiser-for-russian-troops/",
-          "date": "Mon, 27 Jun 2022 16:19:43 +0000",
-          "category": "humanitarian crisis",
-          "confidence": 0.40350043773651123,
-          "weight": 1.2105013132095337,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "40.4%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "Facebook Page Uploaded Misleading Picture of Bulgarian Battalion Fighting In Ukraine",
-          "translated_title": null,
-          "link": "https://balkaninsight.com/techresponses/facebook-page-uploaded-misleading-picture-of-bulgarian-battalion-fighting-in-ukraine/",
-          "date": "Thu, 24 Mar 2022 09:39:36 +0000",
-          "category": "military conflict",
-          "confidence": 0.6184797286987305,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "61.8%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Bulgaria"
@@ -1408,6 +1381,62 @@
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "22.9%",
           "detected_lang": "en",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Онлайн инструмент показва полагащите се безплатни прегледи и изследвания",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/zdrave/2026/03/25/4896427_onlain_instrument_pokazva_polagashtite_se_bezplatni/?ref=rss",
+          "date": "Wed, 25 Mar 2026 14:08:00 +0200",
+          "category": "neutral news",
+          "confidence": 0.20143193006515503,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "20.1%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Правителството разреши на АЕЦ \"Козлодуй\" да поръча резервни части от Русия",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/biznes/2026/03/25/4896425_pravitelstvoto_razreshi_na_aec_kozlodui_da_porucha/?ref=rss",
+          "date": "Wed, 25 Mar 2026 14:04:00 +0200",
+          "category": "military conflict",
+          "confidence": 0.3853728473186493,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "38.5%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Жени в София, които нямат партньор, вече могат да кандидатстват за финансиране за инвитро",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/gradska_sreda/2026/03/25/4896413_jeni_v_sofiia_koito_niamat_partnyor_veche_mogat_da/?ref=rss",
+          "date": "Wed, 25 Mar 2026 13:48:00 +0200",
+          "category": "terrorist act",
+          "confidence": 0.2853856086730957,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "28.5%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "В ИСУЛ е извършена още една алогенна костномозъчна трансплантация на бебе",
+          "translated_title": null,
+          "link": "https://www.dnevnik.bg/zdrave/2026/03/25/4896414_v_isul_e_izvurshena_oshte_edna_alogenna_kostnomozuchna/?ref=rss",
+          "date": "Wed, 25 Mar 2026 13:47:00 +0200",
+          "category": "neutral news",
+          "confidence": 0.24157381057739258,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "24.2%",
+          "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
         },
@@ -1494,45 +1523,11 @@
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
-        },
-        {
-          "title": "Мете Фредериксен подаде оставка, но има шансове за трети мандат като премиер на Дания",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/sviat/2026/03/25/4896291_vupreki_slabata_podkrepa_na_izborite_mete_frederiksen/?ref=rss",
-          "date": "Wed, 25 Mar 2026 11:53:00 +0200",
-          "category": "violent protest",
-          "confidence": 0.2564699351787567,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "25.6%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "Премиерът разпореди проверка как се изразходват парите за ремонти по пътищата",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/bulgaria/2026/03/25/4896286_premierut_razporedi_proverka_kak_se_izrazhodvat_parite/?ref=rss",
-          "date": "Wed, 25 Mar 2026 11:50:00 +0200",
-          "category": "political crisis",
-          "confidence": 0.2838553786277771,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "28.4%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
         }
       ]
     }
   },
   "history": [
-    {
-      "timestamp": "2026-03-23T11:26:50.574062",
-      "main_index": 4.45,
-      "index": 4.45,
-      "type": "historical"
-    },
     {
       "timestamp": "2026-03-23T12:16:27.274043",
       "main_index": 4.76,
@@ -1718,48 +1713,54 @@
       "main_index": 4.6,
       "index": 4.6,
       "type": "historical"
+    },
+    {
+      "timestamp": "2026-03-25T12:09:37.683434",
+      "main_index": 4.02,
+      "index": 4.02,
+      "type": "historical"
     }
   ],
   "forecast": [
     {
-      "timestamp": "2026-03-25T12:25:00.205415",
-      "index": 4.55,
-      "main_index": 4.55,
+      "timestamp": "2026-03-25T13:09:37.683434",
+      "index": 4.46,
+      "main_index": 4.46,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-25T13:25:00.205415",
-      "index": 4.56,
-      "main_index": 4.56,
+      "timestamp": "2026-03-25T14:09:37.683434",
+      "index": 4.47,
+      "main_index": 4.47,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-25T14:25:00.205415",
-      "index": 4.58,
-      "main_index": 4.58,
+      "timestamp": "2026-03-25T15:09:37.683434",
+      "index": 4.48,
+      "main_index": 4.48,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-25T15:25:00.205415",
-      "index": 4.6,
-      "main_index": 4.6,
+      "timestamp": "2026-03-25T16:09:37.683434",
+      "index": 4.49,
+      "main_index": 4.49,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-25T16:25:00.205415",
-      "index": 4.62,
-      "main_index": 4.62,
+      "timestamp": "2026-03-25T17:09:37.683434",
+      "index": 4.51,
+      "main_index": 4.51,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-25T17:25:00.205415",
-      "index": 4.64,
-      "main_index": 4.64,
+      "timestamp": "2026-03-25T18:09:37.683434",
+      "index": 4.52,
+      "main_index": 4.52,
       "confidence": 0.3,
       "type": "forecast"
     }
