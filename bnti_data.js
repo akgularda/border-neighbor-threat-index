@@ -1,10 +1,10 @@
 window.BNTI_DATA = {
   "meta": {
-    "generated_at": "2026-03-24T23:18:40.243908",
-    "main_index": 4.69,
+    "generated_at": "2026-03-25T00:05:01.323919",
+    "main_index": 4.1,
     "status": "ELEVATED",
     "active_scan": true,
-    "next_update": "2026-03-25T00:00:00",
+    "next_update": "2026-03-25T01:00:00",
     "version": "2.0.0"
   },
   "countries": {
@@ -14,7 +14,7 @@ window.BNTI_DATA = {
       "events": [
         {
           "title": "“We have a different map”: Pashinyan outburst sparks backlash",
-          "translated_title": null,
+          "translated_title": "“We have a different map”: Pashinyan outburst sparks backlash",
           "link": "https://armenianweekly.com/2026/03/24/we-have-a-different-map-pashinyan-outburst-sparks-backlash/",
           "date": "Tue, 24 Mar 2026 14:58:37 +0000",
           "category": "violent protest",
@@ -23,8 +23,9 @@ window.BNTI_DATA = {
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "99.2%",
           "detected_lang": "local",
-          "is_translated": false,
-          "country": "Armenia"
+          "is_translated": true,
+          "country": "Armenia",
+          "translation_engine": "Google Neural MT"
         },
         {
           "title": "New book examines Armenian Genocide through biographies",
@@ -225,48 +226,19 @@ window.BNTI_DATA = {
       ]
     },
     "Georgia": {
-      "index": 3.3,
-      "raw_score": 1.23,
+      "index": 1.76,
+      "raw_score": 0.37,
       "events": [
         {
-          "title": "რუსულმა დრონმა ლვივში იუნესკოს მსოფლიო კულტურული მემკვიდრეობის ძეგლები დააზიანა – უკრაინის საგარეო",
-          "translated_title": "The Russian drone damaged the UNESCO world cultural heritage monuments in Lviv - Ukrainian Foreign Ministry",
-          "link": "https://netgazeti.ge/news/802314/",
-          "date": "Tue, 24 Mar 2026 20:43:28 +0000",
-          "category": "military conflict",
-          "confidence": 0.8366416096687317,
-          "weight": 8.366416096687317,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "83.7%",
-          "detected_lang": "local",
-          "is_translated": true,
-          "country": "Georgia",
-          "translation_engine": "Google Neural MT"
-        },
-        {
-          "title": "ხოშტარიას სასჯელი უკავშირდება სიმბოლურ ზიანს, რომელიც მან მმართველ პარტიას მიაყენა – Amnesty International",
+          "title": "Georgian minor faces criminal charges for making ‘false bomb reports’ during Patriarch’s funeral",
           "translated_title": null,
-          "link": "https://netgazeti.ge/news/802304/",
-          "date": "Tue, 24 Mar 2026 19:52:12 +0000",
-          "category": "political crisis",
-          "confidence": 0.9780424237251282,
-          "weight": 5.868254542350769,
+          "link": "https://oc-media.org/georgian-minor-faces-criminal-charges-for-making-false-bomb-reports-during-patriarchs-funeral/",
+          "date": "Tue, 24 Mar 2026 08:44:08 +0000",
+          "category": "terrorist act",
+          "confidence": 0.6107280850410461,
+          "weight": 5.496552765369415,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "97.8%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
-          "title": "ფსიქოლოგიის სამაგისტრო პროგრამა კვლავ 2-წლიანი იქნება – პროტესტის შემდეგ ბრძანებაში ცვლილებები შევიდა",
-          "translated_title": null,
-          "link": "https://netgazeti.ge/news/802284/",
-          "date": "Tue, 24 Mar 2026 15:49:54 +0000",
-          "category": "political crisis",
-          "confidence": 0.8845944404602051,
-          "weight": 5.3075666427612305,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "88.5%",
+          "ai_confidence_score": "61.1%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Georgia"
@@ -356,94 +328,122 @@ window.BNTI_DATA = {
           "country": "Georgia"
         },
         {
-          "title": "პენსია აუცილებელი ხარჯების 22%-ს ჰყოფნის — საქართველო ევროპის ქვეყნებს შორის ბოლო ადგილზეა",
+          "title": "Russian journalist sentenced to 10 years in absentia for saying 20% of Georgia is occupied by Russia",
           "translated_title": null,
-          "link": "https://netgazeti.ge/news/802268/",
-          "date": "Tue, 24 Mar 2026 15:51:45 +0000",
-          "category": "violent protest",
-          "confidence": 0.22209957242012024,
+          "link": "https://oc-media.org/russian-journalist-sentenced-to-10-years-in-absentia-for-saying-20-of-georgia-is-occupied-by-russia/",
+          "date": "Tue, 24 Mar 2026 12:04:51 +0000",
+          "category": "terrorist act",
+          "confidence": 0.19396381080150604,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "22.2%",
+          "ai_confidence_score": "19.4%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
+          "title": "Georgian Rugby Union acknowledges its players violated doping regulations",
+          "translated_title": null,
+          "link": "https://oc-media.org/georgian-rugby-union-acknowledges-its-players-violated-doping-regulations/",
+          "date": "Tue, 24 Mar 2026 12:00:44 +0000",
+          "category": "military conflict",
+          "confidence": 0.20434710383415222,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "20.4%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
+          "title": "Ingush Head Kalimatov meets Kadyrov in Chechnya for the first time",
+          "translated_title": null,
+          "link": "https://oc-media.org/ingush-head-kalimatov-meets-kadyrov-in-chechnya-for-the-first-time/",
+          "date": "Tue, 24 Mar 2026 11:47:04 +0000",
+          "category": "violent protest",
+          "confidence": 0.26797595620155334,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "26.8%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
+          "title": "Mirzoyan says hybrid attacks against Armenia can be partly ‘traced’ to Russia",
+          "translated_title": null,
+          "link": "https://oc-media.org/mirzoyan-says-hybrid-attacks-against-armenia-can-be-partly-traced-to-russia/",
+          "date": "Tue, 24 Mar 2026 11:06:28 +0000",
+          "category": "terrorist act",
+          "confidence": 0.4453967213630676,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "44.5%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Georgia"
         },
         {
-          "title": "ფლომასტერით გაკეთებული წარწერის გამო არ ზის ციხეში – ვოლსკი ხოშტარიაზე დეზინფორმაციას ავრცელებს",
+          "title": "Opinion | Reflecting on the complex legacy of Patriarch Ilia II",
           "translated_title": null,
-          "link": "https://netgazeti.ge/news/802276/",
-          "date": "Tue, 24 Mar 2026 14:37:36 +0000",
+          "link": "https://oc-media.org/opinion-reflecting-on-the-complex-legacy-of-patriarch-ilia-ii/",
+          "date": "Tue, 24 Mar 2026 10:30:57 +0000",
+          "category": "violent protest",
+          "confidence": 0.21679550409317017,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "21.7%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
+          "title": "Opposition politician Khoshtaria sentenced to 1.5 years for ‘damaging’ Georgian Dream banner",
+          "translated_title": null,
+          "link": "https://oc-media.org/opposition-politician-khoshtaria-sentenced-to-1-5-years-for-damaging-georgian-dream-banner/",
+          "date": "Tue, 24 Mar 2026 10:01:02 +0000",
+          "category": "violent protest",
+          "confidence": 0.4236241579055786,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "42.4%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
+          "title": "Estonia deports Chechen asylum seeker to Russia",
+          "translated_title": null,
+          "link": "https://oc-media.org/estonia-deports-chechen-asylum-seeker-to-russia/",
+          "date": "Tue, 24 Mar 2026 09:59:37 +0000",
+          "category": "humanitarian crisis",
+          "confidence": 0.16073796153068542,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "16.1%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Georgia"
+        },
+        {
+          "title": "Tuesday, 24 March 2026",
+          "translated_title": null,
+          "link": "https://oc-media.org/tuesday-24-march-2026/",
+          "date": "Tue, 24 Mar 2026 08:26:20 +0000",
           "category": "neutral news",
-          "confidence": 0.48401209712028503,
+          "confidence": 0.24404606223106384,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "48.4%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
-          "title": "თამაზ თამაზაშვილიდან ელენე ხოშტარიამდე – ვინ არის მოსამართლე არევაძე",
-          "translated_title": null,
-          "link": "https://netgazeti.ge/life/802200/",
-          "date": "Tue, 24 Mar 2026 14:26:09 +0000",
-          "category": "violent protest",
-          "confidence": 0.19860032200813293,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "19.9%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
-          "title": "სასაცილოდაც არ მყოფნის, ბიძინა ივანიშვილს რომ ჰგონია, დამსაჯა – ხოშტარია",
-          "translated_title": null,
-          "link": "https://netgazeti.ge/news/802265/",
-          "date": "Tue, 24 Mar 2026 14:22:36 +0000",
-          "category": "political crisis",
-          "confidence": 0.35934901237487793,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "35.9%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
-          "title": "მერაბ The machine დვალიშვილი X „თეგეტა“ – პარტნიორობა ახალი გამარჯვებებისთვის",
-          "translated_title": null,
-          "link": "https://netgazeti.ge/news/802253/",
-          "date": "Tue, 24 Mar 2026 12:42:12 +0000",
-          "category": "peaceful diplomacy",
-          "confidence": 0.3931117355823517,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "39.3%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Georgia"
-        },
-        {
-          "title": "“ენგურჰესი” – არ ვართ ვალდებული, თანამშრომლების დათხოვნაზე ინფორმაცია მოგაწოდოთ",
-          "translated_title": null,
-          "link": "https://netgazeti.ge/news/802224/",
-          "date": "Tue, 24 Mar 2026 13:59:32 +0000",
-          "category": "peaceful diplomacy",
-          "confidence": 0.5475845336914062,
-          "weight": -1.0951690673828125,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "54.8%",
-          "detected_lang": "local",
+          "ai_confidence_score": "24.4%",
+          "detected_lang": "en",
           "is_translated": false,
           "country": "Georgia"
         }
       ]
     },
     "Greece": {
-      "index": 3.21,
-      "raw_score": 1.18,
+      "index": 3.18,
+      "raw_score": 1.16,
       "events": [
         {
           "title": "Νέο βίντεο με το ξύλο που έπαιξε ο ηθοποιός Άλαν Ρίτσον με τον γείτονά του: «Έβαλες σε κίνδυνο την ασφάλειά μου!», «με χτυπάς μπροστά στην κάμερα»",
@@ -455,6 +455,20 @@ window.BNTI_DATA = {
           "weight": 5.826732158660889,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "83.2%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Η ΚΑΕ Ολυμπιακός καταγγέλει επίθεση οπαδών της Βαλένθια στον Παναγιώτη Αγγελόπουλο και Γιώργο Σκινδήλια",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/sports/article/1793677/i-kae-olubiakos-kataggelei-epithesi-opadon-tis-valenthia-ston-panagioti-aggelopoulo-kai-giorgo-skindilia/?utm_source=rss",
+          "date": "Wed, 25 Mar 2026 00:56:00 +0200",
+          "category": "violent protest",
+          "confidence": 0.4969698190689087,
+          "weight": 3.478788733482361,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "49.7%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -488,20 +502,6 @@ window.BNTI_DATA = {
           "country": "Greece"
         },
         {
-          "title": "Ηπιες απώλειες στη Wall Street: Η αβεβαιότητα του πολέμου κρατά νευρικούς τους επενδυτές",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/economy/article/1793661/ipies-apoleies-sti-wall-street-i-avevaiotita-tou-polemou-krata-neurikous-tous-ependutes/?utm_source=rss",
-          "date": "Tue, 24 Mar 2026 23:17:00 +0200",
-          "category": "political crisis",
-          "confidence": 0.47569799423217773,
-          "weight": 2.8541879653930664,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "47.6%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
           "title": "Φρίκη στην Κένυα: Τουλάχιστον 32 πτώματα βρέθηκαν σε ομαδικό τάφο στην πόλη Κερίτσο, τα περισσότερα ήταν νήπια",
           "translated_title": null,
           "link": "https://www.protothema.gr/world/article/1793676/friki-stin-kenua-toulahiston-32-ptomata-vrethikan-se-omadiko-tafo-stin-poli-keritso-ta-perissotera-itan-nipia/?utm_source=rss",
@@ -511,6 +511,20 @@ window.BNTI_DATA = {
           "weight": 2.2994962334632874,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "76.6%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "CNN: Οι Ιρανοί προτιμούν να διαπραγματευτούν με τον Βανς",
+          "translated_title": null,
+          "link": "https://www.protothema.gr/world/article/1793678/cnn-oi-iranoi-protimoun-na-diapragmateutoun-me-ton-vans/?utm_source=rss",
+          "date": "Wed, 25 Mar 2026 01:12:00 +0200",
+          "category": "terrorist act",
+          "confidence": 0.25001397728919983,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "25.0%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -628,29 +642,15 @@ window.BNTI_DATA = {
           "country": "Greece"
         },
         {
-          "title": "Φοβερό σκηνικό στο Βαλένθια-Ολυμπιακός: Ο Μοντέρο πέταξε τη μπάλα και έσπασε το 24αρι χρονόμετρο, δείτε βίντεο",
+          "title": "Μπαρτζώκας: Είχαμε αρκετές ευκαιρίες να τελειώσουμε το παιχνίδι",
           "translated_title": null,
-          "link": "https://www.protothema.gr/sports/article/1793660/fovero-skiniko-sto-valenthia-olubiakos-o-modero-petaxe-ti-bala-kai-espase-to-24ari-hronometro-deite-fotografia/?utm_source=rss",
-          "date": "Tue, 24 Mar 2026 23:16:00 +0200",
-          "category": "violent protest",
-          "confidence": 0.3673582375049591,
-          "weight": 0.0,
+          "link": "https://www.protothema.gr/sports/article/1793679/bartzokas-eihame-arketes-eukairies-na-teleiosoume-to-paihnidi/?utm_source=rss",
+          "date": "Wed, 25 Mar 2026 01:23:00 +0200",
+          "category": "peaceful diplomacy",
+          "confidence": 0.46568763256073,
+          "weight": -0.93137526512146,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "36.7%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Μεγάλη πυρκαγιά σε κτίριο με κυβερνητικές υπηρεσίες στη Νότια Αφρική, βίντεο",
-          "translated_title": null,
-          "link": "https://www.protothema.gr/world/article/1793659/megali-purkagia-se-ktirio-me-kuvernitikes-upiresies-sti-notia-afriki-video/?utm_source=rss",
-          "date": "Tue, 24 Mar 2026 23:56:20 +0200",
-          "category": "political crisis",
-          "confidence": 0.21586234867572784,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "21.6%",
+          "ai_confidence_score": "46.6%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -658,19 +658,19 @@ window.BNTI_DATA = {
       ]
     },
     "Iran": {
-      "index": 6.95,
-      "raw_score": 4.51,
+      "index": 6.08,
+      "raw_score": 3.46,
       "events": [
         {
-          "title": "US' and Iran's options for ending war narrow the longer it goes on",
-          "translated_title": "US' and Iran's options for ending war narrow the longer it goes on",
-          "link": "https://www.bbc.com/news/articles/cn53zvlglg7o?at_medium=RSS&at_campaign=rss",
-          "date": "Mon, 23 Mar 2026 15:34:38 GMT",
+          "title": "Explosion, fire at Erbil high-rise amid Iranian attacks",
+          "translated_title": "Explosion, fire at Erbil high-rise amid Iranian attacks",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/3/24/explosion-fire-at-erbil-high-rise-amid-iranian-attacks?traffic_source=rss",
+          "date": "Tue, 24 Mar 2026 23:00:31 +0000",
           "category": "military conflict",
-          "confidence": 0.9653315544128418,
-          "weight": 9.653315544128418,
+          "confidence": 0.9238001704216003,
+          "weight": 9.238001704216003,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "96.5%",
+          "ai_confidence_score": "92.4%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iran"
@@ -688,21 +688,6 @@ window.BNTI_DATA = {
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iran"
-        },
-        {
-          "title": "A committed pharmacist and a homesick blogger – the Iranian civilians killed in the war",
-          "translated_title": "A committed pharmacist and a homesick blogger – the Iranian civilians killed in the war",
-          "link": "https://www.bbc.com/news/articles/c3v6ld7lv9no?at_medium=RSS&at_campaign=rss",
-          "date": "Mon, 23 Mar 2026 18:31:26 GMT",
-          "category": "military conflict",
-          "confidence": 0.8244346976280212,
-          "weight": 8.244346976280212,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "82.4%",
-          "detected_lang": "local",
-          "is_translated": true,
-          "country": "Iran",
-          "translation_engine": "Google Neural MT"
         },
         {
           "title": "Building collapses after Iranian missile strike on Israel",
@@ -734,29 +719,15 @@ window.BNTI_DATA = {
           "translation_engine": "Google Neural MT"
         },
         {
-          "title": "In maps: Attacks across the Middle East",
-          "translated_title": null,
-          "link": "https://www.bbc.com/news/articles/c4g0pnnj8xyo?at_medium=RSS&at_campaign=rss",
-          "date": "Mon, 23 Mar 2026 17:21:31 GMT",
+          "title": "What impact is the war on Iran having on Israel?",
+          "translated_title": "What impact is the war on Iran having on Israel?",
+          "link": "https://www.aljazeera.com/video/inside-story/2026/3/24/what-impact-is-the-war-on-iran-having-on-israel?traffic_source=rss",
+          "date": "Tue, 24 Mar 2026 19:15:36 +0000",
           "category": "military conflict",
-          "confidence": 0.7098994255065918,
-          "weight": 7.098994255065918,
+          "confidence": 0.5912821888923645,
+          "weight": 5.912821888923645,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "71.0%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
-          "title": "Watch: Inside Palestinian homes attacked by settlers",
-          "translated_title": null,
-          "link": "https://www.bbc.com/news/videos/cd9vnznv075o?at_medium=RSS&at_campaign=rss",
-          "date": "Mon, 23 Mar 2026 17:53:17 GMT",
-          "category": "violent protest",
-          "confidence": 0.8496711254119873,
-          "weight": 5.947697877883911,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "85.0%",
+          "ai_confidence_score": "59.1%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iran"
@@ -799,20 +770,6 @@ window.BNTI_DATA = {
           "weight": 1.2224037051200867,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "40.7%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
-          "title": "Israel says it will take control of large buffer zone in southern Lebanon",
-          "translated_title": null,
-          "link": "https://www.bbc.com/news/articles/cy91j9qwp4do?at_medium=RSS&at_campaign=rss",
-          "date": "Tue, 24 Mar 2026 16:58:08 GMT",
-          "category": "military conflict",
-          "confidence": 0.3028431236743927,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "30.3%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iran"
@@ -872,6 +829,48 @@ window.BNTI_DATA = {
           "detected_lang": "local",
           "is_translated": false,
           "country": "Iran"
+        },
+        {
+          "title": "Russia hits Ukraine with rare daytime barrage as new offensive begins",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/news/2026/3/24/russia-hits-ukraine-with-deadly-daytime-barrage-as-spring-offensive-starts?traffic_source=rss",
+          "date": "Tue, 24 Mar 2026 20:15:35 +0000",
+          "category": "violent protest",
+          "confidence": 0.673515260219574,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "67.4%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "US says they’re talking, Iran says they’re not. Who’s telling the truth?",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/news/2026/3/24/us-says-theyre-talking-iran-says-theyre-not-whos-telling-the-truth?traffic_source=rss",
+          "date": "Tue, 24 Mar 2026 19:34:20 +0000",
+          "category": "political crisis",
+          "confidence": 0.3189898133277893,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "31.9%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Egypt’s Mohamed Salah to leave Liverpool at end of season after 9-year stay",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/sports/2026/3/24/egypts-mohamed-salah-to-leave-liverpool-at-end-of-season-after-9-year-stay?traffic_source=rss",
+          "date": "Tue, 24 Mar 2026 19:23:24 +0000",
+          "category": "neutral news",
+          "confidence": 0.21683213114738464,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "21.7%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iran"
         }
       ]
     },
@@ -923,7 +922,7 @@ window.BNTI_DATA = {
         },
         {
           "title": "Syrian army says base targeted by missiles from Iraq",
-          "translated_title": null,
+          "translated_title": "Syrian army says base targeted by missiles from Iraq",
           "link": "https://www.newarab.com/news/syrian-army-says-base-targeted-missiles-iraq",
           "date": "Tue, 24 Mar 2026 18:19:50 +0000",
           "category": "military conflict",
@@ -959,6 +958,20 @@ window.BNTI_DATA = {
           "weight": 5.503886461257935,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "91.7%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "Bahrain pushes UN-backed action for Hormuz shipping",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/bahrain-pushes-un-backed-action-hormuz-shipping",
+          "date": "Tue, 24 Mar 2026 23:51:57 +0000",
+          "category": "political crisis",
+          "confidence": 0.24886338412761688,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "24.9%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
@@ -1074,26 +1087,12 @@ window.BNTI_DATA = {
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
-        },
-        {
-          "title": "Evidence shows Israeli 'double tap' attack killed Hind Rajab",
-          "translated_title": null,
-          "link": "https://www.newarab.com/news/evidence-shows-israeli-double-tap-attack-killed-hind-rajab",
-          "date": "Tue, 24 Mar 2026 17:10:52 +0000",
-          "category": "terrorist act",
-          "confidence": 0.39026373624801636,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "39.0%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
         }
       ]
     },
     "Syria": {
-      "index": 6.25,
-      "raw_score": 3.65,
+      "index": 5.46,
+      "raw_score": 2.85,
       "events": [
         {
           "title": "Quneitra, Israeli army arrests two civilians in Rafid",
@@ -1138,34 +1137,6 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
-          "title": "Jordan, Egypt discuss impact of regional military escalation",
-          "translated_title": "Jordan, Egypt discuss impact of regional military escalation",
-          "link": "https://sana.sy/en/international/2302956/",
-          "date": "Sun, 15 Mar 2026 11:33:34 +0000",
-          "category": "military conflict",
-          "confidence": 0.955153226852417,
-          "weight": 9.55153226852417,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "95.5%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Drone attacks near Baghdad airport raise security concerns",
-          "translated_title": "Drone attacks near Baghdad airport raise security concerns",
-          "link": "https://sana.sy/en/international/2302940/",
-          "date": "Sun, 15 Mar 2026 11:23:43 +0000",
-          "category": "terrorist act",
-          "confidence": 0.9240773916244507,
-          "weight": 8.316696524620056,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "92.4%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
           "title": "Rockets fired from Iraq target base in al-Hasakah",
           "translated_title": "Rockets fired from Iraq target base in al-Hasakah",
           "link": "https://english.enabbaladi.net/archives/2026/03/rockets-fired-from-iraq-target-base-in-al-hasakah/",
@@ -1178,6 +1149,21 @@ window.BNTI_DATA = {
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
+        },
+        {
+          "title": "Damascus–Baghdad relations under threat from “Popular Mobilization” rhetoric",
+          "translated_title": "Damascus–Baghdad relations under threat from “Popular Mobilization” rhetoric",
+          "link": "https://english.enabbaladi.net/archives/2026/03/damascus-baghdad-relations-under-threat-from-popular-mobilization-rhetoric/",
+          "date": "Mon, 23 Mar 2026 15:58:37 +0000",
+          "category": "political crisis",
+          "confidence": 0.980239748954773,
+          "weight": 5.881438493728638,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "98.0%",
+          "detected_lang": "local",
+          "is_translated": true,
+          "country": "Syria",
+          "translation_engine": "Google Neural MT"
         },
         {
           "title": "Why Syria’s alcohol bans and Newroz celebrations are inextricably linked - Türkiye Today",
@@ -1194,16 +1180,58 @@ window.BNTI_DATA = {
           "country": "Syria"
         },
         {
-          "title": "Syria’s Interior Ministry graduates 320 internal security recruits in Idlib",
+          "title": "Al-Hijri reaffirms support for the US and Israel in the war against Iran",
           "translated_title": null,
-          "link": "https://sana.sy/en/syria/2302942/",
-          "date": "Sun, 15 Mar 2026 11:23:51 +0000",
-          "category": "political crisis",
-          "confidence": 0.15518449246883392,
+          "link": "https://english.enabbaladi.net/archives/2026/03/al-hijri-reaffirms-support-for-the-us-and-israel-in-the-war-against-iran/",
+          "date": "Tue, 24 Mar 2026 20:24:44 +0000",
+          "category": "neutral news",
+          "confidence": 0.5297214388847351,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "15.5%",
-          "detected_lang": "local",
+          "ai_confidence_score": "53.0%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Regulating alcohol sales in Damascus, has the governorate exceeded its authority?",
+          "translated_title": null,
+          "link": "https://english.enabbaladi.net/archives/2026/03/regulating-alcohol-sales-in-damascus-has-the-governorate-exceeded-its-authority/",
+          "date": "Tue, 24 Mar 2026 08:00:54 +0000",
+          "category": "political crisis",
+          "confidence": 0.23225247859954834,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "23.2%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Positive effects on energy markets after delay of US strike on Iran",
+          "translated_title": null,
+          "link": "https://english.enabbaladi.net/archives/2026/03/positive-effects-on-energy-markets-after-delay-of-us-strike-on-iran/",
+          "date": "Mon, 23 Mar 2026 22:03:31 +0000",
+          "category": "military conflict",
+          "confidence": 0.4928525984287262,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "49.3%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "President al-Sharaa affirms safeguarding Kurdish rights",
+          "translated_title": null,
+          "link": "https://english.enabbaladi.net/archives/2026/03/president-al-sharaa-affirms-safeguarding-kurdish-rights/",
+          "date": "Mon, 23 Mar 2026 17:16:05 +0000",
+          "category": "neutral news",
+          "confidence": 0.1796530932188034,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "18.0%",
+          "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
         },
@@ -1276,66 +1304,80 @@ window.BNTI_DATA = {
           "detected_lang": "local",
           "is_translated": false,
           "country": "Syria"
-        },
-        {
-          "title": "Al-Hijri reaffirms support for the US and Israel in the war against Iran",
-          "translated_title": null,
-          "link": "https://english.enabbaladi.net/archives/2026/03/al-hijri-reaffirms-support-for-the-us-and-israel-in-the-war-against-iran/",
-          "date": "Tue, 24 Mar 2026 20:24:44 +0000",
-          "category": "neutral news",
-          "confidence": 0.5297214388847351,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "53.0%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Regulating alcohol sales in Damascus, has the governorate exceeded its authority?",
-          "translated_title": null,
-          "link": "https://english.enabbaladi.net/archives/2026/03/regulating-alcohol-sales-in-damascus-has-the-governorate-exceeded-its-authority/",
-          "date": "Tue, 24 Mar 2026 08:00:54 +0000",
-          "category": "political crisis",
-          "confidence": 0.23225247859954834,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "23.2%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
         }
       ]
     },
     "Bulgaria": {
-      "index": 2.34,
-      "raw_score": 0.67,
+      "index": 1.43,
+      "raw_score": 0.2,
       "events": [
         {
-          "title": "В първи предизборен дебат пет сили се сблъскаха за шистовия газ и данъците",
+          "title": "Rositsa Mateva: Today we were surprised to learn that there is an advisory council to the Council of Ministers in connection with the elections - fakti.bg",
           "translated_title": null,
-          "link": "https://www.dnevnik.bg/izbori-2026/2026/03/24/4896164_v_purvi_predizboren_debat_pet_sili_se_sbluskaha_za/?ref=rss",
-          "date": "Tue, 24 Mar 2026 19:20:00 +0200",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSlQyU2NyRTY2RzhUc1VMMmN3bzhyTGl2WW9TekpFZG5KaGEzRnBnOG5YSi16MEdySG9mcVJ0NEdjemF4dHNCb2hiWFFSX0s0THFDVVhRMXc1cGotYzdqZkpaMDdna0tvSmRSdlNxOHlXeFdmWEh1emE0UzhjZHFkOTFabUZEc2V1RC1zY0xsNHVTTWVXbE5EZkp4Mk9TUlVHVlI5MW1PNl8zTkdSSTEzRkl5LVFMUzJZb3Q0SVR3Y1RjTjl0enhTaGlWMlVWb2s?oc=5",
+          "date": "Mon, 23 Mar 2026 19:34:00 GMT",
           "category": "political crisis",
-          "confidence": 0.9691770672798157,
-          "weight": 5.815062403678894,
+          "confidence": 0.5073403716087341,
+          "weight": 3.044042229652405,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "96.9%",
+          "ai_confidence_score": "50.7%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Deadline Day: Bulgarians Abroad Must Apply Today to Vote in April 19 Elections - Novinite.com - Sofia News Agency",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcHpHVkExZ25reHVPck1hOFFnbmVQT2k1c1o1c19VdU52X1B5cWlUNjZxNmplTkZKYm95c2stY0xVcEhBQklucGt6eU1JT1pPLVd3Q1otYTUzNE1zOC12LXRmUVJXbV9QZGx0cFNRUlBIMlFyQWphVElIR2Zsdm9tRVBOa1d1ano3UWhQZTU1dmRkcFZFOEJOR3ZBZERiWU9KZVRlRkZ1aHVQTVQ0TG5VYlZNNjhOS1pXS2FYX3Nn?oc=5",
+          "date": "Tue, 24 Mar 2026 06:51:55 GMT",
+          "category": "violent protest",
+          "confidence": 0.27192747592926025,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "27.2%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Weather today, forecast for Tuesday, March 24: Remains cloudy, in many places with rain - fakti.bg",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTWVtNl9YREV6S0xVd1RURVhwTkpYalFWZUdSa3ZXRU4xY1hTV1k1UzZaTXVtTjRhY0o4RlloSU1oNzU5SnVYWjVPSlJzMV92Rm1ocXZLdGJZbXBsdUowd1Q4aWdHS3BqVU96eExUQXBQME1NT0NWX2pCQmxZRTM5cHJ3OEduNzlKZm5FbkExV2FiZ1BoUm4wNXVzRzRDalZZUzJmN3BDa011Vl85X2E5TDRnaVRlOUhaRndSVQ?oc=5",
+          "date": "Tue, 24 Mar 2026 04:16:00 GMT",
+          "category": "peaceful diplomacy",
+          "confidence": 0.23883463442325592,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "23.9%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Weather today, forecast for Monday, March 23: Rainy afternoon ᐉ News from Fakti.bg - Bulgaria - fakti.bg",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdFFkRUF3ZG12RW5Cajlma1FNT21TNzkteDRSc0J6czR2LTlhbUNnNHA2NDJRcXJOS0JqZHBvUFBfeHNyS0FqVldYVkcxMDg3ZmpkeHc4Y3dXX2VidjN3RjF2anFPZ3pfa2xVQkFhdU1XWW9qOEVjVHlJaFFiY0JiYndGOGNvc1k4RXM0Q1R3RVQxelVlcXZlM25Kdw?oc=5",
+          "date": "Mon, 23 Mar 2026 01:00:00 GMT",
+          "category": "violent protest",
+          "confidence": 0.3382883667945862,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "33.8%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
         },
         {
-          "title": "МВР: Кандидат-депутати използват имунитета си да ръководят продажбата на гласове",
+          "title": "From today until June 9, 2026 inclusive, agricultural producers will be able to submit applications for direct payments - fakti.bg",
           "translated_title": null,
-          "link": "https://www.dnevnik.bg/bulgaria/2026/03/24/4896156_mvr_kandidat-deputati_izpolzvat_imuniteta_si_da/?ref=rss",
-          "date": "Tue, 24 Mar 2026 18:32:00 +0200",
-          "category": "political crisis",
-          "confidence": 0.7169166207313538,
-          "weight": 4.301499724388123,
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQRHlfeXhLeHM3NFdJZ3RvNDFRanBLV2xWM01EXzI4MTJMaVF5NHdDR0kzRW94aS1zcnJYUFkzYm12bGU3QXNCN1hIdHBBZ0dnZmwwallwLXBKZ0tZb1pmOGJDTmJjNk10MWhDaTFncjBBUURLcEJXWjhYOExsVTVHM3AxNmh2WldiOFNxNWMtQlNGQ3BjalJkOEFfYXk5djU3cjd0Zl9SRm9USEs3cjloY1h5SlpneUlmUVU5T2NyS0hVamVkd3FNVUxlTkNXWk1KVFVmWTNDWllzSXMwSkFfZm5YMUZXYUd0TDdJ?oc=5",
+          "date": "Mon, 23 Mar 2026 12:11:00 GMT",
+          "category": "violent protest",
+          "confidence": 0.22857864201068878,
+          "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "71.7%",
-          "detected_lang": "local",
+          "ai_confidence_score": "22.9%",
+          "detected_lang": "en",
           "is_translated": false,
           "country": "Bulgaria"
         },
@@ -1478,59 +1520,11 @@ window.BNTI_DATA = {
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
-        },
-        {
-          "title": "\"Руското влияние в България е определящо\": Евгений Кънев в подкаста \"Дума на седмицата\"",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/duma_na_sedmitsa/2026/03/24/4896176_ruskoto_vliianie_v_bulgariia_e_opredeliashto_evgenii/?ref=rss",
-          "date": "Tue, 24 Mar 2026 19:30:00 +0200",
-          "category": "terrorist act",
-          "confidence": 0.21648196876049042,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "21.6%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "ЕС е готов да ускори преговорите за присъединяване на Исландия",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/evropa/2026/03/24/4896166_es_e_gotov_da_uskori_pregovorite_za_vlizane_na/?ref=rss",
-          "date": "Tue, 24 Mar 2026 18:59:00 +0200",
-          "category": "terrorist act",
-          "confidence": 0.4410858154296875,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "44.1%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
-        },
-        {
-          "title": "Върховният административен съд окончателно спря реформата на паркирането в София",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/skorost/2026/03/24/4896165_vurhovniiat_administrativen_sud_okonchatelno_spria/?ref=rss",
-          "date": "Tue, 24 Mar 2026 18:37:00 +0200",
-          "category": "neutral news",
-          "confidence": 0.23597203195095062,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "23.6%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
         }
       ]
     }
   },
   "history": [
-    {
-      "timestamp": "2026-03-22T23:54:47.551374",
-      "main_index": 4.37,
-      "index": 4.37,
-      "type": "historical"
-    },
     {
       "timestamp": "2026-03-23T03:10:29.050949",
       "main_index": 4.74,
@@ -1704,48 +1698,54 @@ window.BNTI_DATA = {
       "main_index": 4.69,
       "index": 4.69,
       "type": "historical"
+    },
+    {
+      "timestamp": "2026-03-25T00:05:03.496686",
+      "main_index": 4.1,
+      "index": 4.1,
+      "type": "historical"
     }
   ],
   "forecast": [
     {
-      "timestamp": "2026-03-25T00:18:42.772309",
-      "index": 4.52,
-      "main_index": 4.52,
+      "timestamp": "2026-03-25T01:05:03.496686",
+      "index": 4.55,
+      "main_index": 4.55,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-25T01:18:42.772309",
-      "index": 4.54,
-      "main_index": 4.54,
+      "timestamp": "2026-03-25T02:05:03.496686",
+      "index": 4.58,
+      "main_index": 4.58,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-25T02:18:42.772309",
-      "index": 4.57,
-      "main_index": 4.57,
+      "timestamp": "2026-03-25T03:05:03.496686",
+      "index": 4.61,
+      "main_index": 4.61,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-25T03:18:42.772309",
-      "index": 4.59,
-      "main_index": 4.59,
-      "confidence": 0.3,
-      "type": "forecast"
-    },
-    {
-      "timestamp": "2026-03-25T04:18:42.772309",
-      "index": 4.62,
-      "main_index": 4.62,
-      "confidence": 0.3,
-      "type": "forecast"
-    },
-    {
-      "timestamp": "2026-03-25T05:18:42.772309",
+      "timestamp": "2026-03-25T04:05:03.496686",
       "index": 4.64,
       "main_index": 4.64,
+      "confidence": 0.3,
+      "type": "forecast"
+    },
+    {
+      "timestamp": "2026-03-25T05:05:03.496686",
+      "index": 4.67,
+      "main_index": 4.67,
+      "confidence": 0.3,
+      "type": "forecast"
+    },
+    {
+      "timestamp": "2026-03-25T06:05:03.496686",
+      "index": 4.7,
+      "main_index": 4.7,
       "confidence": 0.3,
       "type": "forecast"
     }
