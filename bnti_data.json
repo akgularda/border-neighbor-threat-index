@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-03-27T00:41:58.309839",
-    "main_index": 4.21,
+    "generated_at": "2026-03-27T03:26:50.351597",
+    "main_index": 4.36,
     "status": "ELEVATED",
     "active_scan": true,
-    "next_update": "2026-03-27T01:00:00",
+    "next_update": "2026-03-27T04:00:00",
     "version": "2.0.0"
   },
   "countries": {
@@ -441,8 +441,8 @@
       ]
     },
     "Greece": {
-      "index": 4.46,
-      "raw_score": 2.02,
+      "index": 4.59,
+      "raw_score": 2.12,
       "events": [
         {
           "title": "Ο Τραμπ αναβάλλει για 10 ημέρες τις επιθέσεις σε ιρανικές μονάδες ηλεκτροπαραγωγής",
@@ -527,6 +527,34 @@
           "weight": 2.877896785736084,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "71.9%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Εορτολόγιο: Μεγάλη μέρα σήμερα – Ποιοι γιορτάζουν 27 Μαρτίου 2026",
+          "translated_title": null,
+          "link": "https://www.naftemporiki.gr/society/2090897/eortologio-megali-mera-simera-poioi-giortazoyn-27-martioy-2026/?utm_source=rss&utm_medium=rss&utm_campaign=eortologio-megali-mera-simera-poioi-giortazoyn-27-martioy-2026",
+          "date": "Fri, 27 Mar 2026 03:00:25 +0000",
+          "category": "peaceful diplomacy",
+          "confidence": 0.341360479593277,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "34.1%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Greece"
+        },
+        {
+          "title": "Η Παγκόσμια Ημέρα Θεάτρου στέλνει το μήνυμά της για το 2026",
+          "translated_title": null,
+          "link": "https://www.naftemporiki.gr/culture/theater/2090271/i-pagkosmia-imera-theatroy-stelnei-to-minyma-tis-gia-to-2026/?utm_source=rss&utm_medium=rss&utm_campaign=i-pagkosmia-imera-theatroy-stelnei-to-minyma-tis-gia-to-2026",
+          "date": "Fri, 27 Mar 2026 01:01:26 +0000",
+          "category": "terrorist act",
+          "confidence": 0.3189677298069,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "31.9%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
@@ -628,40 +656,12 @@
           "detected_lang": "local",
           "is_translated": false,
           "country": "Greece"
-        },
-        {
-          "title": "Θεσσαλονίκη: Κλειστά και τα δύο ρεύματα κυκλοφορίας της ΠΑΘΕ μετά από πυρκαγιά σε ξερά χόρτα",
-          "translated_title": null,
-          "link": "https://www.naftemporiki.gr/society/2090939/thessaloniki-kleista-kai-ta-dyo-reymata-kykloforias-tis-pathe-meta-apo-pyrkagia-se-xera-chorta/?utm_source=rss&utm_medium=rss&utm_campaign=thessaloniki-kleista-kai-ta-dyo-reymata-kykloforias-tis-pathe-meta-apo-pyrkagia-se-xera-chorta",
-          "date": "Thu, 26 Mar 2026 20:00:03 +0000",
-          "category": "violent protest",
-          "confidence": 0.3504788279533386,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "35.0%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
-        },
-        {
-          "title": "Συμφωνία Βρετανίας και Φινλανδίας για «μπλόκο» στον ρωσικό σκιώδη στόλο",
-          "translated_title": null,
-          "link": "https://www.naftemporiki.gr/kosmos/2090934/symfonia-vretanias-kai-finlandias-gia-mploko-ston-rosiko-skiodi-stolo/?utm_source=rss&utm_medium=rss&utm_campaign=symfonia-vretanias-kai-finlandias-gia-mploko-ston-rosiko-skiodi-stolo",
-          "date": "Thu, 26 Mar 2026 20:01:31 +0000",
-          "category": "peaceful diplomacy",
-          "confidence": 0.7160226702690125,
-          "weight": -1.432045340538025,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "71.6%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Greece"
         }
       ]
     },
     "Iran": {
-      "index": 6.42,
-      "raw_score": 3.84,
+      "index": 5.62,
+      "raw_score": 3.0,
       "events": [
         {
           "title": "Why Iraq is the most fragile front in the US-Israel war on Iran",
@@ -673,35 +673,6 @@
           "weight": 8.727364540100098,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "87.3%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
-          "title": "Al Jazeera visits Iran’s UNESCO-listed palace damaged by war",
-          "translated_title": "Al Jazeera visits Iran’s UNESCO-listed palace damaged by war",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/3/26/al-jazeera-visits-irans-unesco-listed-palace-damaged-by-war?traffic_source=rss",
-          "date": "Thu, 26 Mar 2026 21:33:17 +0000",
-          "category": "military conflict",
-          "confidence": 0.8520861864089966,
-          "weight": 8.520861864089966,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "85.2%",
-          "detected_lang": "local",
-          "is_translated": true,
-          "country": "Iran",
-          "translation_engine": "Google Neural MT"
-        },
-        {
-          "title": "What are the red lines for Iran and the US in the war?",
-          "translated_title": "What are the red lines for Iran and the US in the war?",
-          "link": "https://www.aljazeera.com/video/inside-story/2026/3/26/what-are-the-red-lines-for-iran-and-the-us-in-the-war?traffic_source=rss",
-          "date": "Thu, 26 Mar 2026 22:03:40 +0000",
-          "category": "military conflict",
-          "confidence": 0.7563398480415344,
-          "weight": 7.563398480415344,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "75.6%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iran"
@@ -722,30 +693,44 @@
           "translation_engine": "Google Neural MT"
         },
         {
-          "title": "Iran placing messages on missiles as war of narratives intensifies",
-          "translated_title": "Iran placing messages on missiles as war of narratives intensifies",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/3/26/iran-placing-messages-on-missiles-as-war-of-narratives-intensifies?traffic_source=rss",
-          "date": "Thu, 26 Mar 2026 20:56:21 +0000",
+          "title": "Projectile from Lebanon kills at least one in north Israel",
+          "translated_title": "Projectile from Lebanon kills at least one in north Israel",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/3/27/projectile-from-lebanon-kills-at-least-one-in-north-israel?traffic_source=rss",
+          "date": "Fri, 27 Mar 2026 00:11:00 +0000",
           "category": "military conflict",
-          "confidence": 0.62739497423172,
-          "weight": 6.2739497423172,
+          "confidence": 0.6059685349464417,
+          "weight": 6.0596853494644165,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "62.7%",
+          "ai_confidence_score": "60.6%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iran"
         },
         {
-          "title": "Protests erupt outside US court over Maduro case",
-          "translated_title": "Protests erupt outside US court over Maduro case",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/3/26/protests-erupt-outside-us-court-over-maduro-case?traffic_source=rss",
-          "date": "Thu, 26 Mar 2026 20:44:16 +0000",
+          "title": "Australia’s post-Bondi crackdown accused of targeting pro-Palestinian voices",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/news/2026/3/27/australias-post-bondi-crackdown-accused-of-targeting-pro-palestinian-voices?traffic_source=rss",
+          "date": "Fri, 27 Mar 2026 02:31:23 +0000",
           "category": "political crisis",
-          "confidence": 0.9608443975448608,
-          "weight": 5.765066385269165,
+          "confidence": 0.9459964036941528,
+          "weight": 5.675978422164917,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "96.1%",
-          "detected_lang": "en",
+          "ai_confidence_score": "94.6%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Who is fighting in Myanmar’s multi-front civil war?",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/features/2026/3/27/who-is-fighting-in-myanmars-multi-front-civil-war?traffic_source=rss",
+          "date": "Fri, 27 Mar 2026 02:21:16 +0000",
+          "category": "political crisis",
+          "confidence": 0.8928095102310181,
+          "weight": 5.356857061386108,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "89.3%",
+          "detected_lang": "local",
           "is_translated": false,
           "country": "Iran"
         },
@@ -792,15 +777,57 @@
           "country": "Iran"
         },
         {
-          "title": "At least nine people dead, dozens missing as boat sinks off Djibouti coast",
+          "title": "Mexico launches search for two missing aid boats bound for Cuba",
           "translated_title": null,
-          "link": "https://www.aljazeera.com/news/2026/3/26/at-least-nine-people-dead-dozens-missing-as-boat-sinks-off-djibouti-coast?traffic_source=rss",
-          "date": "Thu, 26 Mar 2026 21:21:10 +0000",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/3/27/mexico-launches-search-for-two-missing-aid-boats-bound-for-cuba?traffic_source=rss",
+          "date": "Fri, 27 Mar 2026 02:35:28 +0000",
           "category": "humanitarian crisis",
-          "confidence": 0.4943172335624695,
-          "weight": 1.4829517006874084,
+          "confidence": 0.25974804162979126,
+          "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "49.4%",
+          "ai_confidence_score": "26.0%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Analysts say Trump doesn’t understand Iran reality has changed",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/3/27/analysts-say-trump-doesnt-understand-iran-reality-has-changed?traffic_source=rss",
+          "date": "Fri, 27 Mar 2026 02:00:40 +0000",
+          "category": "political crisis",
+          "confidence": 0.28120526671409607,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "28.1%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Former Venezuelan president Maduro seeks to throw out US drug charges",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/3/27/former-venezuelan-president-maduro-seeks-to-throw-out-us-drug-charges?traffic_source=rss",
+          "date": "Fri, 27 Mar 2026 01:07:50 +0000",
+          "category": "political crisis",
+          "confidence": 0.3230559825897217,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "32.3%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iran"
+        },
+        {
+          "title": "Iran war live: Trump delays attacks on Iranian energy sector by 10 days",
+          "translated_title": null,
+          "link": "https://www.aljazeera.com/news/liveblog/2026/3/27/iran-war-live-trump-delays-attacks-on-iranian-energy-sector-by-10-days?traffic_source=rss",
+          "date": "Fri, 27 Mar 2026 00:00:00 +0000",
+          "category": "military conflict",
+          "confidence": 0.5306811928749084,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "53.1%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iran"
@@ -846,39 +873,11 @@
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iran"
-        },
-        {
-          "title": "Trump postpones US strikes on Iranian power grid to April 6 amid talks",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/news/2026/3/26/trump-postpones-us-strikes-on-iranian-power-grid-to-april-6-amid-talks?traffic_source=rss",
-          "date": "Thu, 26 Mar 2026 22:03:25 +0000",
-          "category": "military conflict",
-          "confidence": 0.524059534072876,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "52.4%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
-        },
-        {
-          "title": "WTO holds crunch meeting amid growing uncertainty over multilateral system",
-          "translated_title": null,
-          "link": "https://www.aljazeera.com/news/2026/3/26/wto-holds-crunch-meeting-amid-collapsing-multilateral-system?traffic_source=rss",
-          "date": "Thu, 26 Mar 2026 21:56:40 +0000",
-          "category": "economic crisis",
-          "confidence": 0.28577926754951477,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "28.6%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iran"
         }
       ]
     },
     "Iraq": {
-      "index": 5.26,
+      "index": 5.25,
       "raw_score": 2.67,
       "events": [
         {
@@ -910,15 +909,15 @@
           "country": "Iraq"
         },
         {
-          "title": "Iran Guards navy commander Alireza Tangsiri killed in strike",
-          "translated_title": "Iran Guards navy commander Alireza Tangsiri killed in strike",
-          "link": "https://www.newarab.com/news/iran-guards-navy-commander-alireza-tangsiri-killed-strike",
-          "date": "Thu, 26 Mar 2026 16:09:39 +0000",
+          "title": "At CPAC, Republicans close ranks behind Trump on Iran war",
+          "translated_title": "At CPAC, Republicans close ranks behind Trump on Iran war",
+          "link": "https://www.newarab.com/news/cpac-republicans-close-ranks-behind-trump-iran-war",
+          "date": "Fri, 27 Mar 2026 01:08:48 +0000",
           "category": "military conflict",
-          "confidence": 0.9482324123382568,
-          "weight": 9.482324123382568,
+          "confidence": 0.941087543964386,
+          "weight": 9.41087543964386,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "94.8%",
+          "ai_confidence_score": "94.1%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
@@ -947,6 +946,34 @@
           "weight": 5.463953495025635,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "78.1%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "Kadioglu fires Turkey past Romania, to brink of World Cup",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/kadioglu-fires-turkey-past-romania-brink-world-cup",
+          "date": "Fri, 27 Mar 2026 02:28:22 +0000",
+          "category": "military conflict",
+          "confidence": 0.4978898763656616,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "49.8%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Iraq"
+        },
+        {
+          "title": "Iran forbids sports teams from traveling to 'hostile' countries",
+          "translated_title": null,
+          "link": "https://www.newarab.com/news/iran-forbids-sports-teams-traveling-hostile-countries",
+          "date": "Fri, 27 Mar 2026 02:12:03 +0000",
+          "category": "neutral news",
+          "confidence": 0.2954150140285492,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "29.5%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
@@ -1062,51 +1089,65 @@
           "detected_lang": "en",
           "is_translated": false,
           "country": "Iraq"
-        },
-        {
-          "title": "Trump: Iran asked me to be Supreme Leader, but I said no thanks",
-          "translated_title": null,
-          "link": "https://www.newarab.com/news/trump-iran-asked-me-be-supreme-leader-i-said-no-thanks",
-          "date": "Thu, 26 Mar 2026 16:31:17 +0000",
-          "category": "political crisis",
-          "confidence": 0.2967156171798706,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "29.7%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
-        },
-        {
-          "title": "Senegal appeals to get AFCON title from Morocco at CAS",
-          "translated_title": null,
-          "link": "https://www.newarab.com/news/senegal-appeals-get-afcon-title-morocco-cas",
-          "date": "Thu, 26 Mar 2026 15:45:51 +0000",
-          "category": "violent protest",
-          "confidence": 0.28513509035110474,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "28.5%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Iraq"
         }
       ]
     },
     "Syria": {
-      "index": 4.3,
-      "raw_score": 1.9,
+      "index": 5.74,
+      "raw_score": 3.11,
       "events": [
         {
-          "title": "Missile Strike from Iraq Sparks New Tensions in Hassakeh",
-          "translated_title": "Missile Strike from Iraq Sparks New Tensions in Hassakeh",
-          "link": "https://syrianobserver.com/foreign-actors/missile-strike-from-iraq-sparks-new-tensions-in-hassakeh.html",
-          "date": "Wed, 25 Mar 2026 09:41:07 +0000",
+          "title": "War costs reach $1 billion a day as Israel faces missile interceptor shortage",
+          "translated_title": "War costs reach $1 billion a day as Israel faces missile interceptor shortage",
+          "link": "https://sana.sy/en/economic/2302960/",
+          "date": "Sun, 15 Mar 2026 11:50:11 +0000",
           "category": "military conflict",
-          "confidence": 0.9416930079460144,
-          "weight": 9.416930079460144,
+          "confidence": 0.9803164601325989,
+          "weight": 9.803164601325989,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "94.2%",
+          "ai_confidence_score": "98.0%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "UNIFIL calls for halt to military escalation in Southern Lebanon",
+          "translated_title": "UNIFIL calls for halt to military escalation in Southern Lebanon",
+          "link": "https://sana.sy/en/international/2302963/",
+          "date": "Sun, 15 Mar 2026 11:48:10 +0000",
+          "category": "military conflict",
+          "confidence": 0.9713152647018433,
+          "weight": 9.713152647018433,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "97.1%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Jordan, Egypt discuss impact of regional military escalation",
+          "translated_title": "Jordan, Egypt discuss impact of regional military escalation",
+          "link": "https://sana.sy/en/international/2302956/",
+          "date": "Sun, 15 Mar 2026 11:33:34 +0000",
+          "category": "military conflict",
+          "confidence": 0.955153226852417,
+          "weight": 9.55153226852417,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "95.5%",
+          "detected_lang": "en",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
+          "title": "Drone attacks near Baghdad airport raise security concerns",
+          "translated_title": "Drone attacks near Baghdad airport raise security concerns",
+          "link": "https://sana.sy/en/international/2302940/",
+          "date": "Sun, 15 Mar 2026 11:23:43 +0000",
+          "category": "terrorist act",
+          "confidence": 0.9240773916244507,
+          "weight": 8.316696524620056,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "92.4%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
@@ -1121,34 +1162,6 @@
           "weight": 5.554285526275635,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "92.6%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "A New Constitutional Breach: Decree 70 Expands the Debate over Sharaa’s Powers",
-          "translated_title": null,
-          "link": "https://syrianobserver.com/syrian-actors/a-new-constitutional-breach-decree-70-expands-the-debate-over-sharaas-powers.html",
-          "date": "Wed, 25 Mar 2026 21:00:10 +0000",
-          "category": "political crisis",
-          "confidence": 0.8597306609153748,
-          "weight": 5.1583839654922485,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "86.0%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Fidan Engages Shibani on the Conflict’s Trajectory and Regional De-escalation Efforts",
-          "translated_title": null,
-          "link": "https://syrianobserver.com/foreign-actors/fidan-engages-shibani-on-the-conflicts-trajectory-and-regional-de-escalation-efforts.html",
-          "date": "Wed, 25 Mar 2026 21:00:49 +0000",
-          "category": "political crisis",
-          "confidence": 0.7749060392379761,
-          "weight": 4.6494362354278564,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "77.5%",
           "detected_lang": "local",
           "is_translated": false,
           "country": "Syria"
@@ -1238,6 +1251,20 @@
           "country": "Syria"
         },
         {
+          "title": "Syria’s Interior Ministry graduates 320 internal security recruits in Idlib",
+          "translated_title": null,
+          "link": "https://sana.sy/en/syria/2302942/",
+          "date": "Sun, 15 Mar 2026 11:23:51 +0000",
+          "category": "political crisis",
+          "confidence": 0.15518449246883392,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "15.5%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Syria"
+        },
+        {
           "title": "Sharaa to Visit Berlin Next Week After Earlier Cancellation",
           "translated_title": null,
           "link": "https://syrianobserver.com/syrian-actors/sharaa-to-visit-berlin-next-week-after-earlier-cancellation.html",
@@ -1275,34 +1302,6 @@
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "52.8%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Relative of Bashar al-Assad Convicted for Cocaine and Arms Trafficking to Colombian Terrorists",
-          "translated_title": null,
-          "link": "https://syrianobserver.com/syrian-actors/relative-of-bashar-al-assad-convicted-for-cocaine-and-arms-trafficking-to-colombian-terrorists.html",
-          "date": "Wed, 25 Mar 2026 21:00:42 +0000",
-          "category": "terrorist act",
-          "confidence": 0.31966355443000793,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "32.0%",
-          "detected_lang": "en",
-          "is_translated": false,
-          "country": "Syria"
-        },
-        {
-          "title": "Hassakeh Deluged: 120 Families Evacuated, Over 300 Homes and Hundreds of Agricultural Hectares Affected",
-          "translated_title": null,
-          "link": "https://syrianobserver.com/syrian-actors/hassakeh-deluged-120-families-evacuated-over-300-homes-and-hundreds-of-agricultural-hectares-affected.html",
-          "date": "Wed, 25 Mar 2026 21:00:03 +0000",
-          "category": "terrorist act",
-          "confidence": 0.25334760546684265,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "25.3%",
           "detected_lang": "en",
           "is_translated": false,
           "country": "Syria"
@@ -1363,6 +1362,20 @@
           "date": "Wed, 25 Mar 2026 13:36:49 GMT",
           "category": "violent protest",
           "confidence": 0.3092501759529114,
+          "weight": 0.0,
+          "ai_model": "XLM-RoBERTa-Large-XNLI",
+          "ai_confidence_score": "30.9%",
+          "detected_lang": "local",
+          "is_translated": false,
+          "country": "Bulgaria"
+        },
+        {
+          "title": "Weather today, forecast for Friday, March 27: Rainfall covers the entire country ᐉ News from Fakti.bg - Bulgaria - fakti.bg",
+          "translated_title": null,
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdEVpczFZOHljb2FBNW5CNjBBUERIdmktM1FzR252QmVHQnJGZ0xMUDZOUXdDUVkweGhCYXdMOUFnRXNXS1hGRHZkc0FRYU9ZMnZaVXdFY1Q5RHlmRmhXZWtKajBfYnRadFhpUUttOEtxT1ZxbW5BTHFkWWliTktKcXZvY1RxUGFQdVZpR0FCemxDSWpyNVR3aWpyMjJ4N3A2c2FWM3RzSEhKcUFmTU1mcGE0eHk?oc=5",
+          "date": "Fri, 27 Mar 2026 01:00:00 GMT",
+          "category": "violent protest",
+          "confidence": 0.3091745376586914,
           "weight": 0.0,
           "ai_model": "XLM-RoBERTa-Large-XNLI",
           "ai_confidence_score": "30.9%",
@@ -1509,31 +1522,11 @@
           "detected_lang": "local",
           "is_translated": false,
           "country": "Bulgaria"
-        },
-        {
-          "title": "Главният секретар на МВР към полицаите: Дишайте във врата на лошите, за да допуснат грешки",
-          "translated_title": null,
-          "link": "https://www.dnevnik.bg/izbori-2026/2026/03/26/4896978_glavniiat_sekretar_na_mvr_kum_policaite_dishaite_vuv/?ref=rss",
-          "date": "Thu, 26 Mar 2026 19:57:00 +0200",
-          "category": "peaceful diplomacy",
-          "confidence": 0.22712333500385284,
-          "weight": 0.0,
-          "ai_model": "XLM-RoBERTa-Large-XNLI",
-          "ai_confidence_score": "22.7%",
-          "detected_lang": "local",
-          "is_translated": false,
-          "country": "Bulgaria"
         }
       ]
     }
   },
   "history": [
-    {
-      "timestamp": "2026-03-25T03:02:54.108029",
-      "main_index": 4.89,
-      "index": 4.89,
-      "type": "historical"
-    },
     {
       "timestamp": "2026-03-25T05:19:19.795177",
       "main_index": 3.75,
@@ -1701,46 +1694,52 @@
       "main_index": 4.21,
       "index": 4.21,
       "type": "historical"
+    },
+    {
+      "timestamp": "2026-03-27T03:26:58.411830",
+      "main_index": 4.36,
+      "index": 4.36,
+      "type": "historical"
     }
   ],
   "forecast": [
     {
-      "timestamp": "2026-03-27T01:42:05.779459",
+      "timestamp": "2026-03-27T04:26:58.411830",
       "index": 4.12,
       "main_index": 4.12,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-27T02:42:05.779459",
+      "timestamp": "2026-03-27T05:26:58.411830",
       "index": 4.1,
       "main_index": 4.1,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-27T03:42:05.779459",
-      "index": 4.07,
-      "main_index": 4.07,
+      "timestamp": "2026-03-27T06:26:58.411830",
+      "index": 4.08,
+      "main_index": 4.08,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-27T04:42:05.779459",
+      "timestamp": "2026-03-27T07:26:58.411830",
       "index": 4.05,
       "main_index": 4.05,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-27T05:42:05.779459",
-      "index": 4.02,
-      "main_index": 4.02,
+      "timestamp": "2026-03-27T08:26:58.411830",
+      "index": 4.03,
+      "main_index": 4.03,
       "confidence": 0.3,
       "type": "forecast"
     },
     {
-      "timestamp": "2026-03-27T06:42:05.779459",
+      "timestamp": "2026-03-27T09:26:58.411830",
       "index": 4.0,
       "main_index": 4.0,
       "confidence": 0.3,
