@@ -37,6 +37,7 @@ class OpenRouterPayloadTests(unittest.TestCase):
         _, kwargs = mock_post.call_args
         self.assertEqual(kwargs["json"]["max_tokens"], 8192)
         self.assertEqual(kwargs["json"].get("reasoning"), {"effort": "none"})
+        self.assertEqual(kwargs["timeout"], analyzer_module.BNTIAnalyzer.OPENROUTER_TIMEOUT_SECONDS)
 
     @patch("requests.post")
     def test_analyzer_retries_without_reasoning_when_provider_requires_it(self, mock_post):

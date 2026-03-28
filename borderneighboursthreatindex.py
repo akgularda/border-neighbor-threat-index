@@ -66,6 +66,7 @@ class BNTIAnalyzer:
     FEED_REQUEST_TIMEOUT_SECONDS = 8
     FEED_PROXY_TIMEOUT_SECONDS = 8
     FEED_MAX_USER_AGENT_ATTEMPTS = 2
+    OPENROUTER_TIMEOUT_SECONDS = 45
     MIN_PUBLISHABLE_TOTAL_SIGNALS = 20
     MIN_PUBLISHABLE_ACTIVE_COUNTRIES = 3
     MIN_SIGNAL_COVERAGE_RATIO = 0.35
@@ -1253,10 +1254,20 @@ Events:
                 try:
                     payload = dict(base_payload)
                     payload["reasoning"] = {"effort": "none"}
-                    resp = requests.post(self.openrouter_base_url, headers=headers, json=payload, timeout=90)
+                    resp = requests.post(
+                        self.openrouter_base_url,
+                        headers=headers,
+                        json=payload,
+                        timeout=self.OPENROUTER_TIMEOUT_SECONDS,
+                    )
                     if resp.status_code == 400 and "Reasoning is mandatory" in resp.text:
                         payload = dict(base_payload)
-                        resp = requests.post(self.openrouter_base_url, headers=headers, json=payload, timeout=90)
+                        resp = requests.post(
+                            self.openrouter_base_url,
+                            headers=headers,
+                            json=payload,
+                            timeout=self.OPENROUTER_TIMEOUT_SECONDS,
+                        )
 
                     if resp.status_code == 429:
                         if attempt < max_retries:
