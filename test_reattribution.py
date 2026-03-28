@@ -40,6 +40,7 @@ def build_helper():
     analyzer.openrouter_batch_size = BATCH_SIZE
     analyzer.border_countries = list(BORDER_COUNTRIES)
     analyzer.category_weights = dict(CATEGORY_WEIGHTS)
+    analyzer.translator = analyzer_module.Translator()
     return analyzer
 
 
@@ -83,6 +84,22 @@ def parse_response(response_text, all_events, start_index=0):
     return build_helper()._parse_attribution_response(response_text, all_events, start_index=start_index)
 
 
+def build_country_audit_prompt(all_events, attribution_map, start_index=0):
+    return build_helper()._build_country_audit_prompt(
+        all_events,
+        attribution_map,
+        start_index=start_index,
+    )
+
+
+def parse_country_audit_response(response_text, all_events, start_index=0):
+    return build_helper()._parse_country_audit_response(
+        response_text,
+        all_events,
+        start_index=start_index,
+    )
+
+
 def main():
     if not API_KEY:
         log("ERROR: Set OPENROUTER_API_KEY env var!")
@@ -107,20 +124,37 @@ def main():
         if count > 0:
             log(f"  {country}: {count}")
 
+    helper = build_helper()
+    helper._ensure_translated_titles(all_events)
+
     attribution_map = {}
     for start_index in range(0, len(all_events), BATCH_SIZE):
         batch = all_events[start_index:start_index + BATCH_SIZE]
-        prompt = build_prompt(batch, start_index=start_index)
+        prompt = helper._build_attribution_prompt(batch, start_index=start_index)
         log(f"Batch {start_index + 1}-{start_index + len(batch)} prompt length: {len(prompt)} chars")
         response = call_openrouter(prompt)
         if not response:
             log(f"ERROR: No response for batch starting at {start_index + 1}")
             continue
-        batch_map = parse_response(response, batch, start_index=start_index)
+        batch_map = helper._parse_attribution_response(response, batch, start_index=start_index)
         if not batch_map:
             log(f"ERROR: Invalid JSON response for batch starting at {start_index + 1}")
             continue
-        attribution_map.update(batch_map)
+
+        audit_prompt = helper._build_country_audit_prompt(batch, batch_map, start_index=start_index)
+        audit_response = call_openrouter(audit_prompt)
+        if not audit_response:
+            log(f"ERROR: No country audit response for batch starting at {start_index + 1}")
+            continue
+        audit_map = helper._parse_country_audit_response(audit_response, batch, start_index=start_index)
+        if not audit_map:
+            log(f"ERROR: Invalid country audit JSON response for batch starting at {start_index + 1}")
+            continue
+
+        for idx, result in batch_map.items():
+            merged = dict(result)
+            merged["final_country"] = audit_map[idx]["final_country"]
+            attribution_map[idx] = merged
 
     log(f"\nParsed {len(attribution_map)}/{len(all_events)} attributions")
     log("\n" + "=" * 80)
@@ -141,19 +175,23 @@ def main():
             continue
 
         result = attribution_map[idx]
-        new_countries = result["countries"]
+        primary_country = result["primary_country"]
+        final_country = result["final_country"]
         new_category = result.get("category", original_category)
 
-        if new_countries == ["IRRELEVANT"]:
+        if final_country == "IRRELEVANT":
             dropped += 1
             log(f"  DROPPED  | was:{original_country:10s} | cat:{new_category:22s} | {title}")
             continue
 
-        if any(country != original_country for country in new_countries):
+        if final_country != original_country:
             moved += 1
-            log(f"  MOVED    | {original_country:10s} -> {','.join(new_countries):10s} | cat:{new_category:22s} | {title}")
+            log(f"  MOVED    | {original_country:10s} -> {final_country:10s} | cat:{new_category:22s} | {title}")
         else:
             kept += 1
+
+        if primary_country != final_country:
+            log(f"  AUDIT    | {primary_country:10s} -> {final_country:10s} | cat:{new_category:22s} | {title}")
 
         if new_category != original_category:
             recategorized += 1
@@ -177,11 +215,11 @@ def main():
         if not result:
             new_counts[original_country] += 1
             continue
-        if result["countries"] == ["IRRELEVANT"]:
+        if result["final_country"] == "IRRELEVANT":
             continue
-        for country in result["countries"]:
-            if country in new_counts:
-                new_counts[country] += 1
+        final_country = result["final_country"]
+        if final_country in new_counts:
+            new_counts[final_country] += 1
 
     old_counts = {country: sum(1 for source in event_sources if source == country) for country in BORDER_COUNTRIES}
     for country in BORDER_COUNTRIES:

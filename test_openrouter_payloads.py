@@ -93,19 +93,25 @@ class OpenRouterPayloadTests(unittest.TestCase):
     def test_analyzer_prompt_numbers_batches_with_global_ids(self):
         analyzer = self.make_analyzer()
         prompt = analyzer._build_attribution_prompt(
-            [{"title": "First headline"}, {"title": "Second headline"}],
+            [
+                {"title": "First headline", "translated_title": "First headline"},
+                {"title": "Second headline", "translated_title": "Second headline"},
+            ],
             start_index=10,
         )
-        self.assertIn('11. "First headline"', prompt)
-        self.assertIn('12. "Second headline"', prompt)
+        self.assertIn('11. Headline: "First headline"', prompt)
+        self.assertIn('12. Headline: "Second headline"', prompt)
         self.assertIn("military_conflict", prompt)
+        self.assertIn('"primary_country": "Syria"', prompt)
+        self.assertIn('"subject": "Syrian municipal reconstruction"', prompt)
 
     def test_analyzer_prompt_treats_rebuild_headlines_as_main_event_not_conflict_context(self):
         analyzer = self.make_analyzer()
         prompt = analyzer._build_attribution_prompt(
             [
                 {
-                    "title": "Syria silently rebuilds itself as war with Iran tarnishes Gulf infrastructure - Türkiye Today"
+                    "title": "Syria silently rebuilds itself as war with Iran tarnishes Gulf infrastructure - Turkiye Today",
+                    "translated_title": "Syria silently rebuilds itself as war with Iran tarnishes Gulf infrastructure - Turkiye Today",
                 }
             ]
         )
@@ -113,16 +119,20 @@ class OpenRouterPayloadTests(unittest.TestCase):
         self.assertIn("Classify the main event, not background context", prompt)
         self.assertIn("Reconstruction, rebuilding, reopening, recovery", prompt)
         self.assertIn(
-            '"Syria silently rebuilds itself as war with Iran tarnishes Gulf infrastructure',
+            'Headline: "Syria silently rebuilds itself as war with Iran tarnishes Gulf infrastructure',
             prompt,
         )
-        self.assertIn('["Syria"], "neutral"', prompt)
+        self.assertIn('"primary_country": "Syria"', prompt)
+        self.assertIn('"category": "neutral"', prompt)
 
     def test_analyzer_parser_rejects_incomplete_batch(self):
         analyzer = self.make_analyzer()
         parsed = analyzer._parse_attribution_response(
-            '[{"id": 1, "countries": ["Syria"], "category": "military_conflict"}]',
-            [{"title": "First headline"}, {"title": "Second headline"}],
+            '[{"id": 1, "primary_country": "Syria", "category": "military_conflict", "subject": "Syrian military operations"}]',
+            [
+                {"title": "First headline", "translated_title": "First headline"},
+                {"title": "Second headline", "translated_title": "Second headline"},
+            ],
             start_index=0,
         )
         self.assertEqual(parsed, {})
@@ -130,11 +140,64 @@ class OpenRouterPayloadTests(unittest.TestCase):
     def test_analyzer_parser_keeps_llm_country_choice_without_keyword_override(self):
         analyzer = self.make_analyzer()
         parsed = analyzer._parse_attribution_response(
-            '[{"id": 1, "countries": ["IRRELEVANT"], "category": "military_conflict"}]',
-            [{"title": "Israel launches strikes on Iran"}],
+            '[{"id": 1, "primary_country": "IRRELEVANT", "category": "military_conflict", "subject": "Israeli strikes"}]',
+            [{"title": "Israel launches strikes on Iran", "translated_title": "Israel launches strikes on Iran"}],
             start_index=0,
         )
-        self.assertEqual(parsed[0]["countries"], ["IRRELEVANT"])
+        self.assertEqual(parsed[0]["primary_country"], "IRRELEVANT")
+
+    def test_analyzer_parser_rejects_old_multi_country_payload_shape(self):
+        analyzer = self.make_analyzer()
+        parsed = analyzer._parse_attribution_response(
+            '[{"id": 1, "countries": ["Iran", "Iraq"], "category": "military_conflict"}]',
+            [{"title": "Iran and Iraq headline", "translated_title": "Iran and Iraq headline"}],
+            start_index=0,
+        )
+        self.assertEqual(parsed, {})
+
+    def test_analyzer_country_audit_prompt_demands_single_final_country(self):
+        analyzer = self.make_analyzer()
+        prompt = analyzer._build_country_audit_prompt(
+            [
+                {
+                    "title": "ΗΠΑ και Ισραήλ βομβάρδισαν πυρηνικό αντιδραστήρα βαρέος ύδατος και εργοστάσιο επεξεργασίας ουρανίου στο Ιράν",
+                    "translated_title": "US, Israel bomb heavy water nuclear reactor and uranium processing plant in Iran",
+                }
+            ],
+            {
+                0: {
+                    "primary_country": "Greece",
+                    "category": "military_conflict",
+                    "subject": "Iranian nuclear facilities",
+                }
+            },
+            start_index=0,
+        )
+
+        self.assertIn('"final_country": "Iran"', prompt)
+        self.assertIn("Greek-language headline about bombing sites in Iran", prompt)
+        self.assertIn("Ignore the publication language", prompt)
+
+    def test_analyzer_country_audit_parser_accepts_final_country_override(self):
+        analyzer = self.make_analyzer()
+        parsed = analyzer._parse_country_audit_response(
+            '[{"id": 1, "final_country": "Iran"}]',
+            [{"title": "Iran headline", "translated_title": "Iran headline"}],
+            start_index=0,
+        )
+        self.assertEqual(parsed[0]["final_country"], "Iran")
+
+    def test_analyzer_country_audit_parser_rejects_missing_items(self):
+        analyzer = self.make_analyzer()
+        parsed = analyzer._parse_country_audit_response(
+            '[{"id": 1, "final_country": "Iran"}]',
+            [
+                {"title": "Iran headline", "translated_title": "Iran headline"},
+                {"title": "Iraq headline", "translated_title": "Iraq headline"},
+            ],
+            start_index=0,
+        )
+        self.assertEqual(parsed, {})
 
     def test_summary_prompt_demands_structured_six_hour_brief(self):
         analyzer = self.make_analyzer()
@@ -221,28 +284,34 @@ class OpenRouterPayloadTests(unittest.TestCase):
 
     def test_dry_run_prompt_numbers_batches_with_global_ids(self):
         prompt = dry_run_module.build_prompt(
-            [{"title": "First headline"}, {"title": "Second headline"}],
+            [
+                {"title": "First headline", "translated_title": "First headline"},
+                {"title": "Second headline", "translated_title": "Second headline"},
+            ],
             start_index=10,
         )
-        self.assertIn('11. "First headline"', prompt)
-        self.assertIn('12. "Second headline"', prompt)
-        self.assertIn("military_conflict", prompt)
+        self.assertIn('11. Headline: "First headline"', prompt)
+        self.assertIn('12. Headline: "Second headline"', prompt)
+        self.assertIn('"primary_country": "Syria"', prompt)
 
     def test_dry_run_parser_rejects_incomplete_batch(self):
         parsed = dry_run_module.parse_response(
-            '[{"id": 1, "countries": ["Syria"], "category": "military_conflict"}]',
-            [{"title": "First headline"}, {"title": "Second headline"}],
+            '[{"id": 1, "primary_country": "Syria", "category": "military_conflict", "subject": "Syrian military operations"}]',
+            [
+                {"title": "First headline", "translated_title": "First headline"},
+                {"title": "Second headline", "translated_title": "Second headline"},
+            ],
             start_index=0,
         )
         self.assertEqual(parsed, {})
 
     def test_dry_run_parser_keeps_llm_country_choice_without_keyword_override(self):
         parsed = dry_run_module.parse_response(
-            '[{"id": 1, "countries": ["IRRELEVANT"], "category": "military_conflict"}]',
-            [{"title": "Israel launches strikes on Iran"}],
+            '[{"id": 1, "primary_country": "IRRELEVANT", "category": "military_conflict", "subject": "Israeli strikes"}]',
+            [{"title": "Israel launches strikes on Iran", "translated_title": "Israel launches strikes on Iran"}],
             start_index=0,
         )
-        self.assertEqual(parsed[0]["countries"], ["IRRELEVANT"])
+        self.assertEqual(parsed[0]["primary_country"], "IRRELEVANT")
 
 
 if __name__ == "__main__":

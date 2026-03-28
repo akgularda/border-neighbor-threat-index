@@ -26,6 +26,7 @@ class LLMPublishGateTests(unittest.TestCase):
         analyzer.category_weights = dict(analyzer_module.BNTIAnalyzer.LLM_CATEGORY_WEIGHTS)
         analyzer.calculate_final_index = analyzer_module.BNTIAnalyzer.calculate_final_index.__get__(analyzer, analyzer_module.BNTIAnalyzer)
         analyzer._build_country_results = analyzer_module.BNTIAnalyzer._build_country_results.__get__(analyzer, analyzer_module.BNTIAnalyzer)
+        analyzer._ensure_translated_titles = lambda events: events
         return analyzer
 
     def test_category_scores_use_llm_enum(self):
@@ -50,19 +51,23 @@ class LLMPublishGateTests(unittest.TestCase):
 
     def test_build_candidate_snapshot_rejects_partial_batch_success(self):
         analyzer = self.make_analyzer()
-        analyzer._call_openrouter = lambda prompt, max_retries=2: (
-            '[{"id": 1, "countries": ["Syria"], "category": "military_conflict"},'
-            '{"id": 2, "countries": ["IRRELEVANT"], "category": "neutral"}]'
-            if '1. "Syria headline"' in prompt else None
-        )
+        responses = iter([
+            '[{"id": 1, "primary_country": "Syria", "category": "military_conflict", "subject": "Syrian military pressure"},'
+            '{"id": 2, "primary_country": "IRRELEVANT", "category": "neutral", "subject": "Sports coverage"}]',
+            '[{"id": 1, "final_country": "Syria"}, {"id": 2, "final_country": "IRRELEVANT"}]',
+            None,
+        ])
+        analyzer._call_openrouter = lambda prompt, max_retries=2: next(responses)
         analyzer._build_attribution_prompt = analyzer_module.BNTIAnalyzer._build_attribution_prompt.__get__(analyzer, analyzer_module.BNTIAnalyzer)
         analyzer._parse_attribution_response = analyzer_module.BNTIAnalyzer._parse_attribution_response.__get__(analyzer, analyzer_module.BNTIAnalyzer)
+        analyzer._build_country_audit_prompt = analyzer_module.BNTIAnalyzer._build_country_audit_prompt.__get__(analyzer, analyzer_module.BNTIAnalyzer)
+        analyzer._parse_country_audit_response = analyzer_module.BNTIAnalyzer._parse_country_audit_response.__get__(analyzer, analyzer_module.BNTIAnalyzer)
 
         candidate = analyzer.build_candidate_snapshot({
             "Syria": [
-                {"title": "Syria headline", "link": "https://example.com/1", "date": "2026-03-27T18:00:00", "source_country": "Syria"},
-                {"title": "Another Syria headline", "link": "https://example.com/2", "date": "2026-03-27T18:10:00", "source_country": "Syria"},
-                {"title": "Third Syria headline", "link": "https://example.com/3", "date": "2026-03-27T18:20:00", "source_country": "Syria"},
+                {"title": "Syria headline", "translated_title": "Syria headline", "link": "https://example.com/1", "date": "2026-03-27T18:00:00", "source_country": "Syria"},
+                {"title": "Another Syria headline", "translated_title": "Another Syria headline", "link": "https://example.com/2", "date": "2026-03-27T18:10:00", "source_country": "Syria"},
+                {"title": "Third Syria headline", "translated_title": "Third Syria headline", "link": "https://example.com/3", "date": "2026-03-27T18:20:00", "source_country": "Syria"},
             ]
         })
 
@@ -71,10 +76,15 @@ class LLMPublishGateTests(unittest.TestCase):
     def test_build_country_results_scores_from_llm_category_only(self):
         analyzer = self.make_analyzer()
         all_events = [
-            {"title": "Baghdad airport security alert", "link": "https://example.com/a", "date": "2026-03-27T18:00:00", "source_country": "Iraq"},
+            {"title": "Baghdad airport security alert", "translated_title": "Baghdad airport security alert", "link": "https://example.com/a", "date": "2026-03-27T18:00:00", "source_country": "Iraq"},
         ]
         attribution_map = {
-            0: {"countries": ["Iraq"], "category": "military_conflict"},
+            0: {
+                "primary_country": "Iraq",
+                "final_country": "Iraq",
+                "category": "military_conflict",
+                "subject": "Baghdad airport security",
+            },
         }
 
         country_results = analyzer._build_country_results(all_events, attribution_map)
@@ -124,21 +134,31 @@ class LLMPublishGateTests(unittest.TestCase):
             }
         ]
         analyzer._trim_history = lambda history: history
-        analyzer._call_openrouter = lambda prompt, max_retries=2: (
-            '[{"id": 1, "countries": ["Bulgaria"], "category": "neutral"},'
-            '{"id": 2, "countries": ["Bulgaria"], "category": "neutral"},'
-            '{"id": 3, "countries": ["Bulgaria"], "category": "neutral"},'
-            '{"id": 4, "countries": ["Bulgaria"], "category": "neutral"},'
-            '{"id": 5, "countries": ["Bulgaria"], "category": "neutral"},'
-            '{"id": 6, "countries": ["Bulgaria"], "category": "neutral"},'
-            '{"id": 7, "countries": ["Bulgaria"], "category": "neutral"}]'
-        )
+        responses = iter([
+            '[{"id": 1, "primary_country": "Bulgaria", "category": "neutral", "subject": "Bulgarian domestic news"},'
+            '{"id": 2, "primary_country": "Bulgaria", "category": "neutral", "subject": "Bulgarian domestic news"},'
+            '{"id": 3, "primary_country": "Bulgaria", "category": "neutral", "subject": "Bulgarian domestic news"},'
+            '{"id": 4, "primary_country": "Bulgaria", "category": "neutral", "subject": "Bulgarian domestic news"},'
+            '{"id": 5, "primary_country": "Bulgaria", "category": "neutral", "subject": "Bulgarian domestic news"},'
+            '{"id": 6, "primary_country": "Bulgaria", "category": "neutral", "subject": "Bulgarian domestic news"},'
+            '{"id": 7, "primary_country": "Bulgaria", "category": "neutral", "subject": "Bulgarian domestic news"}]',
+            '[{"id": 1, "final_country": "Bulgaria"},'
+            '{"id": 2, "final_country": "Bulgaria"},'
+            '{"id": 3, "final_country": "Bulgaria"},'
+            '{"id": 4, "final_country": "Bulgaria"},'
+            '{"id": 5, "final_country": "Bulgaria"},'
+            '{"id": 6, "final_country": "Bulgaria"},'
+            '{"id": 7, "final_country": "Bulgaria"}]',
+        ])
+        analyzer._call_openrouter = lambda prompt, max_retries=2: next(responses)
         analyzer._build_attribution_prompt = analyzer_module.BNTIAnalyzer._build_attribution_prompt.__get__(analyzer, analyzer_module.BNTIAnalyzer)
         analyzer._parse_attribution_response = analyzer_module.BNTIAnalyzer._parse_attribution_response.__get__(analyzer, analyzer_module.BNTIAnalyzer)
+        analyzer._build_country_audit_prompt = analyzer_module.BNTIAnalyzer._build_country_audit_prompt.__get__(analyzer, analyzer_module.BNTIAnalyzer)
+        analyzer._parse_country_audit_response = analyzer_module.BNTIAnalyzer._parse_country_audit_response.__get__(analyzer, analyzer_module.BNTIAnalyzer)
 
         candidate = analyzer.build_candidate_snapshot({
             "Bulgaria": [
-                {"title": f"Bulgaria headline {idx}", "link": f"https://example.com/{idx}", "date": "2026-03-27T18:00:00", "source_country": "Bulgaria"}
+                {"title": f"Bulgaria headline {idx}", "translated_title": f"Bulgaria headline {idx}", "link": f"https://example.com/{idx}", "date": "2026-03-27T18:00:00", "source_country": "Bulgaria"}
                 for idx in range(1, 8)
             ]
         })
@@ -156,10 +176,13 @@ class LLMPublishGateTests(unittest.TestCase):
         analyzer._load_existing_summary = lambda: None
         analyzer._build_attribution_prompt = analyzer_module.BNTIAnalyzer._build_attribution_prompt.__get__(analyzer, analyzer_module.BNTIAnalyzer)
         analyzer._parse_attribution_response = analyzer_module.BNTIAnalyzer._parse_attribution_response.__get__(analyzer, analyzer_module.BNTIAnalyzer)
+        analyzer._build_country_audit_prompt = analyzer_module.BNTIAnalyzer._build_country_audit_prompt.__get__(analyzer, analyzer_module.BNTIAnalyzer)
+        analyzer._parse_country_audit_response = analyzer_module.BNTIAnalyzer._parse_country_audit_response.__get__(analyzer, analyzer_module.BNTIAnalyzer)
         analyzer.load_history = lambda: []
 
         responses = iter([
-            '[{"id": 1, "countries": ["Iraq"], "category": "military_conflict"}]',
+            '[{"id": 1, "primary_country": "Iraq", "category": "military_conflict", "subject": "Baghdad airport security"}]',
+            '[{"id": 1, "final_country": "Iraq"}]',
             None,
         ])
         analyzer._call_openrouter = lambda prompt, max_retries=2: next(responses)
@@ -168,6 +191,7 @@ class LLMPublishGateTests(unittest.TestCase):
             "Iraq": [
                 {
                     "title": "Baghdad airport security alert",
+                    "translated_title": "Baghdad airport security alert",
                     "link": "https://example.com/a",
                     "date": "2026-03-28T05:15:00",
                     "source_country": "Iraq",
@@ -188,6 +212,8 @@ class LLMPublishGateTests(unittest.TestCase):
         analyzer.load_history = lambda: []
         analyzer._build_attribution_prompt = analyzer_module.BNTIAnalyzer._build_attribution_prompt.__get__(analyzer, analyzer_module.BNTIAnalyzer)
         analyzer._parse_attribution_response = analyzer_module.BNTIAnalyzer._parse_attribution_response.__get__(analyzer, analyzer_module.BNTIAnalyzer)
+        analyzer._build_country_audit_prompt = analyzer_module.BNTIAnalyzer._build_country_audit_prompt.__get__(analyzer, analyzer_module.BNTIAnalyzer)
+        analyzer._parse_country_audit_response = analyzer_module.BNTIAnalyzer._parse_country_audit_response.__get__(analyzer, analyzer_module.BNTIAnalyzer)
         existing_summary = {
             "slot_start": "2026-03-28T00:00:00",
             "slot_end": "2026-03-28T06:00:00",
@@ -202,7 +228,9 @@ class LLMPublishGateTests(unittest.TestCase):
 
         def fake_call(prompt, max_retries=2):
             call_count["value"] += 1
-            return '[{"id": 1, "countries": ["Iraq"], "category": "military_conflict"}]'
+            if call_count["value"] == 1:
+                return '[{"id": 1, "primary_country": "Iraq", "category": "military_conflict", "subject": "Baghdad airport security"}]'
+            return '[{"id": 1, "final_country": "Iraq"}]'
 
         analyzer._call_openrouter = fake_call
 
@@ -210,6 +238,7 @@ class LLMPublishGateTests(unittest.TestCase):
             "Iraq": [
                 {
                     "title": "Baghdad airport security alert",
+                    "translated_title": "Baghdad airport security alert",
                     "link": "https://example.com/a",
                     "date": "2026-03-28T07:15:00",
                     "source_country": "Iraq",
@@ -219,7 +248,58 @@ class LLMPublishGateTests(unittest.TestCase):
 
         self.assertTrue(candidate["publishable"])
         self.assertEqual(candidate["regional_summary_6h"]["headline"], "Existing brief.")
-        self.assertEqual(call_count["value"], 1)
+        self.assertEqual(call_count["value"], 2)
+
+    def test_build_candidate_snapshot_uses_country_audit_to_correct_cross_country_leak(self):
+        analyzer = self.make_analyzer()
+        analyzer.MIN_PUBLISHABLE_TOTAL_SIGNALS = 1
+        analyzer.MIN_PUBLISHABLE_ACTIVE_COUNTRIES = 1
+        analyzer.MIN_SIGNAL_COVERAGE_RATIO = 0.0
+        analyzer.MIN_ACTIVE_COUNTRY_COVERAGE_RATIO = 0.0
+        analyzer.load_history = lambda: []
+        analyzer._load_existing_summary = lambda: {
+            "slot_start": "2026-03-28T00:00:00",
+            "slot_end": "2026-03-28T06:00:00",
+            "generated_at": "2026-03-28T06:00:00",
+            "next_refresh_at": "2026-03-28T12:00:00",
+            "headline": "Existing brief.",
+            "bullets": ["One.", "Two.", "Three."],
+            "watch": None,
+        }
+        analyzer._build_attribution_prompt = analyzer_module.BNTIAnalyzer._build_attribution_prompt.__get__(analyzer, analyzer_module.BNTIAnalyzer)
+        analyzer._parse_attribution_response = analyzer_module.BNTIAnalyzer._parse_attribution_response.__get__(analyzer, analyzer_module.BNTIAnalyzer)
+        analyzer._build_country_audit_prompt = analyzer_module.BNTIAnalyzer._build_country_audit_prompt.__get__(analyzer, analyzer_module.BNTIAnalyzer)
+        analyzer._parse_country_audit_response = analyzer_module.BNTIAnalyzer._parse_country_audit_response.__get__(analyzer, analyzer_module.BNTIAnalyzer)
+
+        responses = iter([
+            '[{"id": 1, "primary_country": "Greece", "category": "military_conflict", "subject": "Iranian nuclear facilities"}]',
+            '[{"id": 1, "final_country": "Iran"}]',
+        ])
+        analyzer._call_openrouter = lambda prompt, max_retries=2: next(responses)
+
+        candidate = analyzer.build_candidate_snapshot({
+            "Greece": [
+                {
+                    "title": "ΗΠΑ και Ισραήλ βομβάρδισαν πυρηνικό αντιδραστήρα βαρέος ύδατος και εργοστάσιο επεξεργασίας ουρανίου στο Ιράν",
+                    "translated_title": "US, Israel bomb heavy water nuclear reactor and uranium processing plant in Iran",
+                    "link": "https://example.com/greece-feed",
+                    "date": "2026-03-28T05:15:00",
+                    "source_country": "Greece",
+                }
+            ]
+        })
+
+        self.assertTrue(candidate["publishable"])
+        self.assertEqual(len(candidate["country_results"]["Iran"]["events"]), 1)
+        self.assertEqual(len(candidate["country_results"]["Greece"]["events"]), 0)
+        self.assertEqual(
+            candidate["country_results"]["Iran"]["events"][0]["llm_primary_country"],
+            "Greece",
+        )
+        self.assertEqual(
+            candidate["country_results"]["Iran"]["events"][0]["llm_final_country"],
+            "Iran",
+        )
 
     def test_fetch_feed_entries_caps_user_agent_attempts_and_timeout(self):
         analyzer = self.make_analyzer()

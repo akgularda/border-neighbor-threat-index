@@ -1291,19 +1291,38 @@ Events:
                     break
         return None
 
+    def _normalize_headline_for_llm(self, value):
+        return re.sub(r"\s+", " ", str(value or "").replace('"', "'")).strip()
+
+    def _resolve_border_country(self, country_name):
+        normalized_name = str(country_name or "").strip()
+        if not normalized_name:
+            return None
+        if normalized_name.upper() == "IRRELEVANT":
+            return "IRRELEVANT"
+        return next((name for name in self.border_countries if normalized_name.lower() == name.lower()), None)
+
+    def _format_headline_for_prompt(self, event):
+        translated_title = self._normalize_headline_for_llm(
+            event.get("translated_title") or event.get("title") or ""
+        )
+        original_title = self._normalize_headline_for_llm(event.get("title") or "")
+        headline_block = f'Headline: "{translated_title}"'
+        if original_title and original_title != translated_title:
+            headline_block += f' | Original: "{original_title}"'
+        return headline_block
+
     def _build_attribution_prompt(self, all_events, start_index=0):
         lines = []
         for i, event in enumerate(all_events):
-            title = event.get("title", "").replace('"', "'")
-            lines.append(f'{start_index + i + 1}. "{title}"')
+            lines.append(f"{start_index + i + 1}. {self._format_headline_for_prompt(event)}")
 
         headlines_block = "\n".join(lines)
         return f"""You are a geopolitical intelligence analyst for Turkiye's border threat monitoring system.
 Turkiye's border neighbor countries are: Armenia, Georgia, Greece, Iran, Iraq, Syria, Bulgaria.
 
-For each numbered headline below, do TWO things:
-1. Determine which border neighbor country or countries the headline DIRECTLY concerns.
-   If the headline does not directly concern any of these 7 border neighbor countries, set countries to [\"IRRELEVANT\"].
+For each numbered headline below, do THREE things:
+1. Choose exactly ONE published border country as primary_country, or \"IRRELEVANT\".
 2. Classify the headline into exactly ONE category from this list:
    - \"military_conflict\"
    - \"terrorism\"
@@ -1313,26 +1332,31 @@ For each numbered headline below, do TWO things:
    - \"diplomatic_tensions\"
    - \"trade_agreement\"
    - \"neutral\"
+3. Write a short subject phrase describing the main thing the headline is about.
 
 Country attribution rules:
 - Attribute from headline content only, never from feed source.
-- Choose a border country only when it is a direct main subject.
-- Regional spillover is not enough.
-- Nearby conflict is not enough.
-- Do not infer Iran, Iraq, or Syria just because a headline is about the Middle East.
-- Headlines mainly about Lebanon, Israel, Jordan, Egypt, Palestine, West Bank, Yemen, Saudi Arabia, UAE, USA, Russia, Ukraine, Nepal, or other non-border places are [\"IRRELEVANT\"] unless a valid border country is also a direct main subject.
-- \"Israel strikes Iran\" -> [\"Iran\"]
-- \"Israel, Iran launch new waves of strikes\" -> [\"Iran\"]
-- \"UN demands justice after US strike on Iranian school\" -> [\"Iran\"]
-- \"Drone attacks near Baghdad airport raise security concerns\" -> [\"Iraq\"]
-- \"Canada is not planning to reopen embassy in Syria\" -> [\"Syria\"]
-- \"Study: Electricity bills eat into Syrians' food basket\" -> [\"Syria\"]
-- \"UNIFIL calls for halt to military escalation in Southern Lebanon\" -> [\"IRRELEVANT\"]
-- \"Israel pushes deeper into south Lebanon amid Hezbollah clashes\" -> [\"IRRELEVANT\"]
-- \"War costs reach $1 billion a day as Israel faces missile interceptor shortage\" -> [\"IRRELEVANT\"]
-- \"Palestinian killed as Jewish settlers rampage through West Bank\" -> [\"IRRELEVANT\"]
-- \"Jordan, Egypt discuss regional escalation\" -> [\"IRRELEVANT\"]
-- \"Nepal premier sworn in\" -> [\"IRRELEVANT\"]
+- Choose exactly one primary_country. Never return multiple countries.
+- Use \"IRRELEVANT\" if no single border country is clearly the direct main subject.
+- The publication language, outlet nationality, and source-country feed do not matter.
+- If a headline is in Greek, Arabic, Persian, Armenian, Georgian, Bulgarian, or English, the target country is still the country in the headline, not the country of the newspaper.
+- A border country qualifies only when the headline is directly mainly about that country's territory, government, population, infrastructure, armed forces, economy, or border situation.
+- If the main event happens in a non-border place, return \"IRRELEVANT\" even if the outlet is from a border country.
+- If a non-border actor strikes, pressures, or negotiates over a border country, choose the directly affected border country.
+- If two border countries are equally central and no single primary focus is clear, return \"IRRELEVANT\" rather than guessing.
+- \"Israel strikes Iran\" -> primary_country \"Iran\"
+- \"Israel, Iran launch new waves of strikes\" -> primary_country \"Iran\"
+- \"UN demands justice after US strike on Iranian school\" -> primary_country \"Iran\"
+- \"Drone attacks near Baghdad airport raise security concerns\" -> primary_country \"Iraq\"
+- \"Canada is not planning to reopen embassy in Syria\" -> primary_country \"Syria\"
+- \"Study: Electricity bills eat into Syrians' food basket\" -> primary_country \"Syria\"
+- Greek-language headline about bombing sites in Iran -> primary_country \"Iran\", not \"Greece\"
+- \"UNIFIL calls for halt to military escalation in Southern Lebanon\" -> primary_country \"IRRELEVANT\"
+- \"Israel pushes deeper into south Lebanon amid Hezbollah clashes\" -> primary_country \"IRRELEVANT\"
+- \"War costs reach $1 billion a day as Israel faces missile interceptor shortage\" -> primary_country \"IRRELEVANT\"
+- \"Palestinian killed as Jewish settlers rampage through West Bank\" -> primary_country \"IRRELEVANT\"
+- \"Jordan, Egypt discuss regional escalation\" -> primary_country \"IRRELEVANT\"
+- \"Nepal premier sworn in\" -> primary_country \"IRRELEVANT\"
 
 Category rules:
 - Classify the main event, not background context or subordinate clauses.
@@ -1346,14 +1370,14 @@ Category rules:
 - Treaties, trade corridors, normalization, signed cooperation, reopened links -> \"trade_agreement\"
 - Reconstruction, rebuilding, reopening, recovery, restored services, resumed schooling, and economic revival -> \"neutral\" unless the main event is a signed trade or cooperation opening.
 - Sports, celebrity, lifestyle, culture, weather, general news -> \"neutral\"
-- \"Syria silently rebuilds itself as war with Iran tarnishes Gulf infrastructure - Turkiye Today\" -> [\"Syria\"], \"neutral\"
-- \"Syria reopens municipal services after wartime disruption\" -> [\"Syria\"], \"neutral\"
+- \"Syria silently rebuilds itself as war with Iran tarnishes Gulf infrastructure - Turkiye Today\" -> primary_country \"Syria\", category \"neutral\"
+- \"Syria reopens municipal services after wartime disruption\" -> primary_country \"Syria\", category \"neutral\"
 
 Headlines:
 {headlines_block}
 
 Respond ONLY with a valid JSON array, no explanation, no markdown:
-[{{\"id\": 1, \"countries\": [\"Syria\"], \"category\": \"military_conflict\"}}, {{\"id\": 2, \"countries\": [\"IRRELEVANT\"], \"category\": \"neutral\"}}]"""
+[{{\"id\": 1, \"primary_country\": \"Syria\", \"category\": \"neutral\", \"subject\": \"Syrian municipal reconstruction\"}}, {{\"id\": 2, \"primary_country\": \"IRRELEVANT\", \"category\": \"neutral\", \"subject\": \"Israeli domestic cost pressures\"}}]"""
 
     def _parse_attribution_response(self, response_text, all_events, start_index=0):
         attribution_map = {}
@@ -1392,37 +1416,109 @@ Respond ONLY with a valid JSON array, no explanation, no markdown:
                 return {}
 
             idx = item.get("id")
-            countries = item.get("countries")
+            primary_country = self._resolve_border_country(item.get("primary_country"))
             category = str(item.get("category", "")).strip().lower()
+            subject = str(item.get("subject", "")).strip()
             if idx not in expected_ids or idx in seen_ids:
                 return {}
-            if not isinstance(countries, list) or not countries or category not in valid_categories:
-                return {}
-
-            normalized = []
-            for country in countries:
-                country_name = str(country).strip()
-                if country_name.upper() == "IRRELEVANT":
-                    normalized = ["IRRELEVANT"]
-                    break
-                matched_country = next((name for name in self.border_countries if country_name.lower() == name.lower()), None)
-                if not matched_country:
-                    return {}
-                if matched_country not in normalized:
-                    normalized.append(matched_country)
-
-            if not normalized:
+            if primary_country is None or category not in valid_categories or not subject:
                 return {}
 
             seen_ids.add(idx)
             attribution_map[int(idx) - 1] = {
-                "countries": normalized,
+                "primary_country": primary_country,
                 "category": category,
+                "subject": subject,
             }
 
         if seen_ids != expected_ids:
             return {}
         return attribution_map
+
+    def _build_country_audit_prompt(self, all_events, attribution_map, start_index=0):
+        lines = []
+        for i, event in enumerate(all_events):
+            global_idx = start_index + i
+            proposed = attribution_map.get(global_idx, {})
+            proposed_country = proposed.get("primary_country", "IRRELEVANT")
+            proposed_category = proposed.get("category", "neutral")
+            proposed_subject = self._normalize_headline_for_llm(proposed.get("subject", ""))
+            lines.append(
+                f'{global_idx + 1}. {self._format_headline_for_prompt(event)} | '
+                f'Proposed primary_country: "{proposed_country}" | '
+                f'Proposed category: "{proposed_category}" | '
+                f'Proposed subject: "{proposed_subject}"'
+            )
+
+        headlines_block = "\n".join(lines)
+        return f"""You are auditing country attribution for Turkiye's border threat monitoring system.
+Return the final published country for each headline.
+Ignore the publication language, outlet nationality, and feed source.
+Use the headline itself as the source of truth. Proposed labels are only candidate guesses and may be wrong.
+
+Rules:
+- Return exactly one final_country for each item.
+- final_country must be one of: Armenia, Georgia, Greece, Iran, Iraq, Syria, Bulgaria, IRRELEVANT.
+- If the proposed country is wrong, replace it with the correct border country.
+- If no single border country is clearly the direct main subject, return IRRELEVANT.
+- Do not keep a country just because the article came from that country's media.
+- Greek-language headline about bombing sites in Iran -> final_country "Iran"
+- Lebanon-only, Israel-only, Jordan-only, Egypt-only, West-Bank-only, or other non-border headlines -> final_country "IRRELEVANT"
+- If two border countries are equally central and no single primary focus is clear, return IRRELEVANT.
+
+Items:
+{headlines_block}
+
+Respond ONLY with a valid JSON array, no explanation, no markdown:
+[{{"id": 1, "final_country": "Iran"}}, {{"id": 2, "final_country": "IRRELEVANT"}}]"""
+
+    def _parse_country_audit_response(self, response_text, all_events, start_index=0):
+        audit_map = {}
+        if not response_text:
+            return audit_map
+
+        text = response_text.strip()
+        if text.startswith("```"):
+            text = re.sub(r"^```[a-zA-Z]*\n?", "", text)
+            text = re.sub(r"\n?```$", "", text)
+            text = text.strip()
+
+        try:
+            parsed = json.loads(text)
+        except json.JSONDecodeError:
+            match = re.search(r"\[.*\]", text, re.DOTALL)
+            if not match:
+                logger.warning("No JSON array found in country audit response")
+                return audit_map
+            try:
+                parsed = json.loads(match.group(0))
+            except json.JSONDecodeError:
+                logger.warning("Failed to parse country audit JSON response")
+                return audit_map
+
+        if not isinstance(parsed, list):
+            logger.warning("Country audit response is not a JSON array")
+            return audit_map
+
+        expected_ids = set(range(start_index + 1, start_index + len(all_events) + 1))
+        seen_ids = set()
+        for item in parsed:
+            if not isinstance(item, dict):
+                return {}
+
+            idx = item.get("id")
+            final_country = self._resolve_border_country(item.get("final_country"))
+            if idx not in expected_ids or idx in seen_ids or final_country is None:
+                return {}
+
+            seen_ids.add(idx)
+            audit_map[int(idx) - 1] = {
+                "final_country": final_country,
+            }
+
+        if seen_ids != expected_ids:
+            return {}
+        return audit_map
 
     def _collect_candidate_events(self, country_candidates):
         all_events = []
@@ -1446,28 +1542,30 @@ Respond ONLY with a valid JSON array, no explanation, no markdown:
             result = attribution_map.get(idx)
             if not result:
                 continue
-            countries = result["countries"]
-            if countries == ["IRRELEVANT"]:
+            final_country = result.get("final_country") or result.get("primary_country")
+            if final_country == "IRRELEVANT" or not final_country:
                 continue
 
             category = result["category"]
             weight = self.category_weights.get(category, 0.0)
             source_country = event.get("source_country")
+            dedupe_key = event.get("link") or event.get("title")
+            if dedupe_key in seen_targets[final_country]:
+                continue
+            seen_targets[final_country].add(dedupe_key)
 
-            for target_country in countries:
-                dedupe_key = event.get("link") or event.get("title")
-                if dedupe_key in seen_targets[target_country]:
-                    continue
-                seen_targets[target_country].add(dedupe_key)
-
-                event_copy = dict(event)
-                event_copy["category"] = category
-                event_copy["weight"] = weight
-                event_copy["confidence"] = 1.0
-                event_copy["ai_model"] = self.openrouter_model
-                event_copy["ai_category"] = True
-                event_copy["ai_reattributed"] = (target_country != source_country)
-                country_events[target_country].append(event_copy)
+            event_copy = dict(event)
+            event_copy["category"] = category
+            event_copy["weight"] = weight
+            event_copy["confidence"] = 1.0
+            event_copy["ai_model"] = self.openrouter_model
+            event_copy["ai_category"] = True
+            event_copy["ai_reattributed"] = (final_country != source_country)
+            event_copy["llm_primary_country"] = result.get("primary_country")
+            event_copy["llm_final_country"] = final_country
+            event_copy["llm_subject"] = result.get("subject")
+            event_copy["llm_country_audit_corrected"] = (final_country != result.get("primary_country"))
+            country_events[final_country].append(event_copy)
 
         country_results = {}
         for country in self.border_countries:
@@ -1571,6 +1669,7 @@ Respond ONLY with a valid JSON array, no explanation, no markdown:
                 "reason": "no_candidate_events",
             }
 
+        self._ensure_translated_titles(all_events)
         attribution_map = {}
         batch_size = max(int(getattr(self, "openrouter_batch_size", 10)), 1)
         for start in range(0, len(all_events), batch_size):
@@ -1586,7 +1685,21 @@ Respond ONLY with a valid JSON array, no explanation, no markdown:
                 logger.warning(f"LLM attribution incomplete for batch starting at {start + 1}")
                 return {"publishable": False, "reason": "invalid_batch_response", "failed_batch_start": start}
 
-            attribution_map.update(batch_map)
+            audit_prompt = self._build_country_audit_prompt(batch_events, batch_map, start_index=start)
+            audit_response = self._call_openrouter(audit_prompt)
+            if not audit_response:
+                logger.warning(f"LLM country audit failed for batch starting at {start + 1}")
+                return {"publishable": False, "reason": "country_audit_failed", "failed_batch_start": start}
+
+            audit_map = self._parse_country_audit_response(audit_response, batch_events, start_index=start)
+            if len(audit_map) != len(batch_events):
+                logger.warning(f"LLM country audit incomplete for batch starting at {start + 1}")
+                return {"publishable": False, "reason": "invalid_country_audit_response", "failed_batch_start": start}
+
+            for idx, result in batch_map.items():
+                merged = dict(result)
+                merged["final_country"] = audit_map[idx]["final_country"]
+                attribution_map[idx] = merged
 
         if len(attribution_map) != len(all_events):
             return {"publishable": False, "reason": "partial_attribution_map"}
