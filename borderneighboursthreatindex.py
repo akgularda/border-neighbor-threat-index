@@ -830,7 +830,6 @@ class BNTIAnalyzer:
             reverse=True,
         )
         candidates = candidates[:self.SUMMARY_MAX_SOURCE_EVENTS]
-        self._ensure_translated_titles(candidates)
         return candidates
 
     def _build_quiet_regional_summary(self, slot_start, slot_end, now_utc, next_refresh):
@@ -1769,7 +1768,6 @@ Respond ONLY with a valid JSON array, no explanation, no markdown:
                 "reason": "no_candidate_events",
             }
 
-        self._ensure_translated_titles(all_events)
         attribution_map = {}
         batch_size = max(int(getattr(self, "openrouter_batch_size", 10)), 1)
         for start in range(0, len(all_events), batch_size):
