@@ -22,17 +22,26 @@ class ResponsiveLayoutTests(unittest.TestCase):
         )
         self.assertRegex(self.layout_css, pattern)
 
-    def test_short_desktop_viewports_allow_summary_block_to_shrink_and_scroll(self):
+    def test_desktop_metric_panel_scrolls_and_summary_keeps_visible_height(self):
         self.assertRegex(
             self.components_css,
-            re.compile(r"\.summary-block\s*\{[\s\S]*?flex-shrink:\s*1;", re.MULTILINE),
+            re.compile(
+                r"\.metric-panel\s*\{[\s\S]*?overflow-y:\s*auto;[\s\S]*?overflow-x:\s*hidden;",
+                re.MULTILINE,
+            ),
+        )
+        self.assertRegex(
+            self.components_css,
+            re.compile(
+                r"\.summary-block\s*\{[\s\S]*?flex:\s*0\s+0\s+190px;[\s\S]*?min-height:\s*190px;[\s\S]*?flex-shrink:\s*0;",
+                re.MULTILINE,
+            ),
         )
         self.assertRegex(
             self.components_css,
             re.compile(
                 r"@media\s*\(min-width:\s*1201px\)\s*and\s*\(max-height:\s*920px\)\s*\{[\s\S]*?"
-                r"\.metric-panel\s*\{[\s\S]*?overflow-y:\s*auto;[\s\S]*?overflow-x:\s*hidden;[\s\S]*?\}[\s\S]*?"
-                r"\.summary-block\s*\{[\s\S]*?min-height:\s*180px;",
+                r"\.summary-block\s*\{[\s\S]*?flex-basis:\s*170px;[\s\S]*?min-height:\s*170px;",
                 re.MULTILINE,
             ),
         )
