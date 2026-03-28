@@ -82,7 +82,7 @@ class CandidateSnapshotGateTests(unittest.TestCase):
                 "Regional pressure remains centered on Iraq.",
             )
 
-    def test_workflow_uses_two_hour_schedule_and_backup_key(self):
+    def test_workflow_uses_two_hour_schedule_backup_key_and_deploy_only_path(self):
         workflow_path = os.path.join(
             os.path.dirname(os.path.abspath(__file__)),
             ".github",
@@ -94,6 +94,10 @@ class CandidateSnapshotGateTests(unittest.TestCase):
 
         self.assertIn("0 */2 * * *", workflow)
         self.assertIn("OPENROUTER_API_KEY_BACKUP", workflow)
+        self.assertIn("paths-ignore:", workflow)
+        self.assertIn("deploy_only:", workflow)
+        self.assertIn("inputs.deploy_only", workflow)
+        self.assertIn("needs.update-intelligence.result == 'skipped'", workflow)
         self.assertNotIn("huggingface-xlm-roberta-large-xnli-v2", workflow)
 
     def test_requirements_drop_transformer_stack(self):
