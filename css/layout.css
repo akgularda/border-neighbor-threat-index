@@ -102,7 +102,21 @@ body::before {
     }
 
     .grid {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        overflow: visible;
+    }
+
+    .map-panel {
+        order: 1;
+    }
+
+    .metric-panel {
+        order: 2;
+    }
+
+    .feed-panel {
+        order: 3;
     }
 
     html,
@@ -121,6 +135,50 @@ body::before {
     .app-shell {
         height: 100vh;
         overflow: hidden;
+    }
+}
+
+@media (min-width: 1201px) and (max-height: 920px) {
+    .metric-panel {
+        overflow-y: auto;
+        scrollbar-width: thin;
+        scrollbar-color: var(--border-strong) var(--bg);
+    }
+
+    .metric-panel::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    .metric-panel::-webkit-scrollbar-track {
+        background: var(--bg);
+    }
+
+    .metric-panel::-webkit-scrollbar-thumb {
+        background: var(--border-strong);
+    }
+
+    .metric-card {
+        padding: 7px 9px 5px;
+    }
+
+    .panel-block {
+        padding: 5px 7px 7px;
+    }
+
+    .chart-wrap {
+        height: 84px;
+    }
+
+    .weight-row {
+        padding: 2px 6px;
+    }
+
+    .summary-block {
+        min-height: 180px;
+    }
+
+    .briefing-card {
+        gap: 6px;
     }
 }
 
