@@ -8,6 +8,7 @@ import time
 import logging
 import math
 import json
+import ast
 import socket
 import re
 import numpy as np
@@ -888,23 +889,7 @@ Events:
         if not response_text:
             return None
 
-        text = response_text.strip()
-        if text.startswith("```"):
-            text = re.sub(r"^```[a-zA-Z]*\n?", "", text)
-            text = re.sub(r"\n?```$", "", text)
-            text = text.strip()
-
-        try:
-            parsed = json.loads(text)
-        except json.JSONDecodeError:
-            match = re.search(r"\{.*\}", text, re.DOTALL)
-            if not match:
-                return None
-            try:
-                parsed = json.loads(match.group(0))
-            except json.JSONDecodeError:
-                return None
-
+        parsed = self._parse_llm_literal(response_text, dict)
         if not isinstance(parsed, dict):
             return None
 
@@ -1243,7 +1228,7 @@ Events:
         base_payload = {
             "model": self.openrouter_model,
             "messages": [{"role": "user", "content": prompt}],
-            "temperature": 0.1,
+            "temperature": 0.0,
             "max_tokens": 8192,
         }
 
@@ -1379,10 +1364,9 @@ Headlines:
 Respond ONLY with a valid JSON array, no explanation, no markdown:
 [{{\"id\": 1, \"primary_country\": \"Syria\", \"category\": \"neutral\", \"subject\": \"Syrian municipal reconstruction\"}}, {{\"id\": 2, \"primary_country\": \"IRRELEVANT\", \"category\": \"neutral\", \"subject\": \"Israeli domestic cost pressures\"}}]"""
 
-    def _parse_attribution_response(self, response_text, all_events, start_index=0):
-        attribution_map = {}
+    def _parse_llm_literal(self, response_text, expected_type):
         if not response_text:
-            return attribution_map
+            return None
 
         text = response_text.strip()
         if text.startswith("```"):
@@ -1390,20 +1374,41 @@ Respond ONLY with a valid JSON array, no explanation, no markdown:
             text = re.sub(r"\n?```$", "", text)
             text = text.strip()
 
-        try:
-            parsed = json.loads(text)
-        except json.JSONDecodeError:
+        if expected_type is list:
             match = re.search(r"\[.*\]", text, re.DOTALL)
-            if not match:
-                logger.warning("No JSON array found in OpenRouter response")
-                return attribution_map
-            try:
-                parsed = json.loads(match.group(0))
-            except json.JSONDecodeError:
-                logger.warning("Failed to parse OpenRouter JSON response")
-                return attribution_map
+        else:
+            match = re.search(r"\{.*\}", text, re.DOTALL)
 
-        if not isinstance(parsed, list):
+        candidates = [text]
+        if match:
+            candidates.append(match.group(0))
+
+        for candidate in candidates:
+            normalized = (
+                candidate
+                .replace("“", '"')
+                .replace("”", '"')
+                .replace("’", "'")
+                .replace("‘", "'")
+            )
+            normalized = re.sub(r",(\s*[}\]])", r"\1", normalized)
+
+            for parser in (json.loads, ast.literal_eval):
+                try:
+                    parsed = parser(normalized)
+                except (json.JSONDecodeError, SyntaxError, ValueError):
+                    continue
+                if isinstance(parsed, expected_type):
+                    return parsed
+        return None
+
+    def _parse_attribution_response(self, response_text, all_events, start_index=0):
+        attribution_map = {}
+        if not response_text:
+            return attribution_map
+
+        parsed = self._parse_llm_literal(response_text, list)
+        if not parsed:
             logger.warning("OpenRouter response is not a JSON array")
             return attribution_map
 
@@ -1477,26 +1482,8 @@ Respond ONLY with a valid JSON array, no explanation, no markdown:
         if not response_text:
             return audit_map
 
-        text = response_text.strip()
-        if text.startswith("```"):
-            text = re.sub(r"^```[a-zA-Z]*\n?", "", text)
-            text = re.sub(r"\n?```$", "", text)
-            text = text.strip()
-
-        try:
-            parsed = json.loads(text)
-        except json.JSONDecodeError:
-            match = re.search(r"\[.*\]", text, re.DOTALL)
-            if not match:
-                logger.warning("No JSON array found in country audit response")
-                return audit_map
-            try:
-                parsed = json.loads(match.group(0))
-            except json.JSONDecodeError:
-                logger.warning("Failed to parse country audit JSON response")
-                return audit_map
-
-        if not isinstance(parsed, list):
+        parsed = self._parse_llm_literal(response_text, list)
+        if not parsed:
             logger.warning("Country audit response is not a JSON array")
             return audit_map
 

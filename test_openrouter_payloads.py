@@ -155,6 +155,15 @@ class OpenRouterPayloadTests(unittest.TestCase):
         )
         self.assertEqual(parsed, {})
 
+    def test_analyzer_parser_salvages_python_style_payload(self):
+        analyzer = self.make_analyzer()
+        parsed = analyzer._parse_attribution_response(
+            "[{'id': 1, 'primary_country': 'Iran', 'category': 'military_conflict', 'subject': 'Iranian nuclear facilities',},]",
+            [{"title": "Iran headline", "translated_title": "Iran headline"}],
+            start_index=0,
+        )
+        self.assertEqual(parsed[0]["primary_country"], "Iran")
+
     def test_analyzer_country_audit_prompt_demands_single_final_country(self):
         analyzer = self.make_analyzer()
         prompt = analyzer._build_country_audit_prompt(
@@ -198,6 +207,15 @@ class OpenRouterPayloadTests(unittest.TestCase):
             start_index=0,
         )
         self.assertEqual(parsed, {})
+
+    def test_analyzer_country_audit_parser_salvages_python_style_payload(self):
+        analyzer = self.make_analyzer()
+        parsed = analyzer._parse_country_audit_response(
+            "[{'id': 1, 'final_country': 'Iran',},]",
+            [{"title": "Iran headline", "translated_title": "Iran headline"}],
+            start_index=0,
+        )
+        self.assertEqual(parsed[0]["final_country"], "Iran")
 
     def test_summary_prompt_demands_structured_six_hour_brief(self):
         analyzer = self.make_analyzer()
