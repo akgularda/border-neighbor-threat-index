@@ -36,6 +36,23 @@ const BNTI = {
     return date.toLocaleString([], { year: 'numeric', month: 'short', day: '2-digit', hour: '2-digit', minute: '2-digit' });
   },
 
+  formatUtcWindow(startIso, endIso) {
+    const start = startIso ? new Date(startIso) : null;
+    const end = endIso ? new Date(endIso) : null;
+    if (!start || Number.isNaN(start.getTime()) || !end || Number.isNaN(end.getTime())) return '6H WINDOW';
+    const format = value => `${String(value.getUTCHours()).padStart(2, '0')}:${String(value.getUTCMinutes()).padStart(2, '0')}`;
+    return `${format(start)}-${format(end)} UTC`;
+  },
+
+  escapeHtml(value) {
+    return String(value ?? '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  },
+
   setStatusClasses(element, status) {
     element.classList.remove('critical', 'elevated', 'stable');
     if (status === 'CRITICAL') element.classList.add('critical');
@@ -109,6 +126,35 @@ const BNTI = {
       });
   },
 
+  updateRegionalBriefing() {
+    const container = document.getElementById('regional-summary');
+    if (!container) return;
+
+    const summary = this.data?.briefing?.regional_summary_6h;
+    if (!summary || !Array.isArray(summary.bullets) || !summary.bullets.length) {
+      container.innerHTML = '<div class="briefing-empty">NO CURRENT BRIEFING</div>';
+      return;
+    }
+
+    const bulletsHtml = summary.bullets
+      .map(item => `<li>${this.escapeHtml(item)}</li>`)
+      .join('');
+
+    const watchHtml = summary.watch
+      ? `<div class="briefing-watch"><span>WATCH</span>${this.escapeHtml(summary.watch)}</div>`
+      : '';
+
+    container.innerHTML = `
+      <div class="briefing-meta">
+        <span>${this.escapeHtml(this.formatUtcWindow(summary.slot_start, summary.slot_end))}</span>
+        <span>${Number(summary.source_event_count) || 0} SIGNALS</span>
+      </div>
+      <div class="briefing-headline">${this.escapeHtml(summary.headline)}</div>
+      <ul class="briefing-list">${bulletsHtml}</ul>
+      ${watchHtml}
+    `;
+  },
+
   // ── Render All ──
   renderAll() {
     if (!this.data) return;
@@ -117,6 +163,7 @@ const BNTI = {
     this.updateHeader();
     this.updateMetrics(historyPoints);
     this.updateWeights();
+    this.updateRegionalBriefing();
     BNTIMap.update(this.data);
     BNTIStream.update(this.data);
     BNTICharts.init(historyPoints, forecastPoints);

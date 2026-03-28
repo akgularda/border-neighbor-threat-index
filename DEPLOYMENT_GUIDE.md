@@ -1,8 +1,8 @@
-# BNTI Cloud Deployment Guide (Zero Cost)
+﻿# BNTI Cloud Deployment Guide (Zero Cost)
 
 This system is set up to run automatically on **GitHub Actions**.
 It will:
-1. Run the Python Intelligence Analyzer every hour.
+1. Run the Python Intelligence Analyzer every 2 hours.
 2. Update the `bnti_data.js` file with latest threat assessments.
 3. Publish the updated Dashboard to GitHub Pages.
 
@@ -19,7 +19,7 @@ It will:
 ### Option A: Using GitHub Desktop (Easiest)
 
 1. Download **[GitHub Desktop](https://desktop.github.com/)**.
-2. File → Add Local Repository → Select your `border-neighbor-threat-index` folder.
+2. File â†’ Add Local Repository â†’ Select your `border-neighbor-threat-index` folder.
 3. Click "**Publish Repository**" to push to GitHub.
 
 ### Option B: Using Command Line
@@ -39,23 +39,26 @@ git push -u origin main
 ## Step 3: Enable Automation
 
 1. Go to your repository on GitHub.
-2. Click **Settings** → **Pages** (left sidebar).
+2. Click **Settings** â†’ **Pages** (left sidebar).
 3. Under **Build and deployment**:
    - **Source: GitHub Actions** (Important! Do not select "Deploy from branch")
 4. Go to the **Actions** tab:
    - You should see "BNTI Intelligence Update" listed.
    - Click "Run workflow" to test it manually.
+5. Add repository secrets under **Settings** -> **Secrets and variables** -> **Actions**:
+   - `OPENROUTER_API_KEY`
+   - `OPENROUTER_API_KEY_BACKUP`
 
 ## Step 4: View Your Live Dashboard
 
 Once the workflow completes (~15 minutes first time):
 
-🌐 **Your dashboard will be live at:**
+ðŸŒ **Your dashboard will be live at:**
 ```
 https://YOUR_USERNAME.github.io/border-neighbor-threat-index/
 ```
 
-The system updates automatically every hour. You can access it from any device - phone, tablet, or computer.
+The system updates automatically every 2 hours. You can access it from any device - phone, tablet, or computer.
 
 ---
 
@@ -63,10 +66,11 @@ The system updates automatically every hour. You can access it from any device -
 
 | Issue | Solution |
 |-------|----------|
-| Actions not running | Check Settings → Actions → Enable "Allow all actions" |
+| Actions not running | Check Settings â†’ Actions â†’ Enable "Allow all actions" |
 | Pages not deploying | Ensure Source is set to "GitHub Actions", not "Branch" |
 | 404 after deploy | Wait 2-3 minutes; GitHub Pages can have propagation delay |
 
 ---
 
-<p align="center">🛰️ <strong>Continuous Intelligence Monitoring</strong></p>
+<p align="center">ðŸ›°ï¸ <strong>Continuous Intelligence Monitoring</strong></p>
+

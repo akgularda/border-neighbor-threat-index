@@ -1,13 +1,13 @@
 \documentclass[11pt, a4paper]{article}
 \usepackage[utf8]{inputenc}
-\usepackage{cite}
 \usepackage{amsmath}
 \usepackage{booktabs}
 \usepackage{geometry}
 \geometry{margin=1in}
 
-\title{Methodological Framework for the Border Neighbours Threat Index (BNTI): A Computational Approach to Geopolitical Risk Quantification}
-\author{Antigravity AI \\ Department of Advanced Agentic Coding}
+\title{Methodological Framework for the Border Neighbours Threat Index (BNTI):\\
+LLM-Guided Border Event Attribution, Deterministic Scoring, and Gated Publication}
+\author{Monarch Castle Technologies}
 \date{\today}
 
 \begin{document}
@@ -15,80 +15,132 @@
 \maketitle
 
 \begin{abstract}
-This paper presents the methodology behind the Border Neighbours Threat Index (BNTI), a computational system designed to quantify geopolitical instability among neighboring states. By synthesizing the Goldstein Scale for event intensity with modern Zero-Shot Classification techniques, BNTI offers a nuanced, real-time assessment of regional security threats. We discuss the theoretical underpinnings of our weighting system, the integration of institutional stability factors derived from Democratic Peace Theory, and the logarithmic normalization process used to produce a standardized risk index.
+This paper documents the current production methodology behind the Border Neighbours Threat Index (BNTI), an automated system for monitoring threat pressure around Türkiye's seven land and near-land border neighbors: Armenia, Bulgaria, Georgia, Greece, Iran, Iraq, and Syria. The production system no longer relies on a transformer confidence score as the final arbiter of event type. Instead, a large language model (LLM) performs the authoritative country attribution and category selection for each candidate headline, after which BNTI applies a deterministic weighting and normalization framework to produce per-country and composite risk indices. The live pipeline also includes a fixed 6-hour regional briefing summarizing the most problematic events in the last completed window, along with publication gates that prevent thin or broken runs from overwriting the last good public snapshot.
 \end{abstract}
 
 \section{Introduction}
-Quantifying political risk has traditionally relied on manual expert analysis or coarse-grained sentiment analysis. The BNTI seeks to bridge the gap between qualitative political science theory and quantitative natural language processing (NLP). By analyzing real-time RSS feeds from strategic border nations, the system constructs a dynamic threat index that reflects not just the volume of negative news, but the specific \textit{intensity} of conflict events.
+Political risk systems often fail for one of two reasons: either they reduce complex developments to blunt sentiment scores, or they publish unstable outputs whenever upstream feeds degrade. BNTI is designed to avoid both problems. It treats news headlines as event candidates rather than sentiment carriers, uses an LLM to decide whether a headline directly concerns one or more of Türkiye's border neighbors, and then maps that judgment into a controlled threat taxonomy with fixed weights.
+
+The current BNTI architecture has three linked goals:
+\begin{enumerate}
+    \item isolate direct border-neighbor relevance from broader regional noise,
+    \item convert classified events into stable, interpretable indices, and
+    \item avoid publishing snapshots that are obviously incomplete or methodologically weak.
+\end{enumerate}
+
+\section{System Overview}
+
+\subsection{Data Universe}
+BNTI monitors multilingual RSS and Atom feeds associated with the seven border-neighbor countries, supplemented by selected regional and international sources when they regularly cover the target theaters. Feed ingestion is executed on a scheduled 2-hour workflow with bounded request budgets, caching, and fallback handling. Source errors are logged, but source failure alone does not imply publication.
+
+\subsection{Candidate Event Construction}
+Each successful feed fetch yields headline-level candidates. Deduplication occurs before LLM attribution, primarily using article links and, when necessary, title-level fallback keys. At this stage, a candidate retains source metadata but is not yet considered authoritative for country ownership or threat type.
 
 \section{Theoretical Framework}
 
-\subsection{The Modified Goldstein Scale}
-The core scoring logic of BNTI is adapted from the Goldstein Scale \cite{goldstein1992conflict}, originally developed for the World Event/Interaction Survey (WEIS). Goldstein proposed a continuous scale ranging from -10 (extreme conflict) to +10 (extreme cooperation) to code political events.
-
-For the purpose of conflict early-warning, we adhere to the intensity hierarchy established by Goldstein but invert the polarity to produce a positive "Threat Score." As noted by Leetaru and Schrodt \cite{leetaru2013gdelt} in their work on GDELT, differentiating between material and verbal conflict is crucial for accurate risk assessment. Our weighting system (Table 1) reflects this distinction.
+\subsection{Event Weighting Logic}
+BNTI retains the core intuition of the Goldstein Scale (Goldstein, 1992): not all political events carry equal escalation significance. The system therefore encodes a deterministic category-to-weight mapping in which more kinetic or coercive events contribute more heavily than diplomatic or neutral reporting. This preserves analytical comparability across runs and prevents the LLM from inventing its own numeric scoring regime.
 
 \begin{table}[h]
 \centering
-\caption{BNTI Event Weighting System}
+\caption{BNTI Production Category Weighting}
 \label{tab:weights}
 \begin{tabular}{@{}llc@{}}
 \toprule
-\textbf{Category} & \textbf{Description} & \textbf{Weight ($W_c$)} \\ \midrule
-Military Conflict & Kinetic engagement (e.g., artillery, border clashes) & 10.0 \\
-Terrorist Act & High-intensity asymmetric violence & 9.0 \\
-Violent Protest & Civil instability and breakdown of order & 7.0 \\
-Political Crisis & Diplomatic rupture, regime instability & 6.0 \\
-Economic Crisis & Structural economic stress (recession, currency) & 4.0 \\
-Peaceful Diplomacy & Stabilizing diplomatic statements or treaties & -2.0 \\
-Neutral News & General reporting without security implications & 0.0 \\ \bottomrule
+\textbf{Category} & \textbf{Operational Meaning} & \textbf{Weight ($W_c$)} \\ \midrule
+Military Conflict & Strikes, armed clashes, force deployments, combat operations & 8.0 \\
+Terrorism & Bombings, extremist attacks, militant violence & 7.0 \\
+Border Security & Cross-border pressure, checkpoints, incursions, smuggling, airspace violations & 5.0 \\
+Political Instability & Domestic regime stress, parliamentary breakdown, coup risk, acute state disorder & 4.0 \\
+Humanitarian Crisis & Displacement, famine, severe civilian deprivation, disaster impact & 3.0 \\
+Diplomatic Tensions & Sanctions diplomacy, embassy disputes, overt interstate confrontation & 2.5 \\
+Trade Agreement & Signed trade, corridor, or normalization steps that reduce pressure & -2.0 \\
+Neutral & General reporting without direct threat significance & 0.0 \\ \bottomrule
 \end{tabular}
 \end{table}
 
-\subsection{Institutional Stability Factors}
-Raw event counts often fail to account for the stabilizing effect of international institutions. Drawing on Democratic Peace Theory and the broader literature on institutional liberalism \cite{russett2001triangulating}, we posit that conflict dyads embedded in robust security architectures (e.g., NATO) possess higher thresholds for escalation. 
+\subsection{Geopolitical Importance Weights}
+The composite BNTI is not a simple average across countries. It uses a fixed geopolitical importance weighting to reflect the practical difference between, for example, Syria and Greece in Türkiye's border risk environment. This approach is conceptually aligned with composite risk frameworks such as the Fragile States Index (Fund for Peace, 2018), where components are aggregated in a structured rather than purely additive way.
 
-Consequently, BNTI applies a dampening coefficient ($\delta = 0.6$) to threat scores emerging from NATO-allied neighbors (e.g., Greece). This adjustment reflects the lower probability of militarized dispute escalation compared to non-integrated neighbors.
+\section{LLM Attribution and Classification}
 
-\section{Methodology}
+\subsection{Authoritative Country Attribution}
+The production pipeline sends deduplicated candidate headlines to an LLM through OpenRouter's free routing layer. For each headline, the LLM must decide:
+\begin{enumerate}
+    \item which of the seven border-neighbor countries are direct main subjects, or whether the headline is irrelevant to that universe, and
+    \item which one of the controlled BNTI categories best describes the primary event.
+\end{enumerate}
 
-\subsection{Zero-Shot Classification}
-Unlike traditional sentiment analysis which offers a binary positive/negative output, BNTI utilizes a BART-large-mnli model for Zero-Shot Classification \cite{yin2019benchmarking}. This allows the system to semantically map news headlines to specific conflict categories (e.g., "Military Conflict" vs. "Political Crisis") without task-specific fine-tuning.
+This step is deliberately strict. Headlines about non-border states or adjacent theaters are marked \texttt{IRRELEVANT} unless one of the seven border countries is a direct main subject. This design reduces the false-attribution problem common in regional security monitoring, where Lebanon, Israel, Palestine, Jordan, or Gulf-state headlines are incorrectly absorbed into Syria, Iraq, or Iran buckets simply because they belong to the same broad geopolitical neighborhood.
 
-The raw threat contribution ($C_i$) for a news item $i$ is calculated as:
+\subsection{Why the LLM Owns the Semantic Judgment}
+Earlier versions of the system depended on classifier confidence as part of the final score. The current version separates semantic judgment from numeric scoring. The LLM is authoritative for \emph{what the event is} and \emph{which border country it directly concerns}; the deterministic scoring layer is authoritative for \emph{how much that judgment contributes numerically}. This division improves interpretability and prevents output volatility caused by drifting confidence thresholds.
+
+\section{Index Construction}
+
+\subsection{Per-Country Raw Score}
+For a given country $k$, BNTI collects the set of attributed events $E_k$ and computes the average event contribution:
 \begin{equation}
-    C_i = \begin{cases} 
-    W_c \times S_{conf} & \text{if } S_{conf} \ge \tau \\
-    0 & \text{if } S_{conf} < \tau 
-    \end{cases}
+    \bar{T}_k = \frac{1}{|E_k|} \sum_{i \in E_k} W_{c(i)}
 \end{equation}
-where $W_c$ is the category weight, $S_{conf}$ is the model's confidence score, and $\tau = 0.4$ is the noise filtration threshold.
-
-Following Caldara and Iacoviello's GPR Index methodology \cite{caldara2022measuring}, we normalize by article volume to obtain the average threat intensity per country:
-\begin{equation}
-    \bar{T}_k = \frac{1}{N_k} \sum_{i=1}^{N_k} C_i
-\end{equation}
-where $N_k$ is the number of articles analyzed for country $k$.
+where $W_{c(i)}$ is the deterministic weight assigned to the LLM-selected category of event $i$. Neutral events contribute zero, and irrelevant headlines are excluded entirely.
 
 \subsection{Saturating Exponential Normalization}
-To prevent volume-driven inflation observed in simple logarithmic scaling, we apply a saturating exponential function. Unlike the logarithmic approach, this produces a natural asymptote that distributes scores across the full 1--10 range:
-
-The per-country index ($I_k$) is derived as:
+Following the spirit of volume-normalized geopolitical risk approaches such as Caldara and Iacoviello's GPR Index (Caldara and Iacoviello, 2022), BNTI converts the average per-event contribution into a bounded 1--10 country index using a saturating exponential transformation:
 \begin{equation}
     I_k = 1 + 9 \cdot \left(1 - e^{-\frac{\bar{T}_k}{5} \cdot 1.2}\right)
 \end{equation}
 
-\subsection{Composite Index via Weighted Averaging}
-Drawing on the Fragile States Index (FSI) methodology \cite{messner2018fragile}, the composite BNTI is computed as a weighted average of per-country indices rather than a sum, preventing any single country from dominating the index:
+This functional form prevents extreme event clusters from linearly exploding the index while still allowing meaningful separation between stable, elevated, and critical states.
+
+\subsection{Composite BNTI}
+The composite index is a weighted average of per-country indices:
 \begin{equation}
-    I_{\text{BNTI}} = \frac{\sum_{k} w_k \cdot I_k}{\sum_{k} w_k}
+    I_{\text{BNTI}} = \frac{\sum_k w_k \cdot I_k}{\sum_k w_k}
 \end{equation}
-where $w_k$ reflects the geopolitical importance weight of country $k$ (e.g., $w_{\text{Syria}} = 1.5$ for active conflict zones, $w_{\text{Greece}} = 0.6$ for NATO-integrated allies).
+where $w_k$ is the geopolitical importance weight for country $k$. The result is bounded to the same 1--10 analytical range and mapped to the operational states:
+\begin{itemize}
+    \item Stable: 1.0--4.0
+    \item Elevated: $>$4.0--7.0
+    \item Critical: $>$7.0--10.0
+\end{itemize}
+
+\section{6-Hour Regional Briefing}
+
+\subsection{Purpose}
+Indices are efficient for tracking pressure, but they do not replace narrative understanding. BNTI therefore generates a fixed regional briefing that summarizes the most problematic developments from the \emph{last completed 6-hour window}. This briefing is not country-click dependent and is intended to answer a different question than the composite score: \emph{what matters most right now across the full border environment?}
+
+\subsection{Cadence}
+The workflow itself runs every 2 hours, but the regional briefing is refreshed at most four times per day, once per completed 6-hour slot. Runs between slot boundaries reuse the current valid briefing rather than regenerating it continuously. This keeps the summary analytically stable and prevents needless narrative churn.
+
+\subsection{Input Selection}
+Only positive-weight events from the completed 6-hour window are eligible for the briefing. Candidates are ranked by event severity and recency, translated to English when needed, and passed to the LLM with a constrained prompt that emphasizes:
+\begin{itemize}
+    \item the most problematic events first,
+    \item operational relevance to Türkiye's border environment,
+    \item synthesis rather than country-by-country recitation, and
+    \item strict JSON output for safe dashboard rendering.
+\end{itemize}
+
+\section{Publication Gates and Reliability Controls}
+
+\subsection{No Partial Publish}
+BNTI does not publish a new public snapshot unless every LLM attribution batch validates successfully. Invalid JSON, incomplete response sets, unsupported categories, or country mismatches all fail the candidate run.
+
+\subsection{Feed Coverage Gate}
+A candidate snapshot must also clear a feed-coverage threshold. This gate compares the current candidate's total signal count and active-country count against minimum absolute floors and historical medians. Thin runs---for example, runs produced after widespread feed refusal or timeout behavior---are allowed to complete operationally but are not allowed to overwrite the last good public dashboard.
+
+\subsection{Summary Gate}
+If the current 6-hour summary slot is missing and the summary cannot be generated or validated, the run also fails closed and does not publish. In other words, the dashboard is treated as a coherent package: event attribution, scoring, and briefing generation must all meet baseline quality.
 
 \section{Conclusion}
-The BNTI represents an advancement in automated threat perception, moving beyond simple sentiment analysis to a theoretically grounded, event-intensity model. By combining the Goldstein Scale, GPR-style volume normalization, and FSI-inspired weighted averaging within a modern NLP pipeline, we provide a robust tool for real-time geopolitical monitoring that distributes risk assessments across the full analytical scale.
+The production BNTI methodology combines LLM-guided semantic judgment with deterministic scoring and explicit publication gates. This architecture replaces confidence-driven classifier scoring with a clearer division of labor: the LLM determines direct country relevance and event category, while the index layer preserves mathematical stability and comparability. The addition of a fixed 6-hour regional briefing extends the system from numeric monitoring into concise operational interpretation without sacrificing control over cadence, validation, or publication quality.
 
-\bibliography{citations}
-\bibliographystyle{plain}
+\section*{Selected References}
+\begin{itemize}
+    \item Caldara, Dario and Matteo Iacoviello. 2022. ``Measuring Geopolitical Risk.'' \textit{American Economic Review} 112(4): 1194--1225.
+    \item Fund for Peace. 2018. \textit{Fragile States Index 2018: Annual Report}.
+    \item Goldstein, Joshua S. 1992. ``A Conflict-Cooperation Scale for WEIS Events.'' \textit{The Journal of Conflict Resolution} 36(2): 369--385.
+\end{itemize}
 
 \end{document}

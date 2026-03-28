@@ -1,0 +1,333 @@
+import tempfile
+import unittest
+from datetime import datetime
+from types import SimpleNamespace
+from unittest import mock
+
+import requests
+
+import borderneighboursthreatindex as analyzer_module
+
+
+class FeedEntry(dict):
+    __getattr__ = dict.get
+
+
+class LLMPublishGateTests(unittest.TestCase):
+    def make_analyzer(self):
+        analyzer = object.__new__(analyzer_module.BNTIAnalyzer)
+        analyzer.output_path = tempfile.mkdtemp()
+        analyzer.history_file = analyzer.output_path + "\\bnti_history.csv"
+        analyzer.openrouter_api_key = "primary-key"
+        analyzer.openrouter_backup_api_key = "backup-key"
+        analyzer.openrouter_model = "openrouter/free"
+        analyzer.openrouter_batch_size = 2
+        analyzer.border_countries = list(analyzer_module.BNTIAnalyzer.BORDER_COUNTRIES)
+        analyzer.category_weights = dict(analyzer_module.BNTIAnalyzer.LLM_CATEGORY_WEIGHTS)
+        analyzer.calculate_final_index = analyzer_module.BNTIAnalyzer.calculate_final_index.__get__(analyzer, analyzer_module.BNTIAnalyzer)
+        analyzer._build_country_results = analyzer_module.BNTIAnalyzer._build_country_results.__get__(analyzer, analyzer_module.BNTIAnalyzer)
+        return analyzer
+
+    def test_category_scores_use_llm_enum(self):
+        self.assertEqual(analyzer_module.BNTIAnalyzer.LLM_CATEGORY_WEIGHTS["military_conflict"], 8.0)
+        self.assertEqual(analyzer_module.BNTIAnalyzer.LLM_CATEGORY_WEIGHTS["terrorism"], 7.0)
+        self.assertEqual(analyzer_module.BNTIAnalyzer.LLM_CATEGORY_WEIGHTS["trade_agreement"], -2.0)
+
+    def test_process_country_returns_unscored_candidates(self):
+        analyzer = self.make_analyzer()
+        analyzer.fetch_feed_entries = lambda country, url: [
+            FeedEntry(title="Baghdad airport security alert", link="https://example.com/a", published="2026-03-27T18:00:00"),
+            FeedEntry(title="Baghdad airport security alert", link="https://example.com/a", published="2026-03-27T18:00:00"),
+        ]
+
+        country, candidates = analyzer.process_country("Iraq", ["https://feed.example/rss"])
+
+        self.assertEqual(country, "Iraq")
+        self.assertEqual(len(candidates), 1)
+        self.assertEqual(candidates[0]["source_country"], "Iraq")
+        self.assertNotIn("category", candidates[0])
+        self.assertNotIn("weight", candidates[0])
+
+    def test_build_candidate_snapshot_rejects_partial_batch_success(self):
+        analyzer = self.make_analyzer()
+        analyzer._call_openrouter = lambda prompt, max_retries=2: (
+            '[{"id": 1, "countries": ["Syria"], "category": "military_conflict"},'
+            '{"id": 2, "countries": ["IRRELEVANT"], "category": "neutral"}]'
+            if '1. "Syria headline"' in prompt else None
+        )
+        analyzer._build_attribution_prompt = analyzer_module.BNTIAnalyzer._build_attribution_prompt.__get__(analyzer, analyzer_module.BNTIAnalyzer)
+        analyzer._parse_attribution_response = analyzer_module.BNTIAnalyzer._parse_attribution_response.__get__(analyzer, analyzer_module.BNTIAnalyzer)
+
+        candidate = analyzer.build_candidate_snapshot({
+            "Syria": [
+                {"title": "Syria headline", "link": "https://example.com/1", "date": "2026-03-27T18:00:00", "source_country": "Syria"},
+                {"title": "Another Syria headline", "link": "https://example.com/2", "date": "2026-03-27T18:10:00", "source_country": "Syria"},
+                {"title": "Third Syria headline", "link": "https://example.com/3", "date": "2026-03-27T18:20:00", "source_country": "Syria"},
+            ]
+        })
+
+        self.assertFalse(candidate["publishable"])
+
+    def test_build_country_results_scores_from_llm_category_only(self):
+        analyzer = self.make_analyzer()
+        all_events = [
+            {"title": "Baghdad airport security alert", "link": "https://example.com/a", "date": "2026-03-27T18:00:00", "source_country": "Iraq"},
+        ]
+        attribution_map = {
+            0: {"countries": ["Iraq"], "category": "military_conflict"},
+        }
+
+        country_results = analyzer._build_country_results(all_events, attribution_map)
+
+        self.assertEqual(country_results["Iraq"]["raw_score"], 8.0)
+        self.assertEqual(country_results["Iraq"]["events"][0]["weight"], 8.0)
+        self.assertEqual(country_results["Iraq"]["events"][0]["confidence"], 1.0)
+
+    def test_build_candidate_snapshot_rejects_empty_feed_coverage(self):
+        analyzer = self.make_analyzer()
+        analyzer.load_history = lambda: [
+            {
+                "timestamp": "2026-03-27T18:00:00",
+                "total_signals": 105,
+                "armenia_signals": 15,
+                "georgia_signals": 15,
+                "greece_signals": 15,
+                "iran_signals": 15,
+                "iraq_signals": 15,
+                "syria_signals": 15,
+                "bulgaria_signals": 15,
+            }
+        ]
+        analyzer._trim_history = lambda history: history
+
+        candidate = analyzer.build_candidate_snapshot({
+            country: [] for country in analyzer.border_countries
+        })
+
+        self.assertFalse(candidate["publishable"])
+        self.assertEqual(candidate["reason"], "no_candidate_events")
+
+    def test_build_candidate_snapshot_rejects_low_signal_coverage(self):
+        analyzer = self.make_analyzer()
+        analyzer.openrouter_batch_size = 10
+        analyzer.load_history = lambda: [
+            {
+                "timestamp": "2026-03-27T18:00:00",
+                "total_signals": 105,
+                "armenia_signals": 15,
+                "georgia_signals": 15,
+                "greece_signals": 15,
+                "iran_signals": 15,
+                "iraq_signals": 15,
+                "syria_signals": 15,
+                "bulgaria_signals": 15,
+            }
+        ]
+        analyzer._trim_history = lambda history: history
+        analyzer._call_openrouter = lambda prompt, max_retries=2: (
+            '[{"id": 1, "countries": ["Bulgaria"], "category": "neutral"},'
+            '{"id": 2, "countries": ["Bulgaria"], "category": "neutral"},'
+            '{"id": 3, "countries": ["Bulgaria"], "category": "neutral"},'
+            '{"id": 4, "countries": ["Bulgaria"], "category": "neutral"},'
+            '{"id": 5, "countries": ["Bulgaria"], "category": "neutral"},'
+            '{"id": 6, "countries": ["Bulgaria"], "category": "neutral"},'
+            '{"id": 7, "countries": ["Bulgaria"], "category": "neutral"}]'
+        )
+        analyzer._build_attribution_prompt = analyzer_module.BNTIAnalyzer._build_attribution_prompt.__get__(analyzer, analyzer_module.BNTIAnalyzer)
+        analyzer._parse_attribution_response = analyzer_module.BNTIAnalyzer._parse_attribution_response.__get__(analyzer, analyzer_module.BNTIAnalyzer)
+
+        candidate = analyzer.build_candidate_snapshot({
+            "Bulgaria": [
+                {"title": f"Bulgaria headline {idx}", "link": f"https://example.com/{idx}", "date": "2026-03-27T18:00:00", "source_country": "Bulgaria"}
+                for idx in range(1, 8)
+            ]
+        })
+
+        self.assertFalse(candidate["publishable"])
+        self.assertEqual(candidate["reason"], "insufficient_feed_coverage")
+
+    def test_build_candidate_snapshot_requires_summary_when_current_slot_missing(self):
+        analyzer = self.make_analyzer()
+        analyzer.MIN_PUBLISHABLE_TOTAL_SIGNALS = 1
+        analyzer.MIN_PUBLISHABLE_ACTIVE_COUNTRIES = 1
+        analyzer.MIN_SIGNAL_COVERAGE_RATIO = 0.0
+        analyzer.MIN_ACTIVE_COUNTRY_COVERAGE_RATIO = 0.0
+        analyzer._utc_now = lambda: datetime(2026, 3, 28, 6, 0, 0)
+        analyzer._load_existing_summary = lambda: None
+        analyzer._build_attribution_prompt = analyzer_module.BNTIAnalyzer._build_attribution_prompt.__get__(analyzer, analyzer_module.BNTIAnalyzer)
+        analyzer._parse_attribution_response = analyzer_module.BNTIAnalyzer._parse_attribution_response.__get__(analyzer, analyzer_module.BNTIAnalyzer)
+        analyzer.load_history = lambda: []
+
+        responses = iter([
+            '[{"id": 1, "countries": ["Iraq"], "category": "military_conflict"}]',
+            None,
+        ])
+        analyzer._call_openrouter = lambda prompt, max_retries=2: next(responses)
+
+        candidate = analyzer.build_candidate_snapshot({
+            "Iraq": [
+                {
+                    "title": "Baghdad airport security alert",
+                    "link": "https://example.com/a",
+                    "date": "2026-03-28T05:15:00",
+                    "source_country": "Iraq",
+                }
+            ]
+        })
+
+        self.assertFalse(candidate["publishable"])
+        self.assertEqual(candidate["reason"], "summary_generation_failed")
+
+    def test_build_candidate_snapshot_reuses_existing_summary_between_refreshes(self):
+        analyzer = self.make_analyzer()
+        analyzer.MIN_PUBLISHABLE_TOTAL_SIGNALS = 1
+        analyzer.MIN_PUBLISHABLE_ACTIVE_COUNTRIES = 1
+        analyzer.MIN_SIGNAL_COVERAGE_RATIO = 0.0
+        analyzer.MIN_ACTIVE_COUNTRY_COVERAGE_RATIO = 0.0
+        analyzer._utc_now = lambda: datetime(2026, 3, 28, 8, 0, 0)
+        analyzer.load_history = lambda: []
+        analyzer._build_attribution_prompt = analyzer_module.BNTIAnalyzer._build_attribution_prompt.__get__(analyzer, analyzer_module.BNTIAnalyzer)
+        analyzer._parse_attribution_response = analyzer_module.BNTIAnalyzer._parse_attribution_response.__get__(analyzer, analyzer_module.BNTIAnalyzer)
+        existing_summary = {
+            "slot_start": "2026-03-28T00:00:00",
+            "slot_end": "2026-03-28T06:00:00",
+            "generated_at": "2026-03-28T06:00:00",
+            "next_refresh_at": "2026-03-28T12:00:00",
+            "headline": "Existing brief.",
+            "bullets": ["One.", "Two.", "Three."],
+            "watch": None,
+        }
+        analyzer._load_existing_summary = lambda: existing_summary
+        call_count = {"value": 0}
+
+        def fake_call(prompt, max_retries=2):
+            call_count["value"] += 1
+            return '[{"id": 1, "countries": ["Iraq"], "category": "military_conflict"}]'
+
+        analyzer._call_openrouter = fake_call
+
+        candidate = analyzer.build_candidate_snapshot({
+            "Iraq": [
+                {
+                    "title": "Baghdad airport security alert",
+                    "link": "https://example.com/a",
+                    "date": "2026-03-28T07:15:00",
+                    "source_country": "Iraq",
+                }
+            ]
+        })
+
+        self.assertTrue(candidate["publishable"])
+        self.assertEqual(candidate["regional_summary_6h"]["headline"], "Existing brief.")
+        self.assertEqual(call_count["value"], 1)
+
+    def test_fetch_feed_entries_caps_user_agent_attempts_and_timeout(self):
+        analyzer = self.make_analyzer()
+        analyzer.user_agents = ["ua-1", "ua-2", "ua-3", "ua-4", "ua-5"]
+        analyzer.cache_fresh_ttl_seconds = 3600
+        analyzer.cache_stale_ttl_seconds = 21600
+        analyzer._get_cached_entries = lambda url, ttl: ([], None)
+        analyzer._extract_entries = lambda entries: []
+        analyzer._write_cache_entries = lambda url, entries: None
+        analyzer._fetch_proxy_entries = lambda url, session, headers: []
+
+        class FakeSession:
+            def __init__(self):
+                self.calls = []
+                self.mounts = []
+
+            def mount(self, prefix, adapter):
+                self.mounts.append((prefix, adapter))
+
+            def get(self, url, headers=None, timeout=None, verify=True):
+                self.calls.append({
+                    "url": url,
+                    "timeout": timeout,
+                    "user_agent": headers.get("User-Agent") if headers else None,
+                    "verify": verify,
+                })
+                raise requests.exceptions.ReadTimeout("timed out")
+
+        fake_session = FakeSession()
+        retry_configs = []
+
+        def fake_http_adapter(max_retries=None):
+            retry_configs.append(max_retries)
+            return SimpleNamespace(max_retries=max_retries)
+
+        with mock.patch("requests.Session", return_value=fake_session), mock.patch(
+            "requests.adapters.HTTPAdapter", side_effect=fake_http_adapter
+        ), mock.patch.object(analyzer_module.feedparser, "parse", return_value=SimpleNamespace(entries=[])):
+            entries = analyzer.fetch_feed_entries("Iran", "https://example.com/rss")
+
+        self.assertEqual(entries, [])
+        self.assertEqual(
+            len(fake_session.calls),
+            analyzer_module.BNTIAnalyzer.FEED_MAX_USER_AGENT_ATTEMPTS,
+        )
+        self.assertTrue(
+            all(
+                call["timeout"] == analyzer_module.BNTIAnalyzer.FEED_REQUEST_TIMEOUT_SECONDS
+                for call in fake_session.calls
+            )
+        )
+        self.assertEqual(retry_configs[0].total, analyzer_module.BNTIAnalyzer.FEED_RETRY_TOTAL)
+        self.assertEqual(retry_configs[0].connect, analyzer_module.BNTIAnalyzer.FEED_RETRY_CONNECT)
+        self.assertEqual(retry_configs[0].read, analyzer_module.BNTIAnalyzer.FEED_RETRY_READ)
+
+    def test_proxy_fetch_uses_bounded_timeout(self):
+        analyzer = self.make_analyzer()
+        analyzer._build_proxy_url = lambda url: "https://proxy.example"
+        analyzer._parse_proxy_markdown = lambda content: []
+        analyzer._extract_entries = lambda entries: []
+
+        class FakeSession:
+            def __init__(self):
+                self.calls = []
+
+            def get(self, url, headers=None, timeout=None):
+                self.calls.append({"url": url, "timeout": timeout})
+                return SimpleNamespace(text="ok", raise_for_status=lambda: None)
+
+        fake_session = FakeSession()
+        analyzer._fetch_proxy_entries("https://example.com/rss", fake_session, {})
+
+        self.assertEqual(len(fake_session.calls), 1)
+        self.assertEqual(
+            fake_session.calls[0]["timeout"],
+            analyzer_module.BNTIAnalyzer.FEED_PROXY_TIMEOUT_SECONDS,
+        )
+
+    def test_fetch_feed_entries_skips_extra_network_fallbacks_after_timeout(self):
+        analyzer = self.make_analyzer()
+        analyzer.user_agents = ["ua-1"]
+        analyzer.cache_fresh_ttl_seconds = 3600
+        analyzer.cache_stale_ttl_seconds = 21600
+        analyzer._get_cached_entries = lambda url, ttl: ([], None)
+        analyzer._extract_entries = lambda entries: []
+        analyzer._write_cache_entries = lambda url, entries: None
+        proxy_calls = []
+        analyzer._fetch_proxy_entries = lambda url, session, headers: proxy_calls.append(url) or []
+
+        class FakeSession:
+            def mount(self, prefix, adapter):
+                return None
+
+            def get(self, url, headers=None, timeout=None, verify=True):
+                raise requests.exceptions.ReadTimeout("timed out")
+
+        with mock.patch("requests.Session", return_value=FakeSession()), mock.patch(
+            "requests.adapters.HTTPAdapter", side_effect=lambda max_retries=None: SimpleNamespace(max_retries=max_retries)
+        ), mock.patch.object(
+            analyzer_module.feedparser,
+            "parse",
+            side_effect=AssertionError("direct feedparser fallback should be skipped after timeouts"),
+        ):
+            entries = analyzer.fetch_feed_entries("Iran", "https://example.com/rss")
+
+        self.assertEqual(entries, [])
+        self.assertEqual(proxy_calls, [])
+
+
+if __name__ == "__main__":
+    unittest.main()

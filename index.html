@@ -28,7 +28,7 @@
       </div>
       <div class="title-block">
         <div class="product">Border Neighbor Threat Index</div>
-        <div class="subtitle">Automated regional signal extraction &amp; threat scoring &bull; updated every 30 minutes
+        <div class="subtitle">Automated regional signal extraction &amp; threat scoring &bull; updated every 2 hours
         </div>
       </div>
       <div id="utc-clock" class="utc-clock">--:--:-- UTC</div>
@@ -62,6 +62,12 @@
         <div class="panel-block">
           <div class="panel-title">Weighting Model</div>
           <div id="weights-table" class="weights-grid"></div>
+        </div>
+        <div class="panel-block summary-block">
+          <div class="panel-title">Regional Brief / 6H</div>
+          <div id="regional-summary" class="briefing-card">
+            <div class="briefing-empty">NO CURRENT BRIEFING</div>
+          </div>
         </div>
       </section>
 
@@ -296,36 +302,41 @@
           <h3>1. Data Collection</h3>
           <p>The system monitors RSS/Atom feeds from regional news outlets, wire services, and specialized publications
             for each target country. Sources include local newspapers in native languages, international news agencies,
-            and regional security-focused media. Data is fetched at 30-minute intervals with automatic caching.</p>
+            and regional security-focused media. Data is fetched on a 2-hour workflow with bounded retries, caching,
+            and no-publish safeguards when feed coverage collapses.</p>
         </section>
 
         <section>
-          <h3>2. Natural Language Processing</h3>
-          <p>Each article is processed using <strong>XLM-RoBERTa-Large-XNLI</strong>, a multilingual transformer model
-            trained for zero-shot classification across 40+ languages.</p>
-          <p>Categories: <code>military_conflict</code>, <code>terrorism</code>, <code>political_instability</code>,
-            <code>border_security</code>, <code>refugee_crisis</code>, <code>civil_unrest</code>,
-            <code>economic_crisis</code>, <code>diplomatic_tensions</code>, <code>natural_disaster</code>.
+          <h3>2. LLM Attribution</h3>
+          <p>Each headline is sent to <strong>OpenRouter Free</strong> for final country attribution and final category
+            selection. The model must decide whether the headline directly concerns one or more of Türkiye's seven
+            border neighbors or is <code>IRRELEVANT</code>.</p>
+          <p>Categories: <code>military_conflict</code>, <code>terrorism</code>, <code>border_security</code>,
+            <code>political_instability</code>, <code>humanitarian_crisis</code>, <code>diplomatic_tensions</code>,
+            <code>trade_agreement</code>, <code>neutral</code>.
           </p>
         </section>
 
         <section>
           <h3>3. Weighted Scoring</h3>
-          <p>Based on a <strong>Modified Goldstein Scale</strong> adapted for regional threat assessment.</p>
+          <p>Category weights are fixed after the LLM chooses the class, so scoring remains deterministic even though
+            the model owns the semantic judgment.</p>
           <div class="weight-grid-modal">
             <div style="color: var(--critical);">military_conflict: +8.0</div>
             <div style="color: var(--critical);">terrorism: +7.0</div>
             <div style="color: var(--elevated);">political_instability: +4.0</div>
             <div style="color: var(--elevated);">border_security: +5.0</div>
+            <div style="color: var(--elevated);">humanitarian_crisis: +3.0</div>
             <div style="color: var(--stable);">diplomatic_tensions: +2.5</div>
             <div style="color: var(--stable);">trade_agreement: -2.0</div>
+            <div style="color: var(--text-muted);">neutral: 0.0</div>
           </div>
         </section>
 
         <section>
           <h3>4. Index Calculation</h3>
-          <p>Per-country: <code>&Sigma;(weight &times; confidence)</code> normalized to 1-10 with exponential decay.
-            Composite BNTI = weighted average across all monitored countries.</p>
+          <p>Per-country scores are based on <code>avg(weight)</code> across LLM-attributed events, then normalized to
+            1-10 with a saturating exponential curve. Composite BNTI = weighted average across all monitored countries.</p>
         </section>
 
         <section>
@@ -344,9 +355,16 @@
         </section>
 
         <section>
-          <h3>6. Forecasting</h3>
-          <p><strong>Weighted Linear Regression</strong> with exponential decay favoring recent observations for
-            directional trend indicators.</p>
+          <h3>6. Regional Briefing</h3>
+          <p>A separate LLM-generated regional brief summarizes the most problematic border-neighbor events from the
+            last completed 6-hour window. The brief is fixed across the interface and refreshes at most four times per
+            day.</p>
+        </section>
+
+        <section>
+          <h3>7. Publish Gate</h3>
+          <p>The dashboard only publishes when feed coverage, LLM attribution, and summary generation all pass
+            validation. Failed or thin runs exit cleanly without overwriting the last good public snapshot.</p>
         </section>
       </div>
     </div>
