@@ -301,6 +301,64 @@ class LLMPublishGateTests(unittest.TestCase):
             "Iran",
         )
 
+    def test_build_candidate_snapshot_splits_invalid_country_audit_batches_until_valid(self):
+        analyzer = self.make_analyzer()
+        analyzer.openrouter_batch_size = 2
+        analyzer.MIN_PUBLISHABLE_TOTAL_SIGNALS = 1
+        analyzer.MIN_PUBLISHABLE_ACTIVE_COUNTRIES = 1
+        analyzer.MIN_SIGNAL_COVERAGE_RATIO = 0.0
+        analyzer.MIN_ACTIVE_COUNTRY_COVERAGE_RATIO = 0.0
+        analyzer.load_history = lambda: []
+        analyzer._load_existing_summary = lambda: {
+            "slot_start": "2026-03-28T00:00:00",
+            "slot_end": "2026-03-28T06:00:00",
+            "generated_at": "2026-03-28T06:00:00",
+            "next_refresh_at": "2026-03-28T12:00:00",
+            "headline": "Existing brief.",
+            "bullets": ["One.", "Two.", "Three."],
+            "watch": None,
+        }
+        analyzer._build_attribution_prompt = analyzer_module.BNTIAnalyzer._build_attribution_prompt.__get__(analyzer, analyzer_module.BNTIAnalyzer)
+        analyzer._parse_attribution_response = analyzer_module.BNTIAnalyzer._parse_attribution_response.__get__(analyzer, analyzer_module.BNTIAnalyzer)
+        analyzer._build_country_audit_prompt = analyzer_module.BNTIAnalyzer._build_country_audit_prompt.__get__(analyzer, analyzer_module.BNTIAnalyzer)
+        analyzer._parse_country_audit_response = analyzer_module.BNTIAnalyzer._parse_country_audit_response.__get__(analyzer, analyzer_module.BNTIAnalyzer)
+
+        responses = iter([
+            '[{"id": 1, "primary_country": "Iran", "category": "military_conflict", "subject": "Iranian nuclear facilities"},'
+            '{"id": 2, "primary_country": "Syria", "category": "neutral", "subject": "Syrian reconstruction"}]',
+            '[{"id": 1, "final_country": "Iran"}]',
+            '[{"id": 1, "final_country": "Iran"}]',
+            '[{"id": 2, "final_country": "Syria"}]',
+        ])
+        analyzer._call_openrouter = lambda prompt, max_retries=2: next(responses)
+
+        candidate = analyzer.build_candidate_snapshot({
+            "Greece": [
+                {
+                    "title": "US, Israel bomb heavy water nuclear reactor and uranium processing plant in Iran - Kathimerini",
+                    "translated_title": "US, Israel bomb heavy water nuclear reactor and uranium processing plant in Iran - Kathimerini",
+                    "link": "https://example.com/iran",
+                    "date": "2026-03-28T05:15:00",
+                    "source_country": "Greece",
+                }
+            ],
+            "Syria": [
+                {
+                    "title": "Syria silently rebuilds itself as war with Iran tarnishes Gulf infrastructure - Turkiye Today",
+                    "translated_title": "Syria silently rebuilds itself as war with Iran tarnishes Gulf infrastructure - Turkiye Today",
+                    "link": "https://example.com/syria",
+                    "date": "2026-03-28T05:30:00",
+                    "source_country": "Syria",
+                }
+            ],
+        })
+
+        self.assertTrue(candidate["publishable"])
+        self.assertEqual(len(candidate["country_results"]["Iran"]["events"]), 1)
+        self.assertEqual(len(candidate["country_results"]["Syria"]["events"]), 1)
+        self.assertEqual(candidate["country_results"]["Iran"]["events"][0]["llm_final_country"], "Iran")
+        self.assertEqual(candidate["country_results"]["Syria"]["events"][0]["llm_final_country"], "Syria")
+
     def test_fetch_feed_entries_caps_user_agent_attempts_and_timeout(self):
         analyzer = self.make_analyzer()
         analyzer.user_agents = ["ua-1", "ua-2", "ua-3", "ua-4", "ua-5"]

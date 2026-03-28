@@ -29,6 +29,17 @@ socket.setdefaulttimeout(10)
 
 class BNTIAnalyzer:
     BORDER_COUNTRIES = ["Armenia", "Georgia", "Greece", "Iran", "Iraq", "Syria", "Bulgaria"]
+    SOURCE_SUFFIX_HINTS = {
+        "agency", "bulletin", "daily", "globe", "herald", "journal", "magazine",
+        "media", "monitor", "news", "observer", "online", "post", "press",
+        "radio", "report", "reporter", "review", "times", "today", "tv", "weekly",
+        "wire", "alarabiya", "aljazeera", "armradio", "balkaninsight", "bbc",
+        "civil", "civilnet", "dnevnik", "enabbaladi", "eurasianet", "farsnews",
+        "georgiatoday", "greekreporter", "hetq", "interpressnews", "irna", "isna",
+        "jam", "kathimerini", "middleeasteye", "news247", "npasyria", "observer",
+        "protothema", "rudaw", "sana", "skai", "sofiaglobe", "thenationalherald",
+        "turkiye",
+    }
     LLM_CATEGORY_WEIGHTS = {
         "military_conflict": 8.0,
         "terrorism": 7.0,
@@ -1267,6 +1278,9 @@ Events:
                     if content:
                         return content
                     logger.warning("OpenRouter returned empty content")
+                    if attempt < max_retries:
+                        time.sleep(3)
+                        continue
                     break
                 except Exception as e:
                     logger.warning(f"OpenRouter call failed (attempt {attempt + 1}): {e}")
@@ -1279,6 +1293,34 @@ Events:
     def _normalize_headline_for_llm(self, value):
         return re.sub(r"\s+", " ", str(value or "").replace('"', "'")).strip()
 
+    def _strip_trailing_source_suffix(self, value):
+        text = self._normalize_headline_for_llm(value)
+        if not text:
+            return text
+
+        for delimiter in (" | ", " - ", " — ", " – ", " -- "):
+            left, separator, right = text.rpartition(delimiter)
+            if not separator or not left or not right:
+                continue
+
+            suffix_text = re.sub(r"[^A-Za-z0-9 ]+", " ", right).lower()
+            suffix_words = [word for word in suffix_text.split() if word]
+            if not suffix_words:
+                continue
+
+            looks_like_source = (
+                len(suffix_words) <= 6
+                and (
+                    any(word in self.SOURCE_SUFFIX_HINTS for word in suffix_words)
+                    or right.isupper()
+                    or bool(re.search(r"\b(?:ap|afp|bbc|cnn|dw|itv|npr|reuters|rt|sky|trt)\b", suffix_text))
+                )
+            )
+            if looks_like_source:
+                return left.strip()
+
+        return text
+
     def _resolve_border_country(self, country_name):
         normalized_name = str(country_name or "").strip()
         if not normalized_name:
@@ -1288,11 +1330,16 @@ Events:
         return next((name for name in self.border_countries if normalized_name.lower() == name.lower()), None)
 
     def _format_headline_for_prompt(self, event):
-        translated_title = self._normalize_headline_for_llm(
+        translated_title_raw = self._normalize_headline_for_llm(
             event.get("translated_title") or event.get("title") or ""
         )
-        original_title = self._normalize_headline_for_llm(event.get("title") or "")
+        original_title_raw = self._normalize_headline_for_llm(event.get("title") or "")
+        translated_title = self._strip_trailing_source_suffix(translated_title_raw)
+        original_title = self._strip_trailing_source_suffix(original_title_raw)
+
         headline_block = f'Headline: "{translated_title}"'
+        if translated_title_raw and translated_title_raw != translated_title:
+            headline_block += f' | Published: "{translated_title_raw}"'
         if original_title and original_title != translated_title:
             headline_block += f' | Original: "{original_title}"'
         return headline_block
@@ -1440,19 +1487,40 @@ Respond ONLY with a valid JSON array, no explanation, no markdown:
             return {}
         return attribution_map
 
+    def _resolve_attribution_batch(self, all_events, start_index=0):
+        prompt = self._build_attribution_prompt(all_events, start_index=start_index)
+        response = self._call_openrouter(prompt)
+        parsed = self._parse_attribution_response(response, all_events, start_index=start_index)
+        if len(parsed) == len(all_events):
+            return parsed
+        if len(all_events) == 1:
+            return {}
+
+        logger.warning(
+            f"LLM attribution batch {start_index + 1}-{start_index + len(all_events)} invalid; retrying in smaller chunks"
+        )
+        midpoint = len(all_events) // 2
+        left_events = all_events[:midpoint]
+        right_events = all_events[midpoint:]
+        left_map = self._resolve_attribution_batch(left_events, start_index=start_index)
+        if len(left_map) != len(left_events):
+            return {}
+        right_map = self._resolve_attribution_batch(right_events, start_index=start_index + midpoint)
+        if len(right_map) != len(right_events):
+            return {}
+        merged = dict(left_map)
+        merged.update(right_map)
+        return merged
+
     def _build_country_audit_prompt(self, all_events, attribution_map, start_index=0):
         lines = []
         for i, event in enumerate(all_events):
             global_idx = start_index + i
             proposed = attribution_map.get(global_idx, {})
             proposed_country = proposed.get("primary_country", "IRRELEVANT")
-            proposed_category = proposed.get("category", "neutral")
-            proposed_subject = self._normalize_headline_for_llm(proposed.get("subject", ""))
             lines.append(
                 f'{global_idx + 1}. {self._format_headline_for_prompt(event)} | '
-                f'Proposed primary_country: "{proposed_country}" | '
-                f'Proposed category: "{proposed_category}" | '
-                f'Proposed subject: "{proposed_subject}"'
+                f'Proposed primary_country: "{proposed_country}"'
             )
 
         headlines_block = "\n".join(lines)
@@ -1506,6 +1574,51 @@ Respond ONLY with a valid JSON array, no explanation, no markdown:
         if seen_ids != expected_ids:
             return {}
         return audit_map
+
+    def _slice_attribution_map(self, attribution_map, start_index, event_count):
+        return {
+            idx: attribution_map[idx]
+            for idx in range(start_index, start_index + event_count)
+            if idx in attribution_map
+        }
+
+    def _resolve_country_audit_batch(self, all_events, attribution_map, start_index=0):
+        prompt = self._build_country_audit_prompt(all_events, attribution_map, start_index=start_index)
+        response = self._call_openrouter(prompt)
+        parsed = self._parse_country_audit_response(response, all_events, start_index=start_index)
+        if len(parsed) == len(all_events):
+            return parsed
+        if len(all_events) == 1:
+            return {}
+
+        logger.warning(
+            f"LLM country audit batch {start_index + 1}-{start_index + len(all_events)} invalid; retrying in smaller chunks"
+        )
+        midpoint = len(all_events) // 2
+        left_events = all_events[:midpoint]
+        right_events = all_events[midpoint:]
+
+        left_attribution_map = self._slice_attribution_map(attribution_map, start_index, midpoint)
+        right_attribution_map = self._slice_attribution_map(
+            attribution_map,
+            start_index + midpoint,
+            len(right_events),
+        )
+
+        left_map = self._resolve_country_audit_batch(left_events, left_attribution_map, start_index=start_index)
+        if len(left_map) != len(left_events):
+            return {}
+        right_map = self._resolve_country_audit_batch(
+            right_events,
+            right_attribution_map,
+            start_index=start_index + midpoint,
+        )
+        if len(right_map) != len(right_events):
+            return {}
+
+        merged = dict(left_map)
+        merged.update(right_map)
+        return merged
 
     def _collect_candidate_events(self, country_candidates):
         all_events = []
@@ -1661,27 +1774,15 @@ Respond ONLY with a valid JSON array, no explanation, no markdown:
         batch_size = max(int(getattr(self, "openrouter_batch_size", 10)), 1)
         for start in range(0, len(all_events), batch_size):
             batch_events = all_events[start:start + batch_size]
-            prompt = self._build_attribution_prompt(batch_events, start_index=start)
-            response = self._call_openrouter(prompt)
-            if not response:
+            batch_map = self._resolve_attribution_batch(batch_events, start_index=start)
+            if len(batch_map) != len(batch_events):
                 logger.warning(f"LLM attribution failed for batch starting at {start + 1}")
                 return {"publishable": False, "reason": "llm_call_failed", "failed_batch_start": start}
 
-            batch_map = self._parse_attribution_response(response, batch_events, start_index=start)
-            if len(batch_map) != len(batch_events):
-                logger.warning(f"LLM attribution incomplete for batch starting at {start + 1}")
-                return {"publishable": False, "reason": "invalid_batch_response", "failed_batch_start": start}
-
-            audit_prompt = self._build_country_audit_prompt(batch_events, batch_map, start_index=start)
-            audit_response = self._call_openrouter(audit_prompt)
-            if not audit_response:
+            audit_map = self._resolve_country_audit_batch(batch_events, batch_map, start_index=start)
+            if len(audit_map) != len(batch_events):
                 logger.warning(f"LLM country audit failed for batch starting at {start + 1}")
                 return {"publishable": False, "reason": "country_audit_failed", "failed_batch_start": start}
-
-            audit_map = self._parse_country_audit_response(audit_response, batch_events, start_index=start)
-            if len(audit_map) != len(batch_events):
-                logger.warning(f"LLM country audit incomplete for batch starting at {start + 1}")
-                return {"publishable": False, "reason": "invalid_country_audit_response", "failed_batch_start": start}
 
             for idx, result in batch_map.items():
                 merged = dict(result)

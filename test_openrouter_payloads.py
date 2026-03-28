@@ -125,6 +125,23 @@ class OpenRouterPayloadTests(unittest.TestCase):
         self.assertIn('"primary_country": "Syria"', prompt)
         self.assertIn('"category": "neutral"', prompt)
 
+    def test_analyzer_prompt_strips_trailing_outlet_suffixes_from_headlines(self):
+        analyzer = self.make_analyzer()
+        prompt = analyzer._build_attribution_prompt(
+            [
+                {
+                    "title": "US, Israel bomb heavy water nuclear reactor and uranium processing plant in Iran - Kathimerini",
+                    "translated_title": "US, Israel bomb heavy water nuclear reactor and uranium processing plant in Iran - Kathimerini",
+                }
+            ]
+        )
+
+        self.assertIn(
+            'Headline: "US, Israel bomb heavy water nuclear reactor and uranium processing plant in Iran"',
+            prompt,
+        )
+        self.assertIn('Published: "US, Israel bomb heavy water nuclear reactor and uranium processing plant in Iran - Kathimerini"', prompt)
+
     def test_analyzer_parser_rejects_incomplete_batch(self):
         analyzer = self.make_analyzer()
         parsed = analyzer._parse_attribution_response(
