@@ -28,10 +28,11 @@ class ResponsiveLayoutTests(unittest.TestCase):
             re.compile(r"\.summary-block\s*\{[\s\S]*?flex-shrink:\s*1;", re.MULTILINE),
         )
         self.assertRegex(
-            self.layout_css,
+            self.components_css,
             re.compile(
                 r"@media\s*\(min-width:\s*1201px\)\s*and\s*\(max-height:\s*920px\)\s*\{[\s\S]*?"
-                r"\.metric-panel\s*\{[\s\S]*?overflow-y:\s*auto;",
+                r"\.metric-panel\s*\{[\s\S]*?overflow-y:\s*auto;[\s\S]*?overflow-x:\s*hidden;[\s\S]*?\}[\s\S]*?"
+                r"\.summary-block\s*\{[\s\S]*?min-height:\s*180px;",
                 re.MULTILINE,
             ),
         )
