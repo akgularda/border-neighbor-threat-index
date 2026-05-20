@@ -1,5 +1,4 @@
 timestamp,index,main_index,status,armenia_idx,armenia_signals,georgia_idx,georgia_signals,greece_idx,greece_signals,iran_idx,iran_signals,iraq_idx,iraq_signals,syria_idx,syria_signals,bulgaria_idx,bulgaria_signals,total_signals
-2026-05-17T23:18:10.518306,5.16,5.16,ELEVATED,4.56,5,6.22,4,1.0,0,4.61,7,8.11,4,5.71,17,1.0,0,37
 2026-05-18T12:04:21.044910,4.77,4.77,ELEVATED,2.92,10,6.44,7,1.0,0,4.16,10,7.87,2,5.33,15,1.0,0,44
 2026-05-18T15:26:46.889755,4.57,4.57,ELEVATED,4.92,8,5.69,7,1.0,0,4.69,10,3.72,3,4.7,14,7.29,1,43
 2026-05-18T18:22:01.143048,5.26,5.26,ELEVATED,4.09,8,7.07,3,1.0,0,7.16,5,7.18,3,4.68,16,1.0,4,39
@@ -12,3 +11,4 @@ timestamp,index,main_index,status,armenia_idx,armenia_signals,georgia_idx,georgi
 2026-05-19T20:13:08.031372,4.15,4.15,ELEVATED,4.43,10,5.06,2,1.0,0,6.55,3,1.0,0,6.94,14,1.0,0,29
 2026-05-19T21:35:10.776765,5.56,5.56,ELEVATED,2.92,4,5.92,5,1.0,0,6.04,6,8.68,1,6.72,15,2.24,4,35
 2026-05-19T23:17:13.674892,5.91,5.91,ELEVATED,6.55,1,3.12,4,7.29,1,6.5,8,7.29,1,6.85,16,1.0,1,32
+2026-05-20T07:56:23.712191,3.47,3.47,STABLE,6.39,8,1.0,8,1.0,0,5.06,1,1.0,0,6.22,13,1.0,0,30
