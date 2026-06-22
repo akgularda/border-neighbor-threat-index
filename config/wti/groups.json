@@ -1,0 +1,80 @@
+[
+  {
+    "id": "oecd",
+    "name": "OECD",
+    "weighting": "gdp",
+    "members": ["AU","AT","BE","CA","CL","CO","CR","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IL","IT","JP","KR","LV","LT","LU","MX","NL","NZ","NO","PL","PT","SK","SI","ES","SE","CH","TR","GB","US"]
+  },
+  {
+    "id": "g7",
+    "name": "G7",
+    "weighting": "gdp",
+    "members": ["CA","FR","DE","IT","JP","GB","US"]
+  },
+  {
+    "id": "g20",
+    "name": "G20",
+    "weighting": "gdp",
+    "members": ["AR","AU","BR","CA","CN","FR","DE","IN","ID","IT","JP","MX","RU","SA","ZA","KR","TR","GB","US"]
+  },
+  {
+    "id": "eu",
+    "name": "European Union",
+    "weighting": "gdp",
+    "members": ["AT","BE","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IE","IT","LV","LT","LU","MT","NL","PL","PT","RO","SK","SI","ES","SE"]
+  },
+  {
+    "id": "usmca",
+    "name": "USMCA",
+    "weighting": "gdp",
+    "members": ["US","MX","CA"]
+  },
+  {
+    "id": "nato",
+    "name": "NATO",
+    "weighting": "gdp",
+    "members": ["AL","BE","BG","CA","HR","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IT","LV","LT","LU","ME","MK","NL","NO","PL","PT","RO","SK","SI","ES","SE","TR","GB","US"]
+  },
+  {
+    "id": "asean",
+    "name": "ASEAN",
+    "weighting": "gdp",
+    "members": ["BN","KH","ID","LA","MY","MM","PH","SG","TH","VN"]
+  },
+  {
+    "id": "au",
+    "name": "African Union",
+    "weighting": "population",
+    "members": ["DZ","AO","BJ","BW","BF","BI","CV","CM","CF","TD","KM","CG","CD","CI","DJ","EG","GQ","ER","SZ","ET","GA","GM","GH","GN","GW","KE","LS","LR","LY","MG","MW","ML","MR","MU","MA","MZ","NA","NE","NG","RW","ST","SN","SC","SL","SO","ZA","SS","SD","TZ","TG","TN","UG","ZM","ZW"]
+  },
+  {
+    "id": "brics",
+    "name": "BRICS",
+    "weighting": "gdp",
+    "members": ["BR","RU","IN","CN","ZA","EG","ET","IR","AE","ID","SA"]
+  },
+  {
+    "id": "gcc",
+    "name": "GCC",
+    "weighting": "gdp",
+    "members": ["BH","KW","OM","QA","SA","AE"]
+  },
+  {
+    "id": "cis",
+    "name": "CIS",
+    "weighting": "gdp",
+    "members": ["AM","AZ","BY","KZ","KG","MD","RU","TJ","UZ"]
+  },
+  {
+    "id": "mercosur",
+    "name": "MERCOSUR",
+    "weighting": "gdp",
+    "members": ["AR","BR","PY","UY"]
+  },
+  {
+    "id": "sco",
+    "name": "SCO",
+    "weighting": "gdp",
+    "members": ["CN","IN","IR","KZ","KG","PK","RU","TJ","UZ"]
+  }
+]

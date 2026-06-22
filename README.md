@@ -7,7 +7,9 @@
 <p align="center"><strong>Monarch Castle Technologies | Defense Intelligence.</strong></p>
 
 <p align="center">
-  <a href="https://akgularda.github.io/border-neighbor-threat-index/">Live Dashboard</a>
+  <a href="https://akgularda.github.io/border-neighbor-threat-index/">BNTI Dashboard</a>
+  |
+  <a href="https://akgularda.github.io/border-neighbor-threat-index/wti/">World Threat Index (WTI)</a>
   |
   <a href="methodology.pdf">Whitepaper</a>
   |
@@ -41,16 +43,41 @@ Read the full technical methodology here:
 - Strict no-publish gating when a run cannot fully validate
 - Operational thresholding into `STABLE`, `ELEVATED`, and `CRITICAL` levels
 
+## World Threat Index (WTI)
+
+WTI extends the BNTI pipeline to **195 countries** and **13 geopolitical groups** (OECD, G7, G20, EU, USMCA, NATO, ASEAN, AU, BRICS, GCC, CIS, MERCOSUR, SCO).
+
+- Dashboard: [wti/](wti/index.html) → GitHub Pages `/wti/`
+- Analyzer: `worldthreatindex.py`
+- Data: `wti_data.json`, `wti_data.js`
+- Registry: `config/wti/countries.json`, `config/wti/groups.json`
+- CI: `.github/workflows/wti_update.yml` (10-shard matrix, tiered 2h/6h/12h)
+
+```bash
+# Dry-run (no LLM, Google News only)
+python worldthreatindex.py --dry-run --countries US,GB,SY,UA
+
+# Production shard (GitHub Actions)
+python worldthreatindex.py --shard 0 --total-shards 10 --tier A --output-shard 0
+python scripts/merge_wti_shards.py
+```
+
 ## Repository Contents
 
 | Path | Purpose |
 |---|---|
-| `bnti_data.json` | Latest intelligence dataset used by the dashboard |
-| `js/` | Dashboard logic (core engine, map, stream, charts) |
-| `css/` | Visual system and component styling |
-| `.github/workflows/bnti_update.yml` | 2-hour intelligence update and GitHub Pages deployment |
-| `DEPLOYMENT_GUIDE.md` | Step-by-step zero-cost deployment guide |
-| `methodology.pdf` | Whitepaper for methodology and scoring design |
+| `bnti_data.json` | Latest BNTI intelligence dataset |
+| `wti_data.json` | Latest WTI global intelligence dataset |
+| `worldthreatindex.py` | WTI analyzer (195 countries) |
+| `bnti_core/` | Shared scoring, ingestion, LLM, publish modules |
+| `config/wti/` | Country registry and group definitions |
+| `wti/` | World Threat Index dashboard |
+| `js/` | BNTI dashboard logic |
+| `css/` | Shared visual system |
+| `.github/workflows/bnti_update.yml` | BNTI 2-hour update pipeline |
+| `.github/workflows/wti_update.yml` | WTI tiered global update pipeline |
+| `DEPLOYMENT_GUIDE.md` | Zero-cost deployment guide |
+| `methodology.pdf` | BNTI whitepaper |
 | `BNTIndex.pdf` | Project report artifact |
 
 ## Operations and Deployment

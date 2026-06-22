@@ -1,0 +1,130 @@
+name: WTI Intelligence Update
+
+on:
+  schedule:
+    - cron: '15 */2 * * *'
+    - cron: '15 */6 * * *'
+    - cron: '15 */12 * * *'
+  workflow_dispatch:
+    inputs:
+      tier:
+        description: 'Country tier to update (A, B, C, or ALL)'
+        required: false
+        default: 'A'
+      dry_run:
+        description: 'Use heuristic attribution (no LLM)'
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: wti-intelligence-update
+  cancel-in-progress: false
+
+jobs:
+  update-shards:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/bnti
+          key: wti-feed-cache-${{ runner.os }}-${{ matrix.shard }}
+
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+        continue-on-error: true
+
+      - name: Determine tier
+        id: tier
+        run: |
+          HOUR=$(date -u +%H)
+          INPUT="${{ github.event.inputs.tier }}"
+          if [ -n "$INPUT" ] && [ "$INPUT" != "ALL" ]; then
+            echo "tier=$INPUT" >> $GITHUB_OUTPUT
+          elif [ "$(( HOUR % 12 ))" -eq 0 ]; then
+            echo "tier=C" >> $GITHUB_OUTPUT
+          elif [ "$(( HOUR % 6 ))" -eq 0 ]; then
+            echo "tier=B" >> $GITHUB_OUTPUT
+          else
+            echo "tier=A" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Run WTI Shard
+        run: |
+          ARGS="--shard ${{ matrix.shard }} --total-shards 10 --output-shard ${{ matrix.shard }} --tier ${{ steps.tier.outputs.tier }}"
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          python worldthreatindex.py $ARGS || echo "Shard had issues"
+          exit 0
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_API_KEY_BACKUP: ${{ secrets.OPENROUTER_API_KEY_BACKUP }}
+          OPENROUTER_MODEL: openrouter/free
+        continue-on-error: true
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: wti-shard-${{ matrix.shard }}
+          path: wti_shard_${{ matrix.shard }}.json
+          if-no-files-found: ignore
+
+  merge-and-publish:
+    needs: update-shards
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/download-artifact@v4
+        with:
+          path: shards
+          pattern: wti-shard-*
+          merge-multiple: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+        continue-on-error: true
+
+      - name: Collect shards
+        run: |
+          mkdir -p .
+          find shards -name 'wti_shard_*.json' -exec cp {} . \; 2>/dev/null || true
+          ls wti_shard_*.json 2>/dev/null || echo "No shards downloaded"
+
+      - name: Merge and publish
+        run: python scripts/merge_wti_shards.py || echo "Merge skipped"
+        continue-on-error: true
+
+      - name: Commit WTI data
+        run: |
+          git config user.name 'WTI Intelligence Bot'
+          git config user.email 'bot@monarchcastle.tech'
+          git add wti_data.json wti_data.js wti_history.csv 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "WTI UPDATE: $(date -u +'%Y-%m-%d %H:%M UTC')" || true
+          for i in 1 2 3; do
+            git pull --rebase origin main 2>/dev/null || true
+            git push && break || sleep 10
+          done
+          exit 0
+        continue-on-error: true
