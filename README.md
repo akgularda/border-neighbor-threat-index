@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="docs/logo.png" alt="Border-Neighbor Threat Index — institutional seal" width="140"/>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SDCofA/border-neighbor-threat-index/main/docs/logo-dark.png"><img src="docs/logo.png" alt="Border-Neighbor Threat Index — institutional seal" width="140"></picture>
 
   # Border-Neighbor Threat Index
   ### A standing geopolitical assessment of Türkiye's border neighbors
